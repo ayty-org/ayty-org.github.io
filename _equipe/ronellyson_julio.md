@@ -2,7 +2,7 @@
 layout: member
 name: Ronellyson Júlio Nicássio de Oliveira
 img: assets/img/equipe/ronellyson_julio.jpg
-funcao: Software Developer
+funcao: Bolsista Dev
 projeto: Phoebus 
 desde: Abril - 2023
 saiu: #data de fim
