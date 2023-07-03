@@ -95,5 +95,6 @@ Calendário de atividades do processo seletivo. Obs.: Fique atento(a) a esta pá
 | 02/Junho | Etapa 2: divulgação do resultado da 2a etapa |
 | ~~03-09~~ 11 - 24/Junho | Etapa 3: avaliação técnica |
 | 24/Junho  | Etapa 3: prazo para envio final da atividade técnica  |
+| 04-07/Julho  | Etapa 3: apresentação da atividade técnica (agendamento por email) |
 | ~~16~~ ~~30/Junho~~ 07/Julho | Etapa 3: resultado final |
 | ~~03~~ 10/Julho | Início das atividades no projeto |
