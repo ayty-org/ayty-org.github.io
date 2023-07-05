@@ -14,5 +14,5 @@ twitter:
 importance: 2
 category:  Professores
 funcao: Coordenadora proj. SNet
-projeto: snet
+projeto: [snet,codata]
 ---

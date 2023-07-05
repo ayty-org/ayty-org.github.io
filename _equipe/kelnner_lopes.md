@@ -5,7 +5,7 @@ img: equipe/img/kelnner_lopes.jpeg
 funcao: Bolsista Testador #Bolsista Testador, Bolsista Dev, Technical Debt
 projeto: Phoebus
 desde: 06/04/2023
-saiu: #data de fim
+saiu: 30/05/2023
 description: Kelnner Magno é estudante de Licenciatura em Ciência da Computação (LCC) na Universidade Federal da Paraíba(UFPB), atualmente faz parte do grupo AYTY atuando como anilista de teste.
 home_page: # home page
 github: # Github 
