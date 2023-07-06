@@ -53,6 +53,8 @@ A área de Segurança tem como foco principal a revisão e atualização da pol�
 
 ## Capacitação de estudantes
 
+**Professora responsável:** [Vanessa Dantas](/equipe/vanessa_dantas/)
+
 Nesta área, os estudantes se envolvem em ações diretamente nos times de desenvolvimento da empresa parceira. Ele passam por várias etapas de crescimento profissional, interagindo com profissionais, em um ambiente real de desenvovlimento. A equipe trabalha em um laboratório em Rio Tinto, remotamente para a empresa.
 
 
