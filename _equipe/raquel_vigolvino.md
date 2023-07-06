@@ -13,5 +13,5 @@ twitter: https://twitter.com/raquelvl
 importance: 2
 category:  Professores
 funcao: Coordenadora/pesquisadora proj. CODATA
-projeto: CODATA
+projeto: codata
 ---
