@@ -6,7 +6,7 @@ description:
 tags: esig
 categories: edital
 ---
-
+Edital: [4o Edital - Proj. ESIG / Quark (Jun 2023)](/editais/2023-05-21-esig-edital4/)
 
 O laboratório AYTY, do departamento de ciências exatas da UFPB, juntamente com as empresas ESIG e Quark, lançou um edital para a seleção de 4 bolsistas que participarão de um projeto conjunto. Os selecionados terão a oportunidade de aprimorar suas habilidades em um ambiente real de desenvolvimento de software, interagindo diretamente com profissionais das equipes das empresas.
 

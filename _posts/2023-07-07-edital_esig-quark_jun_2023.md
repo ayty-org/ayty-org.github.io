@@ -9,15 +9,13 @@ categories: edital
 
 Edital: [4o Edital - Proj. ESIG / Quark (Jun 2023)](/editais/2023-05-21-esig-edital4/)
 
-Selecionados para a etapa técnica (3a etapa) no processo seletivo para projeto entre AYTY e ESIG.
+
+Parabéns aos selecionados no processo seletivo para projeto entre AYTY e ESIG 2023!
+
+Resultado FINAL, em ordem alfabética:
 
 - David Gonçalves Maia
-- Fabricio Emmanuel Felizardo da Cruz
 - Gustavo Theotonio Silva 
 - Joanderson Trajano de Araujo
-- Lilian Gonçalves de Almeida
 - Lucas da Silva Freitas
 - Maximilian Maximiano Guilherme de Oliveira
-- Rian Manoel Pessoa
-
-Enviaremos orientações sobre o projeto através do seu e-mail.

@@ -7,6 +7,9 @@ tags: esig
 categories: edital
 ---
 
+Edital: [4o Edital - Proj. ESIG / Quark (Jun 2023)](/editais/2023-05-21-esig-edital4/)
+
+
 Selecionados para a etapa de entrevistas (2a etapa) no processo seletivo para projeto entre AYTY e ESIG.
 
 As entrevistas ocorrerão na sexta-feira, dia 2 de Junho, entre 15h e 18h. Você receberá instruções por email.
