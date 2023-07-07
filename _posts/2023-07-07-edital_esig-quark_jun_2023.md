@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Edital ESIG Jun/23 - Resultado da 2a ETAPA
-date: 2023-06-02
+title: Edital ESIG Jun/23 - Resultado da 3a ETAPA
+date: 2023-07-07
 description: 
 tags: esig
 categories: edital
