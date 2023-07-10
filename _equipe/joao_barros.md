@@ -3,8 +3,8 @@ layout: member
 name: João Victor Lima Barros
 img: equipe/img/joao_barros.jpeg
 funcao: bolsista Co-host
-projeto: Engenharia.Software 
-desde: 07/02/2023
+projeto: engenharia.software 
+desde: 2023-02-07
 saiu: #data de fim
 description: Co-host do podcast, aluno do curso de Ciência do Computação na Universidade Federal da Paraíba no Campu IV. Gosta de jogos eletrônicos como Factorio, Europa Universalis IV e Civilization VI. É MALUCO por programação e gosta muito de trabalhar no projeto Engenharia.Software.
 home_page: # home page

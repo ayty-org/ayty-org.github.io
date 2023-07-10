@@ -3,7 +3,7 @@ layout: member
 name: Marcos Vinicius Ferreira
 img: equipe/img/marcos_ferreira.jpg
 funcao: Bolsista dev
-projeto: Phoebus 
+projeto: phoebus 
 desde: Abril - 2023
 saiu: #data de fim
 description: Marcos Ferreira é estudante de Licenciatura em Ciência da Computação (LCC) na Universidade Federal da Paraíba(UFPB), atualmente faz parte do grupo AYTY atuando como desenvolvedor.

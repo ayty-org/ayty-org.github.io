@@ -2,9 +2,9 @@
 layout: member
 name: Ana Luísa Felipe 
 img: equipe/img/ana_luisa.jpg
-funcao: Technical Debt
-projeto: [Phoebus,techdebt] 
-desde: Abril - 2023
+funcao: bolsista dev
+projeto: [phoebus,tracy-td,decoup] 
+desde: 2023-04-02
 saiu: #data de fim
 description: descricao do aluno
 home_page: # home page

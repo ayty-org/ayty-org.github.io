@@ -2,8 +2,8 @@
 layout: member
 name: Ronellyson Júlio Nicássio de Oliveira
 img: equipe/img/ronellyson_julio.jpg
-funcao: Software Developer
-projeto: Phoebus 
+funcao: Bolsista dev
+projeto: phoebus 
 desde: Abril - 2023
 saiu: #data de fim
 description: Graduando em Sistemas de Informação no Campus IV da UFPB, em Rio Tinto-PB. Tenho interesse em desenvolvimento Java back-end e desenvolvimento mobile.

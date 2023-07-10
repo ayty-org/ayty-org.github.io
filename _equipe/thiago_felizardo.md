@@ -3,8 +3,8 @@ layout: member
 name: Thiago François Felizardo da Cruz
 img: equipe/img/thiago_felizardo.jpg
 funcao: bolsista dev
-projeto: Phoebus 
-desde: 06/04/2023
+projeto: phoebus 
+desde: 2023-04-06
 saiu: #data de fim
 description: Estudante de Sistemas de Informação na Universidade Federal da Paraíba (UFPB) - Campus IV, em Rio Tinto-PB, atualmente estuda com desenvolvimento back-end no projeto Phoebus. 
 home_page: # home page

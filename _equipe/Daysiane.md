@@ -3,8 +3,8 @@ layout: member
 name: Daysiane Conrado Da Silva
 img: equipe/img/daysiane_conrado.jpg
 funcao: bolsista Co-host
-projeto: Engenharia.Software 
-desde: 07/02/2023
+projeto: engenharia.software 
+desde: 2023-02-07
 saiu: #data de fim
 description: Co-host do podcast, tenho 20 anos e sou aluna do curso de licenciatura em ciência da computação na Universidade Federal da Paraíba campus IV, tenho como passatempo jogos eletrônicos como League of legends e Genshin Impact, amante de chocolates e muita música. 
 home_page: # home page

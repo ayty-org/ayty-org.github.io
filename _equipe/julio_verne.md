@@ -5,7 +5,7 @@ description: Graduando em Licenciatura em Ciência da Computação no Campus IV 
 img: equipe/img/julio_verne.jpeg
 home_page: https://julio-ufpb.github.io/
 lattes: https://lattes
-desde: 01/04/2023
+desde: 2023-04-01
 saiu: 
 github: https://github.com/julio-ufpb
 linkedin: https://www.linkedin.com/in/julioverne/

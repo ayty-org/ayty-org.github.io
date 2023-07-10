@@ -3,8 +3,8 @@ layout: member
 name: Jonathan Neves Ribeiro
 img: equipe/img/jonathan_neves.jpg
 funcao: bolsista Co-host
-projeto: Engenharia.Software
-desde: 07/02/2023
+projeto: engenharia.software
+desde: 2023-02-07
 saiu: #data de fim
 description: Co-host do podcast, sou aluno do curso de Sistemas de Informação em Rio Tinto, péssimo jogador de FPS, gosto de escutar diversas musicas pra passar o tempo e relaxar, ultimamente viciado no canal Ciência Todo Dia.
 home_page: # home page

@@ -3,8 +3,8 @@ layout: member
 name: Robinson Mourão da Silva
 img: equipe/img/robinson_mourao.jpeg
 funcao: bolsista tester
-projeto: Phoebus
-desde: 26/05/2023
+projeto: phoebus
+desde: 2023-05-26
 saiu: #data de fim
 description: Tenho 30 anos e sou aluno do curso de computação na UFPB, tenho experiência em outro projeto na área de testes em API REST(Java-Springboot). Perfeccionista e criterioso gosto de ajudar, documentar, comparar, otimizar e assim vou fazendo de tudo um laboratório.
 home_page: # home page

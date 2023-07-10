@@ -3,8 +3,8 @@ layout: member
 name: Wellington dos Santos Barcelos
 img: equipe/img/wellington_barcelos.jpeg
 funcao: Bolsista Testador 
-projeto: Phoebus 
-desde: 06/04/2023
+projeto: phoebus 
+desde: 2023-04-06
 saiu: #data de fim
 description: Estudante de Sistemas de Informação na Universidade Federal da Paraíba (UFPB) - Sou do Rio de Janeiro, mas atualmente estou morando em Rio Tinto - PB e me aventurando na área de Teste de Software. 
 home_page: # home page

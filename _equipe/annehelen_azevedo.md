@@ -3,8 +3,8 @@ layout: member
 name: Annehelen Maria Lima de Azevzêdo
 img: equipe/img/annehelen_azevedo.jpg
 funcao: Bolsista Dev
-projeto: Universi.me
-desde: 15/03/2023
+projeto: universi.me
+desde: 2023-03-15
 saiu:
 description: Eae! :) Sou estudante de Ciências da Computação na Universidade Federal da Paraíba - Campus IV. Sou fã do front e entre alguma das coisas que exploro são JavaScript/TypeScript, Angular e mais recentemente comecei a explorar o React.
 home_page: 

@@ -4,12 +4,12 @@ title: Listagem da Equipe
 permalink: /listaequipe
 description: Nossa equipe
 nav: false
-projects: [Phoebus,ESIG,snet,engenharia.software,Universi.me,techdebt]
+projects: [phoebus,esig,snet,engenharia.software,universi.me,tracy-td]
 ---
 
 <div class="container">
         {% for project_name in page.projects %}
-        <h2>{{ project_name }}</h2>
+        <h2>{{ site.data.projeto_nome[project_name] }}</h2>
         <table>
             <thead>
                 <tr>

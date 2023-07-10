@@ -5,7 +5,7 @@ description: Projeto de colaboração com as empresas ESIG Software e Quark Tec
 img: assets/img/projetos/esig.png
 importance: 1
 category: Empresas #Pesquisa, Extensão, Empresas
-projeto: ESIG
+projeto: esig
 ---
 
 Projeto de pesquisa e desenvolvimento que envolve as empresas ESIG e Quark. O projeto envolve ações de pesquisa aplicada e desenvolvimento de soluções com a participação de alunos dos cursos de Sistemas de Informação e Lic. em Ciência da Computação. 

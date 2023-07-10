@@ -5,7 +5,7 @@ description: "Fundador e coordenador do laboratório AYTY, coordenador de vário
 img: equipe/img/rodrigor.png
 home_page: https://www.rodrigor.com
 lattes: https://lattes
-desde: 14/07/2010
+desde: 2010-07-14
 saiu: 
 github: https://github.com/rodrigor
 linkedin: https://www.linkedin.com/in/rodrigoreboucas/
@@ -14,7 +14,7 @@ twitter: https://www.twitter.com/rodrigor/
 importance: 1
 category: Professores #Professores, Colaboradores externos, Alunos, Ex-alunos
 funcao: Coordenador #Coordenador, Bolsista Testador, Bolsista Dev, Technical Debt
-projeto: [Phoebus,ESIG,snet,Universi.me,techdebt,Engenharia.Software,codata]
+projeto: [phoebus,esig,snet,universi.me,tracy-td,engenharia.software,codata,meuchat]
 ---
 
 

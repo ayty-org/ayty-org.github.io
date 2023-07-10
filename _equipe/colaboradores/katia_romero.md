@@ -5,7 +5,7 @@ description: Katia Romero Felizardo possui pós-doutorado e doutorado em Ciênci
 img: equipe/img/katia_romero.jpeg
 home_page: 
 lattes: https://lattes
-desde: 14/07/2010
+desde: 2010-07-14
 saiu: 
 github: 
 linkedin: https://www.linkedin.com/in/katia-felizardo-47853194/
@@ -14,5 +14,5 @@ twitter:
 importance: 2
 category: Colaboradores externos #Professores, Colaboradores externos, Alunos, Ex-alunos
 funcao: Pesquisadora #Coordenador, Bolsista Testador, Bolsista Dev, Technical Debt
-projeto: mestrado utfpr
+projeto: tracy-td
 ---

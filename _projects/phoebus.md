@@ -5,7 +5,7 @@ description: Projeto de colaboração com a empresa Phoebus Tecnologia
 img: assets/img/projetos/phoebus.png
 importance: 1
 category: Empresas #Pesquisa, Extensão, Empresas
-projeto: Phoebus
+projeto: phoebus
 ---
 
 Projeto de pesquisa e desenvolvimento que envolve a empresa Phoebus Tecnologia e o AYTY. O projeto atua nas áreas de e-commerce, desenvolvimento para smart-PoS e Gerência de Dívidas Técnicas.

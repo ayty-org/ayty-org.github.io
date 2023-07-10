@@ -13,7 +13,7 @@ Suas principais linhas de pesquisa atuais são: mineração de repositórios de 
 img: equipe/img/uira_kulesza.jpg
 home_page: https://www.dimap.ufrn.br/~uira/
 lattes: http://lattes.cnpq.br/0189095897739979
-desde: 14/07/2017
+desde: 2017-07-14
 saiu: 
 github: 
 linkedin: https://www.linkedin.com/in/uirá-kulesza-9092a6b/
@@ -21,6 +21,6 @@ instagram:
 twitter: 
 importance: 2
 category: Colaboradores externos #Professores, Colaboradores externos, Alunos, Ex-alunos
-funcao: Pesquisador #Coordenador, Bolsista Testador, Bolsista Dev, Technical Debt
-projeto: techdebt
+funcao: colaborador em pesquisa #Coordenador, Bolsista Testador, Bolsista Dev, Technical Debt
+projeto: tracy-td
 ---

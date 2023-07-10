@@ -3,8 +3,8 @@ layout: member
 name: Vinicius Lucas de Santana #
 img: equipe/img/vinicius_lucas.jpg
 funcao: Bolsista Testador #, Bolsista Dev, Technical Debt
-projeto: Phoebus #ESIG,SNET,Universi.me,Engenharia.Software
-desde: 01/04/2023 #data de início
+projeto: phoebus #ESIG,SNET,Universi.me,Engenharia.Software
+desde: 2023-04-01 #data de início
 saiu: #data de fim obs: Caso tenha saido
 description: Estudante do curso Sistemas de Informação na UFPB campus IV em rio tinto,tenho Competência em SQL/PLSQL,JS,C,Java. Nos meu tempo livre gosto de sair com amigos, frequentar novos lugares, praticar esportes e sempre me mantendo informado de novos assuntos.  # suas skills e gostos, fique tranquilo é apenas o começo da sua jornada
 home_page: # home page

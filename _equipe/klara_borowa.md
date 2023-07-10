@@ -10,7 +10,7 @@ Enterprise, DXC Technology, and Atos."
 img: equipe/img/klara-borowa.jpg
 home_page: 
 lattes: 
-desde: 14/07/2010
+desde: 2010-07-14
 saiu: 
 github: 
 linkedin: https://www.linkedin.com/in/klara-borowa-263140128/

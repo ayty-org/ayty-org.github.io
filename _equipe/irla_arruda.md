@@ -3,8 +3,8 @@ layout: member
 name: Irla Ingrid Ramalho Arruda
 img: equipe/img/irla_arruda.jpg
 funcao: Bolsista Dev
-projeto: ESIG
-desde: 01/09/2022
+projeto: esig
+desde: 2022-09-01
 saiu: #data de fim obs: Caso tenha saido
 description: Olá me chama Irla e faço parte da ESIG como bolsista, sou desenvolvedor beckend e trabalho principalmente com Java e banco de dados sql. Gosto de ler e ouvir música no meu tempo livre, tento sempre desenvolver minha criatividade e busco sempre aprimorar meu conhecimento na área que atuo.
 home_page: # home page
