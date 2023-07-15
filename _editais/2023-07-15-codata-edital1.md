@@ -193,4 +193,7 @@ Calendário de atividades do processo seletivo. Obs.: Fique atento(a) a esta pá
 | 01/Agosto | Início das atividades no projeto |
 
 
-[Formulário de inscrição] - AGUARDE
+
+**Só clique no link a seguir APÓS ler todo o edital ATENTAMENTE!**
+
+[Link para o Formulário de inscrição](https://forms.gle/hE9TZu7f8S5kaabW9)
