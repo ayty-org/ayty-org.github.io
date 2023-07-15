@@ -160,6 +160,7 @@ A seguir apresentamos as áreas de atuação na empresa. Em cada área está ind
 - A área de `atuação nos times de desenvolvimento` exige que seu horário de trabalho seja organizado em horário comercial (entre 8h e 18h, de segunda a sexta).
 - Valor da bolsa: R\$ 800,00
 - Duração do Projeto: de Julho de 2023 a Dezembro de 2024.
+- Daremos preferência aos alunos que estarão no projeto até pelo menos Dezembro de 2024 (mas não significa que alguém que se forme antes não possa ser selecionado. Aluno(a)s que se formam em 2023.1 não serão selecionado(a)s)
 - Saber se comunicar, interagir com as pessoas, trabalhar em equipe, ter iniciativa, responsabilidade e compromisso são características importantes para todas as vagas.
 
 ## Sobre o processo seletivo
@@ -192,6 +193,16 @@ Calendário de atividades do processo seletivo. Obs.: Fique atento(a) a esta pá
 | 31/Julho | Etapa 2: divulgação do resultado final |
 | 01/Agosto | Início das atividades no projeto |
 
+### Perguntas frequentes:
+
+#### Sou do 1o período. Posso me inscrever?
+Sim, você pode se inscrever, mas esteja ciente dos requisitos do edital. Se você está no primeiro período mas tem experiências anteriores ao curso, tudo bem. Se está começando agora sua formação na área, é provável que não seja selecionado(a).
+
+#### Vou me formar em 2023.1, posso ser selecionado(a)?
+Não. Alunos que se formam neste período não serão selecionados. Não haverá tempo suficiente para você usufruir do projeto.
+
+#### Vou me formar do período 2023.2 em diante, posso me inscrever?
+Sim, você pode se inscrever. Daremos preferência para os alunos que estarão no projeto até pelo menos Dezembro de 2024.
 
 ### Formulário de inscrição:
 
