@@ -25,7 +25,7 @@ Trata-se de um projeto de pesquisa, desenvolvimento, inovação e capacitação 
 envolve a empresa [CODATA](https://codata.pb.gov.br) e o laboratório **AYTY**, do departamento
 de ciências exatas / Campus IV / UFPB. O projeto possui seis linhas de inovação: melhoria de processos; data analytics; segurança; cloud e devops; inteligência artificial; e capacitação de estudantes nos times da empresa.
 
-Durante este projeto os alunos e alunas dos cursos de **Sistemas de Informação e Lic. em Computação** do Campus VI da UFPB participarão de ações de pesquisa e desevolvimento na empresa parceira. Terão a oportunidade de aprender técnicas, tecnologias e aplicar o conhecimento em problemas reais, interagindo com profissionais da empresa durante todo o processo.
+Durante este projeto os alunos e alunas dos cursos de **Sistemas de Informação e Lic. em Computação** do Campus IV da UFPB participarão de ações de pesquisa e desevolvimento na empresa parceira. Terão a oportunidade de aprender técnicas, tecnologias e aplicar o conhecimento em problemas reais, interagindo com profissionais da empresa durante todo o processo.
 Os alunos serão orientados por seis professores e professoras, que liderarão cada linha de inovação.
 
 Conheça mais sobre a CODATA através do link: [CODATA](https://codata.pb.gov.br).
