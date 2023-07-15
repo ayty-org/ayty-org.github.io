@@ -33,7 +33,7 @@ Melhoria de processos de desenvolvimento de software, processo de gerência de d
 
 A área de Data Analytics tem como objetivo principal melhorar a transparência e a tomada de decisões governamentais através da análise de dados, com ações que incluem diagnóstico e capacitação nas áreas de ciência e engenharia de dados, desenvolvimento e implementação de um portal de transparência e um sistema de BI, revisão e melhorias do sistema atual, migração para uma nova ferramenta de BI, e formação sobre o uso de ferramentas open-source de análise de dados como Metabase.
 
-## Infraestrutura e Cloud
+## Cloud e devops
 
 **Professora responsável:** [Prof. Raquel Vigolvino](/equipe/raquel_vigolvino/)
 
@@ -51,7 +51,7 @@ A área de Inteligência Artificial (IA) tem como objetivo a prospecção de opo
 
 A área de Segurança tem como foco principal a revisão e atualização da política de segurança da CODATA, levando em conta a nova estrutura organizacional e ameaças identificadas. Além disso, inclui a comunicação de mudanças, execução de treinamentos, estabelecimento de um framework de monitoramento da política, e a criação de um Centro de Operações de Segurança (SOC). O SOC irá avaliar riscos, identificar ameaças, alinhar ações com a política de segurança, definir políticas e procedimentos, selecionar e implantar tecnologias de segurança, recrutar e treinar equipes, implementar mecanismos de gestão de incidentes e monitorar seu próprio desempenho. O projeto também irá tratar a integridade e confidencialidade dos dados, auxiliando em aspectos como certificação digital, assinatura digital, anonimização de dados e criptografia de dados e comunicação confidencial.
 
-## Capacitação de estudantes
+## Atuação nos times de desenvolvimento da empresa
 
 **Professora responsável:** [Profa. Vanessa Dantas](/equipe/vanessa_dantas/)
 
