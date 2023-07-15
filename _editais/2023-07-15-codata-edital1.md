@@ -14,7 +14,7 @@ inline: false
 
 {% include figure.html path="assets/img/projetos/codata.png" class="project_image" %}
 
-Edital de seleção de 22 (vinte e dois) bolsistas para projeto em parceria com a empresa CODATA.
+Edital de seleção de 20 (vinte) bolsistas para projeto em parceria com a empresa CODATA.
 
 **Atenção! LEIA ATENTAMENTE todas as informações e inscreva-se no link
 ao final deste edital.**
