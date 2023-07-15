@@ -1,0 +1,182 @@
+---
+layout: post
+title: 1o Edital - Proj. CODATA (Jul 2023)
+date: 2023-07-13
+description: 
+tags: codata
+categories: edital
+related_posts: false
+inline: false
+---
+
+**Data**: 13/07/2023
+
+
+{% include figure.html path="assets/img/projetos/codata.png" class="project_image" %}
+
+Edital de seleção de 22 (vinte e dois) bolsistas para projeto em parceria com a empresa CODATA.
+
+**Atenção! LEIA ATENTAMENTE todas as informações e inscreva-se no link
+ao final deste edital.**
+
+## Sobre o projeto
+
+Trata-se de um projeto de pesquisa, desenvolvimento, inovação e capacitação que
+envolve a empresa [CODATA](https://codata.pb.gov.br) e o laboratório **AYTY**, do departamento
+de ciências exatas / Campus IV / UFPB. O projeto possui seis linhas de inovação: melhoria de processos; data analytics; segurança; infraestrutura e cloud; inteligência artificial; e capacitação de estudantes nos times da empresa.
+
+Durante este projeto os alunos e alunas dos cursos de **Sistemas de Informação e Lic. em Computação** do Campus VI da UFPB participarão de ações de pesquisa e desevolvimento na empresa parceira. Terão a oportunidade de aprender técnicas, tecnologias e aplicar o conhecimento em problemas reais, interagindo com profissionais da empresa durante todo o processo.
+Os alunos serão orientados por seis professores e professoras, que liderarão cada linha de inovação.
+
+Conheça mais sobre a CODATA através do link: [CODATA](https://codata.pb.gov.br).
+
+* Professor coordenador do projeto: [Prof. Rodrigo Rebouças](/equipe/professores/rodrigor/)
+
+### Áreas de Inovação
+
+A seguir apresentamos as áreas de atuação na empresa. Em cada área está indicado o professor ou professora responsável, a quantidade de vagas, o horário de trabalho e pré-requisitos.
+
+#### Data Analytics
+- Coordenador e orientador da área: [Prof. Marcus Carvalho](/equipe/professores/marcuswac)
+- Quantidade de vagas: 3 vagas
+- **Para aluno(a)s a partir do 2o período.**
+- Carga horária e horário de dedicação ao projeto: 20 horas semanais, de segunda à sexta, com **horário flexível**.
+- Perfil da vaga:
+    - Nesta área buscamos interessados em Ciência de Dados e Data Warehouse.
+	- Neste perfil você irá atuar na integração, modelagem e análise de diferentes bases de dados relacionadas à gestão pública, usando técnicas de Ciência de Dados e Data Warehouse. Também serão desenvolvidos sistemas para análise, compartilhamento e visualização de dados para auxiliar na tomada de decisão e transparência pública.
+- Pré-requisitos:
+  - Saber programar em Python (e gostar de programar);
+  - Ter pago Linguagem de Programação;
+  - Conhecimento em Banco de Dados e Análise de Dados é desejável, mas você poderá aprender no projeto.
+
+
+#### Infraestrutura e Cloud
+- Coordenadora e orientadora da área: [Profa. Raquel Vigolvino](/equipe/professores/raquel_vigolgino)
+- Quantidade de vagas: 2 vagas
+- **Para aluno(a)s a partir do 2o período.**
+- Carga horária e horário de dedicação ao projeto: 20 horas semanais, de segunda à sexta, com **horário flexível**.
+- Perfil da vaga:
+  - Nesta área buscamos interessado(a)s nas áreas de devops e avaliação de desempenho de sistemas. Você irá atuar no monitoramento da infraestrutura em nuvem e serviços; diagnóstico de necessidades de melhorias na infraestrutura de nuvem através de análise dos dados monitorados; redimensionamento de serviços e auto-scaling de serviços.
+- Pré-requisitos: 
+  - Saber programar bem em python (e gostar de programar);
+  - Ter pago Linguagem de Programação.
+  - É desejável conhecimento em sistemas operacionais, programação shell, virtualização/containers, avaliação de desempenho e sistemas distribuídos, mas você poderá aprender no projeto.
+
+
+#### Melhoria de Processos
+- Coordenador e orientador da área: [Prof. Rodrigo Rebouças](/equipe/professores/rodrigor/)
+- Quantidade de vagas: 3 vagas
+- **Para aluno(a)s a partir do 2o período.**
+- Carga horária e horário de dedicação ao projeto: 20 horas semanais, de segunda à sexta, com **horário flexível**.
+- Perfil da vaga:
+  - Perfil 1) Desenvolvimento fullstack com Springboot, ReactJS e Angular
+    - Neste perfil você irá atuar no desenvolvimento e manutenção de duas ferrametas: Tracy-TD (uma ferramenta de gerência de dívidas técnicas) e o Universi.me (uma rede social para desenvolvimento pessoal)
+  - Perfil 2) Modelagem de processos de negócios
+    - Nesta linha de trabalho você irá trabalhar com identificação, modelagem, análise e melhoria de processos. Tanto processo de desenvolvimento quanto processos administrativos.
+- Pré-requisitos:
+  - Perfil 1:
+    - Saber programar bem em Java (e gostar de programar);
+    - Ter pago Linguagem de Programação
+    - Conhecimento em Banco de Dados é desejável, mas você poderá aprender no projeto.
+  - Perfil 2: 
+    - Ter desenvoltura para interagir com pessoas;
+    - Ter capacidade de escrever documentação e atuar em modelagem;
+    - Saber BPMN é desejável, mas você irá aprender durante o projeto.
+
+#### Segurança 
+- Coordenador e orientador da área: [Prof. Daniel Faustino](/equipe/professores/daniel_faustino)
+- Quantidade de vagas: 2 vagas
+- **Para aluno(a)s a partir do 2o período.**
+- Carga horária e horário de dedicação ao projeto: 20 horas semanais, de segunda à sexta, com **horário flexível**.
+- Perfil da vaga:
+    - Nesta área procuramos buscamos interessados na área de segurança da informação e auditoria de sistemas
+    - Neste perfil você irá atuar na revisão de normativas relacionadas a segurança da informação, desenvolvimento de estratégias para prevenção e detecção de intrusão, implantação de mecanismos de monitoramento e capacitação de pessoal em relação à boas práticas de segurança da informação em ambiente corporativo.
+
+- Pré-requisitos:
+  - Saber programar em alguma linguagem de programação;
+  - Ter capacidade de ler e escrever documentação
+  - Ter capacidade de ler normativos e legislações relacionados a segurança da informação e proteção de dados
+  - Conhecimento básico sobre redes de computadores e sistemas operacionais 
+  - Conhecimento sobre normas de Segurança da Informação e LGPD é desejável, mas você poderá aprender durante o projeto
+
+#### Inteligência Artificial
+- Coordenador e orientador da área: [Prof. Rafael Magalhães](/equipe/professores/rafael_magalhaes)
+- Quantidade de vagas: 2 vagas
+- **Para aluno(a)s a partir do 2o período.**
+- Carga horária e horário de dedicação ao projeto: 20 horas semanais, de segunda à sexta, com **horário flexível**.
+- Perfil da vaga:
+    - Perfil 1: Operar modelos de IA para fazer predições, treinamento e testar resultados em diferentes cenários. Atuar em soluções que aplicam inteligência artificial para a empresa. Espera-se que você tenha interesse na área, esteja disposto(a) a aprender bastante e a explorar diversos modelos de IA.
+    - Perfil 2: Integrar, avaliar e testar modelos de IA a partir de APIs web. Elaborar e integrar serviços com web API. Atuar em soluções que aplicam inteligência artificial para a empresa. Espera-se que você tenha interesse na área, esteja disposto(a) a aprender bastante e a explorar diversos modelos de IA.
+- Pré-requisitos:
+  - Obrigatório: Programação orientado a objetos e probabilidade e estatística.
+  - Diferenciais: Ter pago IA e ser capaz de desenvolver APIs REST.
+
+
+#### Capacitação de estudantes 
+- Coordenadora e orientadora da área: [Profa. Vanessa Dantas](/equipe/professores/vanessa_dantas)
+- Quantidade de vagas: 8 vagas
+- **Para aluno(a)s a partir do 5o período.**
+- Carga horária e horário de dedicação ao projeto: 20 horas semanais, de segunda à sexta, **entre as 8h e 18 horas**.
+- Dois perfis:
+  - Perfil 1: Análise de Requisitos - Você irá atuar no levantamento e análise de requisitos de sistemas, e na elaboração de modelos para desenvolvedores usando BPMN e Figma.
+	  - Pré-requisitos _essenciais_:
+        - **A PARTIR DO 5o PERÍODO.**
+		- Saber programar;
+		- Boa habilidade de comunicação oral e escrita;
+		- Desenvoltura para interagir com pessoas;
+		- Boa capacidade de abstração;
+
+	- Pré-requisitos _desejáveis_:
+		- Conhecimento sobre modelagem de software
+		- Conhecimento sobre BPMN;
+		- Conhecimento sobre a ferramenta Figma
+
+  - Perfil 2: Analista de Testes - Você irá atuar na definição, criação e execução de casos de teste para sistemas, usando ferramentas como o [Robot Framework](https://robotframework.org/).
+    - Pré-requisitos _essenciais_:
+        - **A PARTIR DO 5o PERÍODO.**
+		- Saber programar;
+		- Bom conhecimento em Python
+		- Boa capacidade de abstração;
+		- Boa percepção de detalhes (senso crítico)
+	- Pré-requisitos _desejáveis_:
+		- Conhecimento de testes automatizados
+		- Conhecimento sobre [Django](https://www.djangoproject.com/)
+
+## Observações:
+- **O horário do projeto deve ser EXCLUSIVO** - você não deve compartilhar o horário do projeto com outras atividades.
+- Valor da bolsa: R\$ 800,00
+- Duração do Projeto: de Julho de 2023 a Dezembro de 2024.
+- Saber se comunicar, interagir com as pessoas, trabalhar em equipe, ter iniciativa, responsabilidade e compromisso são características importantes para todas as vagas.
+
+## Sobre o processo seletivo
+
+O processo será dividido em duas etapas:
+
+- 1a etapa: Preenchimento de um formulário e triagem dos alunos e
+    alunas.
+- 2a etapa: Entrevistas com os alunos e alunas selecionado(a)s na 1a
+    etapa.
+
+Cada candidata ou candidato pode concorrer em até duas áreas, uma definida como primeira e outra como segunda opção. Se não for selecionado(a) na primeira opção, você pode ser selecionado(a) na segunda opção.
+
+Vamos levar em consideração a sua atuação fora de sala de aula, suas
+atividades em projetos, monitorias, e outras iniciativas. Também
+observaremos suas notas nas disciplinas e suas respostas às questões
+abertas. Na entrevista, observaremos sua desenvoltura pessoal, sua
+segurança ao responder às perguntas e ao discutir os diversos temas que
+serão tratados.
+
+### Calendário:
+
+Calendário de atividades do processo seletivo. Obs.: Fique atento(a) a esta página, as datas podem mudar sem aviso prévio.
+
+| Data / horário | Atividade |
+|---|---|
+| 15/Julho a 19/Julho, até as 18h00 | Etapa 1: Inscrições - análise de currículo  |
+| 23/Julho | Etapa 1: divulgação do resultado da 1a etapa |
+| 24 a 28 de Julho | Etapa 2: entrevistas (os horários das entrevistas serão divulgados junto com o resultado da primeira etapa) |
+| 31/Julho | Etapa 2: divulgação do resultado final |
+| 01/Agosto | Início das atividades no projeto |
+
+
+[Formulário de inscrição] - AGUARDE
