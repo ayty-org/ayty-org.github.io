@@ -41,7 +41,7 @@ A seguir apresentamos as áreas de atuação na empresa. Em cada área está ind
 
 - Coordenador e orientador da área: [Prof. Marcus Carvalho](/equipe/professores/marcuswac)
 - Quantidade de vagas: 3 vagas
-- **Para aluno(a)s a partir do 3o período.**
+- **Para aluno(a)s a partir do 2o período.**
 - Carga horária e horário de dedicação ao projeto: 20 horas semanais, de segunda à sexta, com **horário flexível**.
 - Perfil da vaga:
     - Nesta área buscamos interessados em Ciência de Dados e Data Warehouse.
