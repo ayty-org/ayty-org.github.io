@@ -197,4 +197,6 @@ Calendário de atividades do processo seletivo. Obs.: Fique atento(a) a esta pá
 
 **Só clique no link a seguir APÓS ler todo o edital ATENTAMENTE!**
 
+(Você precisa acessar o formulário com seu e-mail do DCX/UFPB - o email @dcx.ufpb.br )
+
 [Link para o Formulário de inscrição](https://forms.gle/hE9TZu7f8S5kaabW9)
