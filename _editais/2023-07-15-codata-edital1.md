@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 1o Edital - Proj. CODATA (Jul 2023)
-date: 2023-07-13
+date: 2023-07-15
 description: 
 tags: codata
 categories: edital
@@ -9,7 +9,7 @@ related_posts: false
 inline: false
 ---
 
-**Data**: 13/07/2023
+**Data**: 15/07/2023
 
 
 {% include figure.html path="assets/img/projetos/codata.png" class="project_image" %}
@@ -23,7 +23,7 @@ ao final deste edital.**
 
 Trata-se de um projeto de pesquisa, desenvolvimento, inovação e capacitação que
 envolve a empresa [CODATA](https://codata.pb.gov.br) e o laboratório **AYTY**, do departamento
-de ciências exatas / Campus IV / UFPB. O projeto possui seis linhas de inovação: melhoria de processos; data analytics; segurança; infraestrutura e cloud; inteligência artificial; e capacitação de estudantes nos times da empresa.
+de ciências exatas / Campus IV / UFPB. O projeto possui seis linhas de inovação: melhoria de processos; data analytics; segurança; cloud e devops; inteligência artificial; e capacitação de estudantes nos times da empresa.
 
 Durante este projeto os alunos e alunas dos cursos de **Sistemas de Informação e Lic. em Computação** do Campus VI da UFPB participarão de ações de pesquisa e desevolvimento na empresa parceira. Terão a oportunidade de aprender técnicas, tecnologias e aplicar o conhecimento em problemas reais, interagindo com profissionais da empresa durante todo o processo.
 Os alunos serão orientados por seis professores e professoras, que liderarão cada linha de inovação.
@@ -39,7 +39,7 @@ A seguir apresentamos as áreas de atuação na empresa. Em cada área está ind
 #### Data Analytics
 - Coordenador e orientador da área: [Prof. Marcus Carvalho](/equipe/professores/marcuswac)
 - Quantidade de vagas: 3 vagas
-- **Para aluno(a)s a partir do 2o período.**
+- **Para aluno(a)s a partir do 3o período.**
 - Carga horária e horário de dedicação ao projeto: 20 horas semanais, de segunda à sexta, com **horário flexível**.
 - Perfil da vaga:
     - Nesta área buscamos interessados em Ciência de Dados e Data Warehouse.
@@ -50,7 +50,7 @@ A seguir apresentamos as áreas de atuação na empresa. Em cada área está ind
   - Conhecimento em Banco de Dados e Análise de Dados é desejável, mas você poderá aprender no projeto.
 
 
-#### Infraestrutura e Cloud
+#### Cloud e Devops
 - Coordenadora e orientadora da área: [Profa. Raquel Vigolvino](/equipe/professores/raquel_vigolgino)
 - Quantidade de vagas: 2 vagas
 - **Para aluno(a)s a partir do 2o período.**
@@ -89,7 +89,7 @@ A seguir apresentamos as áreas de atuação na empresa. Em cada área está ind
 - **Para aluno(a)s a partir do 2o período.**
 - Carga horária e horário de dedicação ao projeto: 20 horas semanais, de segunda à sexta, com **horário flexível**.
 - Perfil da vaga:
-    - Nesta área procuramos buscamos interessados na área de segurança da informação e auditoria de sistemas
+    - Nesta linha buscamos interessados na área de segurança da informação e auditoria de sistemas
     - Neste perfil você irá atuar na revisão de normativas relacionadas a segurança da informação, desenvolvimento de estratégias para prevenção e detecção de intrusão, implantação de mecanismos de monitoramento e capacitação de pessoal em relação à boas práticas de segurança da informação em ambiente corporativo.
 
 - Pré-requisitos:
