@@ -10,6 +10,8 @@ projeto: codata
 
 Projeto de pesquisa, extensão e capacitação que envolve a empresa [CODATA](https://codata.pb.gov.br) e o Departamento de Ciências Exatas, através do laboratório AYTY. O projeto atua em seis áreas de inovação: Melhoria de Processos, Data Analytics, Infraestrutura e Cloud, Inteligência Artificial, Segurança e capacitação de estudantes nos times da empresa. Este projeto conta com a participação de seis professores coordenadores das seis áreas de inovação, e com 22 alunos e alunas que atuarão tanto nas áreas de inovação quanto atuando nos times da empresa.
 
+A CODATA é a empresa paraibana de processamento de dados e informações. É a empresa responsável por, entre outros serviços, seu RG, pela carteira de motorista, pelo processamento de BOs na polícia, entre inúmeros outros serviços que atendem o cidadão paraibano. Possui datacenters que processam pagamentos, emissão e controle de carteiras de motoristas, processos de órgãos como Detran e polícia, entre inúmeros órgãos e secretarias.
+
 Duração: 18 meses, de Julho de 2023 a Dezembro de 2024.
 
 Coordenador geral: [Prof. Rodrigo Rebouças](/equipe/rodrigor/)
