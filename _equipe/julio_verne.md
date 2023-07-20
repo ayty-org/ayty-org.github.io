@@ -14,5 +14,5 @@ twitter: https://www.twitter.com/ijulioverne/
 importance: 4
 category: Alunos
 funcao: Desenvolvedor Back-end
-projeto: [Apps4Society,Universi.me]
+projeto: [apps4society,universi.me]
 ---
