@@ -10,7 +10,7 @@ description: "Sou estudante de Licenciatura em Ciência da Computação (LCC) na
 home_page: 
 github: 
 linkedin: https://www.linkedin.com/in/lucas-freitas-96aa5b1a3
-instagram: lucasfreita.s
+instagram: https://instagram.com/lucasfreita.s
 twitter: 
 importance: 4
 category: Alunos
