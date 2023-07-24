@@ -31,6 +31,10 @@ Alunos selecionados e horário da entrevista (o link do GoogleMeet será enviado
 - João Vitor da Conceição Avelar - 14:54 
 - Maurício Rodrigues da Silva - 15:02 
 - Iranildo do Nascimento Araújo - 15:10 
+- Gabriel de Jesus França dos Santos - 15:18
+- Ricardo Ullysses Macedo Viana Filho - 15:26
+- Levi Maciel de Souza - 15:34
+- Maria Eduarda Gomes Martins - 15:42
 
 #### Nuvem e Devops
 Coordenadora da área: Profa. Raquel Vigolvino
@@ -47,6 +51,10 @@ Alunos selecionados e horário da entrevista (o link do GoogleMeet será enviado
 - Jaú Italo Batista dos Santos - 16h16
 - Herbert Rocha Monteiro - 16h24
 - Jean de Lima Cavalcanti Nunes - 16h32
+- Lucas Silva Ramos Monteiro - 16h40
+- Davi Icaro da Silva - 16h48
+- Raul Lins Da Silva Fernandes - 16h56
+
 
 #### Melhoria de Processos
 Coordenador da área: Prof. Rodrigo Rebouças
@@ -128,3 +136,4 @@ Aluno(a)s selecionado(a)s e horário da entrevista (o link do GoogleMeet será e
 - Jaú italo batista dos santos - 16:50 
 - Lucas Silva Ramos Monteiro - 17:00 
 - Jessé Silva Costa - 17:10 
+
