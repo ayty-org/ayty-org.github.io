@@ -17,7 +17,6 @@ Cada um(a) receberá um convite para um evento no Google Calendar, que contém o
 
 **Se tiver alguma dúvida, envie um email para:** [suporte@ayty.org](mailto:suporte@ayty.org).
 
-
 #### Análise de Dados
 Coordenador da área: Prof. Marcus Carvalho
 
@@ -83,15 +82,15 @@ Duração da entrevista: 15 minutos. (Esteja à postos, com a câmera e microfon
 
 Aluno(a)s selecionado(a)s e horário da entrevista (o link do GoogleMeet será enviado por email):
 
-- AMARO ELIAS DO ESPIRITO SANTO NASCIMENTO - 14:00 
-- Carlos Gabriel Albuquerque dos Santos - 14:15 
+- Amaro Elias do Espirito Santo Nascimento - 14:00
+- Carlos Gabriel Albuquerque dos Santos - 14:15
 - Davi Icaro da Silva - 14:30
-- daysiane conrado da silva - 14:45 
-- Edwirges Vitoria Ferreira Leite - 15:00 
-- Jean Gomes Bernardo - 15:15 
-- JOÃO VITOR DA SILVA COSTA - 15:30 
-- Lucas Pereira de Azevedo - 15:45 
-- Rafaela da Paz Araújo - 16:00 
+- Daysiane Conrado da Silva - 14:45
+- Edwirges Vitoria Ferreira Leite - 15:00
+- Jean Gomes Bernardo - 15:15
+- João Vitor da Silva Costa - 15:30
+- Lucas Pereira de Azevedo - 15:45
+- Rafaela da Paz Araújo - 16:00
 
 #### Inteligência Artificial
 Coordenador da área: Prof. Rafael Magalhães
@@ -121,19 +120,20 @@ Duração da entrevista: 10 minutos. (Esteja à postos, com a câmera e microfon
 
 Aluno(a)s selecionado(a)s e horário da entrevista (o link do GoogleMeet será enviado por email):
 
-- João Vitor da Silva - 14:50 
-- Maria Eduarda Gomes Martins - 15:00 
-- Guilherme César Alves de Andrade - 15:10 
+- João Vitor da Silva - 14:50
+- Maria Eduarda Gomes Martins - 15:00
+- Guilherme César Alves de Andrade - 15:10
 - Weslley Gabriel Paz de Sousa - 15:20
-- Filipe Alves dos Santos - 15:30 
-- José Iran Matos Júnior - 15:40 
-- Eduardo Alves de Araujo - 15:50 
-- Raul Lins Da Silva Fernandes - 16:00 
-- Jorge Luiz da Silva - 16:10 
-- EMANOEL RAIFF GOMES DA NÓBREGA FILHO - 16:20 
-- Ricardo Veríssimo Pereira - 16:30 
-- Thiago Mikael da Silva Oliveira - 16:40 
-- Jaú italo batista dos santos - 16:50 
-- Lucas Silva Ramos Monteiro - 17:00 
-- Jessé Silva Costa - 17:10 
+- Filipe Alves dos Santos - 15:30
+- José Iran Matos Júnior - 15:40
+- Eduardo Alves de Araujo - 15:50
+- Raul Lins Da Silva Fernandes - 16:00
+- Jorge Luiz da Silva - 16:10
+- Emanoel Raiff Gomes Da Nóbrega Filho - 16:20
+- Ricardo Veríssimo Pereira - 16:30
+- Thiago Mikael da Silva Oliveira - 16:40
+- Jaú Italo Batista dos Santos - 16:50
+- Lucas Silva Ramos Monteiro - 17:00
+- Jessé Silva Costa - 17:10
+
 
