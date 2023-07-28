@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Resultado 2a etapa - Proj. CODATA (Jul 2023)
+title: Resultado FINAL - Proj. CODATA (Jul 2023)
 date: 2023-07-27
 description: 
 tags: codata
