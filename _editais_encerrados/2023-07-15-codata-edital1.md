@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 1o Edital - Proj. CODATA (Jul 2023)
+title: Proj. CODATA - Edital-01 (Jul 2023)
 date: 2023-07-15
 description: 
 tags: codata
