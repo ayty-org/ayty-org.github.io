@@ -2,7 +2,7 @@
 layout: member
 name: Aline Silva de Lima
 img: equipe/img/aline_lima.jpg
-funcao: Suporte AdministrativoTechnical Debt
+funcao: Suporte Administrativo
 projeto: [phoebus, esig, snet, codata]
 desde: 2023-07-21
 saiu: #data de fim
