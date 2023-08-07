@@ -6,7 +6,7 @@ funcao: Suporte Administrativo
 projeto: [phoebus, esig, snet, codata]
 desde: 2023-07-21
 saiu: #data de fim
-description: descricao do aluno
+description: "Estudante do curso de Bacharelado em Secretariado Executivo Bilíngue na Universidade Federal da Paraíba (UFPB) - Campus IV, em Mamanguape-PB. Atualmente, atua como Suporte Administrativo no AYTY. Tenho experiência na organização de eventos e tenho interesse em atuar em diversas áreas na gestão de empresas."
 home_page: # home page
 github: # Github 
 linkedin:  https://www.linkedin.com/in/alineexecutivo/
