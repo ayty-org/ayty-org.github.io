@@ -11,10 +11,10 @@ github: https://github.com/rodrigor
 linkedin: https://www.linkedin.com/in/rodrigoreboucas/
 instagram: https://www.instagram.com/rodrigorcom/
 twitter: https://www.twitter.com/rodrigor/
-importance: 1
+importance: 0
 category: Professores #Professores, Colaboradores externos, Alunos, Ex-alunos
 funcao: Coordenador #Coordenador, Bolsista Testador, Bolsista Dev, Technical Debt
-projeto: [phoebus,esig,snet,universi.me,tracy-td,engenharia.software,codata,meuchat]
+projeto: [phoebus,esig,snet,universi.me,tracy-td,engenharia.software,codata,meuchat,decoup]
 ---
 
 

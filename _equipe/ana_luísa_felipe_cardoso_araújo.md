@@ -3,7 +3,7 @@ layout: member
 name: Ana Luísa Felipe Cardoso Araújo
 img: equipe/img/ana_luisa.jpg
 funcao: bolsista dev
-projeto: tracy-td
+projeto: [tracy-td,phoebus,decoup]
 desde: 2023-04-02
 saiu: 
 description: "Aluna do curso de Licenciatura em Ciências da Computação na Universidade Federal da Paraíba Campus IV,. Atualmente atuo como Full-Stack no projeto Tracy-TD, amo e coleciono livros e sou viciada em todo tipo de jogo. "

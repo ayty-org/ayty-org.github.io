@@ -11,8 +11,8 @@ github: https://github.com/ayladebora
 linkedin: https://www.linkedin.com/in/ayla-dantas-reboucas/
 instagram: https://www.instagram.com/aylareboucas/
 twitter: 
-importance: 2
+importance: 1
 category:  Professores
-funcao: Pesquisadora 
-projeto: [apps4society, computacao_plugada] 
+funcao: Coordenadora de projetos
+projeto: [apps4society, apps4society_maker, computacao_plugada] 
 ---
