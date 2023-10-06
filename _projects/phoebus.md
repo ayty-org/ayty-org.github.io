@@ -14,3 +14,5 @@ Ao longo do projeto os alunos desenvolvem soluções para problemas reais, além
 
 A equipe trabalha em Rio Tinto, em um laboratório dedicado ao projeto, com acesso a computadores, equipamentos e infraestrutura de desenvolvimento usados na empresa. 
 
+##### Fundação parceira:
+[![Fundação parceira](/assets/img/logos/logo-funetec.png#right)](https://www.funetec.com/)

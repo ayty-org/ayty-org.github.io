@@ -15,3 +15,5 @@ Uma terceira linha de pesquisa será a área de gerência de dívidas técnicas 
 
 * Coordenação do projeto: [Vanessa Dantas](/equipe/vanessa_dantas)
 
+##### Fundação parceira:
+[![Fundação parceira](/assets/img/logos/logo-funetec.png#right)](https://www.funetec.com/)
