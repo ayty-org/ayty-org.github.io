@@ -1,18 +1,18 @@
 ---
 layout: member
-name: Marcus Carvalho
+name: Tácito Neves
 img: equipe/img/tacito.jpg
-description: "Professor da  UFPB - Campus IV, em Rio Tinto-PB, onde atua nos cursos de Ciência da Computação e Sistemas de Informação. É bacharel (2008), mestre (2011) e doutor (2016) em Ciência da Computação pela UFCG, com doutorado sanduíche na George Mason University, EUA. Sua tese de doutorado abordou métodos de modelagem de desempenho e análise de dados para melhorar a gerência de recursos em nuvens computacionais. Tem atuado em projetos de pesquisa e desenvolvimento em parceria com empresas e instituições públicas nas áreas de Ciência de Dados, Business Intelligence e Sistemas Distribuídos."
+description: "Professor da  UFPB - Campus IV, em Rio Tinto-PB, onde atua nos cursos de Ciência da Computação e Sistemas de Informação. É bacharel em Ciência da Computação pela UFAL(2008), mestre (2011) e doutor (2016) em Ciência da Computação pela USP. Sua tese de doutorado abordou métodos de visualização de informação aplicados a fluxos de dados contínuos. Tem atuado em projetos de pesquisa nas áreas de Visualização Computacional, Inteligência Artificial, Aprendizado de Máquina, Visão Computacional e Realidade Aumentada."
 home_page: https://marcuswac.github.io
-lattes: http://lattes.cnpq.br/4764601053478564
-desde: 2022-05-12
+lattes: http://lattes.cnpq.br/6235762668449473
+desde: 2023-11-01
 saiu: 
-github: https://github.com/marcuswac
+github: https://github.com/ttatn
 linkedin: https://www.linkedin.com/in/tacitoneves/
-instagram: https://www.instagram.com/marcuswac
-twitter: https://twitter.com/marcuswac
+instagram: https://www.instagram.com/tacitoneves/
+twitter: https://twitter.com/tacitotiburtino
 importance: 2
 category:  Professores
 funcao: Pesquisador 
-projeto: [esig,codata]
+projeto: [codata]
 ---
