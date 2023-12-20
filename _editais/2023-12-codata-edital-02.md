@@ -85,12 +85,20 @@ serão tratados.
 
 Calendário de atividades do processo seletivo. Obs.: Fique atento(a) a esta página, as datas podem mudar sem aviso prévio.
 
+----
+⚠️ __ATENÇÃO:__ Devido a um problema de configuração das listas de informes tanto do curso de SI quanto de LCC, o email de divulgação deste edital, enviado pelo professor Tácito, não chegou aos alunos. Como estas listas são os principais meios de divulgação de vagas de bolsas, entre outras informações importantes, achamos justo reabrir a seleção e permitir que os estudantes se inscrevam em um novo calendário.
+
+Se você já se inscreveu no edital, não precisa se inscrever novamente.
+----
+
+
+
 | Data / horário | Atividade |
 |---|---|
-| 12/Dezembro a 16/Dezembro, até as 18h00 | Etapa 1: Inscrições - análise de currículo  |
-| 18/Dezembro | Etapa 1: divulgação do resultado da 1a etapa |
-| 19 a 22 de Dezembro | Etapa 2: entrevistas (os horários das entrevistas serão divulgados junto com o resultado da primeira etapa) |
-| 23/Dezembro | Etapa 2: divulgação do resultado final |
+| 12/Dezembro a 24/Dezembro, até as 18h00 | Etapa 1: Inscrições - análise de currículo  |
+| 26/Dezembro | Etapa 1: divulgação do resultado da 1a etapa |
+| 27 a 28 de Dezembro | Etapa 2: entrevistas (os horários das entrevistas serão divulgados junto com o resultado da primeira etapa) |
+| 29/Dezembro | Etapa 2: divulgação do resultado final |
 | 08 de Janeiro de 2024 | Início das atividades no projeto |
 
 ### Perguntas frequentes:
@@ -110,4 +118,4 @@ Sim, você pode se inscrever. Daremos preferência para os alunos que estarão n
 
 (Você precisa acessar o formulário com seu e-mail do DCX/UFPB - o email @dcx.ufpb.br )
 
-__Inscrições encerradas__
+[Link para o Formulário de inscrição](https://forms.gle/Cumo7fAGUUSgGKds5)
