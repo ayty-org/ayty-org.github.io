@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Novo calendário de inscrições - Proj. CODATA - Edital-02 (Dez 2023)
+title: Novo calendário - Proj. CODATA - Edital-02 (Dez 2023)
 date: 2023-12-19
 description: 
 tags: codata, resultado
