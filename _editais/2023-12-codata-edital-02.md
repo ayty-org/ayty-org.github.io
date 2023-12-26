@@ -114,8 +114,4 @@ Sim, você pode se inscrever. Daremos preferência para os alunos que estarão n
 
 ### Formulário de inscrição:
 
-**Só clique no link a seguir APÓS ler todo o edital ATENTAMENTE!**
-
-(Você precisa acessar o formulário com seu e-mail do DCX/UFPB - o email @dcx.ufpb.br )
-
-[Link para o Formulário de inscrição](https://forms.gle/Cumo7fAGUUSgGKds5)
+**Inscrições encerradas**
