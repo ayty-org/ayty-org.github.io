@@ -1,5 +1,26 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://ayty.org/feed.xml" rel="self" type="application/atom+xml" /><link href="https://ayty.org/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-12-26T00:26:18+00:00</updated><id>https://ayty.org/feed.xml</id><title type="html">AYTY</title><subtitle>AYTY - Laboratório de Engenharia de Software Aplicada
-</subtitle><entry><title type="html">Novo calendário - Proj. CODATA - Edital-02 (Dez 2023)</title><link href="https://ayty.org/blog/2023/edital_codata02_ERRATA/" rel="alternate" type="text/html" title="Novo calendário - Proj. CODATA - Edital-02 (Dez 2023)" /><published>2023-12-19T00:00:00+00:00</published><updated>2023-12-19T00:00:00+00:00</updated><id>https://ayty.org/blog/2023/edital_codata02_ERRATA</id><content type="html" xml:base="https://ayty.org/blog/2023/edital_codata02_ERRATA/"><![CDATA[<p>⚠️ <strong>ATENÇÃO:</strong> Devido a um problema de configuração das listas de informes tanto do curso de SI quanto de LCC, o email de divulgação deste edital, enviado pelo professor Tácito, não chegou aos alunos. Como estas listas são os principais meios de divulgação de vagas de bolsas, entre outras informações importantes, achamos justo reabrir a seleção e permitir que os estudantes se inscrevam em um novo calendário.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://ayty.org/feed.xml" rel="self" type="application/atom+xml" /><link href="https://ayty.org/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-12-26T19:53:31+00:00</updated><id>https://ayty.org/feed.xml</id><title type="html">AYTY</title><subtitle>AYTY - Laboratório de Engenharia de Software Aplicada
+</subtitle><entry><title type="html">Resultado 1a etapa - Proj. CODATA - Edital-02 (Dez 2023)</title><link href="https://ayty.org/blog/2023/edital_codata02_1etapa/" rel="alternate" type="text/html" title="Resultado 1a etapa - Proj. CODATA - Edital-02 (Dez 2023)" /><published>2023-12-26T00:00:00+00:00</published><updated>2023-12-26T00:00:00+00:00</updated><id>https://ayty.org/blog/2023/edital_codata02_1etapa</id><content type="html" xml:base="https://ayty.org/blog/2023/edital_codata02_1etapa/"><![CDATA[<p>Edital: <a href="/editais/2023-12-codata-edital-02/">2o Edital - Proj. Codata (Dez 2023)</a></p>
+
+<p>Selecionados para a etapa de entrevistas (2a etapa) no processo seletivo para projeto entre AYTY e CODATA.</p>
+
+<p>As entrevistas ocorrerão na tarde da quinta-feira, dia 28 de Dezembro, a partir das 14h30. Você receberá instruções por email.</p>
+
+<p>(em ordem alfabética)</p>
+
+<ul>
+  <li>André Henrique de Sousa Victor</li>
+  <li>Arthur Cezar Silva De Araujo</li>
+  <li>Endril Thiago Claudino Ferreira</li>
+  <li>Jonathan Neves Ribeiro</li>
+  <li>José Ryan Pereira da Silva</li>
+  <li>Kássio de Lima Leite</li>
+  <li>Lucas Felipe Gomes Pedrosa</li>
+  <li>Luiz Gustavo dos Santos Silva</li>
+  <li>Maria Gabriella Freire Ferreira Saturnino de Oliveira</li>
+  <li>Sabrina Gonçalves de Almeida</li>
+  <li>Suerdo Flaubert Campos de Lucena Júnior</li>
+  <li>Wendel Soares Sampaio</li>
+</ul>]]></content><author><name></name></author><category term="codata" /><category term="codata," /><category term="resultado" /><summary type="html"><![CDATA[Edital: 2o Edital - Proj. Codata (Dez 2023)]]></summary></entry><entry><title type="html">Novo calendário - Proj. CODATA - Edital-02 (Dez 2023)</title><link href="https://ayty.org/blog/2023/edital_codata02_ERRATA/" rel="alternate" type="text/html" title="Novo calendário - Proj. CODATA - Edital-02 (Dez 2023)" /><published>2023-12-19T00:00:00+00:00</published><updated>2023-12-19T00:00:00+00:00</updated><id>https://ayty.org/blog/2023/edital_codata02_ERRATA</id><content type="html" xml:base="https://ayty.org/blog/2023/edital_codata02_ERRATA/"><![CDATA[<p>⚠️ <strong>ATENÇÃO:</strong> Devido a um problema de configuração das listas de informes tanto do curso de SI quanto de LCC, o email de divulgação deste edital, enviado pelo professor Tácito, não chegou aos alunos. Como estas listas são os principais meios de divulgação de vagas de bolsas, entre outras informações importantes, achamos justo reabrir a seleção e permitir que os estudantes se inscrevam em um novo calendário.</p>
 
 <p>O resultado publicado anteriormente está anulado.</p>
 
@@ -324,29 +345,4 @@
 
 <p>Alunos do 1o, 2o e 3o períodos foram desclassificados diretamente por conta do período em que estão atuando. O projeto exige 20 horas semanais e conhecimentos sobre banco de dados, Java e estruturas de dados. Continuem se inscrevendo nos próximos editais!</p>
 
-<p>Alunos que se formam agora também foram desclassificados diretamente.</p>]]></content><author><name></name></author><category term="edital" /><category term="esig" /><summary type="html"><![CDATA[Edital: 4o Edital - Proj. ESIG / Quark (Jun 2023)]]></summary></entry><entry><title type="html">Aberto edital de seleção de bolsistas para parceria ESIG, Quark e AYTY</title><link href="https://ayty.org/blog/2023/edital_esig-quark_jun_2023/" rel="alternate" type="text/html" title="Aberto edital de seleção de bolsistas para parceria ESIG, Quark e AYTY" /><published>2023-05-21T00:00:00+00:00</published><updated>2023-05-21T00:00:00+00:00</updated><id>https://ayty.org/blog/2023/edital_esig-quark_jun_2023</id><content type="html" xml:base="https://ayty.org/blog/2023/edital_esig-quark_jun_2023/"><![CDATA[<p>Edital: <a href="/editais/2023-05-21-esig-edital4/">4o Edital - Proj. ESIG / Quark (Jun 2023)</a></p>
-
-<p>O laboratório AYTY, do departamento de ciências exatas da UFPB, juntamente com as empresas ESIG e Quark, lançou um edital para a seleção de 4 bolsistas que participarão de um projeto conjunto. Os selecionados terão a oportunidade de aprimorar suas habilidades em um ambiente real de desenvolvimento de software, interagindo diretamente com profissionais das equipes das empresas.</p>
-
-<p>O projeto, que atua nas áreas de desenvolvimento de sistemas para saúde, educação, gestão administrativa e gerência de dívidas técnicas, é voltado para alunos dos cursos de Sistemas de Informação e Computação. Não há restrição de período para concorrer às vagas, porém o conhecimento de programação Java e banco de dados é desejável.</p>
-
-<p>Os bolsistas selecionados se comprometerão com uma carga horária semanal de 20 horas, de segunda a sexta-feira, durante o período das 8h até as 18h. Além de ganhar experiência prática, os participantes receberão uma bolsa no valor de R$ 800,00 mensais.</p>
-
-<p>O processo seletivo será dividido em três etapas: preenchimento de um formulário e triagem dos alunos, entrevistas e uma avaliação técnica de um projeto realizada pela equipe da empresa.</p>
-
-<p>O calendário do processo seletivo segue o seguinte cronograma:</p>
-
-<ul>
-  <li>Etapa 1: Inscrições - análise de currículo, até 26 de maio às 18h.</li>
-  <li>Divulgação do resultado da 1ª etapa, 29 de maio.</li>
-  <li>Etapa 2: Entrevistas, de 30 de maio a 2 de junho, das 14h às 18h.</li>
-  <li>Divulgação do resultado da 2ª etapa, 2 de junho.</li>
-  <li>Etapa 3: Avaliação técnica, de 3 a 9 de junho.</li>
-  <li>Divulgação do resultado final, 16 de junho.</li>
-</ul>
-
-<p>O início das atividades no projeto está previsto para 3 de julho. As inscrições podem ser feitas através do link disponível no edital.</p>
-
-<p>Para mais informações sobre o edital e inscrições, visite o site oficial do laboratório AYTY.</p>
-
-<p>(gerado pelo ChatGPT)</p>]]></content><author><name></name></author><category term="edital" /><category term="esig" /><summary type="html"><![CDATA[Edital: 4o Edital - Proj. ESIG / Quark (Jun 2023)]]></summary></entry></feed>
+<p>Alunos que se formam agora também foram desclassificados diretamente.</p>]]></content><author><name></name></author><category term="edital" /><category term="esig" /><summary type="html"><![CDATA[Edital: 4o Edital - Proj. ESIG / Quark (Jun 2023)]]></summary></entry></feed>
