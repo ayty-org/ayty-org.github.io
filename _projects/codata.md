@@ -16,6 +16,9 @@ Duração: 18 meses, de Julho de 2023 a Dezembro de 2024.
 
 Coordenador geral: [Prof. Rodrigo Rebouças](/equipe/rodrigor/)
 
+##### Fundação parceira:
+[![Fundação parceira](/assets/img/logos/logo-funetec.png#right)](https://www.funetec.com/)
+
 ## Melhoria de Processos
 
 **Professor responsável:** [Prof. Rodrigo Rebouças](/equipe/rodrigor/)
