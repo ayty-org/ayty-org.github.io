@@ -5,7 +5,7 @@ img: equipe/img/luana_xavier.jpg
 funcao: Bolsista Dev
 projeto: [esig,decoup]
 desde: 2021-09-01
-saiu: #data de fim
+saiu: 2023-02-30
 description: #
 home_page: # home page
 github: https://github.com/luanapontes
