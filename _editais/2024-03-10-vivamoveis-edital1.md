@@ -14,7 +14,7 @@ inline: false
 
 {% include figure.html path="assets/img/projetos/vivamoveis.png" class="project_image" %}
 
-Edital de seleção de 03 (vinte) bolsistas para projeto em parceria com a empresa Viva Móveis.
+Edital de seleção de 03 (três) bolsistas para projeto em parceria com a empresa Viva Móveis.
 
 🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨 
 
