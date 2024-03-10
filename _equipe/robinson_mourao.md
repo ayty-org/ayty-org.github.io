@@ -13,5 +13,5 @@ linkedin: https://www.linkedin.com/in/robinson-mour%C3%A3o-9585a3248/
 instagram: https://www.instagram.com/robinson_mds.java/
 twitter: #Twitter
 importance: 4
-category: Alunos #Professores, Colaboradores externos, Alunos, Ex-alunos
+category: Ex-alunos #Professores, Colaboradores externos, Alunos, Ex-alunos
 ---

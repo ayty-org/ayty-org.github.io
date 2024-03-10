@@ -13,5 +13,5 @@ linkedin: https://www.linkedin.com/in/joao-heitor-lopes/ #LinkedIn
 instagram: https://www.instagram.com/joao_heitor__/ #Instagram 
 twitter: #Twitter
 importance: 4
-category: Alunos #Professores, Colaboradores externos, Alunos, Ex-alunos
+category: Ex-alunos #Professores, Colaboradores externos, Alunos, Ex-alunos
 ---

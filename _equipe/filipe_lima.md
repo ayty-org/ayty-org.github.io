@@ -13,5 +13,5 @@ linkedin: https://www.linkedin.com/in/filipe-de-lima-vaz/?originalSubdomain=br
 instagram: https://www.instagram.com/filipevaz.png/
 twitter: #Twitter
 importance: 4
-category: Alunos #Professores, Colaboradores externos, Alunos, Ex-alunos
+category: Ex-alunos #Professores, Colaboradores externos, Alunos, Ex-alunos
 ---

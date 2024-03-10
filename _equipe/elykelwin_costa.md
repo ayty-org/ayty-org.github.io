@@ -13,5 +13,5 @@ linkedin: https://www.linkedin.com/in/elykelwin-alves-costa-b6414b188/
 instagram: https://www.instagram.com/elykelwin.costa
 twitter: 
 importance: 4
-category: Alunos #Professores, Colaboradores externos, Alunos, Ex-alunos
+category: Ex-alunos #Professores, Colaboradores externos, Alunos, Ex-alunos
 ---

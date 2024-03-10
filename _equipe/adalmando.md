@@ -13,5 +13,5 @@ linkedin: https://www.linkedin.com/in/adalmando/
 instagram: https://www.instagram.com/adalmando0/
 twitter: #Twitter
 importance: 4
-category: Alunos #Professores, Colaboradores externos, Alunos, Ex-alunos
+category: Ex-alunos #Professores, Colaboradores externos, Alunos, Ex-alunos
 ---

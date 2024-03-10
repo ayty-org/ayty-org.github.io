@@ -13,5 +13,5 @@ linkedin: https://www.linkedin.com/in/jo%C3%A3o-victor-lima-barros-1613b0242/
 instagram: # instagram
 twitter: # twitter
 importance: 4
-category: Alunos #Professores, Colaboradores externos, Alunos, Ex-alunos
+category: Ex-alunos #Professores, Colaboradores externos, Alunos, Ex-alunos
 ---

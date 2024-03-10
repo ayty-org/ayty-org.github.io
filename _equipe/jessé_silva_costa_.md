@@ -13,5 +13,5 @@ linkedin: https://bit.ly/30St0mV
 instagram: https://instagram.com/jesse_s.c?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D
 twitter: 
 importance: 4
-category: Alunos
+category: Ex-alunos
 ---

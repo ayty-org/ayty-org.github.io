@@ -13,5 +13,5 @@ linkedin: https://www.linkedin.com/in/daysiane-conrado-da-silva-069893273/
 instagram: https://www.instagram.com/daysiane_conrado/
 twitter: #Twitter
 importance: 4
-category: Alunos #Professores, Colaboradores externos, Alunos, Ex-alunos
+category: Ex-alunos #Professores, Colaboradores externos, Alunos, Ex-alunos
 ---

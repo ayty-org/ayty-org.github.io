@@ -13,5 +13,5 @@ linkedin: https://www.linkedin.com/in/jackson-anderson-041132188/
 instagram: https://www.instagram.com/jackson_anderson54/
 twitter: #Twitter
 importance: 4
-category: Alunos
+category: Ex-alunos
 ---

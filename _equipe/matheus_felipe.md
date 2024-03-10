@@ -13,5 +13,5 @@ linkedin: https://www.linkedin.com/in/matheus-felipe-bandeira-oliveira-30a6b8206
 instagram: https://www.instagram.com/felipe_2012matheus/
 twitter: #Twitter
 importance: 4
-category: Alunos #Professores, Colaboradores externos, Alunos, Ex-alunos
+category: Ex-alunos #Professores, Colaboradores externos, Alunos, Ex-alunos
 ---

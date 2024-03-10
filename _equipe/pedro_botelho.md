@@ -13,5 +13,5 @@ linkedin: https://www.linkedin.com/in/pedro-botelho-95629a187/
 instagram: https://www.instagram.com/pedroboleto
 twitter: #Twitter
 importance: 4
-category: Alunos #Professores, Colaboradores externos, Alunos, Ex-alunos
+category: Ex-alunos #Professores, Colaboradores externos, Alunos, Ex-alunos
 ---

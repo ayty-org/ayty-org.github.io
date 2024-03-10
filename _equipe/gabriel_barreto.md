@@ -13,5 +13,5 @@ linkedin: https://www.linkedin.com/in/gabriel-barreto-05071b225/
 instagram: https://instagram.com/gbrlbarreto/
 twitter: #Twitter
 importance: 4
-category: Alunos #Professores, Colaboradores externos, Alunos, Ex-alunos
+category: Ex-alunos #Professores, Colaboradores externos, Alunos, Ex-alunos
 ---

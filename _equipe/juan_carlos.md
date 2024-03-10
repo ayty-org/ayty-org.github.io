@@ -13,5 +13,5 @@ linkedin: https://www.linkedin.com/in/juan-carlos-pacifico-de-araujo-712a2121a/
 instagram: https://www.instagram.com/juan.arauujo/
 twitter: #Twitter
 importance: 4
-category: Alunos #Professores, Colaboradores externos, Alunos, Ex-alunos
+category: Ex-alunos #Professores, Colaboradores externos, Alunos, Ex-alunos
 ---

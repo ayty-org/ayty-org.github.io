@@ -13,5 +13,5 @@ linkedin: https://www.linkedin.com/in/lucas-pessoa-3b575a243/ #LinkedIn
 instagram:
 twitter: #Twitter
 importance: 4
-category: Alunos #Professores, Colaboradores externos, Alunos, Ex-alunos
+category: Ex-alunos #Professores, Colaboradores externos, Alunos, Ex-alunos
 ---
