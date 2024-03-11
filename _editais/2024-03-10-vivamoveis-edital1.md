@@ -51,7 +51,7 @@ Conheça mais sobre a Viva Móveis através do link: [VivaMoveis.com](https://vi
             comercial, entre 8 e 18h, entre segunda e sexta-feira. Quatro horas podem ser alocadas à noite e/ou fim de semana.
     -   💰 Valor da bolsa: R$ 1.000,00 (mil reais).
   - **Perfil 2: UX / UI**
-    - 🎯Preferência para alunos(as) do curso de **Design** do Campus IV da UFPB, no entando, alunos(as) dos cursos de **SI e LCC** também poderão participar desta seleção.
+    - 🎯Preferência para alunos(as) do curso de **Design** do Campus IV da UFPB, no entanto alunos(as) dos cursos de **SI e LCC** também poderão participar desta seleção.
 	- Quantidade de vagas: 01
     -   ⌛️Carga horária requerida: 20 horas semanais, de segunda a
         sexta-feira (o horário do projeto deve ser EXCLUSIVO, não deve
