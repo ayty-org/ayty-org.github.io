@@ -12,10 +12,11 @@ Edital: [1o Edital - Proj. Viva Móveis (Mar 2023)](/editais/2024-03-10-vivamove
 
 Selecionados para a etapa de entrevistas (2a etapa) no processo seletivo para projeto VivaMóveis. (Você receberá instruções para a entrevista por email.)
 
-(Em ordem alfabética)
+(Em ordem alfabética) (ERRATA)
 
 - Filipe de Lima Vaz Monteiro
 - Gustavo Theotonio Silva
+- Leandro de Oliveira Leite
 - Lucas Perônico Barbotin
 
 Não houve classificados para a área de UX / UI.
