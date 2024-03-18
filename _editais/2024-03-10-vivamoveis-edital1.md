@@ -193,4 +193,4 @@ Sim, você pode se inscrever. Daremos preferência para os alunos que se formar�
 
 **Só clique no link a seguir APÓS ler todo o edital ATENTAMENTE!**
 
-[Link para o Formulário de inscrição](https://docs.google.com/forms/d/e/1FAIpQLSds2bVrSNntQC7-u1b-u86s3ShsWlw1REw9EmAVi10Indu78A/viewform)
+(Inscrições encerradas)
