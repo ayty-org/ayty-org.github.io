@@ -131,11 +131,34 @@
     <div class="container mt-5">
       
         <!-- page.html -->
+<script>
+  function calcularDuracao(desde, encerramento) {
+    var inicio = new Date(desde);
+    var fim = encerramento ? new Date(encerramento) : new Date();
+    var diferencaEmMeses = (fim.getFullYear() - inicio.getFullYear()) * 12 + fim.getMonth() - inicio.getMonth();
+    var anos = Math.floor(diferencaEmMeses / 12);
+    var meses = diferencaEmMeses % 12;
+    return `${anos} ano(s) e ${meses} mes(es)`;
+  }
+  
+  document.addEventListener('DOMContentLoaded', function() {
+    var desde = '2022-05-01';
+    var encerramento = '';
+    var duracaoTexto = calcularDuracao(desde, encerramento);
+    document.getElementById('projetoDuracao').innerText = 'Duração do Projeto: ' + duracaoTexto;
+  });
+  </script>
         <div class="post">
 
           <header class="post-header">
             <h1 class="post-title">Projeto: Engenharia.Software Podcast</h1>
-            <p class="post-description">O ponto de encontro do profissional de Tecnologia</p>
+            <p class="post-description">O ponto de encontro do profissional de Tecnologia <br>
+              
+                Status: <strong>ATIVO</strong> -- Desde: 01/05/2022
+              
+              <br> </p>
+<div class="post-description" id="projetoDuracao"></div>
+            
           </header>
 
           <article>
@@ -155,7 +178,11 @@
 </figure>
 </div>
 
-            <p>(Descrição - Em breve)</p>
+            <p>Neste podcast entrevistamos profissionais que atuam nas diversas áreas da construção e manutenção de sistemas de software. Nosso objetivo é conhecer a trajetória profissional dos nossos convidados, entender sobre suas funções na empresa ou organização onde trabalham, aprender sobre quais são as tecnologias e processos envolvidos, que problemas existem na sua rotina, como é a equipe onde trabalha e, por fim, obter dicas de leituras e conteúdos diversos.</p>
+
+<p>Este podcast é um projeto de extensão vinculado ao laboratório de engenharia de software aplicada AYTY, do Departamento de Ciências Exatas (DCX) da Universidade Federal da Paraíba – Campus IV. Faz parte do projeto de extensão “Engenharia.Software”, coordenado pelo prof. Rodrigo, professor do DCX.</p>
+
+<p>Acesse o podcast em: <a href="https://engenharia.software" rel="external nofollow noopener" target="_blank">https://engenharia.software</a></p>
 
 
 
@@ -220,7 +247,22 @@
       </div>
     </a>
 </div>
-<!-- _includes/equipe.html -->
+              </div>
+</div>
+            
+            <!-- END EQUIPE -->
+
+
+
+
+
+  <h2>Ex-alunos</h2>
+  <div class="equipe">
+    <!-- Generate cards for each ex-student -->
+    
+      <div class="grid">
+        
+          <!-- _includes/equipe.html -->
 <div class="grid-sizer"></div>
 <div class="grid-item">
   <a href="/equipe/Daysiane/">
@@ -264,7 +306,8 @@
       </div>
     </a>
 </div>
-<!-- _includes/equipe.html -->
+        
+          <!-- _includes/equipe.html -->
 <div class="grid-sizer"></div>
 <div class="grid-item">
   <a href="/equipe/joao_barros/">
@@ -303,7 +346,8 @@
       </div>
     </a>
 </div>
-<!-- _includes/equipe.html -->
+        
+          <!-- _includes/equipe.html -->
 <div class="grid-sizer"></div>
 <div class="grid-item">
   <a href="/equipe/jonathan_neves/">
@@ -347,10 +391,12 @@
       </div>
     </a>
 </div>
-              </div>
-</div>
-            
-            <!-- END EQUIPE -->
+        
+      </div>
+    
+  </div>
+
+
 
           </article>
 
@@ -362,7 +408,7 @@
     <!-- Footer -->    <footer class="sticky-bottom mt-5">
       <div class="container">
         © Copyright 2024 AYTY  . Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>.
-Last updated: March 21, 2024.
+Last updated: March 26, 2024.
       </div>
     </footer>
 

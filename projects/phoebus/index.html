@@ -131,11 +131,34 @@
     <div class="container mt-5">
       
         <!-- page.html -->
+<script>
+  function calcularDuracao(desde, encerramento) {
+    var inicio = new Date(desde);
+    var fim = encerramento ? new Date(encerramento) : new Date();
+    var diferencaEmMeses = (fim.getFullYear() - inicio.getFullYear()) * 12 + fim.getMonth() - inicio.getMonth();
+    var anos = Math.floor(diferencaEmMeses / 12);
+    var meses = diferencaEmMeses % 12;
+    return `${anos} ano(s) e ${meses} mes(es)`;
+  }
+  
+  document.addEventListener('DOMContentLoaded', function() {
+    var desde = '2017-01-01';
+    var encerramento = '';
+    var duracaoTexto = calcularDuracao(desde, encerramento);
+    document.getElementById('projetoDuracao').innerText = 'Duração do Projeto: ' + duracaoTexto;
+  });
+  </script>
         <div class="post">
 
           <header class="post-header">
             <h1 class="post-title">Projeto: Phoebus Tecnologia</h1>
-            <p class="post-description">Projeto de colaboração com a empresa Phoebus Tecnologia</p>
+            <p class="post-description">Projeto de colaboração com a empresa Phoebus Tecnologia <br>
+              
+                Status: <strong>ATIVO</strong> -- Desde: 01/01/2017
+              
+              <br> </p>
+<div class="post-description" id="projetoDuracao"></div>
+            
           </header>
 
           <article>
@@ -312,50 +335,6 @@
 <!-- _includes/equipe.html -->
 <div class="grid-sizer"></div>
 <div class="grid-item">
-  <a href="/equipe/adalmando/">
-      <div class="card hoverable">
-<figure>
-
-  <!-- <picture> -->
-    
-
-    <!-- Fallback to the original file -->
-    
-    <img src="/equipe/img/adalmando.jpeg" class="card-img-top .img-fluid rounded-circle profile_pic" width="auto" height="auto" alt="member thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
-    
-
-  <!-- </picture> -->
-
-</figure>
-
-        <div class="card-body">
-          <h2 class="card-title">Adalmando da Silva Araújo</h2>
-          <p class="funcao text-lowercase">(bolsista dev)</p>
-          <div class="row ml-1 mr-1 p-0 justify-content-center">
-<div class="linkedin-icon">
-              <div class="equipe_icon" data-toggle="tooltip" title="LinkedIn">
-                <a href="https://www.linkedin.com/in/adalmando/" rel="external nofollow noopener" target="_blank"><i class="fab fa-linkedin gh-icon"></i></a>
-              </div>
-            </div>
-<div class="github_icon">
-              <div class="equipe_icon" data-toggle="tooltip" title="Code Repository">
-                <a href="https://github.com/adalmando" rel="external nofollow noopener" target="_blank"><i class="fab fa-github gh-icon"></i></a>
-              </div>
-            </div>
-<div class="instagram-icon">
-              <div class="equipe_icon" data-toggle="tooltip" title="Instagram">
-                <a href="https://www.instagram.com/adalmando0/" rel="external nofollow noopener" target="_blank"><i class="fab fa-instagram gh-icon"></i></a>
-              </div>
-            </div>
-
-          </div>
-        </div>
-      </div>
-    </a>
-</div>
-<!-- _includes/equipe.html -->
-<div class="grid-sizer"></div>
-<div class="grid-item">
   <a href="/equipe/adrian/">
       <div class="card hoverable">
 <figure>
@@ -444,99 +423,6 @@
 <!-- _includes/equipe.html -->
 <div class="grid-sizer"></div>
 <div class="grid-item">
-  <a href="/equipe/annielle/">
-      <div class="card hoverable">
-<figure>
-
-  <!-- <picture> -->
-    
-
-    <!-- Fallback to the original file -->
-    
-    <img src="/equipe/img/annielle.png" class="card-img-top .img-fluid rounded-circle profile_pic" width="auto" height="auto" alt="member thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
-    
-
-  <!-- </picture> -->
-
-</figure>
-
-        <div class="card-body">
-          <h2 class="card-title">Annielle Crispim</h2>
-          <p class="funcao text-lowercase">(Bolsista Analista de Testes)</p>
-          <div class="row ml-1 mr-1 p-0 justify-content-center">
-<div class="linkedin-icon">
-              <div class="equipe_icon" data-toggle="tooltip" title="LinkedIn">
-                <a href="https://www.linkedin.com/in/annielle-crispim/" rel="external nofollow noopener" target="_blank"><i class="fab fa-linkedin gh-icon"></i></a>
-              </div>
-            </div>
-<div class="github_icon">
-              <div class="equipe_icon" data-toggle="tooltip" title="Code Repository">
-                <a href="https://github.com/anniellecrispim" rel="external nofollow noopener" target="_blank"><i class="fab fa-github gh-icon"></i></a>
-              </div>
-            </div>
-
-          </div>
-        </div>
-      </div>
-    </a>
-</div>
-<!-- _includes/equipe.html -->
-<div class="grid-sizer"></div>
-<div class="grid-item">
-  <a href="/equipe/clebson/">
-      <div class="card hoverable">
-<figure>
-
-  <!-- <picture> -->
-    
-
-    <!-- Fallback to the original file -->
-    
-    <img src="/equipe/img/clebson.jpg" class="card-img-top .img-fluid rounded-circle profile_pic" width="auto" height="auto" alt="member thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
-    
-
-  <!-- </picture> -->
-
-</figure>
-
-        <div class="card-body">
-          <h2 class="card-title">Clebson Augusto Fonseca</h2>
-          <p class="funcao text-lowercase">(DevOps voluntario / Software Engineer Ex bolsista)</p>
-          <div class="row ml-1 mr-1 p-0 justify-content-center">
-<div class="home_page-icon">
-              <div class="equipe_icon" data-toggle="tooltip" title="Home Page">
-                <a href="https://whoisclebs.space" rel="external nofollow noopener" target="_blank"><i class="fa fa-home gh-icon"></i></a>
-              </div>
-            </div>
-<div class="linkedin-icon">
-              <div class="equipe_icon" data-toggle="tooltip" title="LinkedIn">
-                <a href="https://www.linkedin.com/in/whoisclebs" rel="external nofollow noopener" target="_blank"><i class="fab fa-linkedin gh-icon"></i></a>
-              </div>
-            </div>
-<div class="github_icon">
-              <div class="equipe_icon" data-toggle="tooltip" title="Code Repository">
-                <a href="https://github.com/whoisclebs" rel="external nofollow noopener" target="_blank"><i class="fab fa-github gh-icon"></i></a>
-              </div>
-            </div>
-<div class="instagram-icon">
-              <div class="equipe_icon" data-toggle="tooltip" title="Instagram">
-                <a href="https://www.instagram.com/whoisclebs" rel="external nofollow noopener" target="_blank"><i class="fab fa-instagram gh-icon"></i></a>
-              </div>
-            </div>
-<div class="twitter-icon">
-              <div class="equipe_icon" data-toggle="tooltip" title="Twitter">
-                <a href="https://twitter.com/whoisclebs" rel="external nofollow noopener" target="_blank"><i class="fab fa-twitter gh-icon"></i></a>
-              </div>
-            </div>
-
-          </div>
-        </div>
-      </div>
-    </a>
-</div>
-<!-- _includes/equipe.html -->
-<div class="grid-sizer"></div>
-<div class="grid-item">
   <a href="/equipe/elykelwin_costa/">
       <div class="card hoverable">
 <figure>
@@ -570,45 +456,6 @@
 <div class="instagram-icon">
               <div class="equipe_icon" data-toggle="tooltip" title="Instagram">
                 <a href="https://www.instagram.com/elykelwin.costa" rel="external nofollow noopener" target="_blank"><i class="fab fa-instagram gh-icon"></i></a>
-              </div>
-            </div>
-
-          </div>
-        </div>
-      </div>
-    </a>
-</div>
-<!-- _includes/equipe.html -->
-<div class="grid-sizer"></div>
-<div class="grid-item">
-  <a href="/equipe/emilayd/">
-      <div class="card hoverable">
-<figure>
-
-  <!-- <picture> -->
-    
-
-    <!-- Fallback to the original file -->
-    
-    <img src="/equipe/img/emilayd.jpeg" class="card-img-top .img-fluid rounded-circle profile_pic" width="auto" height="auto" alt="member thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
-    
-
-  <!-- </picture> -->
-
-</figure>
-
-        <div class="card-body">
-          <h2 class="card-title">Emilayd Sabrina</h2>
-          <p class="funcao text-lowercase">(Bolsista Analista de Testes)</p>
-          <div class="row ml-1 mr-1 p-0 justify-content-center">
-<div class="linkedin-icon">
-              <div class="equipe_icon" data-toggle="tooltip" title="LinkedIn">
-                <a href="https://www.linkedin.com/in/emilayd-sabrina-8b6882204/" rel="external nofollow noopener" target="_blank"><i class="fab fa-linkedin gh-icon"></i></a>
-              </div>
-            </div>
-<div class="github_icon">
-              <div class="equipe_icon" data-toggle="tooltip" title="Code Repository">
-                <a href="https://github.com/EmilaydSabrina" rel="external nofollow noopener" target="_blank"><i class="fab fa-github gh-icon"></i></a>
               </div>
             </div>
 
@@ -664,94 +511,6 @@
 <!-- _includes/equipe.html -->
 <div class="grid-sizer"></div>
 <div class="grid-item">
-  <a href="/equipe/filipe_lima/">
-      <div class="card hoverable">
-<figure>
-
-  <!-- <picture> -->
-    
-
-    <!-- Fallback to the original file -->
-    
-    <img src="/equipe/img/filipe_lima.jpg" class="card-img-top .img-fluid rounded-circle profile_pic" width="auto" height="auto" alt="member thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
-    
-
-  <!-- </picture> -->
-
-</figure>
-
-        <div class="card-body">
-          <h2 class="card-title">Filipe de Lima Vaz Monteiro</h2>
-          <p class="funcao text-lowercase">(bolsista dev)</p>
-          <div class="row ml-1 mr-1 p-0 justify-content-center">
-<div class="linkedin-icon">
-              <div class="equipe_icon" data-toggle="tooltip" title="LinkedIn">
-                <a href="https://www.linkedin.com/in/filipe-de-lima-vaz/?originalSubdomain=br" rel="external nofollow noopener" target="_blank"><i class="fab fa-linkedin gh-icon"></i></a>
-              </div>
-            </div>
-<div class="github_icon">
-              <div class="equipe_icon" data-toggle="tooltip" title="Code Repository">
-                <a href="https://github.com/filipelimavaz" rel="external nofollow noopener" target="_blank"><i class="fab fa-github gh-icon"></i></a>
-              </div>
-            </div>
-<div class="instagram-icon">
-              <div class="equipe_icon" data-toggle="tooltip" title="Instagram">
-                <a href="https://www.instagram.com/filipevaz.png/" rel="external nofollow noopener" target="_blank"><i class="fab fa-instagram gh-icon"></i></a>
-              </div>
-            </div>
-
-          </div>
-        </div>
-      </div>
-    </a>
-</div>
-<!-- _includes/equipe.html -->
-<div class="grid-sizer"></div>
-<div class="grid-item">
-  <a href="/equipe/francisco_assis/">
-      <div class="card hoverable">
-<figure>
-
-  <!-- <picture> -->
-    
-
-    <!-- Fallback to the original file -->
-    
-    <img src="/equipe/img/francisco_assis.jpg" class="card-img-top .img-fluid rounded-circle profile_pic" width="auto" height="auto" alt="member thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
-    
-
-  <!-- </picture> -->
-
-</figure>
-
-        <div class="card-body">
-          <h2 class="card-title">Francisco de Assis Braga Vieira Neto</h2>
-          <p class="funcao text-lowercase">(Bolsista dev)</p>
-          <div class="row ml-1 mr-1 p-0 justify-content-center">
-<div class="linkedin-icon">
-              <div class="equipe_icon" data-toggle="tooltip" title="LinkedIn">
-                <a href="https://www.linkedin.com/in/francisco-vieira-454a64143" rel="external nofollow noopener" target="_blank"><i class="fab fa-linkedin gh-icon"></i></a>
-              </div>
-            </div>
-<div class="github_icon">
-              <div class="equipe_icon" data-toggle="tooltip" title="Code Repository">
-                <a href="https://github.com/FranciscoVieiraN" rel="external nofollow noopener" target="_blank"><i class="fab fa-github gh-icon"></i></a>
-              </div>
-            </div>
-<div class="instagram-icon">
-              <div class="equipe_icon" data-toggle="tooltip" title="Instagram">
-                <a href="https://instagram.com/franciscovieira_n/" rel="external nofollow noopener" target="_blank"><i class="fab fa-instagram gh-icon"></i></a>
-              </div>
-            </div>
-
-          </div>
-        </div>
-      </div>
-    </a>
-</div>
-<!-- _includes/equipe.html -->
-<div class="grid-sizer"></div>
-<div class="grid-item">
   <a href="/equipe/israel_pontes/">
       <div class="card hoverable">
 <figure>
@@ -785,89 +544,6 @@
 <div class="instagram-icon">
               <div class="equipe_icon" data-toggle="tooltip" title="Instagram">
                 <a href="https://www.instagram.com/raelpnts/" rel="external nofollow noopener" target="_blank"><i class="fab fa-instagram gh-icon"></i></a>
-              </div>
-            </div>
-
-          </div>
-        </div>
-      </div>
-    </a>
-</div>
-<!-- _includes/equipe.html -->
-<div class="grid-sizer"></div>
-<div class="grid-item">
-  <a href="/equipe/jackson_anderson/">
-      <div class="card hoverable">
-<figure>
-
-  <!-- <picture> -->
-    
-
-    <!-- Fallback to the original file -->
-    
-    <img src="/equipe/img/jackson_anderson.jpeg" class="card-img-top .img-fluid rounded-circle profile_pic" width="auto" height="auto" alt="member thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
-    
-
-  <!-- </picture> -->
-
-</figure>
-
-        <div class="card-body">
-          <h2 class="card-title">Jackson Anderson Gomes dos Santos Silva</h2>
-          <p class="funcao text-lowercase">(Bolsista Dev)</p>
-          <div class="row ml-1 mr-1 p-0 justify-content-center">
-<div class="linkedin-icon">
-              <div class="equipe_icon" data-toggle="tooltip" title="LinkedIn">
-                <a href="https://www.linkedin.com/in/jackson-anderson-041132188/" rel="external nofollow noopener" target="_blank"><i class="fab fa-linkedin gh-icon"></i></a>
-              </div>
-            </div>
-<div class="instagram-icon">
-              <div class="equipe_icon" data-toggle="tooltip" title="Instagram">
-                <a href="https://www.instagram.com/jackson_anderson54/" rel="external nofollow noopener" target="_blank"><i class="fab fa-instagram gh-icon"></i></a>
-              </div>
-            </div>
-
-          </div>
-        </div>
-      </div>
-    </a>
-</div>
-<!-- _includes/equipe.html -->
-<div class="grid-sizer"></div>
-<div class="grid-item">
-  <a href="/equipe/joao_heitor/">
-      <div class="card hoverable">
-<figure>
-
-  <!-- <picture> -->
-    
-
-    <!-- Fallback to the original file -->
-    
-    <img src="/equipe/img/joao_heitor.png" class="card-img-top .img-fluid rounded-circle profile_pic" width="auto" height="auto" alt="member thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
-    
-
-  <!-- </picture> -->
-
-</figure>
-
-        <div class="card-body">
-          <h2 class="card-title">João Heitor Lopes da Silva</h2>
-          <p class="funcao text-lowercase">(Bolsista Dev)</p>
-          <div class="row ml-1 mr-1 p-0 justify-content-center">
-<div class="linkedin-icon">
-              <div class="equipe_icon" data-toggle="tooltip" title="LinkedIn">
-                <a href="https://www.linkedin.com/in/joao-heitor-lopes/" rel="external nofollow noopener" target="_blank"><i class="fab fa-linkedin gh-icon"></i></a>
-              </div>
-            </div>
-<div class="github_icon">
-              <div class="equipe_icon" data-toggle="tooltip" title="Code Repository">
-                <a href="https://github.com/Joao-Heitor" rel="external nofollow noopener" target="_blank"><i class="fab fa-github gh-icon"></i></a>
-              </div>
-            </div>
-<div class="instagram-icon">
-              <div class="equipe_icon" data-toggle="tooltip" title="Instagram">
-                <a href="https://www.instagram.com/joao_heitor__/" rel="external nofollow noopener" target="_blank"><i class="fab fa-instagram gh-icon"></i></a>
               </div>
             </div>
 
@@ -962,50 +638,6 @@
 <!-- _includes/equipe.html -->
 <div class="grid-sizer"></div>
 <div class="grid-item">
-  <a href="/equipe/juan_carlos/">
-      <div class="card hoverable">
-<figure>
-
-  <!-- <picture> -->
-    
-
-    <!-- Fallback to the original file -->
-    
-    <img src="/equipe/img/juan_carlos.jpg" class="card-img-top .img-fluid rounded-circle profile_pic" width="auto" height="auto" alt="member thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
-    
-
-  <!-- </picture> -->
-
-</figure>
-
-        <div class="card-body">
-          <h2 class="card-title">Juan Carlos Pacífico de Araújo</h2>
-          <p class="funcao text-lowercase">(Bolsista Tester)</p>
-          <div class="row ml-1 mr-1 p-0 justify-content-center">
-<div class="linkedin-icon">
-              <div class="equipe_icon" data-toggle="tooltip" title="LinkedIn">
-                <a href="https://www.linkedin.com/in/juan-carlos-pacifico-de-araujo-712a2121a/" rel="external nofollow noopener" target="_blank"><i class="fab fa-linkedin gh-icon"></i></a>
-              </div>
-            </div>
-<div class="github_icon">
-              <div class="equipe_icon" data-toggle="tooltip" title="Code Repository">
-                <a href="https://github.com/oJuanCarlos" rel="external nofollow noopener" target="_blank"><i class="fab fa-github gh-icon"></i></a>
-              </div>
-            </div>
-<div class="instagram-icon">
-              <div class="equipe_icon" data-toggle="tooltip" title="Instagram">
-                <a href="https://www.instagram.com/juan.arauujo/" rel="external nofollow noopener" target="_blank"><i class="fab fa-instagram gh-icon"></i></a>
-              </div>
-            </div>
-
-          </div>
-        </div>
-      </div>
-    </a>
-</div>
-<!-- _includes/equipe.html -->
-<div class="grid-sizer"></div>
-<div class="grid-item">
   <a href="/equipe/kleyton_madruga/">
       <div class="card hoverable">
 <figure>
@@ -1039,89 +671,6 @@
 <div class="instagram-icon">
               <div class="equipe_icon" data-toggle="tooltip" title="Instagram">
                 <a href="https://www.instagram.com/kleytonmadruga/" rel="external nofollow noopener" target="_blank"><i class="fab fa-instagram gh-icon"></i></a>
-              </div>
-            </div>
-
-          </div>
-        </div>
-      </div>
-    </a>
-</div>
-<!-- _includes/equipe.html -->
-<div class="grid-sizer"></div>
-<div class="grid-item">
-  <a href="/equipe/lucas_cardoso/">
-      <div class="card hoverable">
-<figure>
-
-  <!-- <picture> -->
-    
-
-    <!-- Fallback to the original file -->
-    
-    <img src="/equipe/img/lucas_cardoso.png" class="card-img-top .img-fluid rounded-circle profile_pic" width="auto" height="auto" alt="member thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
-    
-
-  <!-- </picture> -->
-
-</figure>
-
-        <div class="card-body">
-          <h2 class="card-title">Lucas Cardoso dos Santos</h2>
-          <p class="funcao text-lowercase">(Software Developer bolsista)</p>
-          <div class="row ml-1 mr-1 p-0 justify-content-center">
-<div class="linkedin-icon">
-              <div class="equipe_icon" data-toggle="tooltip" title="LinkedIn">
-                <a href="https://www.linkedin.com/in/lucas-cardoso-dos-santos-9017b4233/" rel="external nofollow noopener" target="_blank"><i class="fab fa-linkedin gh-icon"></i></a>
-              </div>
-            </div>
-<div class="github_icon">
-              <div class="equipe_icon" data-toggle="tooltip" title="Code Repository">
-                <a href="https://github.com/LucasCardosoDevPython" rel="external nofollow noopener" target="_blank"><i class="fab fa-github gh-icon"></i></a>
-              </div>
-            </div>
-
-          </div>
-        </div>
-      </div>
-    </a>
-</div>
-<!-- _includes/equipe.html -->
-<div class="grid-sizer"></div>
-<div class="grid-item">
-  <a href="/equipe/lucas_gomes/">
-      <div class="card hoverable">
-<figure>
-
-  <!-- <picture> -->
-    
-
-    <!-- Fallback to the original file -->
-    
-    <img src="/equipe/img/lucas_gomes.jpeg" class="card-img-top .img-fluid rounded-circle profile_pic" width="auto" height="auto" alt="member thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
-    
-
-  <!-- </picture> -->
-
-</figure>
-
-        <div class="card-body">
-          <h2 class="card-title">Lucas Gomes Melo Nascimento</h2>
-          <p class="funcao text-lowercase">(Bolsista dev)</p>
-          <div class="row ml-1 mr-1 p-0 justify-content-center">
-<div class="linkedin-icon">
-              <div class="equipe_icon" data-toggle="tooltip" title="LinkedIn">
-                <a href="https://www.linkedin.com/in/lucas-gomes-a640601a1/" rel="external nofollow noopener" target="_blank"><i class="fab fa-linkedin gh-icon"></i></a>
-              </div>
-            </div>
-<div class="github_icon">
-              <div class="equipe_icon" data-toggle="tooltip" title="Code Repository">
-                <a href="https://github.com/Luc4sGomes" rel="external nofollow noopener" target="_blank"><i class="fab fa-github gh-icon"></i></a>
-              </div>
-            </div>
-<div class="instagram-icon">
-              <div class="equipe_icon" data-toggle="tooltip" title="Instagram">
-                <a href="https://www.instagram.com/lucasgomelo" rel="external nofollow noopener" target="_blank"><i class="fab fa-instagram gh-icon"></i></a>
               </div>
             </div>
 
@@ -1172,45 +721,6 @@
 <!-- _includes/equipe.html -->
 <div class="grid-sizer"></div>
 <div class="grid-item">
-  <a href="/equipe/marta_gomes/">
-      <div class="card hoverable">
-<figure>
-
-  <!-- <picture> -->
-    
-
-    <!-- Fallback to the original file -->
-    
-    <img src="/equipe/img/martaG.jpg" class="card-img-top .img-fluid rounded-circle profile_pic" width="auto" height="auto" alt="member thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
-    
-
-  <!-- </picture> -->
-
-</figure>
-
-        <div class="card-body">
-          <h2 class="card-title">Marta Gomes</h2>
-          <p class="funcao text-lowercase">(Bolsista Analista de Testes)</p>
-          <div class="row ml-1 mr-1 p-0 justify-content-center">
-<div class="linkedin-icon">
-              <div class="equipe_icon" data-toggle="tooltip" title="LinkedIn">
-                <a href="https://www.linkedin.com/in/marta-regina-gomes-12a594187/" rel="external nofollow noopener" target="_blank"><i class="fab fa-linkedin gh-icon"></i></a>
-              </div>
-            </div>
-<div class="github_icon">
-              <div class="equipe_icon" data-toggle="tooltip" title="Code Repository">
-                <a href="https://github.com/martaago" rel="external nofollow noopener" target="_blank"><i class="fab fa-github gh-icon"></i></a>
-              </div>
-            </div>
-
-          </div>
-        </div>
-      </div>
-    </a>
-</div>
-<!-- _includes/equipe.html -->
-<div class="grid-sizer"></div>
-<div class="grid-item">
   <a href="/equipe/paulo_daniel/">
       <div class="card hoverable">
 <figure>
@@ -1239,50 +749,6 @@
 <div class="github_icon">
               <div class="equipe_icon" data-toggle="tooltip" title="Code Repository">
                 <a href="https://github.com/PauloD-Souza" rel="external nofollow noopener" target="_blank"><i class="fab fa-github gh-icon"></i></a>
-              </div>
-            </div>
-
-          </div>
-        </div>
-      </div>
-    </a>
-</div>
-<!-- _includes/equipe.html -->
-<div class="grid-sizer"></div>
-<div class="grid-item">
-  <a href="/equipe/pedro_botelho/">
-      <div class="card hoverable">
-<figure>
-
-  <!-- <picture> -->
-    
-
-    <!-- Fallback to the original file -->
-    
-    <img src="/equipe/img/pedro_botelho.png" class="card-img-top .img-fluid rounded-circle profile_pic" width="auto" height="auto" alt="member thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
-    
-
-  <!-- </picture> -->
-
-</figure>
-
-        <div class="card-body">
-          <h2 class="card-title">Pedro Henrique Botelho Teixeira</h2>
-          <p class="funcao text-lowercase">(Bolsista dev)</p>
-          <div class="row ml-1 mr-1 p-0 justify-content-center">
-<div class="linkedin-icon">
-              <div class="equipe_icon" data-toggle="tooltip" title="LinkedIn">
-                <a href="https://www.linkedin.com/in/pedro-botelho-95629a187/" rel="external nofollow noopener" target="_blank"><i class="fab fa-linkedin gh-icon"></i></a>
-              </div>
-            </div>
-<div class="github_icon">
-              <div class="equipe_icon" data-toggle="tooltip" title="Code Repository">
-                <a href="https://github.com/pedrobotelhot" rel="external nofollow noopener" target="_blank"><i class="fab fa-github gh-icon"></i></a>
-              </div>
-            </div>
-<div class="instagram-icon">
-              <div class="equipe_icon" data-toggle="tooltip" title="Instagram">
-                <a href="https://www.instagram.com/pedroboleto" rel="external nofollow noopener" target="_blank"><i class="fab fa-instagram gh-icon"></i></a>
               </div>
             </div>
 
@@ -1371,50 +837,6 @@
 <div class="github_icon">
               <div class="equipe_icon" data-toggle="tooltip" title="Code Repository">
                 <a href="https://github.com/robertarl" rel="external nofollow noopener" target="_blank"><i class="fab fa-github gh-icon"></i></a>
-              </div>
-            </div>
-
-          </div>
-        </div>
-      </div>
-    </a>
-</div>
-<!-- _includes/equipe.html -->
-<div class="grid-sizer"></div>
-<div class="grid-item">
-  <a href="/equipe/robinson_mourao/">
-      <div class="card hoverable">
-<figure>
-
-  <!-- <picture> -->
-    
-
-    <!-- Fallback to the original file -->
-    
-    <img src="/equipe/img/robinson_mourao.jpeg" class="card-img-top .img-fluid rounded-circle profile_pic" width="auto" height="auto" alt="member thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
-    
-
-  <!-- </picture> -->
-
-</figure>
-
-        <div class="card-body">
-          <h2 class="card-title">Robinson Mourão da Silva</h2>
-          <p class="funcao text-lowercase">(bolsista tester)</p>
-          <div class="row ml-1 mr-1 p-0 justify-content-center">
-<div class="linkedin-icon">
-              <div class="equipe_icon" data-toggle="tooltip" title="LinkedIn">
-                <a href="https://www.linkedin.com/in/robinson-mour%C3%A3o-9585a3248/" rel="external nofollow noopener" target="_blank"><i class="fab fa-linkedin gh-icon"></i></a>
-              </div>
-            </div>
-<div class="github_icon">
-              <div class="equipe_icon" data-toggle="tooltip" title="Code Repository">
-                <a href="https://github.com/robinsonmourao" rel="external nofollow noopener" target="_blank"><i class="fab fa-github gh-icon"></i></a>
-              </div>
-            </div>
-<div class="instagram-icon">
-              <div class="equipe_icon" data-toggle="tooltip" title="Instagram">
-                <a href="https://www.instagram.com/robinson_mds.java/" rel="external nofollow noopener" target="_blank"><i class="fab fa-instagram gh-icon"></i></a>
               </div>
             </div>
 
@@ -1643,6 +1065,637 @@
             
             <!-- END EQUIPE -->
 
+
+
+
+
+  <h2>Ex-alunos</h2>
+  <div class="equipe">
+    <!-- Generate cards for each ex-student -->
+    
+      <div class="grid">
+        
+          <!-- _includes/equipe.html -->
+<div class="grid-sizer"></div>
+<div class="grid-item">
+  <a href="/equipe/adalmando/">
+      <div class="card hoverable">
+<figure>
+
+  <!-- <picture> -->
+    
+
+    <!-- Fallback to the original file -->
+    
+    <img src="/equipe/img/adalmando.jpeg" class="card-img-top .img-fluid rounded-circle profile_pic" width="auto" height="auto" alt="member thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+    
+
+  <!-- </picture> -->
+
+</figure>
+
+        <div class="card-body">
+          <h2 class="card-title">Adalmando da Silva Araújo</h2>
+          <p class="funcao text-lowercase">(bolsista dev)</p>
+          <div class="row ml-1 mr-1 p-0 justify-content-center">
+<div class="linkedin-icon">
+              <div class="equipe_icon" data-toggle="tooltip" title="LinkedIn">
+                <a href="https://www.linkedin.com/in/adalmando/" rel="external nofollow noopener" target="_blank"><i class="fab fa-linkedin gh-icon"></i></a>
+              </div>
+            </div>
+<div class="github_icon">
+              <div class="equipe_icon" data-toggle="tooltip" title="Code Repository">
+                <a href="https://github.com/adalmando" rel="external nofollow noopener" target="_blank"><i class="fab fa-github gh-icon"></i></a>
+              </div>
+            </div>
+<div class="instagram-icon">
+              <div class="equipe_icon" data-toggle="tooltip" title="Instagram">
+                <a href="https://www.instagram.com/adalmando0/" rel="external nofollow noopener" target="_blank"><i class="fab fa-instagram gh-icon"></i></a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </a>
+</div>
+        
+          <!-- _includes/equipe.html -->
+<div class="grid-sizer"></div>
+<div class="grid-item">
+  <a href="/equipe/annielle/">
+      <div class="card hoverable">
+<figure>
+
+  <!-- <picture> -->
+    
+
+    <!-- Fallback to the original file -->
+    
+    <img src="/equipe/img/annielle.png" class="card-img-top .img-fluid rounded-circle profile_pic" width="auto" height="auto" alt="member thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+    
+
+  <!-- </picture> -->
+
+</figure>
+
+        <div class="card-body">
+          <h2 class="card-title">Annielle Crispim</h2>
+          <p class="funcao text-lowercase">(Bolsista Analista de Testes)</p>
+          <div class="row ml-1 mr-1 p-0 justify-content-center">
+<div class="linkedin-icon">
+              <div class="equipe_icon" data-toggle="tooltip" title="LinkedIn">
+                <a href="https://www.linkedin.com/in/annielle-crispim/" rel="external nofollow noopener" target="_blank"><i class="fab fa-linkedin gh-icon"></i></a>
+              </div>
+            </div>
+<div class="github_icon">
+              <div class="equipe_icon" data-toggle="tooltip" title="Code Repository">
+                <a href="https://github.com/anniellecrispim" rel="external nofollow noopener" target="_blank"><i class="fab fa-github gh-icon"></i></a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </a>
+</div>
+        
+          <!-- _includes/equipe.html -->
+<div class="grid-sizer"></div>
+<div class="grid-item">
+  <a href="/equipe/clebson/">
+      <div class="card hoverable">
+<figure>
+
+  <!-- <picture> -->
+    
+
+    <!-- Fallback to the original file -->
+    
+    <img src="/equipe/img/clebson.jpg" class="card-img-top .img-fluid rounded-circle profile_pic" width="auto" height="auto" alt="member thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+    
+
+  <!-- </picture> -->
+
+</figure>
+
+        <div class="card-body">
+          <h2 class="card-title">Clebson Augusto Fonseca</h2>
+          <p class="funcao text-lowercase">(DevOps voluntario / Software Engineer Ex bolsista)</p>
+          <div class="row ml-1 mr-1 p-0 justify-content-center">
+<div class="home_page-icon">
+              <div class="equipe_icon" data-toggle="tooltip" title="Home Page">
+                <a href="https://whoisclebs.space" rel="external nofollow noopener" target="_blank"><i class="fa fa-home gh-icon"></i></a>
+              </div>
+            </div>
+<div class="linkedin-icon">
+              <div class="equipe_icon" data-toggle="tooltip" title="LinkedIn">
+                <a href="https://www.linkedin.com/in/whoisclebs" rel="external nofollow noopener" target="_blank"><i class="fab fa-linkedin gh-icon"></i></a>
+              </div>
+            </div>
+<div class="github_icon">
+              <div class="equipe_icon" data-toggle="tooltip" title="Code Repository">
+                <a href="https://github.com/whoisclebs" rel="external nofollow noopener" target="_blank"><i class="fab fa-github gh-icon"></i></a>
+              </div>
+            </div>
+<div class="instagram-icon">
+              <div class="equipe_icon" data-toggle="tooltip" title="Instagram">
+                <a href="https://www.instagram.com/whoisclebs" rel="external nofollow noopener" target="_blank"><i class="fab fa-instagram gh-icon"></i></a>
+              </div>
+            </div>
+<div class="twitter-icon">
+              <div class="equipe_icon" data-toggle="tooltip" title="Twitter">
+                <a href="https://twitter.com/whoisclebs" rel="external nofollow noopener" target="_blank"><i class="fab fa-twitter gh-icon"></i></a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </a>
+</div>
+        
+          <!-- _includes/equipe.html -->
+<div class="grid-sizer"></div>
+<div class="grid-item">
+  <a href="/equipe/emilayd/">
+      <div class="card hoverable">
+<figure>
+
+  <!-- <picture> -->
+    
+
+    <!-- Fallback to the original file -->
+    
+    <img src="/equipe/img/emilayd.jpeg" class="card-img-top .img-fluid rounded-circle profile_pic" width="auto" height="auto" alt="member thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+    
+
+  <!-- </picture> -->
+
+</figure>
+
+        <div class="card-body">
+          <h2 class="card-title">Emilayd Sabrina</h2>
+          <p class="funcao text-lowercase">(Bolsista Analista de Testes)</p>
+          <div class="row ml-1 mr-1 p-0 justify-content-center">
+<div class="linkedin-icon">
+              <div class="equipe_icon" data-toggle="tooltip" title="LinkedIn">
+                <a href="https://www.linkedin.com/in/emilayd-sabrina-8b6882204/" rel="external nofollow noopener" target="_blank"><i class="fab fa-linkedin gh-icon"></i></a>
+              </div>
+            </div>
+<div class="github_icon">
+              <div class="equipe_icon" data-toggle="tooltip" title="Code Repository">
+                <a href="https://github.com/EmilaydSabrina" rel="external nofollow noopener" target="_blank"><i class="fab fa-github gh-icon"></i></a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </a>
+</div>
+        
+          <!-- _includes/equipe.html -->
+<div class="grid-sizer"></div>
+<div class="grid-item">
+  <a href="/equipe/filipe_lima/">
+      <div class="card hoverable">
+<figure>
+
+  <!-- <picture> -->
+    
+
+    <!-- Fallback to the original file -->
+    
+    <img src="/equipe/img/filipe_lima.jpg" class="card-img-top .img-fluid rounded-circle profile_pic" width="auto" height="auto" alt="member thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+    
+
+  <!-- </picture> -->
+
+</figure>
+
+        <div class="card-body">
+          <h2 class="card-title">Filipe de Lima Vaz Monteiro</h2>
+          <p class="funcao text-lowercase">(bolsista dev)</p>
+          <div class="row ml-1 mr-1 p-0 justify-content-center">
+<div class="linkedin-icon">
+              <div class="equipe_icon" data-toggle="tooltip" title="LinkedIn">
+                <a href="https://www.linkedin.com/in/filipe-de-lima-vaz/?originalSubdomain=br" rel="external nofollow noopener" target="_blank"><i class="fab fa-linkedin gh-icon"></i></a>
+              </div>
+            </div>
+<div class="github_icon">
+              <div class="equipe_icon" data-toggle="tooltip" title="Code Repository">
+                <a href="https://github.com/filipelimavaz" rel="external nofollow noopener" target="_blank"><i class="fab fa-github gh-icon"></i></a>
+              </div>
+            </div>
+<div class="instagram-icon">
+              <div class="equipe_icon" data-toggle="tooltip" title="Instagram">
+                <a href="https://www.instagram.com/filipevaz.png/" rel="external nofollow noopener" target="_blank"><i class="fab fa-instagram gh-icon"></i></a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </a>
+</div>
+        
+          <!-- _includes/equipe.html -->
+<div class="grid-sizer"></div>
+<div class="grid-item">
+  <a href="/equipe/francisco_assis/">
+      <div class="card hoverable">
+<figure>
+
+  <!-- <picture> -->
+    
+
+    <!-- Fallback to the original file -->
+    
+    <img src="/equipe/img/francisco_assis.jpg" class="card-img-top .img-fluid rounded-circle profile_pic" width="auto" height="auto" alt="member thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+    
+
+  <!-- </picture> -->
+
+</figure>
+
+        <div class="card-body">
+          <h2 class="card-title">Francisco de Assis Braga Vieira Neto</h2>
+          <p class="funcao text-lowercase">(Bolsista dev)</p>
+          <div class="row ml-1 mr-1 p-0 justify-content-center">
+<div class="linkedin-icon">
+              <div class="equipe_icon" data-toggle="tooltip" title="LinkedIn">
+                <a href="https://www.linkedin.com/in/francisco-vieira-454a64143" rel="external nofollow noopener" target="_blank"><i class="fab fa-linkedin gh-icon"></i></a>
+              </div>
+            </div>
+<div class="github_icon">
+              <div class="equipe_icon" data-toggle="tooltip" title="Code Repository">
+                <a href="https://github.com/FranciscoVieiraN" rel="external nofollow noopener" target="_blank"><i class="fab fa-github gh-icon"></i></a>
+              </div>
+            </div>
+<div class="instagram-icon">
+              <div class="equipe_icon" data-toggle="tooltip" title="Instagram">
+                <a href="https://instagram.com/franciscovieira_n/" rel="external nofollow noopener" target="_blank"><i class="fab fa-instagram gh-icon"></i></a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </a>
+</div>
+        
+          <!-- _includes/equipe.html -->
+<div class="grid-sizer"></div>
+<div class="grid-item">
+  <a href="/equipe/jackson_anderson/">
+      <div class="card hoverable">
+<figure>
+
+  <!-- <picture> -->
+    
+
+    <!-- Fallback to the original file -->
+    
+    <img src="/equipe/img/jackson_anderson.jpeg" class="card-img-top .img-fluid rounded-circle profile_pic" width="auto" height="auto" alt="member thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+    
+
+  <!-- </picture> -->
+
+</figure>
+
+        <div class="card-body">
+          <h2 class="card-title">Jackson Anderson Gomes dos Santos Silva</h2>
+          <p class="funcao text-lowercase">(Bolsista Dev)</p>
+          <div class="row ml-1 mr-1 p-0 justify-content-center">
+<div class="linkedin-icon">
+              <div class="equipe_icon" data-toggle="tooltip" title="LinkedIn">
+                <a href="https://www.linkedin.com/in/jackson-anderson-041132188/" rel="external nofollow noopener" target="_blank"><i class="fab fa-linkedin gh-icon"></i></a>
+              </div>
+            </div>
+<div class="instagram-icon">
+              <div class="equipe_icon" data-toggle="tooltip" title="Instagram">
+                <a href="https://www.instagram.com/jackson_anderson54/" rel="external nofollow noopener" target="_blank"><i class="fab fa-instagram gh-icon"></i></a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </a>
+</div>
+        
+          <!-- _includes/equipe.html -->
+<div class="grid-sizer"></div>
+<div class="grid-item">
+  <a href="/equipe/joao_heitor/">
+      <div class="card hoverable">
+<figure>
+
+  <!-- <picture> -->
+    
+
+    <!-- Fallback to the original file -->
+    
+    <img src="/equipe/img/joao_heitor.png" class="card-img-top .img-fluid rounded-circle profile_pic" width="auto" height="auto" alt="member thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+    
+
+  <!-- </picture> -->
+
+</figure>
+
+        <div class="card-body">
+          <h2 class="card-title">João Heitor Lopes da Silva</h2>
+          <p class="funcao text-lowercase">(Bolsista Dev)</p>
+          <div class="row ml-1 mr-1 p-0 justify-content-center">
+<div class="linkedin-icon">
+              <div class="equipe_icon" data-toggle="tooltip" title="LinkedIn">
+                <a href="https://www.linkedin.com/in/joao-heitor-lopes/" rel="external nofollow noopener" target="_blank"><i class="fab fa-linkedin gh-icon"></i></a>
+              </div>
+            </div>
+<div class="github_icon">
+              <div class="equipe_icon" data-toggle="tooltip" title="Code Repository">
+                <a href="https://github.com/Joao-Heitor" rel="external nofollow noopener" target="_blank"><i class="fab fa-github gh-icon"></i></a>
+              </div>
+            </div>
+<div class="instagram-icon">
+              <div class="equipe_icon" data-toggle="tooltip" title="Instagram">
+                <a href="https://www.instagram.com/joao_heitor__/" rel="external nofollow noopener" target="_blank"><i class="fab fa-instagram gh-icon"></i></a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </a>
+</div>
+        
+          <!-- _includes/equipe.html -->
+<div class="grid-sizer"></div>
+<div class="grid-item">
+  <a href="/equipe/juan_carlos/">
+      <div class="card hoverable">
+<figure>
+
+  <!-- <picture> -->
+    
+
+    <!-- Fallback to the original file -->
+    
+    <img src="/equipe/img/juan_carlos.jpg" class="card-img-top .img-fluid rounded-circle profile_pic" width="auto" height="auto" alt="member thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+    
+
+  <!-- </picture> -->
+
+</figure>
+
+        <div class="card-body">
+          <h2 class="card-title">Juan Carlos Pacífico de Araújo</h2>
+          <p class="funcao text-lowercase">(Bolsista Tester)</p>
+          <div class="row ml-1 mr-1 p-0 justify-content-center">
+<div class="linkedin-icon">
+              <div class="equipe_icon" data-toggle="tooltip" title="LinkedIn">
+                <a href="https://www.linkedin.com/in/juan-carlos-pacifico-de-araujo-712a2121a/" rel="external nofollow noopener" target="_blank"><i class="fab fa-linkedin gh-icon"></i></a>
+              </div>
+            </div>
+<div class="github_icon">
+              <div class="equipe_icon" data-toggle="tooltip" title="Code Repository">
+                <a href="https://github.com/oJuanCarlos" rel="external nofollow noopener" target="_blank"><i class="fab fa-github gh-icon"></i></a>
+              </div>
+            </div>
+<div class="instagram-icon">
+              <div class="equipe_icon" data-toggle="tooltip" title="Instagram">
+                <a href="https://www.instagram.com/juan.arauujo/" rel="external nofollow noopener" target="_blank"><i class="fab fa-instagram gh-icon"></i></a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </a>
+</div>
+        
+          <!-- _includes/equipe.html -->
+<div class="grid-sizer"></div>
+<div class="grid-item">
+  <a href="/equipe/lucas_cardoso/">
+      <div class="card hoverable">
+<figure>
+
+  <!-- <picture> -->
+    
+
+    <!-- Fallback to the original file -->
+    
+    <img src="/equipe/img/lucas_cardoso.png" class="card-img-top .img-fluid rounded-circle profile_pic" width="auto" height="auto" alt="member thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+    
+
+  <!-- </picture> -->
+
+</figure>
+
+        <div class="card-body">
+          <h2 class="card-title">Lucas Cardoso dos Santos</h2>
+          <p class="funcao text-lowercase">(Software Developer bolsista)</p>
+          <div class="row ml-1 mr-1 p-0 justify-content-center">
+<div class="linkedin-icon">
+              <div class="equipe_icon" data-toggle="tooltip" title="LinkedIn">
+                <a href="https://www.linkedin.com/in/lucas-cardoso-dos-santos-9017b4233/" rel="external nofollow noopener" target="_blank"><i class="fab fa-linkedin gh-icon"></i></a>
+              </div>
+            </div>
+<div class="github_icon">
+              <div class="equipe_icon" data-toggle="tooltip" title="Code Repository">
+                <a href="https://github.com/LucasCardosoDevPython" rel="external nofollow noopener" target="_blank"><i class="fab fa-github gh-icon"></i></a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </a>
+</div>
+        
+          <!-- _includes/equipe.html -->
+<div class="grid-sizer"></div>
+<div class="grid-item">
+  <a href="/equipe/lucas_gomes/">
+      <div class="card hoverable">
+<figure>
+
+  <!-- <picture> -->
+    
+
+    <!-- Fallback to the original file -->
+    
+    <img src="/equipe/img/lucas_gomes.jpeg" class="card-img-top .img-fluid rounded-circle profile_pic" width="auto" height="auto" alt="member thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+    
+
+  <!-- </picture> -->
+
+</figure>
+
+        <div class="card-body">
+          <h2 class="card-title">Lucas Gomes Melo Nascimento</h2>
+          <p class="funcao text-lowercase">(Bolsista dev)</p>
+          <div class="row ml-1 mr-1 p-0 justify-content-center">
+<div class="linkedin-icon">
+              <div class="equipe_icon" data-toggle="tooltip" title="LinkedIn">
+                <a href="https://www.linkedin.com/in/lucas-gomes-a640601a1/" rel="external nofollow noopener" target="_blank"><i class="fab fa-linkedin gh-icon"></i></a>
+              </div>
+            </div>
+<div class="github_icon">
+              <div class="equipe_icon" data-toggle="tooltip" title="Code Repository">
+                <a href="https://github.com/Luc4sGomes" rel="external nofollow noopener" target="_blank"><i class="fab fa-github gh-icon"></i></a>
+              </div>
+            </div>
+<div class="instagram-icon">
+              <div class="equipe_icon" data-toggle="tooltip" title="Instagram">
+                <a href="https://www.instagram.com/lucasgomelo" rel="external nofollow noopener" target="_blank"><i class="fab fa-instagram gh-icon"></i></a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </a>
+</div>
+        
+          <!-- _includes/equipe.html -->
+<div class="grid-sizer"></div>
+<div class="grid-item">
+  <a href="/equipe/marta_gomes/">
+      <div class="card hoverable">
+<figure>
+
+  <!-- <picture> -->
+    
+
+    <!-- Fallback to the original file -->
+    
+    <img src="/equipe/img/martaG.jpg" class="card-img-top .img-fluid rounded-circle profile_pic" width="auto" height="auto" alt="member thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+    
+
+  <!-- </picture> -->
+
+</figure>
+
+        <div class="card-body">
+          <h2 class="card-title">Marta Gomes</h2>
+          <p class="funcao text-lowercase">(Bolsista Analista de Testes)</p>
+          <div class="row ml-1 mr-1 p-0 justify-content-center">
+<div class="linkedin-icon">
+              <div class="equipe_icon" data-toggle="tooltip" title="LinkedIn">
+                <a href="https://www.linkedin.com/in/marta-regina-gomes-12a594187/" rel="external nofollow noopener" target="_blank"><i class="fab fa-linkedin gh-icon"></i></a>
+              </div>
+            </div>
+<div class="github_icon">
+              <div class="equipe_icon" data-toggle="tooltip" title="Code Repository">
+                <a href="https://github.com/martaago" rel="external nofollow noopener" target="_blank"><i class="fab fa-github gh-icon"></i></a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </a>
+</div>
+        
+          <!-- _includes/equipe.html -->
+<div class="grid-sizer"></div>
+<div class="grid-item">
+  <a href="/equipe/pedro_botelho/">
+      <div class="card hoverable">
+<figure>
+
+  <!-- <picture> -->
+    
+
+    <!-- Fallback to the original file -->
+    
+    <img src="/equipe/img/pedro_botelho.png" class="card-img-top .img-fluid rounded-circle profile_pic" width="auto" height="auto" alt="member thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+    
+
+  <!-- </picture> -->
+
+</figure>
+
+        <div class="card-body">
+          <h2 class="card-title">Pedro Henrique Botelho Teixeira</h2>
+          <p class="funcao text-lowercase">(Bolsista dev)</p>
+          <div class="row ml-1 mr-1 p-0 justify-content-center">
+<div class="linkedin-icon">
+              <div class="equipe_icon" data-toggle="tooltip" title="LinkedIn">
+                <a href="https://www.linkedin.com/in/pedro-botelho-95629a187/" rel="external nofollow noopener" target="_blank"><i class="fab fa-linkedin gh-icon"></i></a>
+              </div>
+            </div>
+<div class="github_icon">
+              <div class="equipe_icon" data-toggle="tooltip" title="Code Repository">
+                <a href="https://github.com/pedrobotelhot" rel="external nofollow noopener" target="_blank"><i class="fab fa-github gh-icon"></i></a>
+              </div>
+            </div>
+<div class="instagram-icon">
+              <div class="equipe_icon" data-toggle="tooltip" title="Instagram">
+                <a href="https://www.instagram.com/pedroboleto" rel="external nofollow noopener" target="_blank"><i class="fab fa-instagram gh-icon"></i></a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </a>
+</div>
+        
+          <!-- _includes/equipe.html -->
+<div class="grid-sizer"></div>
+<div class="grid-item">
+  <a href="/equipe/robinson_mourao/">
+      <div class="card hoverable">
+<figure>
+
+  <!-- <picture> -->
+    
+
+    <!-- Fallback to the original file -->
+    
+    <img src="/equipe/img/robinson_mourao.jpeg" class="card-img-top .img-fluid rounded-circle profile_pic" width="auto" height="auto" alt="member thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+    
+
+  <!-- </picture> -->
+
+</figure>
+
+        <div class="card-body">
+          <h2 class="card-title">Robinson Mourão da Silva</h2>
+          <p class="funcao text-lowercase">(bolsista tester)</p>
+          <div class="row ml-1 mr-1 p-0 justify-content-center">
+<div class="linkedin-icon">
+              <div class="equipe_icon" data-toggle="tooltip" title="LinkedIn">
+                <a href="https://www.linkedin.com/in/robinson-mour%C3%A3o-9585a3248/" rel="external nofollow noopener" target="_blank"><i class="fab fa-linkedin gh-icon"></i></a>
+              </div>
+            </div>
+<div class="github_icon">
+              <div class="equipe_icon" data-toggle="tooltip" title="Code Repository">
+                <a href="https://github.com/robinsonmourao" rel="external nofollow noopener" target="_blank"><i class="fab fa-github gh-icon"></i></a>
+              </div>
+            </div>
+<div class="instagram-icon">
+              <div class="equipe_icon" data-toggle="tooltip" title="Instagram">
+                <a href="https://www.instagram.com/robinson_mds.java/" rel="external nofollow noopener" target="_blank"><i class="fab fa-instagram gh-icon"></i></a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </a>
+</div>
+        
+      </div>
+    
+  </div>
+
+
+
           </article>
 
         </div>
@@ -1653,7 +1706,7 @@
     <!-- Footer -->    <footer class="sticky-bottom mt-5">
       <div class="container">
         © Copyright 2024 AYTY  . Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>.
-Last updated: March 21, 2024.
+Last updated: March 26, 2024.
       </div>
     </footer>
 

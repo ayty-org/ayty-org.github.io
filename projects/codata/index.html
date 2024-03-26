@@ -131,11 +131,34 @@
     <div class="container mt-5">
       
         <!-- page.html -->
+<script>
+  function calcularDuracao(desde, encerramento) {
+    var inicio = new Date(desde);
+    var fim = encerramento ? new Date(encerramento) : new Date();
+    var diferencaEmMeses = (fim.getFullYear() - inicio.getFullYear()) * 12 + fim.getMonth() - inicio.getMonth();
+    var anos = Math.floor(diferencaEmMeses / 12);
+    var meses = diferencaEmMeses % 12;
+    return `${anos} ano(s) e ${meses} mes(es)`;
+  }
+  
+  document.addEventListener('DOMContentLoaded', function() {
+    var desde = '2023-07-01';
+    var encerramento = '';
+    var duracaoTexto = calcularDuracao(desde, encerramento);
+    document.getElementById('projetoDuracao').innerText = 'Duração do Projeto: ' + duracaoTexto;
+  });
+  </script>
         <div class="post">
 
           <header class="post-header">
             <h1 class="post-title">Projeto: Codata</h1>
-            <p class="post-description">Projeto em colaboração com a empresa Codata</p>
+            <p class="post-description">Projeto em colaboração com a empresa Codata <br>
+              
+                Status: <strong>ATIVO</strong> -- Desde: 01/07/2023
+              
+              <br> </p>
+<div class="post-description" id="projetoDuracao"></div>
+            
           </header>
 
           <article>
@@ -720,45 +743,6 @@
 <!-- _includes/equipe.html -->
 <div class="grid-sizer"></div>
 <div class="grid-item">
-  <a href="/equipe/gabriel_de_jesus_fran%C3%A7a_dos_santos_/">
-      <div class="card hoverable">
-<figure>
-
-  <!-- <picture> -->
-    
-
-    <!-- Fallback to the original file -->
-    
-    <img src="/equipe/img/gabriel_de_Jesus_Franca_dos_Santos.jpg" class="card-img-top .img-fluid rounded-circle profile_pic" width="auto" height="auto" alt="member thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
-    
-
-  <!-- </picture> -->
-
-</figure>
-
-        <div class="card-body">
-          <h2 class="card-title">Gabriel de Jesus França dos Santos</h2>
-          <p class="funcao text-lowercase">(bolsista dev)</p>
-          <div class="row ml-1 mr-1 p-0 justify-content-center">
-<div class="linkedin-icon">
-              <div class="equipe_icon" data-toggle="tooltip" title="LinkedIn">
-                <a href="https://www.linkedin.com/in/gabriel-j-fran%C3%A7a/" rel="external nofollow noopener" target="_blank"><i class="fab fa-linkedin gh-icon"></i></a>
-              </div>
-            </div>
-<div class="github_icon">
-              <div class="equipe_icon" data-toggle="tooltip" title="Code Repository">
-                <a href="https://github.com/Gabriel-J-code" rel="external nofollow noopener" target="_blank"><i class="fab fa-github gh-icon"></i></a>
-              </div>
-            </div>
-
-          </div>
-        </div>
-      </div>
-    </a>
-</div>
-<!-- _includes/equipe.html -->
-<div class="grid-sizer"></div>
-<div class="grid-item">
   <a href="/equipe/guilherme_c%C3%A9sar_alves_de_andrade_/">
       <div class="card hoverable">
 <figure>
@@ -842,7 +826,7 @@
 <!-- _includes/equipe.html -->
 <div class="grid-sizer"></div>
 <div class="grid-item">
-  <a href="/equipe/jess%C3%A9_silva_costa_/">
+  <a href="/equipe/jonathan_neves/">
       <div class="card hoverable">
 <figure>
 
@@ -851,7 +835,7 @@
 
     <!-- Fallback to the original file -->
     
-    <img src="/equipe/img/jess%C3%A9_Silva_Costa.jpg" class="card-img-top .img-fluid rounded-circle profile_pic" width="auto" height="auto" alt="member thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+    <img src="/equipe/img/jonathan_neves.jpg" class="card-img-top .img-fluid rounded-circle profile_pic" width="auto" height="auto" alt="member thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
     
 
   <!-- </picture> -->
@@ -859,22 +843,22 @@
 </figure>
 
         <div class="card-body">
-          <h2 class="card-title">Jessé Silva Costa</h2>
-          <p class="funcao text-lowercase">(bolsista dev)</p>
+          <h2 class="card-title">Jonathan Neves Ribeiro</h2>
+          <p class="funcao text-lowercase">(bolsista Co-host)</p>
           <div class="row ml-1 mr-1 p-0 justify-content-center">
 <div class="linkedin-icon">
               <div class="equipe_icon" data-toggle="tooltip" title="LinkedIn">
-                <a href="https://bit.ly/30St0mV" rel="external nofollow noopener" target="_blank"><i class="fab fa-linkedin gh-icon"></i></a>
+                <a href="https://www.linkedin.com/in/jonathan-neves-ribeiro-72554025b/" rel="external nofollow noopener" target="_blank"><i class="fab fa-linkedin gh-icon"></i></a>
               </div>
             </div>
 <div class="github_icon">
               <div class="equipe_icon" data-toggle="tooltip" title="Code Repository">
-                <a href="https://github.com/JHDsBR" rel="external nofollow noopener" target="_blank"><i class="fab fa-github gh-icon"></i></a>
+                <a href="https://github.com/JonathanNevesRibeiro" rel="external nofollow noopener" target="_blank"><i class="fab fa-github gh-icon"></i></a>
               </div>
             </div>
 <div class="instagram-icon">
               <div class="equipe_icon" data-toggle="tooltip" title="Instagram">
-                <a href="https://instagram.com/jesse_s.c?utm_source=qr&amp;igshid=MzNlNGNkZWQ4Mg%3D%3D" rel="external nofollow noopener" target="_blank"><i class="fab fa-instagram gh-icon"></i></a>
+                <a href="https://www.instagram.com/jonathannevesribeiro/" rel="external nofollow noopener" target="_blank"><i class="fab fa-instagram gh-icon"></i></a>
               </div>
             </div>
 
@@ -1056,50 +1040,6 @@
 <div class="instagram-icon">
               <div class="equipe_icon" data-toggle="tooltip" title="Instagram">
                 <a href="https://www.instagram.com/lucazeved/" rel="external nofollow noopener" target="_blank"><i class="fab fa-instagram gh-icon"></i></a>
-              </div>
-            </div>
-
-          </div>
-        </div>
-      </div>
-    </a>
-</div>
-<!-- _includes/equipe.html -->
-<div class="grid-sizer"></div>
-<div class="grid-item">
-  <a href="/equipe/lucas_per%C3%B4nico_barbotin/">
-      <div class="card hoverable">
-<figure>
-
-  <!-- <picture> -->
-    
-
-    <!-- Fallback to the original file -->
-    
-    <img src="/equipe/img/lucas_Peronico_Barbotin.jpg" class="card-img-top .img-fluid rounded-circle profile_pic" width="auto" height="auto" alt="member thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
-    
-
-  <!-- </picture> -->
-
-</figure>
-
-        <div class="card-body">
-          <h2 class="card-title">Lucas Perônico Barbotin</h2>
-          <p class="funcao text-lowercase">(bolsista dev)</p>
-          <div class="row ml-1 mr-1 p-0 justify-content-center">
-<div class="linkedin-icon">
-              <div class="equipe_icon" data-toggle="tooltip" title="LinkedIn">
-                <a href="https://www.linkedin.com/in/lucas-barbotin-3a4320254/" rel="external nofollow noopener" target="_blank"><i class="fab fa-linkedin gh-icon"></i></a>
-              </div>
-            </div>
-<div class="github_icon">
-              <div class="equipe_icon" data-toggle="tooltip" title="Code Repository">
-                <a href="https://github.com/luxs710" rel="external nofollow noopener" target="_blank"><i class="fab fa-github gh-icon"></i></a>
-              </div>
-            </div>
-<div class="instagram-icon">
-              <div class="equipe_icon" data-toggle="tooltip" title="Instagram">
-                <a href="https://www.instagram.com/lucas_pbarbotin/" rel="external nofollow noopener" target="_blank"><i class="fab fa-instagram gh-icon"></i></a>
               </div>
             </div>
 
@@ -1469,6 +1409,152 @@
             
             <!-- END EQUIPE -->
 
+
+
+
+
+  <h2>Ex-alunos</h2>
+  <div class="equipe">
+    <!-- Generate cards for each ex-student -->
+    
+      <div class="grid">
+        
+          <!-- _includes/equipe.html -->
+<div class="grid-sizer"></div>
+<div class="grid-item">
+  <a href="/equipe/gabriel_de_jesus_fran%C3%A7a_dos_santos_/">
+      <div class="card hoverable">
+<figure>
+
+  <!-- <picture> -->
+    
+
+    <!-- Fallback to the original file -->
+    
+    <img src="/equipe/img/gabriel_de_Jesus_Franca_dos_Santos.jpg" class="card-img-top .img-fluid rounded-circle profile_pic" width="auto" height="auto" alt="member thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+    
+
+  <!-- </picture> -->
+
+</figure>
+
+        <div class="card-body">
+          <h2 class="card-title">Gabriel de Jesus França dos Santos</h2>
+          <p class="funcao text-lowercase">(bolsista dev)</p>
+          <div class="row ml-1 mr-1 p-0 justify-content-center">
+<div class="linkedin-icon">
+              <div class="equipe_icon" data-toggle="tooltip" title="LinkedIn">
+                <a href="https://www.linkedin.com/in/gabriel-j-fran%C3%A7a/" rel="external nofollow noopener" target="_blank"><i class="fab fa-linkedin gh-icon"></i></a>
+              </div>
+            </div>
+<div class="github_icon">
+              <div class="equipe_icon" data-toggle="tooltip" title="Code Repository">
+                <a href="https://github.com/Gabriel-J-code" rel="external nofollow noopener" target="_blank"><i class="fab fa-github gh-icon"></i></a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </a>
+</div>
+        
+          <!-- _includes/equipe.html -->
+<div class="grid-sizer"></div>
+<div class="grid-item">
+  <a href="/equipe/jess%C3%A9_silva_costa_/">
+      <div class="card hoverable">
+<figure>
+
+  <!-- <picture> -->
+    
+
+    <!-- Fallback to the original file -->
+    
+    <img src="/equipe/img/jess%C3%A9_Silva_Costa.jpg" class="card-img-top .img-fluid rounded-circle profile_pic" width="auto" height="auto" alt="member thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+    
+
+  <!-- </picture> -->
+
+</figure>
+
+        <div class="card-body">
+          <h2 class="card-title">Jessé Silva Costa</h2>
+          <p class="funcao text-lowercase">(bolsista dev)</p>
+          <div class="row ml-1 mr-1 p-0 justify-content-center">
+<div class="linkedin-icon">
+              <div class="equipe_icon" data-toggle="tooltip" title="LinkedIn">
+                <a href="https://bit.ly/30St0mV" rel="external nofollow noopener" target="_blank"><i class="fab fa-linkedin gh-icon"></i></a>
+              </div>
+            </div>
+<div class="github_icon">
+              <div class="equipe_icon" data-toggle="tooltip" title="Code Repository">
+                <a href="https://github.com/JHDsBR" rel="external nofollow noopener" target="_blank"><i class="fab fa-github gh-icon"></i></a>
+              </div>
+            </div>
+<div class="instagram-icon">
+              <div class="equipe_icon" data-toggle="tooltip" title="Instagram">
+                <a href="https://instagram.com/jesse_s.c?utm_source=qr&amp;igshid=MzNlNGNkZWQ4Mg%3D%3D" rel="external nofollow noopener" target="_blank"><i class="fab fa-instagram gh-icon"></i></a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </a>
+</div>
+        
+          <!-- _includes/equipe.html -->
+<div class="grid-sizer"></div>
+<div class="grid-item">
+  <a href="/equipe/lucas_per%C3%B4nico_barbotin/">
+      <div class="card hoverable">
+<figure>
+
+  <!-- <picture> -->
+    
+
+    <!-- Fallback to the original file -->
+    
+    <img src="/equipe/img/lucas_Peronico_Barbotin.jpg" class="card-img-top .img-fluid rounded-circle profile_pic" width="auto" height="auto" alt="member thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+    
+
+  <!-- </picture> -->
+
+</figure>
+
+        <div class="card-body">
+          <h2 class="card-title">Lucas Perônico Barbotin</h2>
+          <p class="funcao text-lowercase">(bolsista dev)</p>
+          <div class="row ml-1 mr-1 p-0 justify-content-center">
+<div class="linkedin-icon">
+              <div class="equipe_icon" data-toggle="tooltip" title="LinkedIn">
+                <a href="https://www.linkedin.com/in/lucas-barbotin-3a4320254/" rel="external nofollow noopener" target="_blank"><i class="fab fa-linkedin gh-icon"></i></a>
+              </div>
+            </div>
+<div class="github_icon">
+              <div class="equipe_icon" data-toggle="tooltip" title="Code Repository">
+                <a href="https://github.com/luxs710" rel="external nofollow noopener" target="_blank"><i class="fab fa-github gh-icon"></i></a>
+              </div>
+            </div>
+<div class="instagram-icon">
+              <div class="equipe_icon" data-toggle="tooltip" title="Instagram">
+                <a href="https://www.instagram.com/lucas_pbarbotin/" rel="external nofollow noopener" target="_blank"><i class="fab fa-instagram gh-icon"></i></a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </a>
+</div>
+        
+      </div>
+    
+  </div>
+
+
+
           </article>
 
         </div>
@@ -1479,7 +1565,7 @@
     <!-- Footer -->    <footer class="sticky-bottom mt-5">
       <div class="container">
         © Copyright 2024 AYTY  . Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>.
-Last updated: March 21, 2024.
+Last updated: March 26, 2024.
       </div>
     </footer>
 

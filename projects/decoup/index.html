@@ -131,11 +131,34 @@
     <div class="container mt-5">
       
         <!-- page.html -->
+<script>
+  function calcularDuracao(desde, encerramento) {
+    var inicio = new Date(desde);
+    var fim = encerramento ? new Date(encerramento) : new Date();
+    var diferencaEmMeses = (fim.getFullYear() - inicio.getFullYear()) * 12 + fim.getMonth() - inicio.getMonth();
+    var anos = Math.floor(diferencaEmMeses / 12);
+    var meses = diferencaEmMeses % 12;
+    return `${anos} ano(s) e ${meses} mes(es)`;
+  }
+  
+  document.addEventListener('DOMContentLoaded', function() {
+    var desde = '2022-01-01';
+    var encerramento = '';
+    var duracaoTexto = calcularDuracao(desde, encerramento);
+    document.getElementById('projetoDuracao').innerText = 'Duração do Projeto: ' + duracaoTexto;
+  });
+  </script>
         <div class="post">
 
           <header class="post-header">
             <h1 class="post-title">Projeto: Decoup</h1>
-            <p class="post-description">The object-oriented boardgame</p>
+            <p class="post-description">The object-oriented boardgame <br>
+              
+                Status: <strong>ATIVO</strong> -- Desde: 01/01/2022
+              
+              <br> </p>
+<div class="post-description" id="projetoDuracao"></div>
+            
           </header>
 
           <article>
@@ -220,7 +243,22 @@
       </div>
     </a>
 </div>
-<!-- _includes/equipe.html -->
+              </div>
+</div>
+            
+            <!-- END EQUIPE -->
+
+
+
+
+
+  <h2>Ex-alunos</h2>
+  <div class="equipe">
+    <!-- Generate cards for each ex-student -->
+    
+      <div class="grid">
+        
+          <!-- _includes/equipe.html -->
 <div class="grid-sizer"></div>
 <div class="grid-item">
   <a href="/equipe/ana_lu%C3%ADsa_felipe_cardoso_ara%C3%BAjo/">
@@ -264,7 +302,8 @@
       </div>
     </a>
 </div>
-<!-- _includes/equipe.html -->
+        
+          <!-- _includes/equipe.html -->
 <div class="grid-sizer"></div>
 <div class="grid-item">
   <a href="/equipe/juan_carlos/">
@@ -308,7 +347,8 @@
       </div>
     </a>
 </div>
-<!-- _includes/equipe.html -->
+        
+          <!-- _includes/equipe.html -->
 <div class="grid-sizer"></div>
 <div class="grid-item">
   <a href="/equipe/luana_xavier/">
@@ -352,7 +392,8 @@
       </div>
     </a>
 </div>
-<!-- _includes/equipe.html -->
+        
+          <!-- _includes/equipe.html -->
 <div class="grid-sizer"></div>
 <div class="grid-item">
   <a href="/equipe/lucas_da_silva_freitas/">
@@ -391,10 +432,12 @@
       </div>
     </a>
 </div>
-              </div>
-</div>
-            
-            <!-- END EQUIPE -->
+        
+      </div>
+    
+  </div>
+
+
 
           </article>
 
@@ -406,7 +449,7 @@
     <!-- Footer -->    <footer class="sticky-bottom mt-5">
       <div class="container">
         © Copyright 2024 AYTY  . Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>.
-Last updated: March 21, 2024.
+Last updated: March 26, 2024.
       </div>
     </footer>
 
