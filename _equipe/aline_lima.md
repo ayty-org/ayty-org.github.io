@@ -3,7 +3,8 @@ layout: member
 name: Aline Silva de Lima
 img: equipe/img/aline_lima.jpg
 funcao: Suporte Administrativo
-projeto: [phoebus, esig, snet, codata, vivamoveis]
+projeto: [phoebus, esig, codata, vivamoveis]
+ex-projeto: snet
 desde: 2023-07-21
 saiu: #data de fim
 description: "Estudante do curso de Bacharelado em Secretariado Executivo Bilíngue na Universidade Federal da Paraíba (UFPB) - Campus IV, em Mamanguape-PB. Atualmente, atua como Suporte Administrativo no AYTY. Tenho experiência na organização de eventos e tenho interesse em atuar em diversas áreas na gestão de empresas."
