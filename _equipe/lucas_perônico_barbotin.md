@@ -3,7 +3,8 @@ layout: member
 name: Lucas Perônico Barbotin
 img: equipe/img/lucas_Peronico_Barbotin.jpg
 funcao: bolsista dev
-projeto: codata
+projeto: [vivamoveis, universi.me]
+ex-projeto: codata
 desde: 2023-08-01
 saiu: 
 description: "Estudante de Sistemas de Informação, moro em Rio Tinto, possuo um enorme interesse em tecnologias e sempre busco aprender novos assuntos e desenvolver novas habilidades, gosto bastante de programar em C++ e em Java. Atuando atualmente como bolsista para a CODATA."

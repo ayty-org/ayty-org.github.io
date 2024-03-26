@@ -6,6 +6,8 @@ img: assets/img/projetos/esig.png
 importance: 1
 category: Empresas #Pesquisa, Extensão, Empresas
 projeto: esig
+desde: 2022-01-01
+encerramento: 
 ---
 
 Projeto de pesquisa e desenvolvimento que envolve as empresas ESIG e Quark. O projeto envolve ações de pesquisa aplicada e desenvolvimento de soluções com a participação de alunos dos cursos de Sistemas de Informação e Lic. em Ciência da Computação. 

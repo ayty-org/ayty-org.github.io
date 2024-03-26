@@ -6,6 +6,8 @@ img: assets/img/projetos/apps4society.png
 importance: 1
 category: Extensão #Pesquisa, Extensão, Empresas
 projeto: apps4society
+desde: 2022-01-01
+encerramento: 
 ---
 
 [Site do projeto apps4society](https://apps4society.dcx.ufpb.br/)

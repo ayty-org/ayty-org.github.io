@@ -3,7 +3,7 @@ layout: member
 name: Annielle Crispim
 img: equipe/img/annielle.png
 funcao: Bolsista Analista de Testes
-projeto: phoebus 
+ex-projeto: phoebus 
 desde: 2021-11-01
 saiu: 2023-11-30
 description: Annielle é uma estudante de Sistemas e Informação apaixonada por tecnologia e sua aplicação nos negócios. Seu foco está em testes e gerenciamento de projetos, lidando com dívidas técnicas e aplicando OKRs e métodos ágeis. Ela busca constantemente soluções para otimizar processos de negócios, navegando por ferramentas especializadas. Com suas habilidades técnicas e gerenciais, Annielle é uma profissional versátil e comprometida, destacando-se pela sua paixão por tecnologia e sua busca contínua por aprimoramento.

@@ -64,18 +64,27 @@ layout: default
 
           <article>
       
-
-{% if page.projeto.size == 1 %}
-{% assign projeto = page.projeto[0] %}
-Projeto: {{ site.data.projeto_nome[projeto] }}
-{% else %}
-<h3>Projetos:</h3>
+<p> </p>
+            <h3>Projetos:</h3>
+            
+            {% if page.projeto.size > 1 %}
 <ul>
 {% for projeto in page.projeto %}
 <li><a href="/projects/{{projeto}}">{{ site.data.projeto_nome[projeto] }}</a></li>
 {% endfor %}
 </ul>
+{% else %}
+<p><strong>Atualmente não está atuando em projetos.</strong></p>
 {% endif %}
+
+{% if page.ex-projeto.size > 0 %}
+<h3>Projetos em que participou no passado:</h3>
+<ul>
+{% for projeto in page.ex-projeto %}
+<li><a href="/projects/{{projeto}}">{{ site.data.projeto_nome[projeto] }}</a></li>
+{% endfor %}
+</ul>
+{% endif%}
 
 {% if page.saiu %}
 Atuou como {{page.funcao}} de {{ page.desde | date: "%d/%m/%Y" }}, até {{ page.saiu | date: "%d/%m/%Y" }}.

@@ -6,6 +6,8 @@ img: assets/img/projetos/codata.png
 importance: 1
 category: Empresas # Empresas Pesquisa, Extensão, Empresas
 projeto: codata
+desde: 2023-07-01
+encerramento: 
 ---
 
 Projeto de pesquisa, extensão e capacitação que envolve a empresa [CODATA](https://codata.pb.gov.br) e o Departamento de Ciências Exatas, através do laboratório AYTY. O projeto atua em seis áreas de inovação: Melhoria de Processos, Data Analytics, Infraestrutura e Cloud, Inteligência Artificial, Segurança e capacitação de estudantes nos times da empresa. Este projeto conta com a participação de seis professores coordenadores das seis áreas de inovação, e com 22 alunos e alunas que atuarão tanto nas áreas de inovação quanto atuando nos times da empresa.

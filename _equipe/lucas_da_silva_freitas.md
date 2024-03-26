@@ -3,7 +3,8 @@ layout: member
 name: Lucas da Silva Freitas
 img: equipe/img/lucas da Silva Freitas.jpg
 funcao: bolsista dev
-projeto: [esig,decoup]
+projeto: [esig]
+ex-projeto: decoup
 desde: 2023-07-01
 saiu: 
 description: "Sou estudante de Licenciatura em Ciência da Computação (LCC) na Universidade Federal da Paraíba(UFPB). Atualmente faço parte do projeto AYTY em parceria com a ESIG."

@@ -15,3 +15,5 @@ Resultado final - Edital VivaMoveis01 - Projeto entre AYTY e Viva Móveis.
 
 - Gustavo Theotonio Silva
 - Leandro de Oliveira Leite
+- Lucas Perônico Barbotin
+

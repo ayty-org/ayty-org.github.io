@@ -6,6 +6,8 @@ img: assets/img/projetos/vivamoveis.png
 importance: 1
 category: Empresas #Pesquisa, Extensão, Empresas
 projeto: vivamoveis
+desde: 2024-03-01
+encerramento: 
 ---
 
 

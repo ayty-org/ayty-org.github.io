@@ -6,6 +6,8 @@ img: assets/img/projetos/tracy-td.png
 importance: 1
 category: Pesquisa #Pesquisa, Extensão, Empresas
 projeto: tracy-td
+desde: 2017-02-01
+encerramento: 
 ---
 
 In this project, we develop a business-driven technical debt management approach to identify, monitor, and prioritize technical debt.

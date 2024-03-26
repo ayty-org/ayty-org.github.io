@@ -6,6 +6,8 @@ img: assets/img/projetos/snet.png
 importance: 1
 category: Encerrados #Pesquisa, Extensão, Empresas
 projeto: snet
+desde: 2022-06-01
+encerramento: 2024-01-31
 ---
 
 O projeto prevê a participação de estudantes que irão se capacitar e atuar em colaboração com os times de desenvolvimento da empresa parceira, desempenhando atividades de desenvolvimento de software, testes, documentação, entre outras, em variadas áreas de negócios da empresa. As atividades serão acompanhadas por um profissional da empresa de cada time e pela professora coordenadora do projeto.

@@ -3,7 +3,7 @@ layout: member
 name: Jessé Silva Costa 
 img: equipe/img/jessé_Silva_Costa.jpg
 funcao: bolsista dev
-projeto: codata
+ex-projeto: codata
 desde: 2023-08-01
 saiu: 
 description: "Oi, meu nome é Jessé e estou cursando Licenciatura em Ciência da Computação no Campus IV. Sou desenvolvedor full stack em python há poucos mais de 4 anos, além disso gosto de desenvolver jogos com c#."

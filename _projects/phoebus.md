@@ -6,6 +6,8 @@ img: assets/img/projetos/phoebus.png
 importance: 1
 category: Empresas #Pesquisa, Extensão, Empresas
 projeto: phoebus
+desde: 2017-01-01
+encerramento: 
 ---
 
 Projeto de pesquisa e desenvolvimento que envolve a empresa Phoebus Tecnologia e o AYTY. O projeto atua nas áreas de e-commerce, desenvolvimento para smart-PoS e Gerência de Dívidas Técnicas.
