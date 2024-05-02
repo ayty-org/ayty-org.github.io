@@ -7,7 +7,7 @@ projeto: vivamoveis
 ex-projeto: snet
 desde: 2024-03-21
 saiu: 
-description: ""
+description: "Atuou como desenvolvedor no projeto ServiceNet e atualmente atua como desenvolvedor full-stack no projeto VivaMóveis.com"
 home_page: 
 github: 
 linkedin: 
