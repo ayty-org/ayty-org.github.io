@@ -100,7 +100,7 @@ Sim, você pode se inscrever, mas esteja ciente dos requisitos do edital. Se voc
 Não. Alunos que se formam neste período não serão selecionados. Não haverá tempo suficiente para você usufruir do projeto.
 
 #### Vou me formar do período 2024.2 em diante, posso me inscrever?
-Sim, você pode se inscrever. Daremos preferência para os alunos que se formarão em 2024.1 ou 2024.2.
+Sim, você pode se inscrever.
 
 #### Posso me inscrever em mais de uma vaga aberta no laboratório AYTY, ao mesmo tempo? 
 Sim, você pode se inscrever em mais de um edital aberto. No formulário de inscrição você vai indicar que edital você prefere.
