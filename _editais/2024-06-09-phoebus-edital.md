@@ -121,7 +121,7 @@ Na entrevista técnica você deverá apresentar um projeto relacionado à área 
 
 **Só clique no link a seguir APÓS ler todo o edital ATENTAMENTE!**
 
-(O formulário será publicado no dia 10 de Junho, até meio dia)
+[Clique aqui para acessar o formulário](https://forms.gle/37vs9cjv96LJueet8)
 
 ## 🤔 Perguntas frequentes:
 
