@@ -83,7 +83,7 @@ Conheça mais sobre a Phoebus Tecnologia através do link: [Phoebus Tecnologia](
 - Você deve ter pago ou estar pagando Banco de Dados.
 - Algumas ferramentas Restassured, cypress, selenium, etc. podem ser úteis.
 
-**Perfil 4: Fullstack (SpringBoot + Angular)**
+**Perfil 4: Fullstack (SpringBoot + Angular) - Gerência de Dívidas Técnicas (pesquisa e desenvolvimento) **
 
 - Você deve ter experiência com desenvolvimento Fullstack utilizando SpringBoot e Angular.
 - Você deve ter pago ou estar pagando Banco de Dados.
