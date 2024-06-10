@@ -110,4 +110,4 @@ Sim, você pode se inscrever em mais de um edital aberto. No formulário de insc
 
 **Só clique no link a seguir APÓS ler todo o edital ATENTAMENTE!**
 
-O formulário estará disponível no dia 10 de Junho, até as 12h. Acompanhe esta página.
+[Clique aqui para acessar o edital](https://forms.gle/yv7FowkVvww572cv5)
