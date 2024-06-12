@@ -45,7 +45,7 @@ Conheça mais sobre a Phoebus Tecnologia através do link: [Phoebus Tecnologia](
 -   🎯 Todas as vagas são restritas para estudantes dos cursos de **SI e LCC:** do Campus IV da UFPB.
 -   ⌛️Carga horária requerida: 20 horas semanais, de segunda a sexta-feira (o horário do projeto deve ser EXCLUSIVO, não deve ser compartilhado com outros projetos ou atividades).
 -   **Observação:** Pelo menos 16 horas do horário de trabalho no projeto deve contemplar o horário comercial, entre 8 e 18h, entre segunda e sexta-feira. Quatro horas podem ser alocadas à noite e/ou fim de semana.
--   💰 Valor da bolsa: R$ 800,00 (oitocentos reais) + R$ 150,00 de ajuda de custo para trabalhar presencialmente 1 dia por semana (entre segunda e quarta-feira) em João Pessoa.
+-   💰 Valor da bolsa: R$ 800,00 (oitocentos reais) + R$ 150,00 de ajuda de custo para trabalhar presencialmente 1 dia por semana (entre segunda e quarta-feira) em João Pessoa. - Observação: o dia presencial na empresa depende da disponibilidade do aluno. O estudante que não tiver disponibilidade, recebe a bolsa sem a ajuda de custo.
 
 
 - Perfis:
