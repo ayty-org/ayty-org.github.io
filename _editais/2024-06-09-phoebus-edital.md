@@ -55,8 +55,9 @@ Conheça mais sobre a Phoebus Tecnologia através do link: [Phoebus Tecnologia](
     - Quantidade de vagas: 01
   - **Perfil 3: Testes / SpringBoot (Testes de API)**
     - Quantidade de vagas: 02
-  - **Perfil 4: Fullstack (SpringBoot + Angular)**
+  - **Perfil 4: Fullstack (SpringBoot + Angular) - Gerência de Dívidas Técnicas (pesquisa e desenvolvimento)**
     - Quantidade de vagas: 02
+    - Esta vaga é 100% remota. Não exige atuação presencial na empresa.
 
 
 **🚨 Atenção:** as tecnologias solicitadas no edital não serão necessariamente as tecnologias utilizadas no projeto. Durante o projeto, você terá a oportunidade de aprender novas tecnologias.
@@ -83,7 +84,7 @@ Conheça mais sobre a Phoebus Tecnologia através do link: [Phoebus Tecnologia](
 - Você deve ter pago ou estar pagando Banco de Dados.
 - Algumas ferramentas Restassured, cypress, selenium, etc. podem ser úteis.
 
-**Perfil 4: Fullstack (SpringBoot + Angular) - Gerência de Dívidas Técnicas (pesquisa e desenvolvimento) **
+**Perfil 4: Fullstack (SpringBoot + Angular) - Gerência de Dívidas Técnicas (pesquisa e desenvolvimento)**
 
 - Você deve ter experiência com desenvolvimento Fullstack utilizando SpringBoot e Angular.
 - Você deve ter pago ou estar pagando Banco de Dados.
