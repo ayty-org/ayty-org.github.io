@@ -107,13 +107,15 @@ Na entrevista técnica você deverá apresentar um projeto relacionado à área 
 
 ## 🗓️ Calendário:
 
+🚨 13Jun: Mudança no calendário:
+
 | Data / horário            | Atividade                                                      |
 |---------------------------|----------------------------------------------------------------|
-| 10 a 13 de Junho, até as 18h00 | Prazo pra inscrição no processo seletivo                  |
-| 15 de Junho até as 22h00 | Divulgação do resultado da 1a etapa e convite para entrevista. |
-| 17 a 19 de Junho  | Entrevistas com os(as) candidatos(as) que passaram da 1a etapa. (O horário da entrevista será informado no email de convite.) |
+| 10 a <del>13</del> **14** de Junho, até as 18h00 | Prazo pra inscrição no processo seletivo                  |
+| 16 de Junho até as 22h00 | Divulgação do resultado da 1a etapa e convite para entrevista. |
+| 17 a <del>19</del> **20** de Junho  | Entrevistas com os(as) candidatos(as) que passaram da 1a etapa. (O horário da entrevista será informado no email de convite.) |
 | 21 de Junho, até as 22h00 | Divulgação do resultado da 2a etapa da seleção                       |
-| 25 a 28 de Junho  | Entrevistas técnicas com os(as) candidatos(as) que passaram da 2a etapa. (O horário da entrevista será informado no email de convite.) |
+| **27 e 28** de Junho  | Entrevistas técnicas com os(as) candidatos(as) que passaram da 2a etapa. (O horário da entrevista será informado no email de convite.) |
 | 30 de Junho, até as 22h00 | Divulgação do resultado final da seleção                       |
 | 01 de Julho              | Início das atividades                                          |
 | 02 de Julho das 09 às 16h  | Recepção aos alunos aprovados e classificados em João Pessoa, no DCT. (Participação obrigatória.) - Haverá ajuda de custo para ônibus e uber |
