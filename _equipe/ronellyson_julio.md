@@ -3,15 +3,15 @@ layout: member
 name: Ronellyson Júlio Nicássio de Oliveira
 img: equipe/img/ronellyson_julio.jpg
 funcao: Bolsista dev
-projeto: phoebus 
-desde: Abril - 2023
-saiu: #data de fim
-description: Graduando em Sistemas de Informação no Campus IV da UFPB, em Rio Tinto-PB. Tenho interesse em desenvolvimento Java back-end e desenvolvimento mobile.
+ex-projeto: phoebus 
+desde: 2023-04-02
+saiu: 2024-05-30
+description: Participou do projeto Phoebus, como desenvolvedor Android. 
 home_page: # home page
 github: https://github.com/Ronellyson
 linkedin: https://www.linkedin.com/in/ronellyson-júlio-nicássio-de-oliveira-4481b61a2
 instagram: https://www.instagram.com/ronellyson.julio/
 twitter: #Twitter
 importance: 4
-category: Alunos #Professores, Colaboradores externos, Alunos, Ex-alunos
+category: Ex-alunos #Professores, Colaboradores externos, Alunos, Ex-alunos
 ---
