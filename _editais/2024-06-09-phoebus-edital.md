@@ -112,8 +112,8 @@ Na entrevista técnica você deverá apresentar um projeto relacionado à área 
 | Data / horário            | Atividade                                                      |
 |---------------------------|----------------------------------------------------------------|
 | 10 a <del>13</del> **14** de Junho, até as 18h00 | Prazo pra inscrição no processo seletivo                  |
-| 16 de Junho até as 22h00 | Divulgação do resultado da 1a etapa e convite para entrevista. |
-| 17 a <del>19</del> **20** de Junho  | Entrevistas com os(as) candidatos(as) que passaram da 1a etapa. (O horário da entrevista será informado no email de convite.) |
+| 17 de Junho até as 22h00 | Divulgação do resultado da 1a etapa e convite para entrevista. |
+| 19 a <del>19</del> **21** de Junho  | Entrevistas com os(as) candidatos(as) que passaram da 1a etapa. (O horário da entrevista será informado no email de convite.) |
 | 21 de Junho, até as 22h00 | Divulgação do resultado da 2a etapa da seleção                       |
 | **27 e 28** de Junho  | Entrevistas técnicas com os(as) candidatos(as) que passaram da 2a etapa. (O horário da entrevista será informado no email de convite.) |
 | 30 de Junho, até as 22h00 | Divulgação do resultado final da seleção                       |
