@@ -124,7 +124,7 @@ Na entrevista técnica você deverá apresentar um projeto relacionado à área 
 
 **Só clique no link a seguir APÓS ler todo o edital ATENTAMENTE!**
 
-[Clique aqui para acessar o formulário](https://forms.gle/37vs9cjv96LJueet8)
+(inscrições encerradas)
 
 ## 🤔 Perguntas frequentes:
 
