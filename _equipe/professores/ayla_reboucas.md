@@ -14,5 +14,5 @@ twitter:
 importance: 1
 category:  Professores
 funcao: Coordenadora de projetos
-projeto: [apps4society, apps4society_maker, computacao_plugada] 
+projeto: [ideal, apps4society, apps4society_maker, computacao_plugada] 
 ---

@@ -3,10 +3,11 @@ layout: member
 name: Raul Lins da Silva Fernandes 
 img: equipe/img/raul_Lins_da_Silva_Fernandes.jpg
 funcao: bolsista dev
-projeto: codata
+projeto: phoebus
+ex-projeto: codata
 desde: 2023-08-01
 saiu: 
-description: "Graduando de bacharelado em sistemas da informação, com grande interesse em aprender e compartilhar conhecimento. Prefiro back-end mas desenrolo no front-end também."
+description: "Atualmente é bolsista como analista de testes na empresa Phoebus Tecnologia, desde Julho de 2024. Atuou no projeto junto à empresa CODATA como analista de requisitos e qualidade de Agosto de 2023 a Junho de 2024"
 home_page: 
 github: https://github.com/raullins
 linkedin: www.linkedin.com/in/raul-lins-a029a3285
