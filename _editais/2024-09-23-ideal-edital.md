@@ -14,7 +14,7 @@ inline: false
 
 {% include figure.html path="assets/img/projetos/ideal.png" class="project_image" %}
 
-Edital de seleção de 04 (quatro) bolsista para projeto em parceria com o [Laboratório Misto Internacional (LMI) IDEAL](https://ideal.ufpb.br/pt/).
+Edital de seleção de 04 (quatro) bolsistas para projeto em parceria com o [Laboratório Misto Internacional (LMI) IDEAL](https://ideal.ufpb.br/pt/).
 
 
 Professores de computação envolvidos nesta área de pesquisa:
@@ -25,7 +25,7 @@ Professores de computação envolvidos nesta área de pesquisa:
 
 
 Se você é um excelente desenvolvedor de software, responsável, tem tempo e interesse em fazer parte do desenvolvimento de um  jogo na área de sustentabilidade, além de alguns serviços Web vinculados a este jogo, preencha o formulário a seguir até o dia 24/09/2024.
-As atividades estão ligadas ao Laboratório Misto Internacional (LMI) IDEAL (https://ideal.ufpb.br/pt/), que envolve pesquisadores brasileiros e franceses das áreas de Ecologia e Computação da UFPB. A carga horária é flexível, mas é essencial que as entregas sejam feitas dentro dos prazos estabelecidos.
+As atividades estão ligadas ao Laboratório Misto Internacional (LMI) IDEAL [https://ideal.ufpb.br/pt/](https://ideal.ufpb.br/pt/), que envolve pesquisadores brasileiros e franceses das áreas de Ecologia e Computação da UFPB. A carga horária é flexível, mas é essencial que as entregas sejam feitas dentro dos prazos estabelecidos.
 
 Frentes de Trabalho
 
