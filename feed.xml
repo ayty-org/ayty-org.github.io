@@ -1,5 +1,31 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="pt-br"><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://ayty.org/feed.xml" rel="self" type="application/atom+xml" /><link href="https://ayty.org/" rel="alternate" type="text/html" hreflang="pt-br" /><updated>2024-09-23T21:43:39+00:00</updated><id>https://ayty.org/feed.xml</id><title type="html">AYTY</title><subtitle>AYTY - Laboratório de Engenharia de Software Aplicada
-</subtitle><entry><title type="html">Resultado FINAL - Proj. Phoebus (Jun 2024)</title><link href="https://ayty.org/blog/2024/edital_phoebus_resultado_3etapa/" rel="alternate" type="text/html" title="Resultado FINAL - Proj. Phoebus (Jun 2024)" /><published>2024-07-05T00:00:00+00:00</published><updated>2024-07-05T00:00:00+00:00</updated><id>https://ayty.org/blog/2024/edital_phoebus_resultado_3etapa</id><content type="html" xml:base="https://ayty.org/blog/2024/edital_phoebus_resultado_3etapa/"><![CDATA[<p>Edital: <a href="https://ayty.org/editais/2024-06-09-phoebus-edital/">Proj. Phoebus - Edital-07 (Jun 2024)</a></p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="pt-br"><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://ayty.org/feed.xml" rel="self" type="application/atom+xml" /><link href="https://ayty.org/" rel="alternate" type="text/html" hreflang="pt-br" /><updated>2024-09-27T13:35:24+00:00</updated><id>https://ayty.org/feed.xml</id><title type="html">AYTY</title><subtitle>AYTY - Laboratório de Engenharia de Software Aplicada
+</subtitle><entry><title type="html">Resultado FINAL - IDEAL - Sustentabilidade - Edital-01 (Set 2024)</title><link href="https://ayty.org/blog/2024/edital_ideal_resultado_final/" rel="alternate" type="text/html" title="Resultado FINAL - IDEAL - Sustentabilidade - Edital-01 (Set 2024)" /><published>2024-09-27T00:00:00+00:00</published><updated>2024-09-27T00:00:00+00:00</updated><id>https://ayty.org/blog/2024/edital_ideal_resultado_final</id><content type="html" xml:base="https://ayty.org/blog/2024/edital_ideal_resultado_final/"><![CDATA[<figure>
+
+  <!-- <picture> -->
+    
+
+    <!-- Fallback to the original file -->
+    
+    <img src="/assets/img/projetos/ideal.png" class="project_image" width="auto" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+    
+
+  <!-- </picture> -->
+
+</figure>
+
+<p>Edital de seleção de 04 (quatro) bolsistas para projeto em parceria com o <a href="https://ideal.ufpb.br/pt/">Laboratório Misto Internacional (LMI) IDEAL</a>.</p>
+
+<p>Seguem os alunos e alunas selecionados no processo seletivo para bolsistas do projeto entre o AYTY e o Laboratório Misto Internacional (LMI) IDEAL.</p>
+
+<h3 id="resultado-final">Resultado final</h3>
+<p>(ordem alfabética)</p>
+
+<ul>
+  <li>Larissa Bastos Juvito</li>
+  <li>Levi Maciel de Souza</li>
+  <li>Lucas Cardoso</li>
+  <li>Matheus Soares</li>
+</ul>]]></content><author><name></name></author><category term="edital" /><category term="ideal" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Resultado FINAL - Proj. Phoebus (Jun 2024)</title><link href="https://ayty.org/blog/2024/edital_phoebus_resultado_3etapa/" rel="alternate" type="text/html" title="Resultado FINAL - Proj. Phoebus (Jun 2024)" /><published>2024-07-05T00:00:00+00:00</published><updated>2024-07-05T00:00:00+00:00</updated><id>https://ayty.org/blog/2024/edital_phoebus_resultado_3etapa</id><content type="html" xml:base="https://ayty.org/blog/2024/edital_phoebus_resultado_3etapa/"><![CDATA[<p>Edital: <a href="https://ayty.org/editais/2024-06-09-phoebus-edital/">Proj. Phoebus - Edital-07 (Jun 2024)</a></p>
 
 <p>Seguem os alunos e alunas selecionados na terceira etapa (entrevista Técnica) do processo seletivo para bolsistas do projeto entre o AYTY e a empresa Phoebus.</p>
 
@@ -151,8 +177,4 @@
   <li>Sabrina Gonçalves de Almeida</li>
   <li>Suerdo Flaubert Campos de Lucena Júnior</li>
   <li>Wendel Soares Sampaio</li>
-</ul>]]></content><author><name></name></author><category term="codata" /><category term="codata," /><category term="resultado" /><summary type="html"><![CDATA[Edital: 2o Edital - Proj. Codata (Dez 2023)]]></summary></entry><entry><title type="html">Novo calendário - Proj. CODATA - Edital-02 (Dez 2023)</title><link href="https://ayty.org/blog/2023/edital_codata02_ERRATA/" rel="alternate" type="text/html" title="Novo calendário - Proj. CODATA - Edital-02 (Dez 2023)" /><published>2023-12-19T00:00:00+00:00</published><updated>2023-12-19T00:00:00+00:00</updated><id>https://ayty.org/blog/2023/edital_codata02_ERRATA</id><content type="html" xml:base="https://ayty.org/blog/2023/edital_codata02_ERRATA/"><![CDATA[<p>⚠️ <strong>ATENÇÃO:</strong> Devido a um problema de configuração das listas de informes tanto do curso de SI quanto de LCC, o email de divulgação deste edital, enviado pelo professor Tácito, não chegou aos alunos. Como estas listas são os principais meios de divulgação de vagas de bolsas, entre outras informações importantes, achamos justo reabrir a seleção e permitir que os estudantes se inscrevam em um novo calendário.</p>
-
-<p>O resultado publicado anteriormente está anulado.</p>
-
-<p>Leia o edital e inscreva-se aqui: <a href="/editais/2023-12-codata-edital-02/">2o Edital - Proj. Codata (Dez 2023)</a></p>]]></content><author><name></name></author><category term="codata" /><category term="codata," /><category term="resultado" /><summary type="html"><![CDATA[⚠️ ATENÇÃO: Devido a um problema de configuração das listas de informes tanto do curso de SI quanto de LCC, o email de divulgação deste edital, enviado pelo professor Tácito, não chegou aos alunos. Como estas listas são os principais meios de divulgação de vagas de bolsas, entre outras informações importantes, achamos justo reabrir a seleção e permitir que os estudantes se inscrevam em um novo calendário.]]></summary></entry></feed>
+</ul>]]></content><author><name></name></author><category term="codata" /><category term="codata," /><category term="resultado" /><summary type="html"><![CDATA[Edital: 2o Edital - Proj. Codata (Dez 2023)]]></summary></entry></feed>
