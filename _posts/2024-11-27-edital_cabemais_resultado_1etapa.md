@@ -3,7 +3,7 @@ layout: post
 title: Resultado 1a etapa - Cabe Mais - Edital-01 (Dez 2024)
 date: 2024-11-27
 description: 
-tags: ideal
+tags: cabemais
 categories: edital
 ---
 
