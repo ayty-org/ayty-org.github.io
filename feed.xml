@@ -1,5 +1,29 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="pt-br"><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://ayty.org/feed.xml" rel="self" type="application/atom+xml" /><link href="https://ayty.org/" rel="alternate" type="text/html" hreflang="pt-br" /><updated>2024-11-27T21:54:26+00:00</updated><id>https://ayty.org/feed.xml</id><title type="html">AYTY</title><subtitle>AYTY - Laboratório de Engenharia de Software Aplicada
-</subtitle><entry><title type="html">Resultado 1a etapa - Cabe Mais - Edital-01 (Dez 2024)</title><link href="https://ayty.org/blog/2024/edital_cabemais_resultado_1etapa/" rel="alternate" type="text/html" title="Resultado 1a etapa - Cabe Mais - Edital-01 (Dez 2024)" /><published>2024-11-27T00:00:00+00:00</published><updated>2024-11-27T00:00:00+00:00</updated><id>https://ayty.org/blog/2024/edital_cabemais_resultado_1etapa</id><content type="html" xml:base="https://ayty.org/blog/2024/edital_cabemais_resultado_1etapa/"><![CDATA[<figure>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="pt-br"><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://ayty.org/feed.xml" rel="self" type="application/atom+xml" /><link href="https://ayty.org/" rel="alternate" type="text/html" hreflang="pt-br" /><updated>2024-11-29T20:43:51+00:00</updated><id>https://ayty.org/feed.xml</id><title type="html">AYTY</title><subtitle>AYTY - Laboratório de Engenharia de Software Aplicada
+</subtitle><entry><title type="html">Resultado Final - Cabe Mais - Edital-01 (Dez 2024)</title><link href="https://ayty.org/blog/2024/edital_cabemais_resultado_final/" rel="alternate" type="text/html" title="Resultado Final - Cabe Mais - Edital-01 (Dez 2024)" /><published>2024-11-29T00:00:00+00:00</published><updated>2024-11-29T00:00:00+00:00</updated><id>https://ayty.org/blog/2024/edital_cabemais_resultado_final</id><content type="html" xml:base="https://ayty.org/blog/2024/edital_cabemais_resultado_final/"><![CDATA[<figure>
+
+  <!-- <picture> -->
+    
+
+    <!-- Fallback to the original file -->
+    
+    <img src="/assets/img/projetos/cabemais.png" class="project_image" width="auto" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+    
+
+  <!-- </picture> -->
+
+</figure>
+
+<p>Edital de seleção de 02 (dois) bolsistas para projeto em parceria com a empresa Cabe Mais.</p>
+
+<p>Seguem os alunos selecionados no processo seletivo para bolsistas do projeto entre o AYTY e a empresa Cabe Mais - Resultado Final:</p>
+
+<h3 id="resultado-final">Resultado Final</h3>
+<p>(ordem alfabética)</p>
+
+<ul>
+  <li>Anderson Alexsandro Soares da Silva</li>
+  <li>Ronyelison de Oliveira Abreu</li>
+</ul>]]></content><author><name></name></author><category term="edital" /><category term="cabemais" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Resultado 1a etapa - Cabe Mais - Edital-01 (Dez 2024)</title><link href="https://ayty.org/blog/2024/edital_cabemais_resultado_1etapa/" rel="alternate" type="text/html" title="Resultado 1a etapa - Cabe Mais - Edital-01 (Dez 2024)" /><published>2024-11-27T00:00:00+00:00</published><updated>2024-11-27T00:00:00+00:00</updated><id>https://ayty.org/blog/2024/edital_cabemais_resultado_1etapa</id><content type="html" xml:base="https://ayty.org/blog/2024/edital_cabemais_resultado_1etapa/"><![CDATA[<figure>
 
   <!-- <picture> -->
     
@@ -175,11 +199,4 @@
   <li>Lucas Perônico Barbotin</li>
 </ul>
 
-<p>Não houve classificados para a área de UX / UI.</p>]]></content><author><name></name></author><category term="edital" /><category term="vivamoveis" /><summary type="html"><![CDATA[Edital: 1o Edital - Proj. Viva Móveis (Mar 2023)]]></summary></entry><entry><title type="html">Resultado 2a etapa - Proj. CODATA - Edital-02 (Dez 2023)</title><link href="https://ayty.org/blog/2023/edital_codata02_2etapa/" rel="alternate" type="text/html" title="Resultado 2a etapa - Proj. CODATA - Edital-02 (Dez 2023)" /><published>2023-12-28T00:00:00+00:00</published><updated>2023-12-28T00:00:00+00:00</updated><id>https://ayty.org/blog/2023/edital_codata02_2etapa</id><content type="html" xml:base="https://ayty.org/blog/2023/edital_codata02_2etapa/"><![CDATA[<p>Edital: <a href="/editais/2023-12-codata-edital-02/">2o Edital - Proj. Codata (Dez 2023)</a></p>
-
-<p>Resultado final - Edital CODATA-02 - Projeto entre AYTY e CODATA.</p>
-
-<ul>
-  <li>Jonathan Neves Ribeiro</li>
-  <li>Wendel Soares Sampaio</li>
-</ul>]]></content><author><name></name></author><category term="codata" /><category term="codata," /><category term="resultado" /><summary type="html"><![CDATA[Edital: 2o Edital - Proj. Codata (Dez 2023)]]></summary></entry></feed>
+<p>Não houve classificados para a área de UX / UI.</p>]]></content><author><name></name></author><category term="edital" /><category term="vivamoveis" /><summary type="html"><![CDATA[Edital: 1o Edital - Proj. Viva Móveis (Mar 2023)]]></summary></entry></feed>
