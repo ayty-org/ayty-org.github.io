@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Caminho da pasta onde estão os arquivos Markdown
-folder_path="/Users/rodrigor/git/AYTY/ayty-org.github.io/_equipe/professores"
+folder_path="/Users/rodrigor/git/AYTY/ayty-org.github.io/_equipe/"
 
 # Caminho fixo das imagens (baseado no campo img do frontmatter)
 image_base_path="/Users/rodrigor/git/AYTY/ayty-org.github.io/_equipe/img"

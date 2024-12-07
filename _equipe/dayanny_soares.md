@@ -1,7 +1,7 @@
 ---
 layout: member
 name: Dayanny Soares da Silva
-img: equipe/img/dayanny_soares_da_silva.jpg
+img: equipe/img/dayanny_soares.jpg
 funcao: bolsista analista de dados
 projeto: codata
 desde: 2023-08-01
