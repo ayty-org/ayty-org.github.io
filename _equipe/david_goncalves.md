@@ -1,7 +1,7 @@
 ---
 layout: member
 name: David Gonçalves Maia
-img: equipe/img/david_goncalves_maia.jpg
+img: equipe/img/david_goncalves.jpg
 funcao: bolsista dev
 projeto: esig
 desde: 2023-07-07

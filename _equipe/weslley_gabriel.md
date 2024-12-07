@@ -1,7 +1,7 @@
 ---
 layout: member
 name: Weslley Gabriel Paz de Sousa 
-img: equipe/img/weslley_gabriel_paz_de_sousa_.jpg
+img: equipe/img/weslley_gabriel.jpg
 funcao: bolsista dev
 projeto: codata
 desde: 2023-08-01

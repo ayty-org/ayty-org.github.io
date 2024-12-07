@@ -1,7 +1,7 @@
 ---
 layout: member
 name: Guilherme César Alves de Andrade 
-img: equipe/img/guilherme_cesar_alves_de_andrade_.jpg
+img: equipe/img/guilherme_cesar.jpg
 funcao: bolsista dev
 projeto: codata
 desde: 2023-08-01

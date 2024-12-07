@@ -1,7 +1,7 @@
 ---
 layout: member
 name: herbert  rocha monteiro
-img: equipe/img/herbert__rocha_monteiro.jpg
+img: equipe/img/herbert.jpg
 funcao: bolsista devops
 projeto: codata
 desde: 2023-08-01

@@ -1,7 +1,7 @@
 ---
 layout: member
 name: Gustavo Theotonio Silva
-img: equipe/img/gustavo_theotonio_silva.jpg
+img: equipe/img/gustavo_theotonio.jpg
 funcao: bolsista dev
 projeto: vivamoveis
 ex-projeto: esig

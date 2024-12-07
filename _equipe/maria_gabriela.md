@@ -1,7 +1,7 @@
 ---
 layout: member
 name: Maria Gabriella Freire Ferreira Saturnino de Oliveira 
-img: equipe/img/maria_gabriela.jpeg
+img: equipe/img/maria_gabriela.jpg
 funcao: bolsista fullstack
 projeto: [codata, universi.me]
 ex-projeto: snet

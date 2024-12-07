@@ -1,7 +1,7 @@
 ---
 layout: member
 name: Gabriel de Jesus França dos Santos 
-img: equipe/img/gabriel_de_jesus_franca_dos_santos_.jpg
+img: equipe/img/gabriel_de_jesus.jpg
 funcao: bolsista dev
 ex-projeto: codata
 desde: 2023-08-01

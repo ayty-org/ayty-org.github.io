@@ -1,7 +1,7 @@
 ---
 layout: member
 name: Raul Lins da Silva Fernandes 
-img: equipe/img/raul_lins_da_silva_fernandes_.jpg
+img: equipe/img/raul_lins.jpg
 funcao: bolsista dev
 projeto: phoebus
 ex-projeto: codata

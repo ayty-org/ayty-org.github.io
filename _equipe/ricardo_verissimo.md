@@ -1,7 +1,7 @@
 ---
 layout: member
 name: Ricardo Veríssimo Pereira
-img: equipe/img/ricardo_verissimo_pereira.jpg
+img: equipe/img/ricardo_verissimo.jpg
 funcao: Bolsista - Atuação nos times de desenvolvimento da empresa
 projeto: codata
 desde: 2023-07-28
