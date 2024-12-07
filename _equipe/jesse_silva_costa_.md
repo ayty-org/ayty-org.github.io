@@ -1,7 +1,7 @@
 ---
 layout: member
 name: Jessé Silva Costa 
-img: equipe/img/jessé_Silva_Costa.jpg
+img: equipe/img/jesse_silva_costa_.jpg
 funcao: bolsista dev
 ex-projeto: codata
 desde: 2023-08-01

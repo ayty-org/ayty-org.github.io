@@ -1,7 +1,7 @@
 ---
 layout: member
 name: Marta Gomes
-img: equipe/img/martaG.jpg
+img: equipe/img/marta_gomes.jpg
 funcao: Bolsista Analista de Testes
 ex-projeto: phoebus 
 desde: 2021-11-01

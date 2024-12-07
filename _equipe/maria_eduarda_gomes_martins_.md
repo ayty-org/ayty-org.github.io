@@ -1,7 +1,7 @@
 ---
 layout: member
 name: Maria Eduarda Gomes Martins 
-img: equipe/img/maria_Eduarda_Gomes_Martins.jpeg
+img: equipe/img/maria_eduarda_gomes_martins_.jpg
 funcao: Analista de requisito 
 projeto: codata
 desde: 2023-08-01

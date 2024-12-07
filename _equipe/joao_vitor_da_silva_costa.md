@@ -1,7 +1,7 @@
 ---
 layout: member
 name: João Vitor Da Silva Costa
-img: equipe/img/joao_Vitor_da_Silva_Costa.jpg
+img: equipe/img/joao_vitor_da_silva_costa.jpg
 funcao: Bolsista segurança da informação
 projeto: codata
 desde: 2023-08-01

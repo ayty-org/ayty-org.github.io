@@ -1,7 +1,7 @@
 ---
 layout: member
 name: Maria Victória Marcelino de Araújo
-img: equipe/img/maria_Victoria_Marcelino_de_Araujo.jpg
+img: equipe/img/maria_victoria_marcelino_de_araujo.jpg
 funcao: Bolsista analista de dados
 projeto: codata
 desde: 2002-11-29

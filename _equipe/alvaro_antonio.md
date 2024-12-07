@@ -1,7 +1,7 @@
 ---
 layout: member
 name: Álvaro Antônio da Silva Carvalho
-img: equipe/img/alvaro.jpeg
+img: equipe/img/alvaro_antonio.jpg
 funcao: bolsista dev analista
 ex-projeto: [esig,universi.me]
 desde: 2021-05-29

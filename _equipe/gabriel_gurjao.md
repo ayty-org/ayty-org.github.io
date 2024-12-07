@@ -1,7 +1,7 @@
 ---
 layout: member
 name: Gabriel Gurjão Camargo Campos
-img: equipe/img/gabriel_campos.jpeg
+img: equipe/img/gabriel_gurjao.jpg
 funcao: bolsista dev
 ex-projeto: esig 
 desde: 2021-01-01

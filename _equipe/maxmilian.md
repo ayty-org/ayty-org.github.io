@@ -1,7 +1,7 @@
 ---
 layout: member
 name: Maximilian Maximiano Guilherme de Oliveira
-img: equipe/img/maximilian.jpg
+img: equipe/img/maxmilian.jpg
 funcao: bolsista dev
 projeto: esig
 desde: 2023-07-01

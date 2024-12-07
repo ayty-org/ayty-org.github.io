@@ -1,7 +1,7 @@
 ---
 layout: member
 name: Rodolpho Alves
-img: equipe/img/rodolpho_Pereira_Alves.jpg
+img: equipe/img/rodolpho_alves.jpg
 funcao: bolsista devops
 projeto: codata
 desde: 2023-07-28

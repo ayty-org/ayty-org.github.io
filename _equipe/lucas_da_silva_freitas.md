@@ -1,7 +1,7 @@
 ---
 layout: member
 name: Lucas da Silva Freitas
-img: equipe/img/lucas da Silva Freitas.jpg
+img: equipe/img/lucas_da_silva_freitas.jpg
 funcao: bolsista dev
 projeto: [esig]
 ex-projeto: decoup

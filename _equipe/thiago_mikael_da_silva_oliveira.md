@@ -1,7 +1,7 @@
 ---
 layout: member
 name: Thiago Mikael da Silva Oliveira
-img: equipe/img/thiago_Mikael_da_Silva_Oliveira.jpg
+img: equipe/img/thiago_mikael_da_silva_oliveira.jpg
 funcao: Analista de Requisitos
 projeto: codata
 desde: 2023-08-01

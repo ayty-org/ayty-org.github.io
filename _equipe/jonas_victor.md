@@ -1,7 +1,7 @@
 ---
 layout: member
 name: Jonas Victor #Nome completo
-img: equipe/img/jonas_victor.jpeg
+img: equipe/img/jonas_victor.jpg
 funcao: Bolsista Dev #Bolsista Testador, Bolsista Dev, Technical Debt
 ex-projeto: snet #ESIG,SNET,Universi.me,Engenharia.Software
 desde: 2022-05-01

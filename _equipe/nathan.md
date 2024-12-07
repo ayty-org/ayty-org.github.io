@@ -1,7 +1,7 @@
 ---
 layout: member
 name: Nathan Farias
-img: equipe/img/nathan.jpeg
+img: equipe/img/nathan.jpg
 funcao: bolsista dev
 projeto: phoebus 
 ex-projeto: esig 

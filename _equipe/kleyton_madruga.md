@@ -1,7 +1,7 @@
 ---
 layout: member
 name: Kleyton Fernandes Madruga
-img: equipe/img/kleyton_madruga.jpeg
+img: equipe/img/kleyton_madruga.jpg
 funcao: Bolsista Dev
 projeto: phoebus
 desde: 2023-04-06

@@ -1,7 +1,7 @@
 ---
 layout: member
 name: Pedro Henrique Botelho Teixeira
-img: equipe/img/pedro_botelho.png
+img: equipe/img/pedro_botelho.jpg
 funcao: Bolsista dev
 ex-projeto: phoebus 
 desde: 2021-09-01

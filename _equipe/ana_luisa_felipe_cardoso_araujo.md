@@ -1,7 +1,7 @@
 ---
 layout: member
 name: Ana Luísa Felipe Cardoso Araújo
-img: equipe/img/ana_luisa.jpg
+img: equipe/img/ana_luisa_felipe_cardoso_araujo.jpg
 funcao: bolsista dev
 projeto: [phoebus]
 ex-projeto: [tracy-td,decoup]

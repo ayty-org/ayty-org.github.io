@@ -1,7 +1,7 @@
 ---
 layout: member
 name: Jackson Anderson Gomes dos Santos Silva
-img: equipe/img/jackson_anderson.jpeg
+img: equipe/img/jackson_anderson.jpg
 funcao: Bolsista Dev
 ex-projeto: [phoebus, tracy-td]
 desde: 2021-09-01

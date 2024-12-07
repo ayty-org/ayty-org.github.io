@@ -1,7 +1,7 @@
 ---
 layout: member
 name: Elykelwin Alves Costa
-img: equipe/img/elykelwin.jpg
+img: equipe/img/elykelwin_costa.jpg
 funcao: Analista de Testes - QA
 projeto: phoebus
 desde: 2021-09-01

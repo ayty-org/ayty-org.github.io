@@ -1,7 +1,7 @@
 ---
 layout: member
 name: Lucas Perônico Barbotin
-img: equipe/img/lucas_Peronico_Barbotin.jpg
+img: equipe/img/lucas_peronico_barbotin.jpg
 funcao: bolsista dev
 projeto: [vivamoveis, universi.me]
 ex-projeto: codata

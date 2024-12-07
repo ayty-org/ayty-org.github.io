@@ -9,7 +9,7 @@ was part of many different projects, like the optimization of a distributed envi
 architecture, the definition of her company's reference architecture for business intelligence
 applications, and the development and project management of a subscription management system
 for magazines." 
-img: equipe/img/marion_wiese.jpeg
+img: equipe/img/marion_wise.jpg
 home_page: 
 lattes: 
 desde: 2010-07-14

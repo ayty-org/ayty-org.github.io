@@ -1,7 +1,7 @@
 ---
 layout: member
 name: Douglas Sebastian Silva dos Santos
-img: equipe/img/douglas_Sebastian_Silva_dos_Santos.png
+img: equipe/img/douglas_sebastian_silva_dos_santos.jpg
 funcao: bolsista dev
 projeto: [codata, universi.me]
 desde: 2023-03-15

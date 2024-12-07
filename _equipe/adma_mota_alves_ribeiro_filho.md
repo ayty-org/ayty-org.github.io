@@ -1,7 +1,7 @@
 ---
 layout: member
 name: Adma Mota Alves Ribeiro Filho
-img: equipe/img/adma - Adma Mota Alves Ribeiro Filho.png
+img: equipe/img/adma_mota_alves_ribeiro_filho.jpg
 funcao: bolsista dev
 ex-projeto: esig
 desde: 2022-05-01

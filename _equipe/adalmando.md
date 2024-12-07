@@ -1,7 +1,7 @@
 ---
 layout: member
 name: Adalmando da Silva Araújo
-img: equipe/img/adalmando.jpeg
+img: equipe/img/adalmando.jpg
 funcao: bolsista dev
 ex-projeto: phoebus 
 desde: 2023-04-06

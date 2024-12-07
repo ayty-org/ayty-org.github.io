@@ -1,7 +1,7 @@
 ---
 layout: member
 name: Daysiane Conrado Da Silva
-img: equipe/img/daysiane_conrado.jpg
+img: equipe/img/daysiane.jpg
 funcao: bolsista Co-host
 ex-projeto: engenharia.software 
 desde: 2023-02-07

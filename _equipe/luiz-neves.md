@@ -1,7 +1,7 @@
 ---
 layout: member
 name: Luiz Eduardo de Lima Neves
-img: equipe/img/luiz_neves.jpg
+img: equipe/img/luiz-neves.jpg
 funcao: Bolsista Dev
 ex-projeto: snet
 desde: 2022-04-21

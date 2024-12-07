@@ -1,7 +1,7 @@
 ---
 layout: member
 name: Júlio Verne da Silva Rodrigues
-img: equipe/img/julio_Verne_da_Silva_Rodrigues.jpg
+img: equipe/img/julio_verne.jpg
 funcao: bolsista dev
 projeto: [codata, universi.me, apps4society]
 desde: 2023-04-01

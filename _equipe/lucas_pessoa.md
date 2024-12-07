@@ -1,7 +1,7 @@
 ---
 layout: member
 name: Lucas Pessoa Alves #Nome completo
-img: equipe/img/lucas_pessoa.jpeg
+img: equipe/img/lucas_pessoa.jpg
 funcao: Bolsista Dev #Bolsista Testador, Bolsista Dev, Technical Debt
 ex-projeto: snet #ESIG,SNET,Universi.me,Engenharia.Software
 desde: 2023-03-24

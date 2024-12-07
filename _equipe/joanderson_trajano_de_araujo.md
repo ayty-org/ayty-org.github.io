@@ -1,7 +1,7 @@
 ---
 layout: member
 name: Joanderson Trajano de Araujo
-img: equipe/img/joanderson_ - Joanderson Trajano.jpg
+img: equipe/img/joanderson_trajano_de_araujo.jpg
 funcao: bolsista dev
 projeto: esig
 desde: 2023-07-01

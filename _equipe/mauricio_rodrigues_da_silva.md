@@ -1,7 +1,7 @@
 ---
 layout: member
 name: Maurício Rodrigues da Silva
-img: equipe/img/mauricio_Rodrigues_da_Silva.jpg
+img: equipe/img/mauricio_rodrigues_da_silva.jpg
 funcao: bolsista analista de dados
 projeto: codata
 desde: 2023-08-01

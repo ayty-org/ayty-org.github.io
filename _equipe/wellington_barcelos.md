@@ -1,7 +1,7 @@
 ---
 layout: member
 name: Wellington dos Santos Barcelos
-img: equipe/img/wellington_barcelos.jpeg
+img: equipe/img/wellington_barcelos.jpg
 funcao: Bolsista Testador 
 projeto: phoebus 
 desde: 2023-04-06

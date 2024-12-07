@@ -7,7 +7,7 @@ architecture. She authored papers published at various venues such as ICSA (Inte
 Conference on Software Architecture), ECSA (European Conference on Software Architecture) and
 IEEE Software. Previously she worked in the software industry at companies such as Hewlett Packard
 Enterprise, DXC Technology, and Atos."
-img: equipe/img/klara-borowa.jpg
+img: equipe/img/klara_borowa.jpg
 home_page: 
 lattes: 
 desde: 2010-07-14

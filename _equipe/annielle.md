@@ -1,7 +1,7 @@
 ---
 layout: member
 name: Annielle Crispim
-img: equipe/img/annielle.png
+img: equipe/img/annielle.jpg
 funcao: Bolsista Analista de Testes
 ex-projeto: phoebus 
 desde: 2021-11-01

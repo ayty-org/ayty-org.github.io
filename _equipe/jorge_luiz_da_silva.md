@@ -1,7 +1,7 @@
 ---
 layout: member
 name: Jorge Luiz da Silva
-img: equipe/img/jorge_Luiz_da_Silva.jpg
+img: equipe/img/jorge_luiz_da_silva.jpg
 funcao: bolsista analista de requisitos
 projeto: codata
 desde: 2023-08-01

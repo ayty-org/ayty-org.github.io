@@ -1,7 +1,7 @@
 ---
 layout: member
 name: Vinicius Matias de Lima
-img: equipe/img/vinicius-matias.jpg
+img: equipe/img/vinicius_matias.jpg
 funcao: bolsista dev
 ex-projeto: universi.me
 desde: 2021-10-05

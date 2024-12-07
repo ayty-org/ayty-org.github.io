@@ -1,7 +1,7 @@
 ---
 layout: member
 name: Ricardo Ullysses Macedo Viana Filho
-img: equipe/img/ricardo_Ullysses_Macedo_Viana_Filho.jpg
+img: equipe/img/ricardo_ullysses_macedo_viana_filho.jpg
 funcao: bolsista dev
 projeto: codata
 desde: 2023-07-27

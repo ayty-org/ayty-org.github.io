@@ -1,7 +1,7 @@
 ---
 layout: member
 name: José Ravik Ferreira de Moraes
-img: equipe/img/jose_ravik.jpg
+img: equipe/img/jose-ravik.jpg
 funcao: Bolsista Dev
 projeto: phoebus 
 desde: 2023-04-01

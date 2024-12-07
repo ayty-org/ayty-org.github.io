@@ -1,7 +1,7 @@
 ---
 layout: member
 name: Lucas Pereira de Azevedo
-img: equipe/img/lucas_Pereira_de_Azevedo.jpeg
+img: equipe/img/lucas_pereira_de_azevedo.jpg
 funcao: Bolsista Segurança da Informação
 projeto: codata
 desde: 2023-07-28

@@ -1,7 +1,7 @@
 ---
 layout: member
 name: Leandro Oliveira
-img: equipe/img/leandroOliveira.jpg
+img: equipe/img/leandro_oliveira.jpg
 funcao: bolsista dev
 projeto: vivamoveis
 ex-projeto: snet
