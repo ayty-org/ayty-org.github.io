@@ -61,7 +61,6 @@ Conheça mais sobre a Phoebus Tecnologia através do link: [Phoebus Tecnologia](
 **Para todas as vagas:**
 -   **Você tem que gostar MUITO de programar.**
 
-
 **Perfil 1: Desenvolvedor(a) Android / Kotlin**
 
 - Para esta seleção é muito importante que você tenha alguma experiência com as tecnologias Android e Kotlin; e tenha 
@@ -72,13 +71,19 @@ Conheça mais sobre a Phoebus Tecnologia através do link: [Phoebus Tecnologia](
 
 - Você deve ter experiência com SpringBoot e estar familiarizado com testes de API.
 - Você deve ter pago ou estar pagando Banco de Dados.
-- Algumas ferramentas Restassured, cypress, selenium, etc. podem ser úteis.
+- Algumas ferramentas como RestAssured, Cypress e Selenium podem ser úteis.
 
 **Perfil 3: Analista de Segurança da Informação**
 
-- 
+- Experiência com Linux e comandos básicos para administração de sistemas.
+- Noções sobre autenticação e autorização em aplicações web.
 
-**Perfil 4: Fullstack (SpringBoot + Angular) - Gerência de Dívidas Técnicas (pesquisa e desenvolvimento)**
+Desejável mas não obrigatório:
+- Conhecimento em segurança de redes, incluindo protocolos de segurança e criptografia básica.
+- Conhecimento sobre ataques comuns, como SQL Injection, XSS e CSRF.
+- Conhecimento sobre ferramentas básicas de segurança como Wireshark, Nmap e Burp Suite.
+
+**Perfil 4: Fullstack (SpringBoot + Angular)**
 
 - Você deve ter experiência com desenvolvimento Fullstack utilizando SpringBoot e Angular.
 - Você deve ter pago ou estar pagando Banco de Dados.
@@ -103,6 +108,15 @@ Na entrevista técnica, você deverá apresentar um projeto relacionado à área
 
 **🚨 Atenção:** Caso tenha utilizado inteligência artificial em seu projeto, explique como e por que a utilizou. É essencial que você compreenda integralmente todo o código apresentado. Não use trechos gerados por IA ou outras fontes sem um entendimento claro do seu funcionamento. (Observação: o uso de IA é bem-vindo nesta seleção, desde que você saiba justificar suas escolhas.) Se utilizar alguma inteligência artificial, descreva para que usou e como usou, durante a entrevista. Lembre-se que você precisa ter conhecimento sobre 100% do que você utilizar no seu projeto. Não utilize código gerado por IA ou de outras fontes sem entender por que está usando e como o código funciona. (Observação: usar IAs é algo bom nesta seleção, não tenha receio em utilizá-las.)
 
+**Algumas sugestões (não precisa seguir as sugestões):**
+
+- **Android/Kotlin:** Um aplicativo de lista de tarefas com integração ao Firebase.
+- **Testes/SpringBoot:** API REST para cadastro de usuários com cobertura de testes usando uma ferramenta de testes como postman e / ou robot .
+- **Segurança da Informação:** Configuração de um servidor linux com diferentes usuários, configuração de um firewall básico com iptables ou UFW, faça análise de tráfego com Wireshark.
+- **Fullstack:** Aplicação CRUD com SpringBoot e Angular (capriche nos detalhes - use componentes, permissões para diferentes usuários, use log na aplicação, etc.), não faça só o básico).
+
+(Não tenha medo de trazer outros projetos. É importante que o projeto reflita seu conhecimento sobre a área.)
+
 ## 📧 Dúvidas e contato
 
 Qualquer dúvida sobre o projeto envie um email para o professor Rodrigo Rebouças ([rodrigor@dcx.ufpb.br](mailto:rodrigor@dcx.ufpb.br)). No assunto informe: "Dúvida sobre seleção projeto Phoebus".
@@ -112,10 +126,10 @@ Qualquer dúvida sobre o projeto envie um email para o professor Rodrigo Rebouç
 #### Sou do 1º período. Posso me inscrever?
 Sim, você pode se inscrever, mas esteja ciente dos requisitos do edital. Se você está no primeiro período mas tem experiências anteriores ao curso, tudo bem. Se está começando agora sua formação na área, é provável que não seja selecionado(a).
 
-#### Vou me formar em 2024.1, posso ser selecionado(a)?
+#### Vou me formar em 2024.2, posso ser selecionado(a)?
 Não. Alunos que se formam neste período não serão selecionados. Não haverá tempo suficiente para você usufruir do projeto.
 
-#### Vou me formar do período 2024.2 em diante, posso me inscrever?
+#### Vou me formar do período 2025.1 em diante, posso me inscrever?
 Sim, você pode se inscrever.
 
 #### Posso me inscrever em mais de uma vaga aberta no laboratório AYTY, ao mesmo tempo? 
