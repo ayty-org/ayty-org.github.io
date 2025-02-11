@@ -139,4 +139,4 @@ Sim, você pode se inscrever em mais de um edital aberto. No formulário de insc
 
 Qualquer dúvida sobre o projeto envie um email para o professor Rodrigo Rebouças ([rodrigor@dcx.ufpb.br](mailto:rodrigor@dcx.ufpb.br)). No assunto informe: "Dúvida sobre seleção projeto Phoebus".
 
-[🔗 Formulário de inscrição](https://forms.gle/XVGDhSxpFdtNMmhT7)
+[🔗 Formulário de inscrição](https://forms.gle/XVGDhSxpFdtNMmhT7) (Você precisa estar autenticado(a) com seu email do DCX)
