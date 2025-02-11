@@ -122,10 +122,10 @@ Caso tenha utilizado inteligência artificial em seu projeto, explique como e po
 #### Sou do 1º período. Posso me inscrever?
 Sim, você pode se inscrever, **mas somente se tiver experiência prévia relevante**. Se você está começando sua formação agora e não tem projetos ou conhecimento prático na área, é improvável que seja selecionado.
 
-#### Vou me formar em 2024.1, posso ser selecionado(a)?
+#### Vou me formar em 2024.2, posso ser selecionado(a)?
 Não. Alunos que se formam neste período não serão selecionados. Não haverá tempo suficiente para você usufruir do projeto.
 
-#### Vou me formar do período 2024.2 em diante, posso me inscrever?
+#### Vou me formar do período 2025.1 em diante, posso me inscrever?
 Sim, você pode se inscrever.
 
 📧 **Dúvidas e contato:** Envie um e-mail para o professor Rodrigo Rebouças ([rodrigor@dcx.ufpb.br](mailto:rodrigor@dcx.ufpb.br)) com o assunto: "Dúvida sobre seleção projeto Phoebus".
