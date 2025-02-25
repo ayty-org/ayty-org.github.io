@@ -94,7 +94,7 @@ Desejável mas não obrigatório:
 | Data / horário            | Atividade                                                      |
 |---------------------------|----------------------------------------------------------------|
 | Até 21 de Fevereiro | Prazo pra inscrição no processo seletivo                  |
-| 25 de Fevereiro | Divulgação do resultado da 1ª etapa e convite para entrevista. |
+| <del>25</del> 26 de Fevereiro | Divulgação do resultado da 1ª etapa e convite para entrevista. |
 | 27 ou 28 de Fevereiro | Entrevistas com os(as) candidatos(as) que passaram da 1ª etapa. (O horário da entrevista será informado no e-mail de convite.) |
 | 28 de Fevereiro | Divulgação do resultado da 2ª etapa da seleção                       |
 | 06 e 07 de Março  | Entrevistas técnicas com os(as) candidatos(as) que passaram da 2ª etapa. (O horário da entrevista será informado no e-mail de convite.) |
