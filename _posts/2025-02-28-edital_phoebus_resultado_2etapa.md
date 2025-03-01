@@ -30,8 +30,8 @@ Vagas: 02
 
 *(Ordem alfabética)*
 
-- José Ryan Pereira da Silva
 - Eduardo Alves de Araújo 
+- José Ryan Pereira da Silva
 - Levi Maciel de Souza
 - Ricardo Veríssimo Pereira
 - Thasso Karly Morais Ramos
