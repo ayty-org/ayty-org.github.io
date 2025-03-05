@@ -97,10 +97,10 @@ Desejável mas não obrigatório:
 | <del>25</del> 26 de Fevereiro | Divulgação do resultado da 1ª etapa e convite para entrevista. |
 | 27 ou 28 de Fevereiro | Entrevistas com os(as) candidatos(as) que passaram da 1ª etapa. (O horário da entrevista será informado no e-mail de convite.) |
 | 28 de Fevereiro | Divulgação do resultado da 2ª etapa da seleção                       |
-| 06 e 07 de Março  | Entrevistas técnicas com os(as) candidatos(as) que passaram da 2ª etapa. (O horário da entrevista será informado no e-mail de convite.) |
-| 08 de Março | Divulgação do resultado final da seleção                       |
-| 11 de Março              | Início das atividades                                          |
-| 11 de Março das 09 às 16h  | Recepção aos alunos aprovados e classificados em João Pessoa, no DCT. (Participação obrigatória.) - Haverá ajuda de custo para ônibus e Uber |
+| 06 a 13 de Março  | Entrevistas técnicas com os(as) candidatos(as) que passaram da 2ª etapa. (O horário da entrevista será informado no e-mail de convite.) |
+| <del>08</del> 14 de Março | Divulgação do resultado final da seleção                       |
+| <del>11</del> 18 de Março              | Início das atividades                                          |
+| <del>11</del> 18 de Março das 09 às 16h  | Recepção aos alunos aprovados e classificados em João Pessoa, no DCT. (Participação obrigatória.) - Haverá ajuda de custo para ônibus e Uber |
 
 ## Sobre a entrevista técnica
 
