@@ -22,15 +22,18 @@ Vagas: 01
 
 ### Perfil 2: Testes / SpringBoot (Testes de API)
 
-Vagas: 02
+Vagas: 04
 
 *(Ordem alfabética)*
 
-- Aguarde...
+- Kauê José Santos da Silva
+- Levi Maciel de Souza
+- Ricardo Veríssimo Pereira
+- Thasso Karly Morais Ramos
 
 ### Perfil 3: Analista de Segurança da Informação
 
-Vagas: 02
+Vagas: 01
 
 *(Ordem alfabética)*
 
@@ -38,7 +41,7 @@ Vagas: 02
 
 ### Perfil 4: Perfil 4: Fullstack (SpringBoot + Angular)
 
-Vagas: 02
+Vagas: 01
 
 *(Ordem alfabética)*
 
