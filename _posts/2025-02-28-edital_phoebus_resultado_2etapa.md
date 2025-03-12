@@ -32,6 +32,7 @@ Vagas: 02
 
 - Eduardo Alves de Araújo 
 - José Ryan Pereira da Silva
+- Kauê José Santos da Silva
 - Levi Maciel de Souza
 - Ricardo Veríssimo Pereira
 - Thasso Karly Morais Ramos
@@ -56,6 +57,5 @@ Vagas: 02
 - Nataniel Cesar da Silva 
 - Pedro Athyrson Costa Ferreira
 - Fabrício Felizardo
-- Kauê José Santos da Silva
 - Nycolas Kevin Costa Nascimento
 - Wendel Soares Sampaio
