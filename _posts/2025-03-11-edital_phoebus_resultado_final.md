@@ -45,4 +45,4 @@ Vagas: 01
 
 *(Ordem alfabética)*
 
-- Aguarde...
+- Lucas Felipe Gomes Pedrosa
