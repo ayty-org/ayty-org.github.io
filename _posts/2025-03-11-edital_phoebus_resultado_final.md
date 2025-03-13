@@ -37,7 +37,7 @@ Vagas: 01
 
 *(Ordem alfabética)*
 
-- Aguarde...
+- Não houve selecionados. (Provavelmente teremos nova seleção nos próximos meses.)
 
 ### Perfil 4: Perfil 4: Fullstack (SpringBoot + Angular)
 
