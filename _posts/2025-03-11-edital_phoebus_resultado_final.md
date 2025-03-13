@@ -11,7 +11,7 @@ Edital: [Proj. Phoebus - Edital-08 (Fev 2025)](https://ayty.org/editais/2025-02-
 
 Seguem os alunos e alunas selecionados na etapa FINAL (entrevista técnica) do processo seletivo para bolsistas do projeto entre o AYTY e a empresa Phoebus.
 
-**Resultados parciais até o dia 14 de Março**
+**Resultado Final**
 
 
 ### Perfil 1: Desenvolvedor(a) Android / Kotlin
