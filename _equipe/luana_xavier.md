@@ -13,5 +13,5 @@ linkedin: https://www.linkedin.com/in/luana-xavier-de-pontes-b50522212/
 instagram: https://www.instagram.com/luanaponttes_/
 twitter: #Twitter
 importance: 4
-category: Ex-alunos #Professores, Colaboradores externos, Alunos, Ex-alunos
+category: ex-alunos 
 ---
