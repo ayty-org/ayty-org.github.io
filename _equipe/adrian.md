@@ -13,5 +13,5 @@ linkedin: https://www.linkedin.com/in/adrian-ancelmofs/
 instagram: https://www.instagram.com/aadrianfernandes/
 twitter: #Twitter
 importance: 4
-category: Alunos #Professores, Colaboradores externos, Alunos, Ex-alunos
+category: ex-alunos 
 ---
