@@ -13,5 +13,5 @@ linkedin: https://www.linkedin.com/in/lucas-cardoso-dos-santos-9017b4233/
 instagram: #Instagram
 twitter: #Twitter
 importance: 4
-category: Ex-alunos #Professores, Colaboradores externos, Alunos, Ex-alunos
+category: ex-alunos 
 ---
