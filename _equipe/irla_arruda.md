@@ -13,5 +13,5 @@ linkedin: https://www.linkedin.com/in/irla-ingrid-ramalho-arruda/
 instagram: https://www.instagram.com/irla.arruda/
 twitter: #Twitter
 importance: 4
-category: Ex-alunos
+category: ex-alunos
 ---
