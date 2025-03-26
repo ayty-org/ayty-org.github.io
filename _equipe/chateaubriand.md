@@ -13,5 +13,5 @@ linkedin: https://www.linkedin.com/in/chateaubriand-almeida-54b66463/
 instagram: https://www.instagram.com/chateaubriand_almeida/
 twitter: 
 importance: 4
-category: Alunos
+category: ex-Alunos
 ---
