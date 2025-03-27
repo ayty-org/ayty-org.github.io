@@ -13,5 +13,5 @@ linkedin: https://www.linkedin.com/in/marcos-ferreira-9b01a11b9/
 instagram: #Instagram
 twitter: #Twitter
 importance: 4
-category: Ex-alunos #Professores, Colaboradores externos, Alunos, Ex-alunos
+category: ex-aluno
 ---
