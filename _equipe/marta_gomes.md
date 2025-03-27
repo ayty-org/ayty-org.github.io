@@ -13,5 +13,5 @@ linkedin: https://www.linkedin.com/in/marta-regina-gomes-12a594187/
 instagram: #Instagram
 twitter: #Twitter
 importance: 4
-category: Ex-alunos #Professores, Colaboradores externos, Alunos, Ex-alunos
+category: ex-aluno
 ---
