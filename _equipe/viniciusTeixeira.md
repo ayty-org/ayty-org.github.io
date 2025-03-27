@@ -13,5 +13,5 @@ linkedin: https://www.linkedin.com/in/vinicius-teixeira-fernandes/
 instagram: https://www.instagram.com/viniciusteixeiravini/
 twitter: #Twitter
 importance: 4
-category: Alunos #Professores, Colaboradores externos, Alunos, Ex-alunos
+category: ex-aluno
 ---
