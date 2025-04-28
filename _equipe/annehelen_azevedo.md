@@ -5,7 +5,7 @@ img: equipe/img/annehelen_azevedo.jpg
 funcao: Bolsista Dev
 ex-projeto: universi.me
 desde: 2023-03-15
-saiu:
+saiu: 2023-11-31
 description: Eae! :) Sou estudante de Ciências da Computação na Universidade Federal da Paraíba - Campus IV. Sou fã do front e entre alguma das coisas que exploro são JavaScript/TypeScript, Angular e mais recentemente comecei a explorar o React.
 home_page: 
 github: https://github.com/Annehelen-ltda 
