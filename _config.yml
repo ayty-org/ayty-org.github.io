@@ -180,6 +180,9 @@ collections:
   equipe:
     output: true
     permalink: /equipe/:path/
+  equipe_old:
+    output: true
+
 
 announcements:
   enabled: true

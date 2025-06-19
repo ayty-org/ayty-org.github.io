@@ -5,7 +5,7 @@ permalink: /equipe/
 description: Nossa equipe
 nav: true
 nav_order: 2
-display_categories: [Professores, Colaboradores externos, Alunos, Ex-alunos]
+display_categories: [Professores, Colaboradores externos, Alunos]
 horizontal: false
 ---
 
@@ -55,4 +55,13 @@ horizontal: false
   </div>
   {%- endif -%}
 {%- endif -%}
+<h2 class="category">Antigos integrantes da equipe</h2>
+<div class="grid">
+  {%- assign ex_alunos = site.equipe_old | sort: "importance" -%}
+  {%- for member in ex_alunos -%}
+    {% include equipe.html %}
+  {%- endfor %}
+</div>
+
+
 </div>

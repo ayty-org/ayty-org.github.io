@@ -14,25 +14,45 @@ Projeto de pesquisa, extensão e capacitação que envolve a empresa [CODATA](ht
 
 A CODATA é a empresa paraibana de processamento de dados e informações. É a empresa responsável por, entre outros serviços, seu RG, pela carteira de motorista, pelo processamento de BOs na polícia, entre inúmeros outros serviços que atendem o cidadão paraibano. Possui datacenters que processam pagamentos, emissão e controle de carteiras de motoristas, processos de órgãos como Detran e polícia, entre inúmeros órgãos e secretarias.
 
-Duração: 18 meses, de Julho de 2023 a Dezembro de 2024.
-
-Coordenador geral: [Prof. Rodrigo Rebouças](/equipe/rodrigor/)
+Coordenador de pesquisa e desenvolvimento: [Prof. Rodrigo Rebouças](/equipe/rodrigor/)
 
 ##### Fundação parceira:
 [![Fundação parceira](/assets/img/logos/logo-funetec.png#right)](https://www.funetec.com/)
 
+Os bolsistas deste projeto possuem relação individual direta com a FUNETEC, através de projeto realizado entre CODATA e a fundação.
+
+
 ## Melhoria de Processos
 
-**Professor responsável:** [Prof. Rodrigo Rebouças](/equipe/rodrigor/)
+**Professor responsável pela área de melhoria de processos e Universi.me:** [Prof. Rodrigo Rebouças](/equipe/rodrigor/)
 
-Melhoria de processos de desenvolvimento de software, processo de gerência de dívidas técnicas, e processos organizacionais. Esta área envolve ações de pesquisa e desenvolvimento ligadas ao diagnóstico, análise e melhoria de processos da empresa. A melhoria de processos vai envolver envolve a aplicação da ferramenta [Tracy-TD](/projects/tracy-td/), para gerência de dívidas técnicas, e o desenvolvimento de ferramenta para desenvolvimento pessoal dos colaboradores da CODATA, envolvendo a Rede Social para desenvolvimento pessoal [Universi.me](/projects/universi.me/).
+**Professora responsável pela orientação do desenvolvimento do Universi.me:** [Profa. Raquel Vigolvino](/equipe/raquel_vigolvino/)
+
+Melhoria de processos de desenvolvimento de software, processo de gerência de dívidas técnicas, e processos organizacionais. Esta área envolve ações de pesquisa e desenvolvimento ligadas ao diagnóstico, análise e melhoria de processos da empresa. A melhoria de processos vai envolve também o desenvolvimento de ferramenta para desenvolvimento pessoal dos colaboradores da CODATA, envolvendo a Rede Social para desenvolvimento pessoal [Universi.me](/projects/universi.me/).
 
 - Gerência de Processos de negócios, BPM, BPMN, etc.;
 - Processos de Desenvolvimento de Software;
 - Processos Administrativos;
-- Gerência de Dívidas Técnicas;
 - Desenvolvimento de pessoas através de ferramenta de gestão de capacitações;
 
+
+## Segurança
+
+**Professor responsável:** [Prof. Daniel Faustino](/equipe/daniel_faustino/)
+
+A área de Segurança tem como foco principal a revisão e atualização da política de segurança da CODATA, levando em conta a nova estrutura organizacional e ameaças identificadas. Além disso, inclui a comunicação de mudanças, execução de treinamentos, estabelecimento de um framework de monitoramento da política, e a criação de um Centro de Operações de Segurança (SOC). O SOC irá avaliar riscos, identificar ameaças, alinhar ações com a política de segurança, definir políticas e procedimentos, selecionar e implantar tecnologias de segurança, recrutar e treinar equipes, implementar mecanismos de gestão de incidentes e monitorar seu próprio desempenho. O projeto também irá tratar a integridade e confidencialidade dos dados, auxiliando em aspectos como certificação digital, assinatura digital, anonimização de dados e criptografia de dados e comunicação confidencial.
+
+## Capacitação em Requisitos e Testes de Software
+
+**Professora responsável:** [Profa. Vanessa Dantas](/equipe/vanessa_dantas/)
+
+Nesta área, os estudantes se envolvem em ações diretamente nos times de desenvolvimento da empresa parceira. Ele passam por várias etapas de crescimento profissional, interagindo com profissionais, em um ambiente real de desenvovlimento. A equipe trabalha em um laboratório em Rio Tinto, remotamente para a empresa.
+
+
+# Linhas de ação encerradas
+
+
+As linhas de Data Analytics, Cloud e Devops e Inteligência Artificial foram encerradas em Março de 2025.
 
 ## Data Analytics
 
@@ -52,16 +72,3 @@ A área de Infraestrutura e Cloud visa melhorar o desempenho e a eficiência da 
 **Professor responsável:** [Prof. Rafael Marrocos](/equipe/rafael_magalhaes/)
 
 A área de Inteligência Artificial (IA) tem como objetivo a prospecção de oportunidades nestas áreas, com a inclusão de técnicas avançadas como Deep Learning, Visão computacional, OCR, e modelos diversos de aprendizado. As ações incluem a identificação de áreas e projetos da CODATA com potencial para o uso de IA, a análise e proposição de soluções baseadas em IA, o desenvolvimento de planos de capacitação e projetos para a inclusão de ferramentas de IA, além de suporte e treinamento no uso de ferramentas generativas como o ChatGPT para processamento natural de linguagem (PNL). A fase final do projeto contempla o planejamento, a integração e a avaliação experimental dessas tecnologias em casos específicos selecionados.
-## Segurança
-
-**Professor responsável:** [Prof. Daniel Faustino](/equipe/daniel_faustino/)
-
-A área de Segurança tem como foco principal a revisão e atualização da política de segurança da CODATA, levando em conta a nova estrutura organizacional e ameaças identificadas. Além disso, inclui a comunicação de mudanças, execução de treinamentos, estabelecimento de um framework de monitoramento da política, e a criação de um Centro de Operações de Segurança (SOC). O SOC irá avaliar riscos, identificar ameaças, alinhar ações com a política de segurança, definir políticas e procedimentos, selecionar e implantar tecnologias de segurança, recrutar e treinar equipes, implementar mecanismos de gestão de incidentes e monitorar seu próprio desempenho. O projeto também irá tratar a integridade e confidencialidade dos dados, auxiliando em aspectos como certificação digital, assinatura digital, anonimização de dados e criptografia de dados e comunicação confidencial.
-
-## Atuação nos times de desenvolvimento da empresa
-
-**Professora responsável:** [Profa. Vanessa Dantas](/equipe/vanessa_dantas/)
-
-Nesta área, os estudantes se envolvem em ações diretamente nos times de desenvolvimento da empresa parceira. Ele passam por várias etapas de crescimento profissional, interagindo com profissionais, em um ambiente real de desenvovlimento. A equipe trabalha em um laboratório em Rio Tinto, remotamente para a empresa.
-
-

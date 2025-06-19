@@ -98,11 +98,12 @@ layout: default
             
             <!-- END EQUIPE -->
 
-{% assign filtered_ex_alunos = site.equipe | where: "ex-projeto", page.projeto %}
-{% assign sorted_ex_alunos = filtered_ex_alunos | sort: "importance" %}
+{%- assign all_ex_alunos = site.equipe | concat: site.equipe_old -%}
+{%- assign filtered_ex_alunos = all_ex_alunos | where: "ex-projeto", page.projeto -%}
+{%- assign sorted_ex_alunos = filtered_ex_alunos | sort: "importance" -%}
 
 {% if sorted_ex_alunos.size > 0 %}
-  <h2>Ex-alunos</h2>
+  <h2>Antigos integrantes da equipe</h2>
   <div class="equipe">
     <!-- Generate cards for each ex-student -->
     {% if page.horizontal %}
