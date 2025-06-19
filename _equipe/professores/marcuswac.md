@@ -14,5 +14,6 @@ twitter: https://twitter.com/marcuswac
 importance: 1
 category:  Professores
 funcao: Pesquisador 
-projeto: [ideal, esig,codata]
+projeto: [ideal,vivamoveis,cabemais]
+ex-projeto: [esig,codata]
 ---

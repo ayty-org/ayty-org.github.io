@@ -14,5 +14,7 @@ twitter: https://twitter.com/tacitotiburtino
 importance: 1
 category:  Professores
 funcao: Pesquisador 
-projeto: [codata,vivamoveis,universi.me]
+projeto: ideal
+ex-projeto: [codata,vivamoveis,universi.me]
+
 ---

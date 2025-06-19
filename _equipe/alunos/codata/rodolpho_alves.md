@@ -6,7 +6,7 @@ funcao: bolsista devops
 projeto: codata
 desde: 2023-07-28
 saiu: 
-description: "Buscando aprender a otimizar na nuvem :)"
+description: "Atua como bolsista da área de Segurança, no projeto CODATA"
 home_page: 
 github: 
 linkedin: 

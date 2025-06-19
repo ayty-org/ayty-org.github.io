@@ -3,10 +3,11 @@ layout: member
 name: João Victor Lima Barros
 img: equipe/img/joao_barros.jpg
 funcao: bolsista Co-host
+projeto: phoebus
 ex-projeto: engenharia.software 
 desde: 2023-02-07
 saiu: #data de fim
-description: Co-host do podcast, aluno do curso de Ciência do Computação na Universidade Federal da Paraíba no Campu IV. Gosta de jogos eletrônicos como Factorio, Europa Universalis IV e Civilization VI. É MALUCO por programação e gosta muito de trabalhar no projeto Engenharia.Software.
+description: "Atua no projeto Phoebus. Atuou como Co-host do podcast Engenharia.Software.
 home_page: # home page
 github: https://github.com/UmBarril
 linkedin: https://www.linkedin.com/in/jo%C3%A3o-victor-lima-barros-1613b0242/
