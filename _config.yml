@@ -182,6 +182,7 @@ collections:
     permalink: /equipe/:path/
   equipe_old:
     output: true
+    permalink: /equipe_old/:path/
 
 
 announcements:
