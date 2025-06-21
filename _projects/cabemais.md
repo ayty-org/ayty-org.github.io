@@ -10,8 +10,9 @@ desde: 2024-12-01
 encerramento: 
 ---
 
+Cabe Mais é um ecossistema de self storage e coworking localizado na Paraíba, com mais de 11 mil m² e estrutura voltada para atender tanto empresas quanto pessoas físicas. O empreendimento se destaca pela robustez de sua infraestrutura, sede própria e atuação relevante no meio corporativo. 
 
-O presente projeto será conduzido com foco na identificação, análise, modelagem, melhoria e documentação de processos da empresa [Cabe Mais](https://www.cabemais.com.br/). O objetivo central é otimizar os processos internos, permitindo a implementação de soluções que possibilitem a integração e automação de atividades. A partir da análise dos processos de negócios, serão identificadas as áreas específicas que poderão ser impactadas pelas melhorias, visando a eficiência e a qualidade do atendimento.
+Este projeto tem foco na identificação, análise, modelagem, melhoria e documentação de processos da empresa [Cabe Mais](https://www.cabemais.com.br/). O objetivo central é otimizar os processos internos, permitindo a implementação de soluções que possibilitem a integração e automação de atividades. A partir da análise dos processos de negócios, serão identificadas as áreas específicas que poderão ser impactadas pelas melhorias, visando a eficiência e a qualidade do atendimento.
 
 ## Objetivos, Resultados e Atividades
 
