@@ -55,7 +55,7 @@ layout: default
             {%- if page.projeto %}
               <!-- Display categorized team -->
               {%- assign categorized_equipe = site.equipe | where: "projeto", page.projeto -%}
-              {%- assign sorted_equipe = categorized_equipe | sort: "importance" %}
+              {%- assign sorted_equipe = categorized_equipe | sort: "name"  | sort: "importance" %}
               <!-- Generate cards for each member -->
               {% if page.horizontal -%}
               <div class="container">
@@ -100,7 +100,7 @@ layout: default
 
 {%- assign all_ex_alunos = site.equipe | concat: site.equipe_old -%}
 {%- assign filtered_ex_alunos = all_ex_alunos | where: "ex-projeto", page.projeto -%}
-{%- assign sorted_ex_alunos = filtered_ex_alunos | sort: "importance" -%}
+{%- assign sorted_ex_alunos = filtered_ex_alunos | sort: "name"  | sort: "importance" -%}
 
 {% if sorted_ex_alunos.size > 0 %}
   <h2>Antigos integrantes da equipe</h2>
