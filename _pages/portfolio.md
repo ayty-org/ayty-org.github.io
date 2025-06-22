@@ -4,7 +4,7 @@ title: Portfolio
 permalink: /portfolio/
 description: Como o AYTY pode ajudar sua empresa ou organização?
 nav: true
-nav_order: 2
+nav_order: 5
 ---
 
 ### BPM (Business Process Management)

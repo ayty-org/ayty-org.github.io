@@ -4,7 +4,7 @@ title: Equipe
 permalink: /equipe/
 description: Nossa equipe
 nav: true
-nav_order: 2
+nav_order: 4
 display_categories: [Professores, Colaboradores externos, Alunos]
 horizontal: false
 ---
