@@ -3,8 +3,7 @@ layout: member
 name: Israel Pontes da Silva
 img: equipe/img/israel_pontes.jpg
 funcao: bolsista dev
-projeto: phoebus 
-ex-projeto: tracy-td
+ex-projeto: [phoebus,tracy-td]
 desde: 2022-07-01
 saiu: 2024-07-30
 description: Desenvolvedor full stach na Phoebus

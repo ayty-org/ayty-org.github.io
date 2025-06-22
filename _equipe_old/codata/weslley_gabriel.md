@@ -3,7 +3,7 @@ layout: member
 name: Weslley Gabriel Paz de Sousa 
 img: equipe/img/weslley_gabriel.jpg
 funcao: bolsista dev
-projeto: codata
+ex-projeto: codata
 desde: 2023-08-01
 saiu: 
 description: "Graduando em Sistemas de Informação pela UFPB. Desenvolvedor back-end, apaixonado por programação e resolução de problemas."
