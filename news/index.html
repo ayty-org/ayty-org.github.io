@@ -10,7 +10,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>4o Edital - Proj. ESIG / Quark (Jun 2023) | AYTY</title>
+    <title>Notícias | AYTY</title>
     <meta name="author" content="AYTY  ">
     <meta name="description" content="AYTY - Laboratório de Engenharia de Software Aplicada
 ">
@@ -39,7 +39,7 @@
     <link rel="shortcut icon" href="/assets/img/favicon-96x96.png">
     
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="https://ayty.org/editais/2023-05-21-esig-edital4/">
+    <link rel="canonical" href="https://ayty.org/news/">
 
     <!-- Dark Mode -->
     
@@ -131,185 +131,40 @@
     <!-- Content -->
     <div class="container mt-5">
       
-        <!-- _layouts/post.html -->
+        <!-- page.html -->
+        <div class="post">
 
-<div class="post">
+          <header class="post-header">
+            <h1 class="post-title">Notícias</h1>
+            <p class="post-description"></p>
+          </header>
 
-  <header class="post-header">
-    <h1 class="post-title">4o Edital - Proj. ESIG / Quark (Jun 2023)</h1>
-    <p class="post-meta">May 21, 2023</p>
-    <p class="post-tags">
-      <a href="/blog/2023"> <i class="fas fa-calendar fa-sm"></i> 2023 </a>
-        ·  
-        <a href="/blog/tag/esig">
-          <i class="fas fa-hashtag fa-sm"></i> esig</a>  
-          
-        ·  
-        <a href="/blog/category/edital">
-          <i class="fas fa-tag fa-sm"></i> edital</a>  
+          <article>
           
 
-    </p>
-  </header>
+            <h2>Últimas notícias</h2>
+<ul id="noticias-ghost"></ul>
 
-  <article class="post-content">
-    
-    <div id="markdown-content">
-      <p><strong>Data</strong>: 22/05/2023</p>
+<script>
+  fetch("https://api.rss2json.com/v1/api.json?rss_url=https://ayty.ghost.io/rss/")
+    .then(response => response.json())
+    .then(data => {
+      const container = document.getElementById("noticias-ghost");
+      data.items.slice(0, 5).forEach(post => {
+        const li = document.createElement("li");
+        li.innerHTML = `<a href="${post.link}" target="_blank">${post.title}</a>`;
+        container.appendChild(li);
+      });
+    })
+    .catch(error => {
+      console.error("Erro ao carregar o feed:", error);
+    });
+</script>
 
-<figure>
 
-  <!-- <picture> -->
-    
+          </article>
 
-    <!-- Fallback to the original file -->
-    
-    <img src="/assets/img/projetos/esig.png" class="project_image" width="auto" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
-    
-
-  <!-- </picture> -->
-
-</figure>
-
-<p>Edital de seleção de 4 (quatro) bolsistas para projeto em parceria com as
-empresas ESIG e Quark.</p>
-
-<p><strong>Atenção! LEIA ATENTAMENTE todas as informações e inscreva-se no link
-ao final deste edital.</strong></p>
-
-<h2 id="sobre-o-projeto">Sobre o projeto</h2>
-
-<p>Trata-se de um projeto de pesquisa, desenvolvimento e capacitação que
-envolve as empresas <a href="https://www.esig.com.br/" rel="external nofollow noopener" target="_blank">ESIG</a>,
-<a href="http://quark.tec.br/" rel="external nofollow noopener" target="_blank">Quark</a> e o laboratório <strong>AYTY</strong>, do departamento
-de ciências exatas / Campus IV / UFPB. O projeto atua nas áreas de
-desenvolvimento de sistemas para as áreas de saúde, educação, gestão
-administrativa e gerência de dívidas técnicas.</p>
-
-<p>Ao longo do projeto os alunos e alunas dos cursos de <strong>SI e Computação</strong>
-terão a oportunidade de aprender tecnologias e competências
-profissionais em um ambiente real de desenvolvimento de software, além
-de interagir diretamente com profissionais das equipes da empresa. As
-pessoas selecionadas também participarão de capacitações e outros
-eventos promovidos pelas empresas.</p>
-
-<p>Conheça mais sobre as empresas através dos links: <a href="https://esig.group/#sobre" rel="external nofollow noopener" target="_blank">ESIG
-Group</a>, <a href="https://www.esig.com.br/" rel="external nofollow noopener" target="_blank">ESIG</a>,
-<a href="https://quark.tec.br/" rel="external nofollow noopener" target="_blank">Quark</a>.</p>
-
-<ul>
-  <li>Professor coordenação e orientação dos estudantes: <a href="/equipe/marcuswac/">Prof. Marcus Carvalho</a> e <a href="/equipe/rodrigor/">Prof. Rodrigo
-Rebouças</a>
-</li>
-</ul>
-
-<h2 id="vagas-carga-horária-e-valor-de-bolsa">Vagas, carga horária e valor de bolsa</h2>
-
-<ul>
-  <li>
-<strong>Para aluno(a)s de SI e LCC:</strong>
-    <ul>
-      <li>Quantidade de vagas: 04 (quatro vagas)</li>
-      <li>Carga horária requerida: 20 horas semanais, de segunda a
-sexta-feira, durante o período das 8h00 até as 18h00. (<strong>o horário do projeto deve ser EXCLUSIVO</strong> - você não deve compartilhar o horário do projeto com outras atividades).</li>
-      <li>Valor da bolsa: R$ 800,00</li>
-    </ul>
-  </li>
-</ul>
-
-<h2 id="pré-requisitos">Pré-requisitos</h2>
-
-<p><strong>Para alunos de SI e LCC:</strong></p>
-
-<ul>
-  <li>Não há restrição de período para concorrer às vagas, no entanto é
-desejável que você tenha conhecimento de programação Java e banco de
-dados.</li>
-  <li>Para esta seleção, <em>daremos preferência</em> a alunos a
-partir do 6o período.</li>
-  <li>Ter 20 horas por semana disponíveis para participar do projeto.</li>
-  <li><strong>Gostar BASTANTE de programar.</strong></li>
-  <li>Para esta seleção é muito mais importante você gostar de aprender,
-ter iniciativa, responsabilidade e perseguir os objetivos do que
-saber previamente uma determinada tecnologia.</li>
-</ul>
-
-<h2 id="sobre-o-processo-seletivo">Sobre o processo seletivo</h2>
-
-<p>O processo será dividido em três etapas:</p>
-
-<ul>
-  <li>1a etapa: Preenchimento de um formulário e triagem dos alunos e
-  alunas.</li>
-  <li>2a etapa: Entrevistas com os alunos e alunas selecionado(a)s na 1a
-  etapa.</li>
-  <li>3a etapa: Avaliação técnica de um projeto, realizada pela equipe da empresa. A descrição do projetinho será divulgada para o(a)s aluno(a)s que forem aprovados(as) na 2a etapa.</li>
-</ul>
-
-<p>Vamos levar em consideração a sua atuação fora de sala de aula, suas
-atividades em projetos, monitorias, e outras iniciativas. Também
-observaremos suas notas nas disciplinas e suas respostas às questões
-abertas. Na entrevista, observaremos sua desenvoltura pessoal, sua
-segurança ao responder às perguntas e ao discutir os diversos temas que
-serão tratados.</p>
-
-<h3 id="calendário">Calendário:</h3>
-
-<p>Calendário de atividades do processo seletivo. Obs.: Fique atento(a) a esta página, as datas podem mudar sem aviso prévio.</p>
-
-<table>
-  <thead>
-    <tr>
-      <th>Data / horário</th>
-      <th>Atividade</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>26/Maio até as 18h00</td>
-      <td>Etapa 1: Inscrições - análise de currículo</td>
-    </tr>
-    <tr>
-      <td>29/Maio</td>
-      <td>Etapa 1: divulgação do resultado da 1a etapa</td>
-    </tr>
-    <tr>
-      <td>30/Maio a 02/Junho</td>
-      <td>Etapa 2: entrevistas (os horários das entrevistas serão entre as 14 e 18 horas)</td>
-    </tr>
-    <tr>
-      <td>02/Junho</td>
-      <td>Etapa 2: divulgação do resultado da 2a etapa</td>
-    </tr>
-    <tr>
-      <td>
-<del>03-09</del> 11 - 24/Junho</td>
-      <td>Etapa 3: avaliação técnica</td>
-    </tr>
-    <tr>
-      <td>24/Junho</td>
-      <td>Etapa 3: prazo para envio final da atividade técnica</td>
-    </tr>
-    <tr>
-      <td>04-07/Julho</td>
-      <td>Etapa 3: apresentação da atividade técnica (agendamento por email)</td>
-    </tr>
-    <tr>
-      <td>
-<del>16</del> <del>30/Junho</del> 07/Julho</td>
-      <td>Etapa 3: resultado final</td>
-    </tr>
-    <tr>
-      <td>
-<del>03</del> 10/Julho</td>
-      <td>Início das atividades no projeto</td>
-    </tr>
-  </tbody>
-</table>
-
-    </div>
-  </article>
-</div>
+        </div>
 
       
     </div>
