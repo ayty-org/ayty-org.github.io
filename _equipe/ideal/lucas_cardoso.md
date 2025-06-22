@@ -3,7 +3,7 @@ layout: member
 name: Lucas Cardoso dos Santos
 img: equipe/img/lucas_cardoso.jpg
 funcao: Software Developer bolsista
-proejto: ideal
+projeto: ideal
 ex-projeto: phoebus
 desde: 2021-03-01
 saiu: #
@@ -14,5 +14,5 @@ linkedin: https://www.linkedin.com/in/lucas-cardoso-dos-santos-9017b4233/
 instagram: #Instagram
 twitter: #Twitter
 importance: 4
-category: ex-alunos 
+category: Alunos 
 ---
