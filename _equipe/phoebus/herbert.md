@@ -1,12 +1,13 @@
 ---
 layout: member
-name: herbert  rocha monteiro
+name: Herbert Rocha Monteiro
 img: equipe/img/herbert.jpg
 funcao: bolsista devops
+projeto: phoebus
 ex-projeto: codata
 desde: 2023-08-01
-saiu: 2025-03-30
-description: "Olá!!, sou um estudante de LCC, Amante de linux, com um vasto conhecimento em hardware e grande interesse por devops."
+saiu: 
+description: "Atuou no projeto CODATA até 30/03/2025 e atualmente atua no projeto Phoebus, na área de Devops."
 home_page: 
 github: https://github.com/herbertpk
 linkedin: https://www.linkedin.com/in/herbert-rocha-761248138/
