@@ -46,7 +46,7 @@ layout: default
 
           <div style="text-align: center;">
 
-            <div id="image-container" data-theme="{{ site.enable_darkmode ? 'dark' : 'light' }}">
+            <div id="image-container" data-theme="{% if site.enable_darkmode %}dark{% else %}light{% endif %}">
               <img id="theme-image" src="assets/img/ayty-black-transp.png" alt="AYTY Logo" class="img-fluid">
             </div>
 
