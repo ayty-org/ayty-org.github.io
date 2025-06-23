@@ -5,7 +5,7 @@ img: equipe/img/guilherme_cesar.jpg
 funcao: bolsista dev
 ex-projeto: codata
 desde: 2023-08-01
-saiu: 
+saiu: 2025-01-31
 description: "Estudante de Sistemas da informação na UFPB Campus IV, atualmente estagiando na CODATA na área de análise de requisitos, focando os estudos no Back-End com Java e Spring-Boot e também python mas pretendo ter um foco maior na parte de Análise de sistemas e gerência de projetos, amante de café e NBA."
 home_page: 
 github: 

@@ -5,8 +5,8 @@ img: equipe/img/weslley_gabriel.jpg
 funcao: bolsista dev
 ex-projeto: codata
 desde: 2023-08-01
-saiu: 
-description: "Graduando em Sistemas de Informação pela UFPB. Desenvolvedor back-end, apaixonado por programação e resolução de problemas."
+saiu: 2025-02-28
+description: "Atuou como bolsista no projeto Codata, na área de requisitos e testes"
 home_page: 
 github: https://github.com/WeslleyGabriel
 linkedin: https://www.linkedin.com/in/weslley-gabriel-2b6727187

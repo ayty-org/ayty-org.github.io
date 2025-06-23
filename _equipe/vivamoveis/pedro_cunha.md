@@ -6,8 +6,8 @@ funcao: bolsista dev
 projeto: vivamoveis
 ex-projeto: phoebus 
 desde: 2022-07-01
-saiu: 2023-06-30
-description: "Pedro atua nas áreas de UX / UI e testes no projeto Viva Móveis. Ele também atuou como desenvolvedor full stack no projeto Phoebus. "
+saiu: 
+description: "Pedro atua nas áreas de UX / UI e testes no projeto Viva Móveis. Ele também atuou como desenvolvedor full stack no projeto Phoebus, de 01/07/2022 a 30/06/2023. "
 home_page: # home page
 github: https://github.com/edroluiz
 linkedin: https://www.linkedin.com/in/pedro-luiz-b9488b203/
