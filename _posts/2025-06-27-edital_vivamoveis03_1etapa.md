@@ -28,4 +28,10 @@ Selecionados para a etapa de entrevistas (2a etapa) no processo seletivo para pr
 
 ## Perfil 02 - Desenvolvimento full stack
 
-(O resultado do perfil 02 será publicado hoje (sexta 27/jun))
+- Arthur Cezar Silva De Araujo
+- Gabriel Mizael de Sousa Gomes
+- José Elksandro do Nascimento Silva
+- Luiz Felipe Ferreira de Albuquerque
+- Peterson William da Silva Fernandes
+- Romildo Rodrigues da Silva Regis Júnior
+
