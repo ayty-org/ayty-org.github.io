@@ -28,4 +28,4 @@ Selecionados para a etapa de entrevistas (2a etapa) no processo seletivo para pr
 
 ## Perfil 02 - Desenvolvimento full stack
 
-(O resultado do perfil 02 será publicado hoje (sexta 27/jun) até meio dia)
+(O resultado do perfil 02 será publicado hoje (sexta 27/jun))
