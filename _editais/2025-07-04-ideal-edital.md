@@ -36,7 +36,7 @@ O jogo de tabuleiro já existe em formato físico e pode ser impresso. Uma prime
 
 ## 💰 Remuneração
 
-O contrato prevê um pagamento total de **R$ 4.823,15**, dividido em duas parcelas:
+O contrato prevê um pagamento total de **R$ 4.500,00**, dividido em duas parcelas:
 - Primeira metade no início do projeto;  
 - Segunda metade em dezembro, após a entrega das atividades previstas.
 
