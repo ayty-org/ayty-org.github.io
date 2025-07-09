@@ -1,5 +1,27 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="pt-br"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://ayty.org/feed.xml" rel="self" type="application/atom+xml" /><link href="https://ayty.org/" rel="alternate" type="text/html" hreflang="pt-br" /><updated>2025-07-04T17:34:13+00:00</updated><id>https://ayty.org/feed.xml</id><title type="html">AYTY</title><subtitle>AYTY - Laboratório de Engenharia de Software Aplicada
-</subtitle><entry><title type="html">Edital-02 Cabe Mais Jun/25 - Resultado FINAL</title><link href="https://ayty.org/blog/2025/edital_cabemais02_2etapa/" rel="alternate" type="text/html" title="Edital-02 Cabe Mais Jun/25 - Resultado FINAL" /><published>2025-06-29T00:00:00+00:00</published><updated>2025-06-29T00:00:00+00:00</updated><id>https://ayty.org/blog/2025/edital_cabemais02_2etapa</id><content type="html" xml:base="https://ayty.org/blog/2025/edital_cabemais02_2etapa/"><![CDATA[<p>Edital: <a href="/editais/2025-06-18-cabemais-02/">2o Edital - Proj. Cabe Mais (Jun 2025)</a></p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="pt-br"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://ayty.org/feed.xml" rel="self" type="application/atom+xml" /><link href="https://ayty.org/" rel="alternate" type="text/html" hreflang="pt-br" /><updated>2025-07-09T11:44:04+00:00</updated><id>https://ayty.org/feed.xml</id><title type="html">AYTY</title><subtitle>AYTY - Laboratório de Engenharia de Software Aplicada
+</subtitle><entry><title type="html">Resultado FINAL - IDEAL - Sustentabilidade - Edital-02 (Jul 2025)</title><link href="https://ayty.org/blog/2025/edital02_ideal_resultado_final/" rel="alternate" type="text/html" title="Resultado FINAL - IDEAL - Sustentabilidade - Edital-02 (Jul 2025)" /><published>2025-07-09T00:00:00+00:00</published><updated>2025-07-09T00:00:00+00:00</updated><id>https://ayty.org/blog/2025/edital02_ideal_resultado_final</id><content type="html" xml:base="https://ayty.org/blog/2025/edital02_ideal_resultado_final/"><![CDATA[<figure>
+
+  <!-- <picture> -->
+    
+
+    <!-- Fallback to the original file -->
+    
+    <img src="/assets/img/projetos/ideal.png" class="project_image" width="auto" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+    
+
+  <!-- </picture> -->
+
+</figure>
+
+<p>Edital de seleção de 01 (um) bolsista para projeto em parceria com o <a href="https://ideal.ufpb.br/pt/">Laboratório Misto Internacional (LMI) IDEAL</a>.</p>
+
+<p>Segue o aluno selecionado no processo seletivo para bolsista do projeto entre o AYTY e o Laboratório Misto Internacional (LMI) IDEAL.</p>
+
+<h3 id="resultado-final">Resultado final</h3>
+
+<ul>
+  <li>Nycolas Kevin Costa Nascimento</li>
+</ul>]]></content><author><name></name></author><category term="edital" /><category term="ideal" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Edital-02 Cabe Mais Jun/25 - Resultado FINAL</title><link href="https://ayty.org/blog/2025/edital_cabemais02_2etapa/" rel="alternate" type="text/html" title="Edital-02 Cabe Mais Jun/25 - Resultado FINAL" /><published>2025-06-29T00:00:00+00:00</published><updated>2025-06-29T00:00:00+00:00</updated><id>https://ayty.org/blog/2025/edital_cabemais02_2etapa</id><content type="html" xml:base="https://ayty.org/blog/2025/edital_cabemais02_2etapa/"><![CDATA[<p>Edital: <a href="/editais/2025-06-18-cabemais-02/">2o Edital - Proj. Cabe Mais (Jun 2025)</a></p>
 
 <p>Resultado final no processo seletivo para projeto Cabe Mais (vaga para a área de Data Analytics).</p>
 
@@ -277,30 +299,4 @@
   <li>Lucas Felipe Gomes Pedrosa</li>
   <li>Luiz Felipe Ferreira de Albuquerque</li>
   <li>Ronyelison de Oliveira Abreu</li>
-</ul>]]></content><author><name></name></author><category term="edital" /><category term="cabemais" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Resultado FINAL - IDEAL - Sustentabilidade - Edital-01 (Set 2024)</title><link href="https://ayty.org/blog/2024/edital_ideal_resultado_final/" rel="alternate" type="text/html" title="Resultado FINAL - IDEAL - Sustentabilidade - Edital-01 (Set 2024)" /><published>2024-09-27T00:00:00+00:00</published><updated>2024-09-27T00:00:00+00:00</updated><id>https://ayty.org/blog/2024/edital_ideal_resultado_final</id><content type="html" xml:base="https://ayty.org/blog/2024/edital_ideal_resultado_final/"><![CDATA[<figure>
-
-  <!-- <picture> -->
-    
-
-    <!-- Fallback to the original file -->
-    
-    <img src="/assets/img/projetos/ideal.png" class="project_image" width="auto" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
-    
-
-  <!-- </picture> -->
-
-</figure>
-
-<p>Edital de seleção de 04 (quatro) bolsistas para projeto em parceria com o <a href="https://ideal.ufpb.br/pt/">Laboratório Misto Internacional (LMI) IDEAL</a>.</p>
-
-<p>Seguem os alunos e alunas selecionados no processo seletivo para bolsistas do projeto entre o AYTY e o Laboratório Misto Internacional (LMI) IDEAL.</p>
-
-<h3 id="resultado-final">Resultado final</h3>
-<p>(ordem alfabética)</p>
-
-<ul>
-  <li>Larissa Bastos Juvito</li>
-  <li>Levi Maciel de Souza</li>
-  <li>Lucas Cardoso</li>
-  <li>Matheus Soares</li>
-</ul>]]></content><author><name></name></author><category term="edital" /><category term="ideal" /><summary type="html"><![CDATA[]]></summary></entry></feed>
+</ul>]]></content><author><name></name></author><category term="edital" /><category term="cabemais" /><summary type="html"><![CDATA[]]></summary></entry></feed>
