@@ -18,7 +18,7 @@ A VIVA Móveis.com foi concebida para simplificar a compra de móveis customizad
 Conheça mais sobre a Viva Móveis no link: [https://vivamoveis.com](https://vivamoveis.com)
 
 
-* Coordenação do projeto: [Rodrigo Rebouças](/equipe/professores/rodrigor) e [Tácito Neves](/equipe/professores/tacito)
+* Coordenação do projeto: [Rodrigo Rebouças](/equipe/professores/rodrigor)
 
 ##### Fundação parceira:
 [![Fundação parceira](/assets/img/logos/logo-funetec.png#right)](https://www.funetec.com/)
