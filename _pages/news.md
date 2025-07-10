@@ -7,11 +7,11 @@ nav: false
 nav_order: 2
 ---
 
-<h2>Últimas notícias</h2>
+<h2>Últimas notícias:</h2>
 <ul id="noticias-ghost"></ul>
 
 <script>
-  fetch("https://api.rss2json.com/v1/api.json?rss_url=https://ayty.ghost.io/rss/")
+  fetch("https://api.rss2json.com/v1/api.json?rss_url=https://news.ayty.org/rss/")
     .then(response => response.json())
     .then(data => {
       const container = document.getElementById("noticias-ghost");
