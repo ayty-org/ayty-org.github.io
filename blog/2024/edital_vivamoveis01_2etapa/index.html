@@ -32,6 +32,47 @@
     <!-- Code Syntax Highlighting -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/github.css" media="" id="highlight_theme_light">
 
+<!-- estilos para news -->
+
+<style>
+  .noticias-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1rem;
+    padding: 0;
+    list-style: none;
+  }
+
+  .noticia-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    background-color: #fafafa;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    transition: box-shadow 0.2s ease;
+  }
+
+  .noticia-card:hover {
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+
+  .noticia-card small {
+    color: #666;
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+
+  .noticia-card a {
+    font-weight: bold;
+    color: #0047ab;
+    text-decoration: none;
+  }
+
+  .noticia-card a:hover {
+    text-decoration: underline;
+  }
+</style>
+
     
 
     <!-- Styles -->
