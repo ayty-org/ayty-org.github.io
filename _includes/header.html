@@ -51,6 +51,10 @@
                   {%- endif -%}
                 </a>
               </li>
+              <!-- News (external, after Home) -->
+<li class="nav-item">
+  <a class="nav-link" href="https://news.ayty.org" target="_blank" rel="noopener">📢 News</a>
+</li>
               {% if site.blog_nav_title %}
               <!-- Blog -->
               <li class="nav-item {% if page.url contains 'blog' %}active{% endif %}">
@@ -94,6 +98,7 @@
               {%- endif -%}
               {%- endif -%}
               {% endfor -%}
+              
               {%- if site.enable_darkmode %}
 
               <!-- Toogle theme mode -->
