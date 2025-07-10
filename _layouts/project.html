@@ -51,14 +51,28 @@ layout: default
             <!-- Últimas notícias do projeto -->
 <div id="noticias-container" style="display:none">
   <h3>📰 Últimas notícias sobre o projeto</h3>
-  <ul id="noticias-ghost">
-    <li>Carregando...</li>
-  </ul>
+  <div class="noticias-grid" id="noticias-ghost"></div>
+  
 </div>
-
 <script>
-  const projetoSlug = "{{ page.projeto }}";  // slug da tag no Ghost
+  const projetoSlug = "{{ page.projeto }}";
   const rssURL = `https://api.rss2json.com/v1/api.json?rss_url=https://news.ayty.org/tag/${projetoSlug}/rss/`;
+
+  function formatarData(pubDate) {
+    const data = new Date(pubDate);
+    return data.toLocaleDateString('pt-BR', {
+      day: '2-digit',
+      month: '2-digit',
+      year: 'numeric'
+    });
+  }
+
+  function gerarResumo(htmlContent) {
+    const div = document.createElement("div");
+    div.innerHTML = htmlContent;
+    const texto = div.innerText.trim();
+    return texto.length > 120 ? texto.substring(0, 120).trim() + "…" : texto;
+  }
 
   fetch(rssURL)
     .then(response => response.json())
@@ -66,11 +80,22 @@ layout: default
       if (data.items && data.items.length > 0) {
         const container = document.getElementById("noticias-ghost");
         container.innerHTML = "";
+
         data.items.slice(0, 5).forEach(post => {
-          const li = document.createElement("li");
-          li.innerHTML = `<a href="${post.link}" target="_blank" rel="noopener">${post.title}</a>`;
-          container.appendChild(li);
-        });
+        const card = document.createElement("div");
+        card.className = "noticia-card";
+
+        const dataFormatada = formatarData(post.pubDate);
+        const resumo = gerarResumo(post.content);
+
+        card.innerHTML = `
+          <small>${dataFormatada}</small>
+          <a href="${post.link}" target="_blank" rel="noopener">${post.title}</a>
+        `;
+
+        container.appendChild(card);
+      });
+
         document.getElementById("noticias-container").style.display = "block";
       }
     })

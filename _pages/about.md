@@ -21,21 +21,54 @@ O AYTY é um laboratório vinculado ao Departamento de Ciências Exatas do Campu
 <b>Acesse nosso [portfolio](/portfolio) para saber como nós podemos ajudar a sua empresa ou organização.</b>
 
 
+<!-- Notícias -->
+
+
+
 <h3>Últimas notícias:</h3>
-<ul id="noticias-ghost"></ul>
+<div class="noticias-grid" id="noticias-ghost"></div>
+
 
 <script>
+  function formatarData(pubDate) {
+    const data = new Date(pubDate);
+    return data.toLocaleDateString('pt-BR', {
+      day: '2-digit',
+      month: '2-digit',
+      year: 'numeric'
+    });
+  }
+
+  function gerarResumo(htmlContent) {
+    const div = document.createElement("div");
+    div.innerHTML = htmlContent;
+    const texto = div.innerText.trim();
+    return texto.length > 140 ? texto.substring(0, 140).trim() + "…" : texto;
+  }
+
   fetch("https://api.rss2json.com/v1/api.json?rss_url=https://news.ayty.org/rss/")
     .then(response => response.json())
     .then(data => {
       const container = document.getElementById("noticias-ghost");
+      container.innerHTML = "";
+
       data.items.slice(0, 5).forEach(post => {
-        const li = document.createElement("li");
-        li.innerHTML = `<a href="${post.link}" target="_blank">${post.title}</a>`;
-        container.appendChild(li);
+        const card = document.createElement("div");
+        card.className = "noticia-card";
+
+        const dataFormatada = formatarData(post.pubDate);
+        const resumo = gerarResumo(post.content);
+
+        card.innerHTML = `
+          <small>${dataFormatada}</small>
+          <a href="${post.link}" target="_blank" rel="noopener">${post.title}</a>
+        `;
+
+        container.appendChild(card);
       });
     })
     .catch(error => {
       console.error("Erro ao carregar o feed:", error);
     });
 </script>
+<br/>
