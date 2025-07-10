@@ -52,7 +52,7 @@ O AYTY é um laboratório vinculado ao Departamento de Ciências Exatas do Campu
       const container = document.getElementById("noticias-ghost");
       container.innerHTML = "";
 
-      data.items.slice(0, 5).forEach(post => {
+      data.items.slice(0, 4).forEach(post => {
         const card = document.createElement("div");
         card.className = "noticia-card";
 
