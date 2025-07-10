@@ -85,7 +85,7 @@
               </li>
               <!-- News (external, after Home) -->
 <li class="nav-item">
-  <a class="nav-link" href="https://news.ayty.org" target="_blank" rel="noopener">📢 News</a>
+  <a class="nav-link" href="https://news.ayty.org" target="_blank" rel="noopener">📢 <b>News</b></a>
 </li>
               
 
@@ -146,11 +146,11 @@
           <article>
           
 
-            <h2>Últimas notícias</h2>
+            <h2>Últimas notícias:</h2>
 <ul id="noticias-ghost"></ul>
 
 <script>
-  fetch("https://api.rss2json.com/v1/api.json?rss_url=https://ayty.ghost.io/rss/")
+  fetch("https://api.rss2json.com/v1/api.json?rss_url=https://news.ayty.org/rss/")
     .then(response => response.json())
     .then(data => {
       const container = document.getElementById("noticias-ghost");

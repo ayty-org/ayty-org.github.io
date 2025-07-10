@@ -84,7 +84,7 @@
               </li>
               <!-- News (external, after Home) -->
 <li class="nav-item">
-  <a class="nav-link" href="https://news.ayty.org" target="_blank" rel="noopener">📢 News</a>
+  <a class="nav-link" href="https://news.ayty.org" target="_blank" rel="noopener">📢 <b>News</b></a>
 </li>
               
 
@@ -189,6 +189,37 @@ The approach requires a structured view of the business value systems and produc
 From the proposed approach, it is possible to identify the technical debt items with the most significant potential for business impact. The information can help the decision-making of both business and technical stakeholders. It is possible to answer questions such as: what technical debt items can affect the company’s core business? What items can affect a specific customer? What items can impact a strategic objective? Which elements of the systems are most affected by technical debt? Which items affect each service, server, database, and module of my products?</p>
 
 
+
+            <!-- Últimas notícias do projeto -->
+<div id="noticias-container" style="display:none">
+  <h3>📰 Últimas notícias sobre o projeto</h3>
+  <ul id="noticias-ghost">
+    <li>Carregando...</li>
+  </ul>
+</div>
+
+<script>
+  const projetoSlug = "tracy-td";  // slug da tag no Ghost
+  const rssURL = `https://api.rss2json.com/v1/api.json?rss_url=https://news.ayty.org/tag/${projetoSlug}/rss/`;
+
+  fetch(rssURL)
+    .then(response => response.json())
+    .then(data => {
+      if (data.items && data.items.length > 0) {
+        const container = document.getElementById("noticias-ghost");
+        container.innerHTML = "";
+        data.items.slice(0, 5).forEach(post => {
+          const li = document.createElement("li");
+          li.innerHTML = `<a href="${post.link}" target="_blank" rel="noopener">${post.title}</a>`;
+          container.appendChild(li);
+        });
+        document.getElementById("noticias-container").style.display = "block";
+      }
+    })
+    .catch(error => {
+      console.error("Erro ao carregar notícias:", error);
+    });
+</script>
 
             <h2>Equipe</h2>
 

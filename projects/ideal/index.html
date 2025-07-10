@@ -85,7 +85,7 @@
               </li>
               <!-- News (external, after Home) -->
 <li class="nav-item">
-  <a class="nav-link" href="https://news.ayty.org" target="_blank" rel="noopener">📢 News</a>
+  <a class="nav-link" href="https://news.ayty.org" target="_blank" rel="noopener">📢 <b>News</b></a>
 </li>
               
 
@@ -200,6 +200,37 @@
 
 <p>O jogo de tabuleiro, voltado para temas de sustentabilidade e coviabilidade, já existe em formato físico e pode ser impresso. A primeira entrega dos artefatos descritos está prevista para dezembro deste ano, com possibilidade de continuidade do projeto no próximo ano.</p>
 
+
+            <!-- Últimas notícias do projeto -->
+<div id="noticias-container" style="display:none">
+  <h3>📰 Últimas notícias sobre o projeto</h3>
+  <ul id="noticias-ghost">
+    <li>Carregando...</li>
+  </ul>
+</div>
+
+<script>
+  const projetoSlug = "ideal";  // slug da tag no Ghost
+  const rssURL = `https://api.rss2json.com/v1/api.json?rss_url=https://news.ayty.org/tag/${projetoSlug}/rss/`;
+
+  fetch(rssURL)
+    .then(response => response.json())
+    .then(data => {
+      if (data.items && data.items.length > 0) {
+        const container = document.getElementById("noticias-ghost");
+        container.innerHTML = "";
+        data.items.slice(0, 5).forEach(post => {
+          const li = document.createElement("li");
+          li.innerHTML = `<a href="${post.link}" target="_blank" rel="noopener">${post.title}</a>`;
+          container.appendChild(li);
+        });
+        document.getElementById("noticias-container").style.display = "block";
+      }
+    })
+    .catch(error => {
+      console.error("Erro ao carregar notícias:", error);
+    });
+</script>
 
             <h2>Equipe</h2>
 
