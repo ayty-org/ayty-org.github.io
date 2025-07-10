@@ -71,4 +71,5 @@ O AYTY é um laboratório vinculado ao Departamento de Ciências Exatas do Campu
       console.error("Erro ao carregar o feed:", error);
     });
 </script>
+<i>(<a href="https://news.ayty.org" target="new">Leia mais em  https://news.ayty.org ...</a>)</i>
 <br/>
