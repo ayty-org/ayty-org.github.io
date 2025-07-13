@@ -26,7 +26,7 @@ O projeto **“Melhoria de Processos, Pesquisa e Desenvolvimento de Plataforma I
 
 A **Portomar** é uma construtora e incorporadora com 8 anos de atuação, dedicada ao desenvolvimento de empreendimentos sustentáveis e de alta qualidade para quem deseja morar ou investir na Paraíba. A empresa conta com um corpo técnico altamente qualificado, com mais de **30 anos de experiência acumulada** nas áreas de engenharia, arquitetura e administração.
 
-### Destaques da experiência da Portomar:
+### Destaques da experiência do corpo técnico da Portomar:
 
 - Mais de **240.000 m² de projetos arquitetônicos** (comerciais e residenciais);
 - Mais de **150.000 m² de área construída**;
