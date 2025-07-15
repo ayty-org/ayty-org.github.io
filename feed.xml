@@ -1,5 +1,18 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="pt-br"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://ayty.org/feed.xml" rel="self" type="application/atom+xml" /><link href="https://ayty.org/" rel="alternate" type="text/html" hreflang="pt-br" /><updated>2025-07-13T00:10:31+00:00</updated><id>https://ayty.org/feed.xml</id><title type="html">AYTY</title><subtitle>AYTY - Laboratório de Engenharia de Software Aplicada
-</subtitle><entry><title type="html">Resultado FINAL - IDEAL - Sustentabilidade - Edital-02 (Jul 2025)</title><link href="https://ayty.org/blog/2025/edital02_ideal_resultado_final/" rel="alternate" type="text/html" title="Resultado FINAL - IDEAL - Sustentabilidade - Edital-02 (Jul 2025)" /><published>2025-07-09T00:00:00+00:00</published><updated>2025-07-09T00:00:00+00:00</updated><id>https://ayty.org/blog/2025/edital02_ideal_resultado_final</id><content type="html" xml:base="https://ayty.org/blog/2025/edital02_ideal_resultado_final/"><![CDATA[<figure>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="pt-br"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://ayty.org/feed.xml" rel="self" type="application/atom+xml" /><link href="https://ayty.org/" rel="alternate" type="text/html" hreflang="pt-br" /><updated>2025-07-15T01:54:22+00:00</updated><id>https://ayty.org/feed.xml</id><title type="html">AYTY</title><subtitle>AYTY - Laboratório de Engenharia de Software Aplicada
+</subtitle><entry><title type="html">Edital-01 Portomar Jul/25 - Resultado da 1a ETAPA</title><link href="https://ayty.org/blog/2025/edital_portomar01_1etapa/" rel="alternate" type="text/html" title="Edital-01 Portomar Jul/25 - Resultado da 1a ETAPA" /><published>2025-07-14T00:00:00+00:00</published><updated>2025-07-14T00:00:00+00:00</updated><id>https://ayty.org/blog/2025/edital_portomar01_1etapa</id><content type="html" xml:base="https://ayty.org/blog/2025/edital_portomar01_1etapa/"><![CDATA[<p>Edital: <a href="/editais/2025-07-09-portomar-edital01/">1o Edital - Proj. Portomar (Jul 2025)</a></p>
+
+<p>Selecionados para a etapa de entrevistas (2a etapa) no processo seletivo para projeto Portomar (vaga para a área de Analista de Negócios). (Você receberá instruções para a entrevista por email.)</p>
+
+<p>(Em ordem alfabética)</p>
+
+<ul>
+  <li>Bruno Souza da Costa</li>
+  <li>Laísa Maria dos Santos</li>
+  <li>Maria Cecília Paiva de Sousa.</li>
+  <li>Maria Letícia Fernandes Gomes</li>
+  <li>Nataniel Cesar da Silva</li>
+  <li>Thiago Ruan Silva de Souza</li>
+</ul>]]></content><author><name></name></author><category term="edital" /><category term="portomar" /><summary type="html"><![CDATA[Edital: 1o Edital - Proj. Portomar (Jul 2025)]]></summary></entry><entry><title type="html">Resultado FINAL - IDEAL - Sustentabilidade - Edital-02 (Jul 2025)</title><link href="https://ayty.org/blog/2025/edital02_ideal_resultado_final/" rel="alternate" type="text/html" title="Resultado FINAL - IDEAL - Sustentabilidade - Edital-02 (Jul 2025)" /><published>2025-07-09T00:00:00+00:00</published><updated>2025-07-09T00:00:00+00:00</updated><id>https://ayty.org/blog/2025/edital02_ideal_resultado_final</id><content type="html" xml:base="https://ayty.org/blog/2025/edital02_ideal_resultado_final/"><![CDATA[<figure>
 
   <!-- <picture> -->
     
@@ -272,31 +285,5 @@
 
 <ul>
   <li>Anderson Alexsandro Soares da Silva</li>
-  <li>Ronyelison de Oliveira Abreu</li>
-</ul>]]></content><author><name></name></author><category term="edital" /><category term="cabemais" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Resultado 1a etapa - Cabe Mais - Edital-01 (Dez 2024)</title><link href="https://ayty.org/blog/2024/edital_cabemais_resultado_1etapa/" rel="alternate" type="text/html" title="Resultado 1a etapa - Cabe Mais - Edital-01 (Dez 2024)" /><published>2024-11-27T00:00:00+00:00</published><updated>2024-11-27T00:00:00+00:00</updated><id>https://ayty.org/blog/2024/edital_cabemais_resultado_1etapa</id><content type="html" xml:base="https://ayty.org/blog/2024/edital_cabemais_resultado_1etapa/"><![CDATA[<figure>
-
-  <!-- <picture> -->
-    
-
-    <!-- Fallback to the original file -->
-    
-    <img src="/assets/img/projetos/cabemais.png" class="project_image" width="auto" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
-    
-
-  <!-- </picture> -->
-
-</figure>
-
-<p>Edital de seleção de 02 (dois) bolsistas para projeto em parceria com a empresa Cabe Mais.</p>
-
-<p>Seguem os alunos selecionados no processo seletivo para bolsistas do projeto entre o AYTY e a empresa Cabe Mais - 1a ETAPA:</p>
-
-<h3 id="resultado-1a-etapa">Resultado 1a Etapa</h3>
-<p>(ordem alfabética)</p>
-
-<ul>
-  <li>Anderson Alexsandro Soares da Silva</li>
-  <li>Lucas Felipe Gomes Pedrosa</li>
-  <li>Luiz Felipe Ferreira de Albuquerque</li>
   <li>Ronyelison de Oliveira Abreu</li>
 </ul>]]></content><author><name></name></author><category term="edital" /><category term="cabemais" /><summary type="html"><![CDATA[]]></summary></entry></feed>
