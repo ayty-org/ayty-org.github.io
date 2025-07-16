@@ -6,7 +6,7 @@ funcao: estudante voluntário
 projeto: portomar
 desde: 18/07/2025
 saiu: #data de fim
-description: Analista de Negócio
+description: Bolsista analista de negócios
 home_page: # home page
 github: https://github.com/ceciliapaiva
 linkedin: https://www.linkedin.com/in/ceciliapaiva/
