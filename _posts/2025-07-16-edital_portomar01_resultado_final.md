@@ -15,7 +15,7 @@ Selecionados para a etapa de entrevistas (2a etapa) no processo seletivo para pr
 Selecionado:
 
 - Nataniel Cesar da Silva
+- Maria Cecília Paiva de Sousa.
 
 (Lista de espera)
-- Maria Cecília Paiva de Sousa.
 - Laísa Maria dos Santos
