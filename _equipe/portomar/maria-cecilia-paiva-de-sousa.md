@@ -2,7 +2,7 @@
 layout: member
 name: Maria Cecília Paiva de Sousa
 img: equipe/img/maria-cecilia-paiva-de-sousa.jpg
-funcao: estudante voluntário
+funcao: analista de negócios
 projeto: portomar
 desde: 18/07/2025
 saiu: #data de fim
