@@ -56,7 +56,7 @@ Conheça mais sobre a Phoebus Tecnologia através do link: [https://phoebus.com.
 | Data / Prazo             | Etapa                                                                 |
 |--------------------------|-----------------------------------------------------------------------|
 | Até 16 de Julho          | Prazo para inscrição via formulário                                   |
-| Até 18 de Julho          | Divulgação do resultado da 1ª etapa (análise do formulário)           |
+| Até <del>18</del> 19 de Julho          | Divulgação do resultado da 1ª etapa (análise do formulário)           |
 | 21 a 25 de Julho         | Realização das entrevistas técnicas                                   |
 | Até dia 28 de Julho      | Divulgação do resultado final     |
 | 01 de Agosto             | Início das atividades no projeto                                      |
