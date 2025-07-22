@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Resultado FINAL - Proj. Phoebus (Jul 2025)
-date: 2025-07-22
+title: Resultado 1a etapa - Proj. Phoebus (Jul 2025)
+date: 2025-07-19
 description: 
 tags: phoebus
 categories: edital
