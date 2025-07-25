@@ -1,7 +1,7 @@
 ---
 layout: member
-name: Douglas Sebastian Silva dos Santos
-img: equipe/img/douglas_sebastian.jpg
+name: Selene Haruno Silva dos Santos
+img: equipe/img/selene.jpg
 funcao: bolsista dev
 projeto: [codata, universi.me]
 desde: 2023-03-15
