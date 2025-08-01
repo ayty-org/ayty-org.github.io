@@ -4,7 +4,7 @@ title: Codata
 description: Projeto em colaboração com a empresa Codata
 img: assets/img/projetos/codata.png
 importance: 1
-category: Empresas # Empresas Pesquisa, Extensão, Empresas
+category: Encerrados #Empresas Pesquisa, Extensão, Empresas
 projeto: codata
 desde: 2023-07-01
 encerramento: 2025-07-31
