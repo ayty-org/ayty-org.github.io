@@ -7,7 +7,7 @@ importance: 1
 category: Empresas # Empresas Pesquisa, Extensão, Empresas
 projeto: codata
 desde: 2023-07-01
-encerramento: 
+encerramento: 2025-07-31
 ---
 
 Projeto de pesquisa, extensão e capacitação que envolve a empresa [CODATA](https://codata.pb.gov.br) e o Departamento de Ciências Exatas, através do laboratório AYTY. O projeto atua em seis áreas de inovação: Melhoria de Processos, Data Analytics, Infraestrutura e Cloud, Inteligência Artificial, Segurança e capacitação de estudantes nos times da empresa. Este projeto conta com a participação de seis professores coordenadores das seis áreas de inovação, e com 22 alunos e alunas que atuarão tanto nas áreas de inovação quanto atuando nos times da empresa.
@@ -20,6 +20,8 @@ Coordenador de pesquisa e desenvolvimento: [Prof. Rodrigo Rebouças](/equipe/rod
 [![Fundação parceira](/assets/img/logos/logo-funetec.png#right)](https://www.funetec.com/)
 
 Os bolsistas deste projeto possuem relação individual direta com a FUNETEC, através de projeto realizado entre CODATA e a fundação.
+
+# Linhas de ação encerradas em 31/07/2025
 
 
 ## Melhoria de Processos
@@ -47,9 +49,6 @@ A área de Segurança tem como foco principal a revisão e atualização da pol�
 **Professora responsável:** [Profa. Vanessa Dantas](/equipe/vanessa_dantas/)
 
 Nesta área, os estudantes se envolvem em ações diretamente nos times de desenvolvimento da empresa parceira. Ele passam por várias etapas de crescimento profissional, interagindo com profissionais, em um ambiente real de desenvovlimento. A equipe trabalha em um laboratório em Rio Tinto, remotamente para a empresa.
-
-
-# Linhas de ação encerradas
 
 
 As linhas de Data Analytics, Cloud e Devops e Inteligência Artificial foram encerradas em Março de 2025.
