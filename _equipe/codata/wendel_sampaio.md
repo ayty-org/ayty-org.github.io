@@ -3,9 +3,10 @@ layout: member
 name: Wendel Soares Sampaio
 img: equipe/img/wendel_sampaio.jpg
 funcao: bolsista
-projeto: codata
-desde: 2024-01-01
-saiu: #data de fim
+projeto: 
+ex-projeto: codata
+desde: 2023-08-01
+saiu: 2025-07-31
 description: "Olá, me chamo Wendel, atualmente curso Ciência da Computação na UFPB. Sempre fui fascinado pela tecnologia e estou sempre em busca de novos conhecimentos 👨🏻‍💻💻"
 home_page: # home page
 github: https://github.com/WendelDoa

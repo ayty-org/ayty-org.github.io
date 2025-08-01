@@ -3,9 +3,10 @@ layout: member
 name: Thiago Mikael da Silva Oliveira
 img: equipe/img/thiago_mikael.jpg
 funcao: Analista de Requisitos
-projeto: codata
+projeto: 
+ex-projeto: codata
 desde: 2023-08-01
-saiu: 
+saiu: 2025-07-31
 description: "Analista de Requisitos na Equipe de Desenvolvimento da Codata. Apaixonado por tecnologia e desenvolvimento de software."
 home_page: 
 github: https://github.com/mikaoliveira

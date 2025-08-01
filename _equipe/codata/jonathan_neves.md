@@ -3,10 +3,10 @@ layout: member
 name: Jonathan Neves Ribeiro
 img: equipe/img/jonathan_neves.jpg
 funcao: bolsista desenvolvedor
-projeto: codata
-ex-projeto: engenharia.software
+projeto: 
+ex-projeto: [engenharia.software, codata]
 desde: 2023-02-07
-saiu: #data de fim
+saiu: 2025-07-31
 description: Atua como bolsista na área de segurança. Atuou também como desenvolvedor full-stack no projeto CODATA.
 home_page: # home page
 github: https://github.com/JonathanNevesRibeiro
