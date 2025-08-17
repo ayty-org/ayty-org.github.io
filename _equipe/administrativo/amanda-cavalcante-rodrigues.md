@@ -12,6 +12,6 @@ github: #GitHub
 linkedin: sem linkedlin
 instagram: #Instagram
 twitter: #Twitter
-importance: 4
+importance: 3
 category: Colaboradores externos
 ---
