@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+  <!-- Head -->
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">    <!-- Metadata, OpenGraph and Schema.org -->
+    
+
+    <!-- Standard metadata -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Alê Pessoa Tortas e Doces | AYTY</title>
+    <meta name="author" content="AYTY  ">
+    <meta name="description" content="Projeto de Pesquisa, Desenvolvimento e Inovação em parceria com a empresa Alê Pessoa">
+    <meta name="keywords" content="ayty, engenharia_software">
+
+
+    <!-- Bootstrap & MDB -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-DF7Zhf293AJxJNTmh5zhoYYIMs2oXitRfBjY+9L//AY=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/css/mdb.min.css" integrity="sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw=" crossorigin="anonymous">
+
+    <!-- Bootstrap Table -->
+    <link defer rel="stylesheet" href="https://unpkg.com/bootstrap-table@1.21.3/dist/bootstrap-table.min.css">
+
+    <!-- Fonts & Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css" integrity="sha256-mUZM63G8m73Mcidfrv5E+Y61y7a12O5mW4ezU3bxqW4=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css" integrity="sha256-i1+4qU2G2860dGGIOJscdC30s9beBXjFfzjWLjBRsBg=" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons">
+
+    <!-- Code Syntax Highlighting -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/github.css" media="" id="highlight_theme_light">
+
+<!-- estilos para news -->
+
+<style>
+  .noticias-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1rem;
+    padding: 0;
+    list-style: none;
+  }
+
+  .noticia-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    background-color: #fafafa;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    transition: box-shadow 0.2s ease;
+  }
+
+  .noticia-card:hover {
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+
+  .noticia-card small {
+    color: #666;
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+
+  .noticia-card a {
+    font-weight: bold;
+    color: #0047ab;
+    text-decoration: none;
+  }
+
+  .noticia-card a:hover {
+    text-decoration: underline;
+  }
+</style>
+
+    
+
+    <!-- Styles -->
+    
+    <link rel="shortcut icon" href="/assets/img/favicon-96x96.png">
+    
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="canonical" href="https://ayty.org/projects/alepessoa/">
+
+    <!-- Dark Mode -->
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/native.css" media="none" id="highlight_theme_dark">
+
+    <script src="/assets/js/theme.js"></script>
+    <script src="/assets/js/dark_mode.js"></script>
+    
+
+  </head>
+  <script>
+    window.fwSettings={
+    'widget_id':73000004618
+    };
+    !function(){if("function"!=typeof window.FreshworksWidget){var n=function(){n.q.push(arguments)};n.q=[],window.FreshworksWidget=n}}() 
+  </script>
+  <script type="text/javascript" src="https://widget.freshworks.com/widgets/73000004618.js" async defer></script>
+
+  <!-- Body -->
+  <body class="fixed-top-nav sticky-bottom-footer">
+
+    <!-- Header -->
+    <header>
+
+      <!-- Nav Bar -->
+      <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top">
+        <div class="container">
+          <a class="navbar-brand title font-weight-lighter" href="/">AYTY</a>
+          <!-- Navbar Toggle -->
+          <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar top-bar"></span>
+            <span class="icon-bar middle-bar"></span>
+            <span class="icon-bar bottom-bar"></span>
+          </button>
+
+          <div class="collapse navbar-collapse text-right" id="navbarNav">
+            <ul class="navbar-nav ml-auto flex-nowrap">
+
+              <!-- About -->
+              <li class="nav-item ">
+                <a class="nav-link" href="/">Home</a>
+              </li>
+              <!-- News (external, after Home) -->
+<li class="nav-item">
+  <a class="nav-link" href="https://news.ayty.org" target="_blank" rel="noopener">📢 <b>News</b></a>
+</li>
+              
+
+              <!-- Other pages -->
+              <li class="nav-item dropdown ">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Editais</a>
+                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="/editais/">Ativos</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="/editais_encerrados/">Encerrados</a>
+                </div>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="/projetos/">Projetos</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="/equipe/">Equipe</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="/portfolio/">Portfolio</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="/contato/">Contato</a>
+              </li>
+
+              <!-- Toogle theme mode -->
+              <li class="toggle-container">
+                <button id="light-toggle" title="Change theme">
+                  <i class="fas fa-moon"></i>
+                  <i class="fas fa-sun"></i>
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Scrolling Progress Bar -->
+      <progress id="progress" value="0">
+        <div class="progress-container">
+          <span class="progress-bar"></span>
+        </div>
+      </progress>
+    </header>
+
+
+    <!-- Content -->
+    <div class="container mt-5">
+      
+        <!-- page.html -->
+<script>
+  function calcularDuracao(desde, encerramento) {
+    var inicio = new Date(desde);
+    var fim = encerramento ? new Date(encerramento) : new Date();
+    var diferencaEmMeses = (fim.getFullYear() - inicio.getFullYear()) * 12 + fim.getMonth() - inicio.getMonth();
+    var anos = Math.floor(diferencaEmMeses / 12);
+    var meses = diferencaEmMeses % 12;
+    return `${anos} ano(s) e ${meses} mes(es)`;
+  }
+  
+  document.addEventListener('DOMContentLoaded', function() {
+    var desde = '2025-11-01';
+    var encerramento = '';
+    var duracaoTexto = calcularDuracao(desde, encerramento);
+    document.getElementById('projetoDuracao').innerText = 'Duração do Projeto: ' + duracaoTexto;
+  });
+  </script>
+        <div class="post">
+
+          <header class="post-header">
+            <h1 class="post-title">Projeto: Alê Pessoa Tortas e Doces</h1>
+            <p class="post-description">Projeto de Pesquisa, Desenvolvimento e Inovação em parceria com a empresa Alê Pessoa <br>
+              
+                Status: <strong>ATIVO</strong> -- Desde: 01/11/2025
+              
+              <br> </p>
+<div class="post-description" id="projetoDuracao"></div>
+            
+          </header>
+
+          <article>
+          <div class="profile float-right">
+<figure>
+
+  <!-- <picture> -->
+    
+
+    <!-- Fallback to the original file -->
+    
+    <img src="/assets/img/projetos/alepessoa.png" class="img-fluid  rounded" width="auto" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+    
+
+  <!-- </picture> -->
+
+</figure>
+</div>
+
+            <h2 id="sobre-o-projeto">Sobre o Projeto</h2>
+
+<p>O projeto <strong>“Pesquisa, Desenvolvimento e Inovação para Automação de Vendas e Produção na Alê Pessoa”</strong> tem como objetivo apoiar a empresa <strong>Alê Pessoa Tortas e Doces</strong> em sua jornada de transformação digital, com foco na <strong>automação e digitalização dos processos de vendas, produção e controle de insumos</strong>.</p>
+
+<p>A iniciativa visa <strong>criar soluções tecnológicas integradas</strong> que modernizem a operação da empresa, desde o atendimento ao cliente até a gestão produtiva, contribuindo para maior eficiência, rastreabilidade das informações e redução de desperdícios.</p>
+
+<p>O trabalho será conduzido pelo <strong>Laboratório AYTY</strong>, do <strong>Departamento de Ciências Exatas / Campus IV / UFPB</strong>, utilizando metodologias ágeis e tecnologias modernas para o desenvolvimento de sistemas de informação e e-commerce.</p>
+
+<h2 id="sobre-a-alê-pessoa">Sobre a Alê Pessoa</h2>
+
+<p>A <strong>Alê Pessoa</strong> é uma <strong>doceria e confeitaria sediada em João Pessoa (PB)</strong>, especializada na produção de <strong>bolos, tortas e doces finos</strong>.<br>
+Com unidades em bairros como <strong>Manaíra, Miramar, Tambaú, Tambauzinho e Bancários</strong>, a marca é reconhecida pela <strong>qualidade, sabor e apresentação</strong> de seus produtos, unindo tradição artesanal e gestão moderna.</p>
+
+<p>A empresa adota <strong>boas práticas de fabricação e controle de qualidade</strong>, garantindo a excelência em todas as etapas — do preparo à entrega.<br>
+Seu propósito é <strong>transformar momentos especiais em experiências doces e memoráveis</strong>, combinando receitas tradicionais com inovação e cuidado nos detalhes.</p>
+
+<p><a href="https://www.instagram.com/alepessoajp/" rel="external nofollow noopener" target="_blank">Clique aqui para conhecer a Alê Pessoa</a></p>
+
+<ul>
+  <li>Coordenação do projeto: <a href="/equipe/professores/rodrigor">Rodrigo Rebouças de Almeida</a>
+</li>
+  <li>Gerência técnica: <a href="/equipe/rony">Ronyelison De Oliveira Abreu</a>
+</li>
+  <li>Infraestrutura e DevOps: <a href="/equipe/colaboradores/francois/">José François Alves Ferreira Júnior</a>
+</li>
+</ul>
+
+<h5 id="fundação-parceira">Fundação parceira:</h5>
+<p><a href="https://www.funetec.com/" rel="external nofollow noopener" target="_blank"><img src="/assets/img/logos/logo-funetec.png#right" alt="Fundação parceira"></a></p>
+
+
+            <!-- Últimas notícias do projeto -->
+<div id="noticias-container" style="display:none">
+  <h3>📰 Últimas notícias sobre o projeto</h3>
+  <div class="noticias-grid" id="noticias-ghost"></div>
+  
+</div>
+<script>
+  const projetoSlug = "alepessoa";
+  const rssURL = `https://api.rss2json.com/v1/api.json?rss_url=https://news.ayty.org/tag/${projetoSlug}/rss/`;
+
+  function formatarData(pubDate) {
+    const data = new Date(pubDate);
+    return data.toLocaleDateString('pt-BR', {
+      day: '2-digit',
+      month: '2-digit',
+      year: 'numeric'
+    });
+  }
+
+  function gerarResumo(htmlContent) {
+    const div = document.createElement("div");
+    div.innerHTML = htmlContent;
+    const texto = div.innerText.trim();
+    return texto.length > 120 ? texto.substring(0, 120).trim() + "…" : texto;
+  }
+
+  fetch(rssURL)
+    .then(response => response.json())
+    .then(data => {
+      if (data.items && data.items.length > 0) {
+        const container = document.getElementById("noticias-ghost");
+        container.innerHTML = "";
+
+        data.items.slice(0, 5).forEach(post => {
+        const card = document.createElement("div");
+        card.className = "noticia-card";
+
+        const dataFormatada = formatarData(post.pubDate);
+        const resumo = gerarResumo(post.content);
+
+        card.innerHTML = `
+          <small>${dataFormatada}</small>
+          <a href="${post.link}" target="_blank" rel="noopener">${post.title}</a>
+        `;
+
+        container.appendChild(card);
+      });
+
+        document.getElementById("noticias-container").style.display = "block";
+      }
+    })
+    .catch(error => {
+      console.error("Erro ao carregar notícias:", error);
+    });
+</script>
+
+            <h2>Equipe</h2>
+
+            <!-- pages/equipe.md -->
+            <div class="equipe">
+              <!-- Display categorized team -->
+              <!-- Generate cards for each member -->
+              <div class="grid">
+<!-- _includes/equipe.html -->
+<div class="grid-sizer"></div>
+<div class="grid-item">
+  <a href="/equipe/professores/rodrigor/">
+      <div class="card hoverable">
+<figure>
+
+  <!-- <picture> -->
+    
+
+    <!-- Fallback to the original file -->
+    
+    <img src="/equipe/img/rodrigor.jpg" class="card-img-top .img-fluid rounded-circle profile_pic" width="auto" height="auto" alt="member thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+    
+
+  <!-- </picture> -->
+
+</figure>
+
+        <div class="card-body">
+          <h2 class="card-title">Rodrigo Rebouças de Almeida</h2>
+          <p class="funcao text-lowercase">(Coordenador)</p>
+          <div class="row ml-1 mr-1 p-0 justify-content-center">
+<div class="home_page-icon">
+              <div class="equipe_icon" data-toggle="tooltip" title="Home Page">
+                <a href="https://www.rodrigor.com" rel="external nofollow noopener" target="_blank"><i class="fa fa-home gh-icon"></i></a>
+              </div>
+            </div>
+<div class="linkedin-icon">
+              <div class="equipe_icon" data-toggle="tooltip" title="LinkedIn">
+                <a href="https://www.linkedin.com/in/rodrigoreboucas/" rel="external nofollow noopener" target="_blank"><i class="fab fa-linkedin gh-icon"></i></a>
+              </div>
+            </div>
+<div class="github_icon">
+              <div class="equipe_icon" data-toggle="tooltip" title="Code Repository">
+                <a href="https://github.com/rodrigor" rel="external nofollow noopener" target="_blank"><i class="fab fa-github gh-icon"></i></a>
+              </div>
+            </div>
+<div class="instagram-icon">
+              <div class="equipe_icon" data-toggle="tooltip" title="Instagram">
+                <a href="https://www.instagram.com/rodrigorcom/" rel="external nofollow noopener" target="_blank"><i class="fab fa-instagram gh-icon"></i></a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </a>
+</div>
+<!-- _includes/equipe.html -->
+<div class="grid-sizer"></div>
+<div class="grid-item">
+  <a href="/equipe/colaboradores/francois/">
+      <div class="card hoverable">
+<figure>
+
+  <!-- <picture> -->
+    
+
+    <!-- Fallback to the original file -->
+    
+    <img src="/equipe/img/francois.jpg" class="card-img-top .img-fluid rounded-circle profile_pic" width="auto" height="auto" alt="member thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+    
+
+  <!-- </picture> -->
+
+</figure>
+
+        <div class="card-body">
+          <h2 class="card-title">José François Alves Ferreira Júnior</h2>
+          <p class="funcao text-lowercase">(Devops e infraestrutura)</p>
+          <div class="row ml-1 mr-1 p-0 justify-content-center">
+<div class="linkedin-icon">
+              <div class="equipe_icon" data-toggle="tooltip" title="LinkedIn">
+                <a href="https://www.linkedin.com/in/francoisjr/" rel="external nofollow noopener" target="_blank"><i class="fab fa-linkedin gh-icon"></i></a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </a>
+</div>
+<!-- _includes/equipe.html -->
+<div class="grid-sizer"></div>
+<div class="grid-item">
+  <a href="/equipe/rony/">
+      <div class="card hoverable">
+<figure>
+
+  <!-- <picture> -->
+    
+
+    <!-- Fallback to the original file -->
+    
+    <img src="/equipe/img/ronyelison-de-oliveira-abreu.jpg" class="card-img-top .img-fluid rounded-circle profile_pic" width="auto" height="auto" alt="member thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+    
+
+  <!-- </picture> -->
+
+</figure>
+
+        <div class="card-body">
+          <h2 class="card-title">Ronyelison De Oliveira Abreu</h2>
+          <p class="funcao text-lowercase">(bolsista dev)</p>
+          <div class="row ml-1 mr-1 p-0 justify-content-center">
+<div class="linkedin-icon">
+              <div class="equipe_icon" data-toggle="tooltip" title="LinkedIn">
+                <a href="https://www.linkedin.com/in/ronyelison-de-oliveira-abreu" rel="external nofollow noopener" target="_blank"><i class="fab fa-linkedin gh-icon"></i></a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </a>
+</div>
+              </div>
+</div>
+            
+            <!-- END EQUIPE -->
+
+
+          </article>
+
+        </div>
+
+      
+    </div>
+
+    <!-- Footer -->    <footer class="sticky-bottom mt-5">
+      <div class="container">
+        © Copyright 2025 AYTY  . Last updated: November 09, 2025.
+      </div>
+    </footer>
+
+    <!-- JavaScripts -->
+    <!-- jQuery -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <!-- Bootsrap & MDB scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha256-fgLAgv7fyCGopR/gBNq2iW3ZKIdqIcyshnUULC4vex8=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/js/mdb.min.js" integrity="sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA=" crossorigin="anonymous"></script>
+
+    <!-- Masonry & imagesLoaded -->
+  <script defer src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+  <script defer src="/assets/js/masonry.js" type="text/javascript"></script>
+    
+  <!-- Medium Zoom JS -->
+  <script defer src="https://cdn.jsdelivr.net/npm/medium-zoom@1.0.8/dist/medium-zoom.min.js" integrity="sha256-7PhEpEWEW0XXQ0k6kQrPKwuoIomz8R8IYyuU1Qew4P8=" crossorigin="anonymous"></script>
+  <script defer src="/assets/js/zoom.js"></script>
+
+  <!-- Bootstrap Table -->
+  <script defer src="https://unpkg.com/bootstrap-table@1.21.3/dist/bootstrap-table.min.js"></script>
+
+  <!-- Load Common JS -->
+  <script src="/assets/js/no_defer.js"></script>
+  <script defer src="/assets/js/common.js"></script>
+  <script defer src="/assets/js/copy_code.js" type="text/javascript"></script>
+
+    
+  <script async src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
+  <script async src="https://badge.dimensions.ai/badge.js"></script>
+
+    <!-- MathJax -->
+  <script type="text/javascript">
+    window.MathJax = {
+      tex: {
+        tags: 'ams'
+      }
+    };
+  </script>
+  <script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.0/es5/tex-mml-chtml.js"></script>
+  <script defer src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-E79KKTL6N3"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){ window.dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-E79KKTL6N3');
+  </script>
+    
+
+<!-- Scrolling Progress Bar -->
+<script type="text/javascript">
+  /*
+   * This JavaScript code has been adapted from the article 
+   * https://css-tricks.com/reading-position-indicator/ authored by Pankaj Parashar, 
+   * published on the website https://css-tricks.com on the 7th of May, 2014.
+   * Couple of changes were made to the original code to make it compatible 
+   * with the `al-foio` theme.
+   */
+  const progressBar = $("#progress");
+  /*
+   * We set up the bar after all elements are done loading.
+   * In some cases, if the images in the page are larger than the intended
+   * size they'll have on the page, they'll be resized via CSS to accomodate
+   * the desired size. This mistake, however, breaks the computations as the
+   * scroll size is computed as soon as the elements finish loading.
+   * To account for this, a minimal delay was introduced before computing the
+   * values.
+   */
+  window.onload = function () {
+    setTimeout(progressBarSetup, 50);
+  };
+  /*
+   * We set up the bar according to the browser.
+   * If the browser supports the progress element we use that.
+   * Otherwise, we resize the bar thru CSS styling
+   */
+  function progressBarSetup() {
+    if ("max" in document.createElement("progress")) {
+      initializeProgressElement();
+      $(document).on("scroll", function() {
+        progressBar.attr({ value: getCurrentScrollPosition() });
+      });
+      $(window).on("resize", initializeProgressElement);
+    } else {
+      resizeProgressBar();
+      $(document).on("scroll", resizeProgressBar);
+      $(window).on("resize", resizeProgressBar);
+    }
+  }
+  /*
+   * The vertical scroll position is the same as the number of pixels that
+   * are hidden from view above the scrollable area. Thus, a value > 0 is
+   * how much the user has scrolled from the top
+   */
+  function getCurrentScrollPosition() {
+    return $(window).scrollTop();
+  }
+
+  function initializeProgressElement() {
+    let navbarHeight = $("#navbar").outerHeight(true);
+    $("body").css({ "padding-top": navbarHeight });
+    $("progress-container").css({ "padding-top": navbarHeight });
+    progressBar.css({ top: navbarHeight });
+    progressBar.attr({
+      max: getDistanceToScroll(),
+      value: getCurrentScrollPosition(),
+    });
+  }
+  /*
+   * The offset between the html document height and the browser viewport
+   * height will be greater than zero if vertical scroll is possible.
+   * This is the distance the user can scroll
+   */
+  function getDistanceToScroll() {
+    return $(document).height() - $(window).height();
+  }
+
+  function resizeProgressBar() {
+    progressBar.css({ width: getWidthPercentage() + "%" });
+  }
+  // The scroll ratio equals the percentage to resize the bar
+  function getWidthPercentage() {
+    return (getCurrentScrollPosition() / getDistanceToScroll()) * 100;
+  }
+</script>
+
+  </body>
+</html>
