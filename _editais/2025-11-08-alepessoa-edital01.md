@@ -123,18 +123,7 @@ Qualquer dúvida sobre o projeto envie um e-mail para o professor **Rodrigo Rebo
 📩 [rodrigor@dcx.ufpb.br](mailto:rodrigor@dcx.ufpb.br)  
 No assunto informe: **"Dúvida sobre seleção projeto Alê Pessoa"**
 
----
 
-## ❓ Perguntas frequentes
-
-**Sou do 1º período. Posso me inscrever?**  
-Sim, desde que demonstre domínio básico em programação e interesse pela área.
-
-**Posso usar um projeto feito com ajuda de IA?**  
-Sim, mas você deve compreender integralmente o código e explicar como a IA foi utilizada.
-
-
----
 
 ## ✍️ Inscrição
 
