@@ -14,5 +14,5 @@ twitter:
 importance: 2
 category: Colaboradores externos #Professores, Colaboradores externos, Alunos, Ex-alunos
 funcao: Devops e infraestrutura #Coordenador, Bolsista Testador, Bolsista Dev, Technical Debt
-projeto: [vivamoveis, cabemais, apps4society, apps4society_maker]
+projeto: [alepessoa,vivamoveis, cabemais, apps4society, apps4society_maker]
 ---

@@ -13,7 +13,7 @@ instagram: https://www.instagram.com/rodrigorcom/
 importance: 0
 category: Professores #Professores, Colaboradores externos, Alunos, Ex-alunos
 funcao: Coordenador #Coordenador, Bolsista Testador, Bolsista Dev, Technical Debt
-projeto: [ideal,cabemais, phoebus, portomar,vivamoveis,universi.me,tracy-td,codata,decoup, triade]
+projeto: [alepessoa,ideal,cabemais, phoebus, portomar,vivamoveis,universi.me,tracy-td,codata,decoup, triade]
 ex-projeto: [esig,snet,engenharia.software]
 ---
 

@@ -3,7 +3,7 @@ layout: member
 name: Ronyelison De Oliveira Abreu
 img: equipe/img/ronyelison-de-oliveira-abreu.jpg
 funcao: bolsista dev
-projeto: cabemais
+projeto: [alepessoa,cabemais]
 desde: 09/12/2024
 saiu: #data de fim
 description: Desenvolvedor Fullstack
