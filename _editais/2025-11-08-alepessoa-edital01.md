@@ -123,7 +123,16 @@ Qualquer dúvida sobre o projeto envie um e-mail para o professor **Rodrigo Rebo
 📩 [rodrigor@dcx.ufpb.br](mailto:rodrigor@dcx.ufpb.br)  
 No assunto informe: **"Dúvida sobre seleção projeto Alê Pessoa"**
 
+## ❓ Perguntas frequentes
 
+**Sou do 1º período. Posso me inscrever?**  
+Sim, você pode se inscrever, desde que atenda aos pré-requisitos e demonstre interesse pela área de análise de processos.
+
+**Vou me formar em 2025.2, posso ser selecionado(a)?**  
+Não. Alunos que se formam neste período não serão selecionados, pois não haverá tempo suficiente para participação no projeto.
+
+**Vou me formar a partir de 2026.1, posso me inscrever?**  
+Sim, você pode se inscrever.
 
 ## ✍️ Inscrição
 
