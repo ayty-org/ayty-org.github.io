@@ -1,6 +1,6 @@
 ---
 layout: project
-title: Alê Pessoa Tortas e Doces
+title: Alê Pessoa Confeitaria
 description: Projeto de Pesquisa, Desenvolvimento e Inovação em parceria com a empresa Alê Pessoa
 img: assets/img/projetos/alepessoa.png
 importance: 1
@@ -12,7 +12,7 @@ encerramento:
 
 ## Sobre o Projeto
 
-O projeto **“Pesquisa, Desenvolvimento e Inovação para Automação de Vendas e Produção na Alê Pessoa”** tem como objetivo apoiar a empresa **Alê Pessoa Tortas e Doces** em sua jornada de transformação digital, com foco na **automação e digitalização dos processos de vendas, produção e controle de insumos**.  
+O projeto **“Pesquisa, Desenvolvimento e Inovação para Automação de Vendas e Produção na Alê Pessoa”** tem como objetivo apoiar a empresa **Alê Pessoa Confeitaria** em sua jornada de transformação digital, com foco na **automação e digitalização dos processos de vendas, produção e controle de insumos**.  
 
 A iniciativa visa **criar soluções tecnológicas integradas** que modernizem a operação da empresa, desde o atendimento ao cliente até a gestão produtiva, contribuindo para maior eficiência, rastreabilidade das informações e redução de desperdícios.  
 

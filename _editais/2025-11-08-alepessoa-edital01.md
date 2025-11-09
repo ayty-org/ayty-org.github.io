@@ -2,12 +2,12 @@
 layout: post
 title: Seleção de Bolsistas - Projeto Alê Pessoa (Novembro 2025)
 date: 2025-11-08
-description: Edital de seleção de 02 bolsistas para projeto em parceria com a empresa Alê Pessoa Tortas e Doces.
+description: Edital de seleção de 02 bolsistas para projeto em parceria com a empresa Alê Pessoa Confeitaria.
 tags: edital, alepessoa
 categories: edital
 ---
 
-# Edital de seleção de 02 (dois) bolsistas para projeto em parceria com a empresa Alê Pessoa Tortas e Doces
+# Edital de seleção de 02 (dois) bolsistas para projeto em parceria com a empresa Alê Pessoa Confeitaria
 
 🚨 **Atenção! LEIA ATENTAMENTE todas as informações e inscreva-se no link ao final deste edital.**
 
@@ -17,7 +17,7 @@ Este edital possui muitos detalhes. **LEIA COM ATENÇÃO!**
 
 ## Sobre o projeto
 
-Trata-se de um projeto de **Pesquisa, Desenvolvimento e Inovação (PD&I)** em parceria com a empresa **Alê Pessoa Tortas e Doces**, com foco na **automação e digitalização dos processos de vendas, produção e controle de insumos**. O objetivo é **criar soluções tecnológicas integradas** que modernizem a operação da empresa, abrangendo desde o atendimento e venda até a gestão produtiva e controle de estoque.
+Trata-se de um projeto de **Pesquisa, Desenvolvimento e Inovação (PD&I)** em parceria com a empresa **Alê Pessoa Confeitaria**, com foco na **automação e digitalização dos processos de vendas, produção e controle de insumos**. O objetivo é **criar soluções tecnológicas integradas** que modernizem a operação da empresa, abrangendo desde o atendimento e venda até a gestão produtiva e controle de estoque.
 
 O projeto será conduzido pelo **Laboratório AYTY**, do **Departamento de Ciências Exatas / Campus IV / UFPB**, sob coordenação do professor **Rodrigo Rebouças de Almeida**, e contará com o apoio de profissionais da empresa e do laboratório.
 
