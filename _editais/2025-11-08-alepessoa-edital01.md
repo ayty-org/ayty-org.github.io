@@ -78,8 +78,8 @@ O processo será dividido em **duas etapas**:
 | Data / Prazo             | Etapa                                                                 |
 |--------------------------|-----------------------------------------------------------------------|
 | Até **14 de Novembro**   | Prazo para inscrição via formulário                                   |
-| **19 de Novembro**       | Divulgação do resultado da 1ª etapa                                   |
-| **20 e 21 de Novembro**  | Entrevistas técnicas                                                  |
+| **<del>19</del> 20 de Novembro**       | Divulgação do resultado da 1ª etapa                                   |
+| **21 de Novembro**  | Entrevistas técnicas                                                  |
 | **Até 23 de Novembro**   | Divulgação do resultado final                                         |
 | **01 de Dezembro**       | Início das atividades no projeto                                      |
 
@@ -136,5 +136,4 @@ Sim, você pode se inscrever.
 
 ## ✍️ Inscrição
 
-[🔗 Formulário de inscrição](https://forms.gle/ycSu3BCtTQTDpY1Y7)  
-(**Você precisa estar autenticado(a) com seu e-mail do DCX para preencher o formulário**)
+Inscrições encerradas
