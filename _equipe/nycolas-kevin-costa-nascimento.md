@@ -3,7 +3,7 @@ layout: member
 name: Nycolas Kevin Costa Nascimento
 img: equipe/img/nycolas-kevin-costa-nascimento.jpg
 funcao: bolsista dev
-projeto: ideal
+projeto: [alepessoa,ideal]
 desde: 09/07/2025
 saiu: #data de fim
 description: Desenvolvedor back-end
