@@ -6,12 +6,12 @@ funcao: bolsista dev
 projeto: [alepessoa,cabemais]
 desde: 09/12/2024
 saiu: #data de fim
-description: Desenvolvedor Fullstack
+description: Ger. Dev. (Ale Pessoa), Dev Fullstack (Cabe Mais)
 home_page: # home page
 github: #GitHub
 linkedin: https://www.linkedin.com/in/ronyelison-de-oliveira-abreu
 instagram: #Instagram
 twitter: #Twitter
-importance: 4
+importance: 3
 category: Alunos
 ---
