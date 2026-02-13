@@ -3,7 +3,7 @@ layout: member
 name: Nataniel Cesar da Silva
 img: equipe/img/nataniel-cesar-da-silva.jpg
 funcao: "bolsista analista de negócios"
-projeto: portomar
+projeto: []
 ex-projeto: [phoebus, portomar]
 desde: 16/07/2025
 saiu: 31/01/2026
@@ -14,5 +14,5 @@ linkedin: https://linkedin.com/in/nataniel-cesar-bb9495225
 instagram: https://www.instagram.com/natan_ccesar/
 twitter: #Twitter
 importance: 4
-category: Alunos
+category: Ex-alunos
 ---
