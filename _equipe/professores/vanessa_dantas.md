@@ -6,7 +6,7 @@ description: "Vanessa Dantas é professora e pesquisadora na Universidade Federa
 home_page: 
 lattes: 
 desde: 2023-05-12
-saiu: 
+saiu: 2025-08-01
 github: 
 linkedin: https://www.linkedin.com/in/vanessa-dantas-a88653183/
 instagram: https://www.instagram.com/vanessa.fd/
@@ -14,6 +14,6 @@ twitter:
 importance: 1
 category:  Professores
 funcao: Coordenadora proj. SNet
-projeto: codata
-ex-projeto: snet
+projeto: 
+ex-projeto: snet, codata
 ---
