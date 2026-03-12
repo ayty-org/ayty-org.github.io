@@ -114,4 +114,4 @@ Sim.
 
 **Só clique no link a seguir APÓS ler todo o edital ATENTAMENTE!**
 
-{{link}}
+[Acesse o formulário aqui](https://forms.gle/WPL9bL5w96JMN14r5)
