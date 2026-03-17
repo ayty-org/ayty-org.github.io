@@ -1,5 +1,104 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="pt-br"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://ayty.org/feed.xml" rel="self" type="application/atom+xml" /><link href="https://ayty.org/" rel="alternate" type="text/html" hreflang="pt-br" /><updated>2026-03-12T12:59:24+00:00</updated><id>https://ayty.org/feed.xml</id><title type="html">AYTY</title><subtitle>AYTY - Laboratório de Engenharia de Software Aplicada
-</subtitle><entry><title type="html">Resultado 1a etapa – Proj. Viva Móveis (Nov 2025)</title><link href="https://ayty.org/blog/2025/edital_vivamoveis_resultado_2etapa/" rel="alternate" type="text/html" title="Resultado 1a etapa – Proj. Viva Móveis (Nov 2025)" /><published>2025-11-27T00:00:00+00:00</published><updated>2025-11-27T00:00:00+00:00</updated><id>https://ayty.org/blog/2025/edital_vivamoveis_resultado_2etapa</id><content type="html" xml:base="https://ayty.org/blog/2025/edital_vivamoveis_resultado_2etapa/"><![CDATA[<p>Edital: <a href="https://ayty.org/editais/2025-11-23-vivamoveis-04/">Seleção de Bolsistas – Projeto Viva Móveis (Novembro 2025)</a></p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="pt-br"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://ayty.org/feed.xml" rel="self" type="application/atom+xml" /><link href="https://ayty.org/" rel="alternate" type="text/html" hreflang="pt-br" /><updated>2026-03-17T06:05:14+00:00</updated><id>https://ayty.org/feed.xml</id><title type="html">AYTY</title><subtitle>AYTY - Laboratório de Engenharia de Software Aplicada
+</subtitle><entry><title type="html">Secretaria de Saúde de Mamanguape - Resultado da 1ª Etapa (Edital-01)</title><link href="https://ayty.org/blog/2026/secretaria-de-saude-mamanguape-resultado-1etapa/" rel="alternate" type="text/html" title="Secretaria de Saúde de Mamanguape - Resultado da 1ª Etapa (Edital-01)" /><published>2026-03-16T00:00:00+00:00</published><updated>2026-03-16T00:00:00+00:00</updated><id>https://ayty.org/blog/2026/secretaria-de-saude-mamanguape-resultado-1etapa</id><content type="html" xml:base="https://ayty.org/blog/2026/secretaria-de-saude-mamanguape-resultado-1etapa/"><![CDATA[<p>Data: 16/03/2026</p>
+
+<figure>
+
+  <!-- <picture> -->
+    
+
+    <!-- Fallback to the original file -->
+    
+    <img src="/assets/img/projetos/secsaudemmg.png" class="project_image" width="auto" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+    
+
+  <!-- </picture> -->
+
+</figure>
+
+<p>Divulgação do resultado da 1ª etapa (análise de currículos) do processo seletivo referente ao edital do projeto em parceria com a Secretaria de Saúde da Prefeitura de Mamanguape. Ao todo, tivemos:</p>
+
+<ul>
+  <li>14 candidatos inscritos para a vaga de 20 horas semanais;</li>
+  <li>16 candidatos inscritos para a vaga de 25 horas semanais.</li>
+</ul>
+
+<p>Os(as) candidatos(as) abaixo foram selecionados(as) para a 2ª etapa (entrevista).</p>
+
+<p>🚨 Os horários das entrevistas estão indicados abaixo. O link para a entrevista será enviado por email.</p>
+
+<hr />
+
+<h1 id="entrevistas--20h">Entrevistas — 20h</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Horário</th>
+      <th>Candidato</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>A definir</td>
+      <td>Maria Vitória Viturino dos Santos</td>
+    </tr>
+    <tr>
+      <td>A definir</td>
+      <td>Gabriel Nunes Gomes</td>
+    </tr>
+    <tr>
+      <td>A definir</td>
+      <td>Ivan Francisco da Silva Filho</td>
+    </tr>
+    <tr>
+      <td>A definir</td>
+      <td>Iury Gabriel Andrade da Silva</td>
+    </tr>
+    <tr>
+      <td>A definir</td>
+      <td>Amaro Elias do Nascimento</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h1 id="entrevistas--25h">Entrevistas — 25h</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Horário</th>
+      <th>Candidato</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>A definir</td>
+      <td>João Heslin Paulino Honório</td>
+    </tr>
+    <tr>
+      <td>A definir</td>
+      <td>Filipe Alves dos Santos</td>
+    </tr>
+    <tr>
+      <td>A definir</td>
+      <td>Fernando Ribeiro Gomes Júnior</td>
+    </tr>
+    <tr>
+      <td>A definir</td>
+      <td>Rian Freires da Costa Silva</td>
+    </tr>
+    <tr>
+      <td>A definir</td>
+      <td>Gabriela Oliveira Porto</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<p>Qualquer dúvida, entre em contato pelo email: dorgival@dcx.ufpb.br</p>]]></content><author><name></name></author><category term="edital" /><category term="secsaudemmg" /><summary type="html"><![CDATA[Data: 16/03/2026]]></summary></entry><entry><title type="html">Resultado 1a etapa – Proj. Viva Móveis (Nov 2025)</title><link href="https://ayty.org/blog/2025/edital_vivamoveis_resultado_2etapa/" rel="alternate" type="text/html" title="Resultado 1a etapa – Proj. Viva Móveis (Nov 2025)" /><published>2025-11-27T00:00:00+00:00</published><updated>2025-11-27T00:00:00+00:00</updated><id>https://ayty.org/blog/2025/edital_vivamoveis_resultado_2etapa</id><content type="html" xml:base="https://ayty.org/blog/2025/edital_vivamoveis_resultado_2etapa/"><![CDATA[<p>Edital: <a href="https://ayty.org/editais/2025-11-23-vivamoveis-04/">Seleção de Bolsistas – Projeto Viva Móveis (Novembro 2025)</a></p>
 
 <h3 id="resultado-final">Resultado Final:</h3>
 
@@ -138,10 +237,4 @@
 
 <ul>
   <li>Nycolas Kevin Costa Nascimento</li>
-</ul>]]></content><author><name></name></author><category term="edital" /><category term="ideal" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Edital-02 Cabe Mais Jun/25 - Resultado FINAL</title><link href="https://ayty.org/blog/2025/edital_cabemais02_2etapa/" rel="alternate" type="text/html" title="Edital-02 Cabe Mais Jun/25 - Resultado FINAL" /><published>2025-06-29T00:00:00+00:00</published><updated>2025-06-29T00:00:00+00:00</updated><id>https://ayty.org/blog/2025/edital_cabemais02_2etapa</id><content type="html" xml:base="https://ayty.org/blog/2025/edital_cabemais02_2etapa/"><![CDATA[<p>Edital: <a href="/editais/2025-06-18-cabemais-02/">2o Edital - Proj. Cabe Mais (Jun 2025)</a></p>
-
-<p>Resultado final no processo seletivo para projeto Cabe Mais (vaga para a área de Data Analytics).</p>
-
-<ul>
-  <li>Suerdo Flaubert Campos de Lucena Júnior</li>
-</ul>]]></content><author><name></name></author><category term="edital" /><category term="cabemais" /><summary type="html"><![CDATA[Edital: 2o Edital - Proj. Cabe Mais (Jun 2025)]]></summary></entry></feed>
+</ul>]]></content><author><name></name></author><category term="edital" /><category term="ideal" /><summary type="html"><![CDATA[]]></summary></entry></feed>
