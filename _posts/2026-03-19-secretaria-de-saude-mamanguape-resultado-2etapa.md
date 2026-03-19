@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Secretaria de Saúde de Mamanguape - Resultado da 2ª Etapa (Edital-01)
-date: 2026-03-16
+date: 2026-03-19
 description: 
 tags: secsaudemmg
 categories: edital
@@ -9,7 +9,7 @@ related_posts: false
 inline: false
 ---
 
-Data: 16/03/2026
+Data: 19/03/2026
 
 {% include figure.html path="assets/img/projetos/secsaudemmg.png" class="project_image" %}
 
@@ -37,8 +37,3 @@ A seguir, a ordem de classificação dos(as) candidatos(as) após as entrevistas
 4. Filipe Alves dos Santos — 4º lugar
 5. João Heslin Paulino Honório — Desclassificado (Não Compareceu)
 
----
-
-Parabéns aos aprovados para as vagas imediatas e aos classificados para possíveis convocações.
-
-Quando desejar, eu envio este resultado por e‑mail para Neto (Secretaria de Saúde). Informe o endereço e eu encaminho.
