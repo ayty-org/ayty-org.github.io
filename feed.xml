@@ -1,5 +1,47 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="pt-br"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://ayty.org/feed.xml" rel="self" type="application/atom+xml" /><link href="https://ayty.org/" rel="alternate" type="text/html" hreflang="pt-br" /><updated>2026-03-19T19:01:21+00:00</updated><id>https://ayty.org/feed.xml</id><title type="html">AYTY</title><subtitle>AYTY - Laboratório de Engenharia de Software Aplicada
-</subtitle><entry><title type="html">Secretaria de Saúde de Mamanguape - Resultado da 1ª Etapa (Edital-01)</title><link href="https://ayty.org/blog/2026/secretaria-de-saude-mamanguape-resultado-1etapa/" rel="alternate" type="text/html" title="Secretaria de Saúde de Mamanguape - Resultado da 1ª Etapa (Edital-01)" /><published>2026-03-16T00:00:00+00:00</published><updated>2026-03-16T00:00:00+00:00</updated><id>https://ayty.org/blog/2026/secretaria-de-saude-mamanguape-resultado-1etapa</id><content type="html" xml:base="https://ayty.org/blog/2026/secretaria-de-saude-mamanguape-resultado-1etapa/"><![CDATA[<p>Data: 16/03/2026</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="pt-br"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://ayty.org/feed.xml" rel="self" type="application/atom+xml" /><link href="https://ayty.org/" rel="alternate" type="text/html" hreflang="pt-br" /><updated>2026-03-19T22:29:03+00:00</updated><id>https://ayty.org/feed.xml</id><title type="html">AYTY</title><subtitle>AYTY - Laboratório de Engenharia de Software Aplicada
+</subtitle><entry><title type="html">Secretaria de Saúde de Mamanguape - Resultado da 2ª Etapa (Edital-01)</title><link href="https://ayty.org/blog/2026/secretaria-de-saude-mamanguape-resultado-2etapa/" rel="alternate" type="text/html" title="Secretaria de Saúde de Mamanguape - Resultado da 2ª Etapa (Edital-01)" /><published>2026-03-19T00:00:00+00:00</published><updated>2026-03-19T00:00:00+00:00</updated><id>https://ayty.org/blog/2026/secretaria-de-saude-mamanguape-resultado-2etapa</id><content type="html" xml:base="https://ayty.org/blog/2026/secretaria-de-saude-mamanguape-resultado-2etapa/"><![CDATA[<p>Data: 19/03/2026</p>
+
+<figure>
+
+  <!-- <picture> -->
+    
+
+    <!-- Fallback to the original file -->
+    
+    <img src="/assets/img/projetos/secsaudemmg.png" class="project_image" width="auto" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+    
+
+  <!-- </picture> -->
+
+</figure>
+
+<p>Divulgação do resultado da 2ª etapa (entrevistas) do processo seletivo referente ao edital do projeto em parceria com a Secretaria de Saúde da Prefeitura de Mamanguape.</p>
+
+<p>A seguir, a ordem de classificação dos(as) candidatos(as) após as entrevistas.</p>
+
+<hr />
+
+<h1 id="entrevistas--20h">Entrevistas — 20h</h1>
+
+<ol>
+  <li>Gabriel Nunes Gomes — 1º lugar</li>
+  <li>Amaro Elias do Nascimento — 2º lugar</li>
+  <li>Ivan Francisco da Silva Filho — 3º lugar</li>
+  <li>Iury Gabriel Andrade da Silva — 4º lugar</li>
+  <li>Maria Vitória Viturino dos Santos — Desclassificada (Não Compareceu)</li>
+</ol>
+
+<hr />
+
+<h1 id="entrevistas--25h">Entrevistas — 25h</h1>
+
+<ol>
+  <li>Rian Freires da Costa Silva — 1º lugar</li>
+  <li>Gabriela Oliveira Porto — 2º lugar</li>
+  <li>Fernando Ribeiro Gomes Júnior — 3º lugar</li>
+  <li>Filipe Alves dos Santos — 4º lugar</li>
+  <li>João Heslin Paulino Honório — Desclassificado (Não Compareceu)</li>
+</ol>]]></content><author><name></name></author><category term="edital" /><category term="secsaudemmg" /><summary type="html"><![CDATA[Data: 19/03/2026]]></summary></entry><entry><title type="html">Secretaria de Saúde de Mamanguape - Resultado da 1ª Etapa (Edital-01)</title><link href="https://ayty.org/blog/2026/secretaria-de-saude-mamanguape-resultado-1etapa/" rel="alternate" type="text/html" title="Secretaria de Saúde de Mamanguape - Resultado da 1ª Etapa (Edital-01)" /><published>2026-03-16T00:00:00+00:00</published><updated>2026-03-16T00:00:00+00:00</updated><id>https://ayty.org/blog/2026/secretaria-de-saude-mamanguape-resultado-1etapa</id><content type="html" xml:base="https://ayty.org/blog/2026/secretaria-de-saude-mamanguape-resultado-1etapa/"><![CDATA[<p>Data: 16/03/2026</p>
 
 <figure>
 
@@ -98,55 +140,7 @@
 
 <hr />
 
-<p>Qualquer dúvida, entre em contato pelo email: dorgival@dcx.ufpb.br</p>]]></content><author><name></name></author><category term="edital" /><category term="secsaudemmg" /><summary type="html"><![CDATA[Data: 16/03/2026]]></summary></entry><entry><title type="html">Secretaria de Saúde de Mamanguape - Resultado da 2ª Etapa (Edital-01)</title><link href="https://ayty.org/blog/2026/secretaria-de-saude-mamanguape-resultado-2etapa/" rel="alternate" type="text/html" title="Secretaria de Saúde de Mamanguape - Resultado da 2ª Etapa (Edital-01)" /><published>2026-03-16T00:00:00+00:00</published><updated>2026-03-16T00:00:00+00:00</updated><id>https://ayty.org/blog/2026/secretaria-de-saude-mamanguape-resultado-2etapa</id><content type="html" xml:base="https://ayty.org/blog/2026/secretaria-de-saude-mamanguape-resultado-2etapa/"><![CDATA[<p>Data: 16/03/2026</p>
-
-<figure>
-
-  <!-- <picture> -->
-    
-
-    <!-- Fallback to the original file -->
-    
-    <img src="/assets/img/projetos/secsaudemmg.png" class="project_image" width="auto" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
-    
-
-  <!-- </picture> -->
-
-</figure>
-
-<p>Divulgação do resultado da 2ª etapa (entrevistas) do processo seletivo referente ao edital do projeto em parceria com a Secretaria de Saúde da Prefeitura de Mamanguape.</p>
-
-<p>A seguir, a ordem de classificação dos(as) candidatos(as) após as entrevistas.</p>
-
-<hr />
-
-<h1 id="entrevistas--20h">Entrevistas — 20h</h1>
-
-<ol>
-  <li>Gabriel Nunes Gomes — 1º lugar</li>
-  <li>Amaro Elias do Nascimento — 2º lugar</li>
-  <li>Ivan Francisco da Silva Filho — 3º lugar</li>
-  <li>Iury Gabriel Andrade da Silva — 4º lugar</li>
-  <li>Maria Vitória Viturino dos Santos — Desclassificada (Não Compareceu)</li>
-</ol>
-
-<hr />
-
-<h1 id="entrevistas--25h">Entrevistas — 25h</h1>
-
-<ol>
-  <li>Rian Freires da Costa Silva — 1º lugar</li>
-  <li>Gabriela Oliveira Porto — 2º lugar</li>
-  <li>Fernando Ribeiro Gomes Júnior — 3º lugar</li>
-  <li>Filipe Alves dos Santos — 4º lugar</li>
-  <li>João Heslin Paulino Honório — Desclassificado (Não Compareceu)</li>
-</ol>
-
-<hr />
-
-<p>Parabéns aos aprovados para as vagas imediatas e aos classificados para possíveis convocações.</p>
-
-<p>Quando desejar, eu envio este resultado por e‑mail para Neto (Secretaria de Saúde). Informe o endereço e eu encaminho.</p>]]></content><author><name></name></author><category term="edital" /><category term="secsaudemmg" /><summary type="html"><![CDATA[Data: 16/03/2026]]></summary></entry><entry><title type="html">Resultado 1a etapa – Proj. Viva Móveis (Nov 2025)</title><link href="https://ayty.org/blog/2025/edital_vivamoveis_resultado_2etapa/" rel="alternate" type="text/html" title="Resultado 1a etapa – Proj. Viva Móveis (Nov 2025)" /><published>2025-11-27T00:00:00+00:00</published><updated>2025-11-27T00:00:00+00:00</updated><id>https://ayty.org/blog/2025/edital_vivamoveis_resultado_2etapa</id><content type="html" xml:base="https://ayty.org/blog/2025/edital_vivamoveis_resultado_2etapa/"><![CDATA[<p>Edital: <a href="https://ayty.org/editais/2025-11-23-vivamoveis-04/">Seleção de Bolsistas – Projeto Viva Móveis (Novembro 2025)</a></p>
+<p>Qualquer dúvida, entre em contato pelo email: dorgival@dcx.ufpb.br</p>]]></content><author><name></name></author><category term="edital" /><category term="secsaudemmg" /><summary type="html"><![CDATA[Data: 16/03/2026]]></summary></entry><entry><title type="html">Resultado 1a etapa – Proj. Viva Móveis (Nov 2025)</title><link href="https://ayty.org/blog/2025/edital_vivamoveis_resultado_2etapa/" rel="alternate" type="text/html" title="Resultado 1a etapa – Proj. Viva Móveis (Nov 2025)" /><published>2025-11-27T00:00:00+00:00</published><updated>2025-11-27T00:00:00+00:00</updated><id>https://ayty.org/blog/2025/edital_vivamoveis_resultado_2etapa</id><content type="html" xml:base="https://ayty.org/blog/2025/edital_vivamoveis_resultado_2etapa/"><![CDATA[<p>Edital: <a href="https://ayty.org/editais/2025-11-23-vivamoveis-04/">Seleção de Bolsistas – Projeto Viva Móveis (Novembro 2025)</a></p>
 
 <h3 id="resultado-final">Resultado Final:</h3>
 
