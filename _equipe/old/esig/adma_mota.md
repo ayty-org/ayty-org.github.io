@@ -11,7 +11,6 @@ instagram: https://www.instagram.com/admamotta/
 twitter: 
 projetos:
   - nome: esig
-    ativo: false
     desde: 2022-05-01
     saiu: 2024-05-30
     funcao: bolsista dev

@@ -10,13 +10,11 @@ instagram: #Instagram
 twitter: #Twitter
 projetos:
   - nome: alepessoa
-    ativo: true
     desde: 2025-07-09
     saiu: 
     funcao: bolsista dev
     ch_semanal: 20
   - nome: ideal
-    ativo: true
     desde: 2025-07-09
     saiu: 
     funcao: bolsista dev

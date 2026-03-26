@@ -10,19 +10,16 @@ instagram: https://www.instagram.com/lucas_pbarbotin/
 twitter: 
 projetos:
   - nome: vivamoveis
-    ativo: true
     desde: 2023-08-01
     saiu: 
     funcao: bolsista dev
     ch_semanal: 20
   - nome: codata
-    ativo: false
     desde: 2023-08-01
     saiu: 
     funcao: bolsista dev
     ch_semanal: 20
   - nome: universi.me
-    ativo: false
     desde: 2023-08-01
     saiu: 
     funcao: bolsista dev

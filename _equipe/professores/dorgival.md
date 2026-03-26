@@ -10,7 +10,6 @@ instagram: #Instagram
 twitter: #Twitter
 projetos:
   - nome: secsaudemmg
-    ativo: true
     desde: 2026-03-12
     saiu: 
     funcao: pesquisador(a)

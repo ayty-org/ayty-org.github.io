@@ -10,13 +10,11 @@ instagram: https://www.instagram.com/raelpnts/
 twitter: #Twitter
 projetos:
   - nome: phoebus
-    ativo: false
     desde: 2022-07-01
     saiu: 2024-07-30
     funcao: bolsista dev
     ch_semanal: 20
   - nome: tracy-td
-    ativo: false
     desde: 2022-07-01
     saiu: 2024-07-30
     funcao: bolsista dev

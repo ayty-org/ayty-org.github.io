@@ -10,19 +10,16 @@ instagram: https://www.instagram.com/luanaponttes_/
 twitter: #Twitter
 projetos:
   - nome: esig
-    ativo: false
     desde: 2021-09-01
     saiu: 2023-02-28
     funcao: Bolsista Dev
     ch_semanal: 20
   - nome: decoup
-    ativo: false
     desde: 2021-09-01
     saiu: 2023-02-28
     funcao: Bolsista Dev
     ch_semanal: 20
   - nome: phoebus
-    ativo: false
     desde: 2021-09-01
     saiu: 2023-02-28
     funcao: Bolsista Dev

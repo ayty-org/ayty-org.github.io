@@ -10,7 +10,6 @@ instagram:
 twitter: #Twitter
 projetos:
   - nome: esig
-    ativo: false
     desde: 2021-09-01
     saiu: 
     funcao: Bolsista dev

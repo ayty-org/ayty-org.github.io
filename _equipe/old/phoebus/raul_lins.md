@@ -10,13 +10,11 @@ instagram:
 twitter: 
 projetos:
   - nome: codata
-    ativo: false
     desde: 2023-08-01
     saiu: 2024-06-30
     funcao: bolsista analista de requisitos
     ch_semanal: 20
   - nome: phoebus
-    ativo: false
     desde: 2024-07-01
     saiu: 2025-05-31
     funcao: bolsista analista de testes

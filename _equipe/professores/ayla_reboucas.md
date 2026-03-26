@@ -11,22 +11,18 @@ instagram: https://www.instagram.com/aylareboucas/
 twitter: 
 projetos:
   - nome: ideal
-    ativo: true
     desde: 2023-05-12
     saiu: 
     funcao: Coordenadora de projetos
   - nome: apps4society
-    ativo: true
     desde: 2023-05-12
     saiu: 
     funcao: Coordenadora de projetos
   - nome: apps4society_maker
-    ativo: true
     desde: 2023-05-12
     saiu: 
     funcao: Coordenadora de projetos
   - nome: computacao_plugada
-    ativo: true
     desde: 2023-05-12
     saiu: 
     funcao: Coordenadora de projetos

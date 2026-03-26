@@ -10,7 +10,6 @@ instagram: https://instagram.com/jesse_s.c?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3
 twitter: 
 projetos:
   - nome: codata
-    ativo: false
     desde: 2023-08-01
     saiu: 2023-08-30
     funcao: bolsista dev

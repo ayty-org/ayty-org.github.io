@@ -10,7 +10,6 @@ instagram: https://www.instagram.com/ravik_fr/
 twitter: #Twitter
 projetos:
   - nome: phoebus
-    ativo: false
     desde: 2023-04-01
     saiu: 2024-10-30
     funcao: Bolsista Dev

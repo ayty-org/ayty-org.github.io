@@ -10,13 +10,11 @@ instagram: https://www.instagram.com/felipe_2012matheus/
 twitter: #Twitter
 projetos:
   - nome: snet
-    ativo: false
     desde: 2022-04-21
     saiu: 
     funcao: Bolsista Dev
     ch_semanal: 20
   - nome: universi.me
-    ativo: false
     desde: 2022-04-21
     saiu: 
     funcao: Bolsista Dev

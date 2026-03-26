@@ -10,19 +10,16 @@ instagram: https://instagram.com/lucasfreita.s
 twitter: 
 projetos:
   - nome: esig
-    ativo: false
     desde: 2023-07-01
     saiu: 2025-05-30
     funcao: bolsista dev
     ch_semanal: 20
   - nome: decoup
-    ativo: false
     desde: 2023-07-01
     saiu: 2025-05-30
     funcao: bolsista dev
     ch_semanal: 20
   - nome: phoebus
-    ativo: false
     desde: 2023-07-01
     saiu: 2025-05-30
     funcao: bolsista dev

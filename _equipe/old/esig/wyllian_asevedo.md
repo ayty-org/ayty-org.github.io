@@ -10,7 +10,6 @@ instagram: https://www.instagram.com/wyllian_yurk/
 twitter: #Twitter
 projetos:
   - nome: esig
-    ativo: false
     desde: 2021-05-28
     saiu: 2023-07-31
     funcao: bolsista dev

@@ -10,13 +10,11 @@ instagram: #Instagram
 twitter: #Twitter
 projetos:
   - nome: esig
-    ativo: false
     desde: 2021-05-29
     saiu: 2023-06-30
     funcao: bolsista dev analista
     ch_semanal: 20
   - nome: universi.me
-    ativo: false
     desde: 2021-05-29
     saiu: 2023-06-30
     funcao: bolsista dev analista

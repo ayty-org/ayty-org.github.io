@@ -10,7 +10,6 @@ instagram: https://instagram.com/gbrlbarreto/
 twitter: #Twitter
 projetos:
   - nome: snet
-    ativo: false
     desde: 2022-04-21
     saiu: 2023-07-30
     funcao: Bolsista dev

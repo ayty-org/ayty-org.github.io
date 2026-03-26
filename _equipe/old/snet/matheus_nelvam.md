@@ -10,13 +10,11 @@ instagram: https://www.instagram.com/matheus.nelvam/
 twitter: #Twitter
 projetos:
   - nome: snet
-    ativo: false
     desde: 2022-04-21
     saiu: 2024-01-31
     funcao: Bolsista Dev
     ch_semanal: 20
   - nome: phoebus
-    ativo: false
     desde: 2022-04-21
     saiu: 2024-01-31
     funcao: Bolsista Dev

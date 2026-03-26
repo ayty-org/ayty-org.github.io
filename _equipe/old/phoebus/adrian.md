@@ -10,7 +10,6 @@ instagram: https://www.instagram.com/aadrianfernandes/
 twitter: #Twitter
 projetos:
   - nome: phoebus
-    ativo: false
     desde: 2023-04-06
     saiu: 2024-04-30
     funcao: bolsista dev

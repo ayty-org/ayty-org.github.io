@@ -10,13 +10,11 @@ instagram: https://instagram.com/max_guilherme1
 twitter: 
 projetos:
   - nome: phoebus
-    ativo: false
     desde: 2023-07-01
     saiu: 2025-09-30
     funcao: bolsista dev
     ch_semanal: 20
   - nome: esig
-    ativo: false
     desde: 2023-07-01
     saiu: 2025-09-30
     funcao: bolsista dev

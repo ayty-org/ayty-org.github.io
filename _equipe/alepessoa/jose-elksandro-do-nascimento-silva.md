@@ -10,7 +10,6 @@ instagram: https://www.instagram.com/_elksandro
 twitter: #Twitter
 projetos:
   - nome: alepessoa
-    ativo: true
     desde: 2025-12-01
     saiu: 
     funcao: bolsista dev

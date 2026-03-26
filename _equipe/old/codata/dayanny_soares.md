@@ -10,7 +10,6 @@ instagram: https://www.instagram.com/dayannysoares_/
 twitter: 
 projetos:
   - nome: codata
-    ativo: false
     desde: 2023-08-01
     saiu: 2025-03-30
     funcao: bolsista analista de dados

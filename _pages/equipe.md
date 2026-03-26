@@ -21,7 +21,7 @@ horizontal: false
     {%- for member in sorted_equipe -%}
       {%- assign has_active = false -%}
       {%- for p in member.projetos -%}
-        {%- if p.ativo -%}{%- assign has_active = true -%}{%- endif -%}
+        {%- unless p.saiu -%}{%- assign has_active = true -%}{%- endunless -%}
       {%- endfor -%}
       {%- if has_active or member.category contains "Colaboradores externos" -%}
         {% include equipe.html %}
@@ -39,7 +39,7 @@ horizontal: false
     {%- for member in sorted_members -%}
       {%- assign has_active = false -%}
       {%- for p in member.projetos -%}
-        {%- if p.ativo -%}{%- assign has_active = true -%}{%- endif -%}
+        {%- unless p.saiu -%}{%- assign has_active = true -%}{%- endunless -%}
       {%- endfor -%}
       {%- if has_active -%}
         {% include equipe_horizontal.html %}
@@ -52,7 +52,7 @@ horizontal: false
     {%- for member in sorted_members -%}
       {%- assign has_active = false -%}
       {%- for p in member.projetos -%}
-        {%- if p.ativo -%}{%- assign has_active = true -%}{%- endif -%}
+        {%- unless p.saiu -%}{%- assign has_active = true -%}{%- endunless -%}
       {%- endfor -%}
       {%- if has_active -%}
         {% include equipe.html %}
@@ -68,7 +68,7 @@ horizontal: false
   {%- for member in equipe_sorted -%}
     {%- assign has_active = false -%}
     {%- for p in member.projetos -%}
-      {%- if p.ativo -%}{%- assign has_active = true -%}{%- endif -%}
+      {%- unless p.saiu -%}{%- assign has_active = true -%}{%- endunless -%}
     {%- endfor -%}
     {%- unless has_active or member.category contains "Colaboradores externos" -%}
       {% include equipe.html %}

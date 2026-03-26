@@ -10,7 +10,6 @@ instagram: https://www.instagram.com/weslleysousaa_/
 twitter: 
 projetos:
   - nome: codata
-    ativo: false
     desde: 2023-08-01
     saiu: 2025-02-28
     funcao: bolsista dev

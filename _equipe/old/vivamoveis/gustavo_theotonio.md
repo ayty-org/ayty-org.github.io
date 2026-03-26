@@ -10,13 +10,11 @@ instagram: https://www.instagram.com/gustavothes/
 twitter: 
 projetos:
   - nome: esig
-    ativo: false
     desde: 2023-07-10
     saiu: 2025-11-30
     funcao: bolsista dev
     ch_semanal: 20
   - nome: vivamoveis
-    ativo: false
     desde: 2023-07-10
     saiu: 2025-11-30
     funcao: bolsista dev

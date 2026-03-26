@@ -10,7 +10,6 @@ instagram: https://www.instagram.com/viniciusteixeiravini/
 twitter: #Twitter
 projetos:
   - nome: phoebus
-    ativo: false
     desde: 2023-04-06
     saiu: 2024-03-15
     funcao: bolsista dev

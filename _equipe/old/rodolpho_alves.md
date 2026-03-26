@@ -10,7 +10,6 @@ instagram:
 twitter: 
 projetos:
   - nome: codata
-    ativo: false
     desde: 2023-07-28
     saiu: 2025-07-31
     funcao: bolsista devops

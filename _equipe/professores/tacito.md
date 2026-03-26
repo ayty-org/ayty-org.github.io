@@ -11,32 +11,26 @@ instagram: https://www.instagram.com/tacitoneves/
 twitter: https://twitter.com/tacitotiburtino
 projetos:
   - nome: cabemais
-    ativo: true
     desde: 2023-11-01
     saiu: 
     funcao: pesquisador
   - nome: ideal
-    ativo: true
     desde: 2023-11-01
     saiu: 
     funcao: pesquisador
   - nome: codata
-    ativo: false
     desde: 2023-11-01
     saiu: 
     funcao: pesquisador
   - nome: vivamoveis
-    ativo: false
     desde: 2023-11-01
     saiu: 
     funcao: pesquisador
   - nome: universi.me
-    ativo: false
     desde: 2023-11-01
     saiu: 
     funcao: pesquisador
   - nome: triade
-    ativo: false
     desde: 2023-11-01
     saiu: 2026-01-31
     funcao: pesquisador

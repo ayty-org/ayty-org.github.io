@@ -10,13 +10,11 @@ instagram: https://www.instagram.com/davidgon_m/
 twitter: 
 projetos:
   - nome: esig
-    ativo: false
     desde: 2023-07-07
     saiu: 2025-03-30
     funcao: bolsista dev
     ch_semanal: 20
   - nome: phoebus
-    ativo: false
     desde: 2023-07-07
     saiu: 2025-03-30
     funcao: bolsista dev

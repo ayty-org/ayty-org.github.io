@@ -10,7 +10,6 @@ instagram: #Instagram
 twitter: #Twitter
 projetos:
   - nome: triade
-    ativo: false
     desde: 2025-08-01
     saiu: 2026-01-31
     funcao: bolsista analista de negocios

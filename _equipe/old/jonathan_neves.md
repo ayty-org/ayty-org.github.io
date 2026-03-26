@@ -10,13 +10,11 @@ instagram: https://www.instagram.com/jonathannevesribeiro/
 twitter: #Twitter
 projetos:
   - nome: engenharia.software
-    ativo: false
     desde: 2023-02-07
     saiu: 2025-07-31
     funcao: bolsista desenvolvedor
     ch_semanal: 20
   - nome: codata
-    ativo: false
     desde: 2023-02-07
     saiu: 2025-07-31
     funcao: bolsista desenvolvedor

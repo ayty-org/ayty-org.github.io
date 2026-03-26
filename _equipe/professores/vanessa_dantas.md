@@ -11,12 +11,10 @@ instagram: https://www.instagram.com/vanessa.fd/
 twitter: 
 projetos:
   - nome: snet
-    ativo: false
     desde: 2023-05-12
     saiu: 2025-08-01
     funcao: Coordenadora proj. SNet
   - nome: codata
-    ativo: false
     desde: 2023-05-12
     saiu: 2025-08-01
     funcao: Coordenadora proj. SNet

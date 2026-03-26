@@ -10,7 +10,6 @@ instagram: https://www.instagram.com/jvitor_avelar/
 twitter: #Twitter
 projetos:
   - nome: phoebus
-    ativo: true
     desde: 2025-04-01
     saiu: 
     funcao: bolsista dev

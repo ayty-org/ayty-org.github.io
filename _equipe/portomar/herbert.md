@@ -10,19 +10,16 @@ instagram:
 twitter: https://github.com/herbertpk
 projetos:
   - nome: portomar
-    ativo: true
     desde: 2023-08-01
     saiu: 
     funcao: bolsista devops
     ch_semanal: 20
   - nome: codata
-    ativo: false
     desde: 2023-08-01
     saiu: 
     funcao: bolsista devops
     ch_semanal: 20
   - nome: phoebus
-    ativo: false
     desde: 2023-08-01
     saiu: 
     funcao: bolsista devops

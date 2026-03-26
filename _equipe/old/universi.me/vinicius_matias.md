@@ -9,7 +9,6 @@ instagram: https://www.instagram.com/viiniciusmat/
 twitter: #Twitter
 projetos:
   - nome: universi.me
-    ativo: false
     desde: 2021-10-05
     saiu: 2023-12-30
     funcao: bolsista dev

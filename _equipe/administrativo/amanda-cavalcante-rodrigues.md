@@ -10,27 +10,22 @@ instagram: #Instagram
 twitter: #Twitter
 projetos:
   - nome: cabemais
-    ativo: false
     desde: 2025-08-01
     saiu: 2026-02-28
     funcao: suporte administrativo
   - nome: phoebus
-    ativo: false
     desde: 2025-08-01
     saiu: 2026-02-28
     funcao: suporte administrativo
   - nome: portomar
-    ativo: false
     desde: 2025-08-01
     saiu: 2026-02-28
     funcao: suporte administrativo
   - nome: vivamoveis
-    ativo: false
     desde: 2025-08-01
     saiu: 2026-02-28
     funcao: suporte administrativo
   - nome: triade
-    ativo: false
     desde: 2025-08-01
     saiu: 2026-02-28
     funcao: suporte administrativo

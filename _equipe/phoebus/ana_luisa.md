@@ -10,19 +10,16 @@ instagram: https://www.instagram.com/analuisaflp/
 twitter: 
 projetos:
   - nome: phoebus
-    ativo: true
     desde: 2023-04-02
     saiu: 
     funcao: bolsista dev
     ch_semanal: 20
   - nome: tracy-td
-    ativo: false
     desde: 2023-04-02
     saiu: 
     funcao: bolsista dev
     ch_semanal: 20
   - nome: decoup
-    ativo: false
     desde: 2023-04-02
     saiu: 
     funcao: bolsista dev

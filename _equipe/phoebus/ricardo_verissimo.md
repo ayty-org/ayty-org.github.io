@@ -10,13 +10,11 @@ instagram: https://www.instagram.com/__veri.ric/
 twitter: 
 projetos:
   - nome: codata
-    ativo: false
     desde: 2023-07-28
     saiu: 2025-03-31
     funcao: bolsista analista de testes
     ch_semanal: 20
   - nome: phoebus
-    ativo: true
     desde: 2023-07-28
     saiu: 
     funcao: bolsista dev

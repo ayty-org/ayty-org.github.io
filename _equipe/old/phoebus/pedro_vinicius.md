@@ -10,13 +10,11 @@ instagram: https://www.instagram.com/vinicius.diasxx/
 twitter: #Twitter
 projetos:
   - nome: phoebus
-    ativo: false
     desde: 2023-04-06
     saiu: 
     funcao: Technical Debt
     ch_semanal: 20
   - nome: tracy-td
-    ativo: false
     desde: 2023-04-06
     saiu: 
     funcao: Technical Debt

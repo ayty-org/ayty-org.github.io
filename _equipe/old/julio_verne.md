@@ -10,19 +10,16 @@ instagram: https://www.instagram.com/jlioverne/
 twitter: https://www.twitter.com/ijulioverne/
 projetos:
   - nome: codata
-    ativo: false
     desde: 2023-08-01
     saiu: 2025-07-31
     funcao: bolsista dev
     ch_semanal: 20
   - nome: apps4society
-    ativo: false
     desde: 2023-04-01
     saiu: 2025-07-31
     funcao: bolsista dev
     ch_semanal: 20
   - nome: universi.me
-    ativo: false
     desde: 2023-04-01
     saiu: 2025-07-31
     funcao: bolsista dev

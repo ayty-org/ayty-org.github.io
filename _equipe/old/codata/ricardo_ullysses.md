@@ -10,7 +10,6 @@ instagram: https://www.instagram.com/ricardouviana/
 twitter: 
 projetos:
   - nome: codata
-    ativo: false
     desde: 2023-07-27
     saiu: 2025-03-30
     funcao: bolsista dev

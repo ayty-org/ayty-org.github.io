@@ -10,13 +10,11 @@ instagram: https://www.instagram.com/jackson_anderson54/
 twitter: #Twitter
 projetos:
   - nome: phoebus
-    ativo: false
     desde: 2021-09-01
     saiu: 2023-06-30
     funcao: Bolsista Dev
     ch_semanal: 20
   - nome: tracy-td
-    ativo: false
     desde: 2021-09-01
     saiu: 2023-06-30
     funcao: Bolsista Dev

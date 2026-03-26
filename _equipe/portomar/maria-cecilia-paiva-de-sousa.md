@@ -10,7 +10,6 @@ instagram: #Instagram
 twitter: #Twitter
 projetos:
   - nome: portomar
-    ativo: true
     desde: 2025-07-18
     saiu: 
     funcao: analista de negócios

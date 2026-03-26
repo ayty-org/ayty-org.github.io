@@ -10,13 +10,11 @@ instagram: https://www.instagram.com/mgabiis/
 twitter: 
 projetos:
   - nome: codata
-    ativo: false
     desde: 2023-08-01
     saiu: 2024-08-13
     funcao: bolsista fullstack
     ch_semanal: 20
   - nome: snet
-    ativo: false
     desde: 2023-08-01
     saiu: 2024-08-13
     funcao: bolsista fullstack

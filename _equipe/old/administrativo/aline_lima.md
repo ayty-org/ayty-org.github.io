@@ -10,25 +10,21 @@ instagram: https://www.instagram.com/lima_aline26
 twitter: #Twitter
 projetos:
   - nome: snet
-    ativo: false
     desde: 2023-07-21
     saiu: 2025-07-31
     funcao: Suporte Administrativo
     ch_semanal: 20
   - nome: esig
-    ativo: false
     desde: 2023-07-21
     saiu: 2025-07-31
     funcao: Suporte Administrativo
     ch_semanal: 20
   - nome: phoebus
-    ativo: false
     desde: 2023-07-21
     saiu: 2025-07-31
     funcao: Suporte Administrativo
     ch_semanal: 20
   - nome: vivamoveis
-    ativo: false
     desde: 2023-07-21
     saiu: 2025-07-31
     funcao: Suporte Administrativo

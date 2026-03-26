@@ -10,13 +10,11 @@ instagram: https://www.instagram.com/natan_ccesar/
 twitter: #Twitter
 projetos:
   - nome: phoebus
-    ativo: false
     desde: 2025-07-16
     saiu: 2026-01-31
     funcao: bolsista analista de negócios
     ch_semanal: 20
   - nome: portomar
-    ativo: false
     desde: 2025-07-16
     saiu: 2026-01-31
     funcao: bolsista analista de negócios

@@ -10,7 +10,6 @@ instagram: https://www.instagram.com/joandersonfps/
 twitter: 
 projetos:
   - nome: esig
-    ativo: false
     desde: 2023-07-01
     saiu: 
     funcao: bolsista dev

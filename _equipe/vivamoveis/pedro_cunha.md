@@ -10,13 +10,11 @@ instagram: https://www.instagram.com/edroluiz/
 twitter: #Twitter
 projetos:
   - nome: phoebus
-    ativo: false
     desde: 2022-07-01
     saiu: 2023-06-30
     funcao: desenvolvedor full stack
     ch_semanal: 20
   - nome: vivamoveis
-    ativo: false
     desde: 2022-07-01
     saiu: 2025-09-30
     funcao: UX/UI e testes

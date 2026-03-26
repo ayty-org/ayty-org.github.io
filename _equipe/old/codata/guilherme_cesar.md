@@ -10,7 +10,6 @@ instagram: https://instagram.com/guilherme_csr1?utm_source=qr&igshid=MzNlNGNkZWQ
 twitter: 
 projetos:
   - nome: codata
-    ativo: false
     desde: 2023-08-01
     saiu: 2025-01-31
     funcao: bolsista dev

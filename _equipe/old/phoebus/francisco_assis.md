@@ -10,7 +10,6 @@ instagram: https://instagram.com/franciscovieira_n/
 twitter: #Twitter
 projetos:
   - nome: phoebus
-    ativo: false
     desde: 2023-04-06
     saiu: 2024-03-29
     funcao: Bolsista dev

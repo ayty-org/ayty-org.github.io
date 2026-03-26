@@ -19,7 +19,6 @@ instagram:
 twitter: 
 projetos:
   - nome: tracy-td
-    ativo: true
     desde: 2017-07-14
     saiu: 
     funcao: colaborador em pesquisa

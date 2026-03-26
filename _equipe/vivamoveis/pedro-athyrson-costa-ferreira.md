@@ -10,7 +10,6 @@ instagram: https://www.instagram.com/pedroathyrson
 twitter: #Twitter
 projetos:
   - nome: vivamoveis
-    ativo: true
     desde: 2025-07-01
     saiu: 
     funcao: Bolsista Analista de Dados

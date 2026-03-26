@@ -10,12 +10,10 @@ linkedin: https://www.linkedin.com/in/raquel-lopes-6154863/
 twitter: https://twitter.com/raquelvl
 projetos:
   - nome: codata
-    ativo: false
     desde: 2023-07-01
     saiu: 
     funcao: Coordenadora/pesquisadora proj. CODATA
   - nome: universi.me
-    ativo: false
     desde: 2023-07-01
     saiu: 
     funcao: Coordenadora/pesquisadora proj. CODATA

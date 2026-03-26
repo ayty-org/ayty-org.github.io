@@ -10,7 +10,6 @@ instagram: https://www.instagram.com/ronellyson.julio/
 twitter: #Twitter
 projetos:
   - nome: phoebus
-    ativo: false
     desde: 2023-04-02
     saiu: 2024-05-30
     funcao: desenvolvedor Android

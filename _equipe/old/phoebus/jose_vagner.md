@@ -10,7 +10,6 @@ instagram: #Instagram
 twitter: #Twitter
 projetos:
   - nome: phoebus
-    ativo: false
     desde: 2022-04-04
     saiu: 
     funcao: Bolsista Dev

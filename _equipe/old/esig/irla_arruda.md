@@ -10,7 +10,6 @@ instagram: https://www.instagram.com/irla.arruda/
 twitter: #Twitter
 projetos:
   - nome: esig
-    ativo: false
     desde: 2022-09-01
     saiu: 2024-05-30
     funcao: Bolsista Dev

@@ -10,22 +10,18 @@ instagram: https://www.instagram.com/whoisclebs
 twitter: https://twitter.com/whoisclebs
 projetos:
   - nome: phoebus
-    ativo: false
     desde: 2021-01-01
     saiu: 
     funcao: Colaborador em diversos projetos
   - nome: tracy-td
-    ativo: false
     desde: 2021-01-01
     saiu: 
     funcao: Colaborador em diversos projetos
   - nome: vivamoveis
-    ativo: false
     desde: 2021-01-01
     saiu: 
     funcao: Colaborador em diversos projetos
   - nome: universi.me
-    ativo: false
     desde: 2021-01-01
     saiu: 
     funcao: Colaborador em diversos projetos

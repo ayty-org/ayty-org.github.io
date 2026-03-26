@@ -112,8 +112,10 @@ layout: default
               <div class="grid">
                 {%- for member in all_equipe -%}
                   {%- for p in member.projetos -%}
-                    {%- if p.nome == page.projeto and p.ativo -%}
-                      {% include equipe.html funcao_override=p.funcao %}
+                    {%- if p.nome == page.projeto -%}
+                      {%- unless p.saiu -%}
+                        {% include equipe.html funcao_override=p.funcao %}
+                      {%- endunless -%}
                     {%- endif -%}
                   {%- endfor -%}
                 {%- endfor -%}
@@ -127,9 +129,7 @@ layout: default
 {%- assign has_ex = false -%}
 {%- for member in all_equipe -%}
   {%- for p in member.projetos -%}
-    {%- if p.nome == page.projeto -%}
-      {%- unless p.ativo -%}{%- assign has_ex = true -%}{%- endunless -%}
-    {%- endif -%}
+    {%- if p.nome == page.projeto and p.saiu -%}{%- assign has_ex = true -%}{%- endif -%}
   {%- endfor -%}
 {%- endfor -%}
 
@@ -139,10 +139,8 @@ layout: default
     <div class="grid">
       {%- for member in all_equipe -%}
         {%- for p in member.projetos -%}
-          {%- if p.nome == page.projeto -%}
-            {%- unless p.ativo -%}
-              {% include equipe.html funcao_override=p.funcao %}
-            {%- endunless -%}
+          {%- if p.nome == page.projeto and p.saiu -%}
+            {% include equipe.html funcao_override=p.funcao %}
           {%- endif -%}
         {%- endfor -%}
       {%- endfor -%}

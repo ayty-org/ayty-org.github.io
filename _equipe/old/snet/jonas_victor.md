@@ -10,7 +10,6 @@ instagram: https://instagram.com/jonasvictorz_/ #Instagram
 twitter: #Twitter
 projetos:
   - nome: snet
-    ativo: false
     desde: 2022-05-01
     saiu: 2024-01-31
     funcao: Bolsista Dev

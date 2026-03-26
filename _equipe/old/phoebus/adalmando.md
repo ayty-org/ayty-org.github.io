@@ -10,7 +10,6 @@ instagram: https://www.instagram.com/adalmando0/
 twitter: #Twitter
 projetos:
   - nome: phoebus
-    ativo: false
     desde: 2023-04-06
     saiu: 2023-11-30
     funcao: bolsista dev

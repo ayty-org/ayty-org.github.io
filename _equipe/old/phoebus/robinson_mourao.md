@@ -10,7 +10,6 @@ instagram: https://www.instagram.com/robinson_mds.java/
 twitter: #Twitter
 projetos:
   - nome: phoebus
-    ativo: false
     desde: 2023-05-26
     saiu: 2023-12-31
     funcao: bolsista tester

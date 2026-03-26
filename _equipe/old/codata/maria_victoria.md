@@ -10,7 +10,6 @@ instagram: https://www.instagram.com/_ma.victoria/
 twitter: 
 projetos:
   - nome: codata
-    ativo: false
     desde: 2024-11-29
     saiu: 2025-05-30
     funcao: Bolsista analista de dados

@@ -10,13 +10,11 @@ instagram: https://www.instagram.com/mauricio__rr/
 twitter: 
 projetos:
   - nome: codata
-    ativo: false
     desde: 2023-08-01
     saiu: 2025-07-31
     funcao: bolsista analista de dados
     ch_semanal: 20
   - nome: cabemais
-    ativo: false
     desde: 2023-08-01
     saiu: 2026-01-31
     funcao: bolsista analista de dados

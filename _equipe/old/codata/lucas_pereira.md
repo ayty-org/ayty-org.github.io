@@ -10,7 +10,6 @@ instagram: https://www.instagram.com/lucazeved/
 twitter: 
 projetos:
   - nome: codata
-    ativo: false
     desde: 2023-07-28
     saiu: 2025-12-31
     funcao: Bolsista Segurança da Informação

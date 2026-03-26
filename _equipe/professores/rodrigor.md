@@ -10,72 +10,58 @@ linkedin: https://www.linkedin.com/in/rodrigoreboucas/
 instagram: https://www.instagram.com/rodrigorcom/
 projetos:
   - nome: alepessoa
-    ativo: true
     desde: 2010-07-14
     saiu: 
     funcao: Coordenador
   - nome: ideal
-    ativo: true
     desde: 2010-07-14
     saiu: 
     funcao: Colaborador
   - nome: cabemais
-    ativo: true
     desde: 2010-07-14
     saiu: 
     funcao: Coordenador
   - nome: phoebus
-    ativo: true
     desde: 2010-07-14
     saiu: 
     funcao: Coordenador e Pesquisador
   - nome: portomar
-    ativo: true
     desde: 2010-07-14
     saiu: 
     funcao: Coordenador e Pesquisador
   - nome: vivamoveis
-    ativo: true
     desde: 2010-07-14
     saiu: 
     funcao: Coordenador
   - nome: universi.me
-    ativo: true
     desde: 2010-07-14
     saiu: 
     funcao: Coordenador
   - nome: tracy-td
-    ativo: true
     desde: 2010-07-14
     saiu: 
     funcao: Coordenador
   - nome: decoup
-    ativo: true
     desde: 2010-07-14
     saiu: 
     funcao: Coordenador
   - nome: triade
-    ativo: true
     desde: 2010-07-14
     saiu: 
     funcao: Coordenador
   - nome: codata
-    ativo: false
     desde: 2010-07-14
     saiu: 
     funcao: Coordenador
   - nome: esig
-    ativo: false
     desde: 2010-07-14
     saiu: 
     funcao: Coordenador
   - nome: snet
-    ativo: false
     desde: 2010-07-14
     saiu: 
     funcao: Coordenador
   - nome: engenharia.software
-    ativo: false
     desde: 2010-07-14
     saiu: 
     funcao: Coordenador

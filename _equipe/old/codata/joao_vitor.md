@@ -10,7 +10,6 @@ instagram: https://www.instagram.com/vit6fr.py/?igshid=MjEwN2IyYWYwYw%3D%3D
 twitter: 
 projetos:
   - nome: codata
-    ativo: false
     desde: 2023-08-01
     saiu: 2024-09-30
     funcao: Bolsista segurança da informação

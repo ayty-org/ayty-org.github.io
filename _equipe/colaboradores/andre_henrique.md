@@ -10,7 +10,6 @@ instagram: https://www.instagram.com/andrehsvictor
 twitter: 
 projetos:
   - nome: vivamoveis
-    ativo: true
     desde: 2024-07-01
     saiu: 
     funcao: Colaborador de empresa

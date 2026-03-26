@@ -10,7 +10,6 @@ instagram: https://www.instagram.com/petersonwl_
 twitter: #Twitter
 projetos:
   - nome: vivamoveis
-    ativo: true
     desde: 2025-07-01
     saiu: 
     funcao: bolsista dev

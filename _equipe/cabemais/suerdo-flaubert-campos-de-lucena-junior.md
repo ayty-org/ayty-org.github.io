@@ -10,7 +10,6 @@ instagram: https://www.instagram.com/suerdo_fl/?igsh=MTk4OTd6ZnZtcnR2MA%3D%3D&ut
 twitter: #Twitter
 projetos:
   - nome: cabemais
-    ativo: true
     desde: 2025-07-01
     saiu: 
     funcao: Bolsista Analista de Dados

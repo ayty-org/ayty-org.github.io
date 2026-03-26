@@ -10,7 +10,6 @@ instagram: https://www.instagram.com/anderson.soares.si.pb?igsh=eDh0Y2tzdGR5ZWVp
 twitter: #Twitter
 projetos:
   - nome: cabemais
-    ativo: true
     desde: 2024-12-05
     saiu: 
     funcao: bolsista dev

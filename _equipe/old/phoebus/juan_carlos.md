@@ -10,13 +10,11 @@ instagram: https://www.instagram.com/juan.arauujo/
 twitter: #Twitter
 projetos:
   - nome: phoebus
-    ativo: false
     desde: Abril - 2022
     saiu: 2023-06-30
     funcao: Bolsista Tester
     ch_semanal: 20
   - nome: decoup
-    ativo: false
     desde: Abril - 2022
     saiu: 2023-06-30
     funcao: Bolsista Tester

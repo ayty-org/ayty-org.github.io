@@ -10,13 +10,11 @@ instagram:
 twitter: 
 projetos:
   - nome: snet
-    ativo: false
     desde: 2024-03-21
     saiu: 2024-09-30
     funcao: bolsista dev
     ch_semanal: 20
   - nome: vivamoveis
-    ativo: false
     desde: 2024-03-21
     saiu: 2024-09-30
     funcao: bolsista dev

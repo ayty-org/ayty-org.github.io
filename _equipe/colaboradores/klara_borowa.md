@@ -16,7 +16,6 @@ instagram:
 twitter: 
 projetos:
   - nome: techdebt
-    ativo: true
     desde: 2010-07-14
     saiu: 
     funcao: Pesquisadora

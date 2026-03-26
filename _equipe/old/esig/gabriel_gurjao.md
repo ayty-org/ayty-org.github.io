@@ -10,7 +10,6 @@ instagram: https://www.instagram.com/gabrielcamposg/
 twitter: #Twitter
 projetos:
   - nome: esig
-    ativo: false
     desde: 2021-01-01
     saiu: 
     funcao: bolsista dev

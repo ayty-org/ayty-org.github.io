@@ -11,27 +11,22 @@ instagram: https://www.instagram.com/marcuswac
 twitter: https://twitter.com/marcuswac
 projetos:
   - nome: ideal
-    ativo: true
     desde: 2022-05-12
     saiu: 
     funcao: Pesquisador
   - nome: cabemais
-    ativo: true
     desde: 2022-05-12
     saiu: 
     funcao: Pesquisador
   - nome: esig
-    ativo: false
     desde: 2022-05-12
     saiu: 
     funcao: Pesquisador
   - nome: codata
-    ativo: false
     desde: 2022-05-12
     saiu: 
     funcao: Pesquisador
   - nome: vivamoveis
-    ativo: false
     desde: 2022-05-12
     saiu: 
     funcao: Pesquisador

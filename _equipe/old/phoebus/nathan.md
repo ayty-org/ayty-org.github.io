@@ -10,13 +10,11 @@ instagram: #Instagram
 twitter: #Twitter
 projetos:
   - nome: esig
-    ativo: false
     desde: 2022-04-01
     saiu: 2024-06-30
     funcao: bolsista dev
     ch_semanal: 20
   - nome: phoebus
-    ativo: false
     desde: 2024-07-01
     saiu: 2025-06-30
     funcao: bolsista dev

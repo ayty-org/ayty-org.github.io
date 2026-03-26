@@ -10,19 +10,16 @@ instagram: https://www.instagram.com/lua_gutemberg/ #Instagram
 twitter: #Twitter
 projetos:
   - nome: phoebus
-    ativo: false
     desde: 2021-06-01
     saiu: 2024-05-30
     funcao: Suporte Administrativo
     ch_semanal: 20
   - nome: esig
-    ativo: false
     desde: 2021-06-01
     saiu: 2024-05-30
     funcao: Suporte Administrativo
     ch_semanal: 20
   - nome: snet
-    ativo: false
     desde: 2021-06-01
     saiu: 2024-05-30
     funcao: Suporte Administrativo

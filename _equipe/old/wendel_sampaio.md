@@ -10,7 +10,6 @@ instagram: https://www.instagram.com/wendelss11
 twitter: #Twitter
 projetos:
   - nome: codata
-    ativo: false
     desde: 2023-08-01
     saiu: 2025-07-31
     funcao: bolsista

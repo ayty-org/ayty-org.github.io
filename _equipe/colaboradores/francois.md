@@ -11,27 +11,22 @@ instagram:
 twitter: 
 projetos:
   - nome: alepessoa
-    ativo: true
     desde: 2018-01-01
     saiu: 
     funcao: Devops e infraestrutura
   - nome: vivamoveis
-    ativo: true
     desde: 2018-01-01
     saiu: 
     funcao: Devops e infraestrutura
   - nome: cabemais
-    ativo: true
     desde: 2018-01-01
     saiu: 
     funcao: Devops e infraestrutura
   - nome: apps4society
-    ativo: true
     desde: 2018-01-01
     saiu: 
     funcao: Devops e infraestrutura
   - nome: apps4society_maker
-    ativo: true
     desde: 2018-01-01
     saiu: 
     funcao: Devops e infraestrutura

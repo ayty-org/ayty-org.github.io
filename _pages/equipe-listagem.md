@@ -32,7 +32,8 @@ projects: [phoebus,codata,vivamoveis,cabemais,portomar,universi.me,ideal,esig,sn
             {%- assign all_equipe = site.equipe | sort: "name" | sort: "importance" -%}
             {%- for member in all_equipe -%}
               {%- for p in member.projetos -%}
-                {%- if p.nome == project_name and p.ativo -%}
+                {%- if p.nome == project_name -%}
+                  {%- unless p.saiu -%}
                 <tr>
                     <td>✅</td>
                     <td><a href="{{ member.img }}" target="_blank"><img src="{{ member.img }}" alt="{{ member.name }}" style="width:40px;height:40px;"></a></td>
@@ -48,12 +49,13 @@ projects: [phoebus,codata,vivamoveis,cabemais,portomar,universi.me,ideal,esig,sn
                     <td>{{ member.category }}</td>
                     <td>{{ p.funcao }}</td>
                 </tr>
+                  {%- endunless -%}
                 {%- endif -%}
               {%- endfor -%}
             {%- endfor -%}
             {%- for member in all_equipe -%}
               {%- for p in member.projetos -%}
-                {%- if p.nome == project_name and p.ativo == false -%}
+                {%- if p.nome == project_name and p.saiu -%}
                 <tr>
                     <td>❌</td>
                     <td><a href="{{ member.img }}" target="_blank"><img src="{{ member.img }}" alt="{{ member.name }}" style="width:40px;height:40px;"></a></td>

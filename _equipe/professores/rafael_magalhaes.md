@@ -11,22 +11,18 @@ instagram: https://www.instagram.com/rafaelmm82/
 twitter: 
 projetos:
   - nome: ideal
-    ativo: true
     desde: 2023-05-12
     saiu: 
     funcao: pesquisador
   - nome: cabemais
-    ativo: true
     desde: 2023-05-12
     saiu: 
     funcao: pesquisador
   - nome: codata
-    ativo: false
     desde: 2023-05-12
     saiu: 
     funcao: pesquisador
   - nome: vivamoveis
-    ativo: false
     desde: 2023-05-12
     saiu: 
     funcao: pesquisador

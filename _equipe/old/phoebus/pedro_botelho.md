@@ -10,7 +10,6 @@ instagram: https://www.instagram.com/pedroboleto
 twitter: #Twitter
 projetos:
   - nome: phoebus
-    ativo: false
     desde: 2021-09-01
     saiu: 2023-12-31
     funcao: Bolsista dev

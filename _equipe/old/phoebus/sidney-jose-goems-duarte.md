@@ -10,7 +10,6 @@ instagram: https://instagram.com/demolay.gif
 twitter: #Twitter
 projetos:
   - nome: codata
-    ativo: false
     desde: 2023-09-25
     saiu: 2023-10-31
     funcao: design

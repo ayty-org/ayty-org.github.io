@@ -10,7 +10,6 @@ instagram: https://www.instagram.com/joao_heitor__/ #Instagram
 twitter: #Twitter
 projetos:
   - nome: phoebus
-    ativo: false
     desde: 2022-08-01
     saiu: 2023-11-30
     funcao: Bolsista Dev

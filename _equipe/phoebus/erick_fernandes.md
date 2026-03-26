@@ -10,7 +10,6 @@ instagram: https://www.instagram.com/algnologia/
 twitter: #Twitter
 projetos:
   - nome: phoebus
-    ativo: false
     desde: 2023-04-06
     saiu: 2026-02-28
     funcao: bolsista devops

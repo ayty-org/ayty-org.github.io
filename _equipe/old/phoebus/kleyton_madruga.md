@@ -11,7 +11,6 @@ instagram: https://www.instagram.com/kleytonmadruga/
 twitter: #Twitter
 projetos:
   - nome: phoebus
-    ativo: false
     desde: 2023-04-06
     saiu: 
     funcao: Bolsista Dev

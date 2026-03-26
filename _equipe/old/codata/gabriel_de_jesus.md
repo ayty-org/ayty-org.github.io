@@ -11,7 +11,6 @@ instagram:
 twitter: 
 projetos:
   - nome: codata
-    ativo: false
     desde: 2023-08-01
     saiu: 2025-03-31
     funcao: bolsista dev

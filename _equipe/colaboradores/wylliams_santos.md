@@ -12,7 +12,6 @@ instagram: https://www.instagram.com/wylliamss/
 twitter: 
 projetos:
   - nome: tracy-td
-    ativo: true
     desde: 2010-07-14
     saiu: 
     funcao: Pesquisador

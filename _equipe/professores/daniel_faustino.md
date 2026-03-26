@@ -11,12 +11,10 @@ instagram:
 twitter: 
 projetos:
   - nome: vivamoveis
-    ativo: true
     desde: 2023-05-12
     saiu: 
     funcao: Pesquisador
   - nome: codata
-    ativo: false
     desde: 2023-05-12
     saiu: 
     funcao: Pesquisador

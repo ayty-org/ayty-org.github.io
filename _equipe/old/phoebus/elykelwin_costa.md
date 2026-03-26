@@ -10,7 +10,6 @@ instagram: https://www.instagram.com/elykelwin.costa
 twitter: 
 projetos:
   - nome: phoebus
-    ativo: false
     desde: 2021-09-01
     saiu: 2023-06-30
     funcao: Analista de Testes - QA

@@ -10,7 +10,6 @@ instagram: https://www.instagram.com/chateaubriand_almeida/
 twitter: 
 projetos:
   - nome: vivamoveis
-    ativo: false
     desde: 2024-03-21
     saiu: 2024-06-30
     funcao: UX / UI

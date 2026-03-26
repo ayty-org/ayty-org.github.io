@@ -10,7 +10,6 @@ instagram: https://www.instagram.com/daysiane_conrado/
 twitter: #Twitter
 projetos:
   - nome: engenharia.software
-    ativo: false
     desde: 2023-02-07
     saiu: 2024-12-31
     funcao: bolsista Co-host

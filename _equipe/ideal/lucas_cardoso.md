@@ -10,13 +10,11 @@ instagram: #Instagram
 twitter: #Twitter
 projetos:
   - nome: ideal
-    ativo: true
     desde: 2021-03-01
     saiu: 
     funcao: Software Developer bolsista
     ch_semanal: 20
   - nome: phoebus
-    ativo: false
     desde: 2021-03-01
     saiu: 
     funcao: Software Developer bolsista

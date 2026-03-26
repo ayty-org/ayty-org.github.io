@@ -10,7 +10,6 @@ instagram: #Instagram
 twitter: #Twitter
 projetos:
   - nome: snet
-    ativo: false
     desde: 2022-04-21
     saiu: 2024-01-31
     funcao: Bolsista Dev

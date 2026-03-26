@@ -10,13 +10,11 @@ instagram: # instagram
 twitter: # twitter
 projetos:
   - nome: phoebus
-    ativo: true
     desde: 2023-02-07
     saiu: 
     funcao: bolsista Co-host
     ch_semanal: 20
   - nome: engenharia.software
-    ativo: false
     desde: 2023-02-07
     saiu: 
     funcao: bolsista Co-host

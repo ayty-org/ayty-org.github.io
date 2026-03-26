@@ -10,7 +10,6 @@ instagram:
 twitter:
 projetos:
   - nome: phoebus
-    ativo: false
     desde: 2022-07-01
     saiu: 
     funcao: Bolsista Tester

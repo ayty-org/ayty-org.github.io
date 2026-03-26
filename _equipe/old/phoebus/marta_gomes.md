@@ -10,7 +10,6 @@ instagram: #Instagram
 twitter: #Twitter
 projetos:
   - nome: phoebus
-    ativo: false
     desde: 2021-11-01
     saiu: 2023-12-31
     funcao: Bolsista Analista de Testes

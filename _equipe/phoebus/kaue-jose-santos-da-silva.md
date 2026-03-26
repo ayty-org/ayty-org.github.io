@@ -10,7 +10,6 @@ instagram: https://www.instagram.com/kauejose22/
 twitter: #Twitter
 projetos:
   - nome: phoebus
-    ativo: false
     desde: 2025-04-01
     saiu: 2025-09-30
     funcao: bolsista testes

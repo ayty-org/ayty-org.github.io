@@ -1,97 +1,104 @@
 ---
 layout: default
 ---
-<!-- page.html -->
-        <div class="post">
-          {% if page.img -%}
-          <div class="profile float-right">
-               {%- assign profile_image_path = page.img -%}
-               {%- assign profile_image_class = "img-fluid   z-depth-1 rounded-circle" -%}
-  
-                {% include figure.html
-                path=profile_image_path
-                class=profile_image_class
-                alt=page.profile.image -%}
-            </div>
-            {%- endif %}
-          <header class="post-header">
-            <h1 class="post-title">{{ page.name }}</h1>
-            <p class="post-description">{{ page.description }}</p>
-            <!-- BEGIN ICONS-->
+<!-- member.html -->
+<div class="post">
+  {% if page.img -%}
+  <div class="profile float-right">
+    {%- assign profile_image_path = page.img -%}
+    {%- assign profile_image_class = "img-fluid z-depth-1 rounded-circle" -%}
+    {% include figure.html path=profile_image_path class=profile_image_class alt=page.name -%}
+  </div>
+  {%- endif %}
 
-            <div class="container">
-              <div class="row">
-                {%- if page.home_page -%}
-                <div class="home_page-icon">
-                  <div class="member_icon" data-toggle="tooltip" title="Home Page">
-                    <a href="{{ page.home_page }}"><i class="fa fa-home gh-icon member_icon fa-lg" style="font-size: 28px;"></i></a>
-                  </div>
-                </div>
-                {%- endif %}
-                {%- if page.linkedin -%}
-                <div class="linkedin-icon">
-                  <div class="member_icon" data-toggle="tooltip" title="LinkedIn">
-                    <a href="{{ page.linkedin }}"><i class="fab fa-linkedin gh-icon fa-lg " style="font-size: 28px; margin-left: 10px;"></i></a>
-                  </div>
-                </div>
-                {%- endif %}
-                {%- if page.github -%}
-                <div class="github_icon">
-                  <div class="member_icon" data-toggle="tooltip" title="Code Repository">
-                    <a href="{{ page.github }}"><i class="fab fa-github gh-icon fa-lg" style="font-size: 28px;  margin-left: 10px;"></i></a>
-                  </div>
-                </div> 
-                {%- endif %}
-                {%- if page.instagram -%}
-                <div class="instagram-icon">
-                  <div class="member_icon" data-toggle="tooltip" title="Instagram">
-                    <a href="{{ page.instagram }}"><i class="fab fa-instagram gh-icon fa-lg" style="font-size: 28px;  margin-left: 10px;"></i></a>
-                  </div>
-                </div>
-                {%- endif %}
-                {%- if page.twitter -%}
-                <div class="twitter-icon">
-                  <div  data-toggle="tooltip" title="Twitter"> 
-                    <a href="{{ page.twitter }}"><i class="fab fa-twitter gh-icon fa-lg " style="font-size: 28px;  margin-left: 10px;" ></i></a>
-                  </div>
-                </div>
-                {%- endif %}
-            </div>
+  <header class="post-header">
+    <h1 class="post-title">{{ page.name }}</h1>
+    <p class="post-description">{{ page.description }}</p>
+
+    <div class="container">
+      <div class="row">
+        {%- if page.home_page -%}
+        <div class="home_page-icon">
+          <div class="member_icon" data-toggle="tooltip" title="Home Page">
+            <a href="{{ page.home_page }}"><i class="fa fa-home gh-icon member_icon fa-lg" style="font-size: 28px;"></i></a>
           </div>
-
-            <!-- END ICONS-->
-          </header>
-
-          <article>
-      
-<p> </p>
-            <h3>Projetos:</h3>
-            
-            {% if page.projeto.size > 1 %}
-<ul>
-{% for projeto in page.projeto %}
-<li><a href="/projects/{{projeto}}">{{ site.data.projeto_nome[projeto] }}</a></li>
-{% endfor %}
-</ul>
-{% else %}
-<p><strong>Atualmente não está atuando em projetos.</strong></p>
-{% endif %}
-
-{% if page.ex-projeto.size > 0 %}
-<h3>Projetos em que participou no passado:</h3>
-<ul>
-{% for projeto in page.ex-projeto %}
-<li><a href="/projects/{{projeto}}">{{ site.data.projeto_nome[projeto] }}</a></li>
-{% endfor %}
-</ul>
-{% endif%}
-
-{% if page.saiu %}
-Atuou como {{page.funcao}} de {{ page.desde | date: "%d/%m/%Y" }}, até {{ page.saiu | date: "%d/%m/%Y" }}.
-{% else %}
-Atualmente atua como  {{page.funcao}}, desde {{ page.desde | date: "%d/%m/%Y" }}.
-{% endif %}
-            {{ content }}
-          </article>
-
         </div>
+        {%- endif %}
+        {%- if page.linkedin -%}
+        <div class="linkedin-icon">
+          <div class="member_icon" data-toggle="tooltip" title="LinkedIn">
+            <a href="{{ page.linkedin }}"><i class="fab fa-linkedin gh-icon fa-lg" style="font-size: 28px; margin-left: 10px;"></i></a>
+          </div>
+        </div>
+        {%- endif %}
+        {%- if page.github -%}
+        <div class="github_icon">
+          <div class="member_icon" data-toggle="tooltip" title="Code Repository">
+            <a href="{{ page.github }}"><i class="fab fa-github gh-icon fa-lg" style="font-size: 28px; margin-left: 10px;"></i></a>
+          </div>
+        </div>
+        {%- endif %}
+        {%- if page.instagram -%}
+        <div class="instagram-icon">
+          <div class="member_icon" data-toggle="tooltip" title="Instagram">
+            <a href="{{ page.instagram }}"><i class="fab fa-instagram gh-icon fa-lg" style="font-size: 28px; margin-left: 10px;"></i></a>
+          </div>
+        </div>
+        {%- endif %}
+        {%- if page.twitter -%}
+        <div class="twitter-icon">
+          <div data-toggle="tooltip" title="Twitter">
+            <a href="{{ page.twitter }}"><i class="fab fa-twitter gh-icon fa-lg" style="font-size: 28px; margin-left: 10px;"></i></a>
+          </div>
+        </div>
+        {%- endif %}
+      </div>
+    </div>
+  </header>
+
+  <article>
+    <p> </p>
+
+    {%- assign projetos_ativos = "" | split: "" -%}
+    {%- assign projetos_ex = "" | split: "" -%}
+    {%- for p in page.projetos -%}
+      {%- unless p.saiu -%}
+        {%- assign projetos_ativos = projetos_ativos | push: p -%}
+      {%- else -%}
+        {%- assign projetos_ex = projetos_ex | push: p -%}
+      {%- endunless -%}
+    {%- endfor -%}
+
+    {%- if projetos_ativos.size > 0 -%}
+    <h3>Projetos atuais</h3>
+    <ul>
+      {%- for p in projetos_ativos -%}
+      <li>
+        <a href="{{ site.baseurl }}/projects/{{ p.nome }}"><strong>{{ site.data.projeto_nome[p.nome] | default: p.nome }}</strong></a>
+        &mdash; {{ p.funcao }}
+        {%- if p.desde %} &nbsp;|&nbsp; desde {{ p.desde | date: "%d/%m/%Y" }}{%- endif -%}
+        {%- if p.ch_semanal %} &nbsp;|&nbsp; {{ p.ch_semanal }}h/semana{%- endif -%}
+      </li>
+      {%- endfor -%}
+    </ul>
+    {%- else -%}
+    <p><em>Atualmente não está atuando em projetos ativos.</em></p>
+    {%- endif -%}
+
+    {%- if projetos_ex.size > 0 -%}
+    <h3>Projetos que participou</h3>
+    <ul>
+      {%- for p in projetos_ex -%}
+      <li>
+        <a href="{{ site.baseurl }}/projects/{{ p.nome }}"><strong>{{ site.data.projeto_nome[p.nome] | default: p.nome }}</strong></a>
+        &mdash; {{ p.funcao }}
+        {%- if p.desde %} &nbsp;|&nbsp; {{ p.desde | date: "%d/%m/%Y" }}{%- endif -%}
+        {%- if p.saiu %} &rarr; {{ p.saiu | date: "%d/%m/%Y" }}{%- endif -%}
+      </li>
+      {%- endfor -%}
+    </ul>
+    {%- endif -%}
+
+    {{ content }}
+  </article>
+</div>
