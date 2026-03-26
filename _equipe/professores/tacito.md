@@ -12,23 +12,19 @@ twitter: https://twitter.com/tacitotiburtino
 projetos:
   - nome: cabemais
     desde: 2025-01-01
-    saiu: 
-    funcao: pesquisador
+    saiu:
+    funcao: orientação de bolsistas de desenvolvimento
   - nome: ideal
     desde: 2023-11-01
-    saiu: 
+    saiu:
     funcao: pesquisador
   - nome: codata
     desde: 2023-11-01
     saiu: 2025-07-31
     funcao: pesquisador
   - nome: vivamoveis
-    desde: 2024-03-01
-    saiu: 
-    funcao: pesquisador
-  - nome: universi.me
     desde: 2023-11-01
-    saiu: 
+    saiu: 2024-02-28
     funcao: pesquisador
   - nome: triade
     desde: 2025-08-01
