@@ -1,6 +1,10 @@
 ---
 layout: member
 name: Thasso Karly Morais Ramos
+email: thasso.morais@dcx.ufpb.br
+data_nascimento: 2002-10-14
+matricula: 20220166165
+curso: SI
 img: equipe/img/thasso-karly-morais-ramos.jpg
 description: Olá! Sou estudante de Sistemas de Informação pela UFPB e atualmente integro o projeto AYTY, onde atuo em parceria com a empresa Phoebus, colaborando com os testes de software do projeto PayStore. Tenho domínio em tecnologias back-end, especialmente com Spring Boot, e experiência em testes automatizados utilizando ferramentas como Playwright e Postman.
 home_page: # home page
