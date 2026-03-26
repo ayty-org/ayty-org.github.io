@@ -21,7 +21,7 @@ projetos:
     ch_semanal: 20
   - nome: universi.me
     desde: 2023-08-01
-    saiu: 
+    saiu: 2024-12-31
     funcao: bolsista dev
     ch_semanal: 20
 importance: 4
