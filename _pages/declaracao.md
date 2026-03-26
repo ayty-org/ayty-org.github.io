@@ -50,6 +50,13 @@ table.projetos-table th, table.projetos-table td {
   margin-top: 5rem;
   text-align: center;
 }
+.nota-validade {
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 0.85em;
+  font-style: italic;
+  color: #555;
+}
 .print-header {
   display: none;
 }
@@ -167,7 +174,8 @@ function renderDeclaracao(m) {
     + 'Coordenador e orientador<br>'
     + 'Professor do Departamento de Ciências Exatas<br>'
     + 'SIAPE: 1799618'
-    + '</div>';
+    + '</div>'
+    + '<p class="nota-validade">Válido apenas se assinado digitalmente pelo professor.</p>';
 }
 
 const params = new URLSearchParams(window.location.search);
