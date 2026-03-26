@@ -15,7 +15,7 @@ projetos:
     funcao: bolsista desenvolvedor
     ch_semanal: 20
   - nome: codata
-    desde: 2023-02-07
+    desde: 2024-01-01
     saiu: 2025-07-31
     funcao: bolsista desenvolvedor
     ch_semanal: 20
