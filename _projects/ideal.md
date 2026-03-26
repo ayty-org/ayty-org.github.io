@@ -1,6 +1,6 @@
 ---
 layout: project
-title: Boardgame (parceria com IDEAL - Acroecology & AI Joint Lab)
+title: Boardgame / IDEAL
 description: 
 img: assets/img/projetos/ideal.png
 importance: 1
