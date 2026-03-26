@@ -23,7 +23,7 @@ horizontal: false
       {%- for p in member.projetos -%}
         {%- if p.ativo -%}{%- assign has_active = true -%}{%- endif -%}
       {%- endfor -%}
-      {%- if has_active -%}
+      {%- if has_active or member.category contains "Colaboradores externos" -%}
         {% include equipe.html %}
       {%- endif -%}
     {%- endfor %}
@@ -70,7 +70,7 @@ horizontal: false
     {%- for p in member.projetos -%}
       {%- if p.ativo -%}{%- assign has_active = true -%}{%- endif -%}
     {%- endfor -%}
-    {%- unless has_active -%}
+    {%- unless has_active or member.category contains "Colaboradores externos" -%}
       {% include equipe.html %}
     {%- endunless -%}
   {%- endfor %}
