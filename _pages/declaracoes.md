@@ -12,18 +12,14 @@ nav: false
 {% for member in todos_membros %}
   {%- assign cat = member.category | downcase | strip -%}
   {%- if cat contains "aluno" -%}
-    {%- if cat contains "ex-aluno" -%}
-      {%- assign ex_alunos = ex_alunos | push: member -%}
+    {%- assign has_active = false -%}
+    {%- for p in member.projetos -%}
+      {%- unless p.saiu -%}{%- assign has_active = true -%}{%- endunless -%}
+    {%- endfor -%}
+    {%- if has_active -%}
+      {%- assign alunos_ativos = alunos_ativos | push: member -%}
     {%- else -%}
-      {%- assign has_active = false -%}
-      {%- for p in member.projetos -%}
-        {%- unless p.saiu -%}{%- assign has_active = true -%}{%- endunless -%}
-      {%- endfor -%}
-      {%- if has_active -%}
-        {%- assign alunos_ativos = alunos_ativos | push: member -%}
-      {%- else -%}
-        {%- assign ex_alunos = ex_alunos | push: member -%}
-      {%- endif -%}
+      {%- assign ex_alunos = ex_alunos | push: member -%}
     {%- endif -%}
   {%- endif -%}
 {% endfor %}
