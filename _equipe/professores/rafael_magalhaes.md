@@ -14,6 +14,6 @@ twitter:
 importance: 1
 category: Professores
 funcao: pesquisador
-projeto: [ideal,vivamoveis]
-ex-projeto: codata
+projeto: [ideal]
+ex-projeto: [codata, vivamoveis]
 ---
