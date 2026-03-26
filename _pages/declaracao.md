@@ -10,7 +10,7 @@ nav: false
 .declaracao {
   max-width: 720px;
   margin: 0 auto;
-  font-family: serif;
+  font-family: sans-serif;
   font-size: 1.05em;
   line-height: 1.9;
   color: #111;
@@ -23,6 +23,7 @@ nav: false
   font-weight: bold;
 }
 .declaracao .data-local {
+  text-align: right;
   margin-bottom: 2rem;
 }
 .declaracao .paragrafo {
@@ -53,12 +54,23 @@ table.projetos-table th, table.projetos-table td {
   min-width: 300px;
   margin-bottom: 0.5rem;
 }
+.print-header {
+  display: none;
+}
 @media print {
   .no-print { display: none !important; }
-  .declaracao { font-size: 11pt; }
+  h1.post-title, .post-description, footer, .footer { display: none !important; }
+  .print-header { display: block; width: 100%; margin-bottom: 2rem; }
+  .print-header img { width: 100%; }
+  .declaracao { font-size: 11pt; font-family: sans-serif; }
   .declaracao h1.titulo-decl { font-size: 18pt; }
+  .declaracao .data-local { text-align: right; }
 }
 </style>
+
+<div class="print-header">
+  <img src="{{ '/assets/img/topo_declaracao.png' | relative_url }}" alt="AYTY">
+</div>
 
 <div class="no-print mb-3">
   <a href="{{ '/declaracoes/' | relative_url }}" class="btn btn-sm btn-secondary">← Voltar à lista</a>
