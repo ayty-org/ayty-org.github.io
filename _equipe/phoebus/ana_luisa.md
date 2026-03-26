@@ -10,14 +10,14 @@ instagram: https://www.instagram.com/analuisaflp/
 twitter: 
 projetos:
   - nome: phoebus
-    desde: 2023-04-02
-    saiu: 
-    funcao: bolsista dev
+    desde: 2024-04-01
+    saiu:
+    funcao: bolsista dev fullstack
     ch_semanal: 20
   - nome: tracy-td
-    desde: 2023-04-02
-    saiu: 
-    funcao: bolsista dev
+    desde: 2023-04-06
+    saiu: 2024-03-31
+    funcao: bolsista dev fullstack
     ch_semanal: 20
   - nome: decoup
     desde: 2023-04-02
