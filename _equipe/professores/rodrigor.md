@@ -18,7 +18,7 @@ projetos:
     ativo: true
     desde: 2010-07-14
     saiu: 
-    funcao: Coordenador
+    funcao: Colaborador
   - nome: cabemais
     ativo: true
     desde: 2010-07-14
@@ -28,12 +28,12 @@ projetos:
     ativo: true
     desde: 2010-07-14
     saiu: 
-    funcao: Coordenador
+    funcao: Coordenador e Pesquisador
   - nome: portomar
     ativo: true
     desde: 2010-07-14
     saiu: 
-    funcao: Coordenador
+    funcao: Coordenador e Pesquisador
   - nome: vivamoveis
     ativo: true
     desde: 2010-07-14
