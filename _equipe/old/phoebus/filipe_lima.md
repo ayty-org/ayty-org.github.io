@@ -11,7 +11,7 @@ twitter: #Twitter
 projetos:
   - nome: phoebus
     desde: 2023-04-06
-    saiu: 
+    saiu: 2023-12-31
     funcao: bolsista dev
     ch_semanal: 20
 importance: 4

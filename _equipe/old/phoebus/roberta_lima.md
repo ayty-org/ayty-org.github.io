@@ -11,7 +11,7 @@ twitter:
 projetos:
   - nome: phoebus
     desde: 2022-07-01
-    saiu: 
+    saiu: 2024-10-31
     funcao: Bolsista Tester
     ch_semanal: 20
 importance: 4

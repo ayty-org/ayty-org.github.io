@@ -16,7 +16,7 @@ projetos:
     ch_semanal: 20
   - nome: phoebus
     desde: 2021-03-01
-    saiu: 
+    saiu: 2023-12-18
     funcao: Software Developer bolsista
     ch_semanal: 20
 importance: 4
