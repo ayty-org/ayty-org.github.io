@@ -10,6 +10,10 @@ linkedin: https://www.linkedin.com/in/daniel-faustino-souza/
 instagram: 
 twitter: 
 projetos:
+  - nome: waste
+    desde: 2026-03-01
+    saiu:
+    funcao: pesquisador
   - nome: vivamoveis
     desde: 2024-03-01
     saiu: 
