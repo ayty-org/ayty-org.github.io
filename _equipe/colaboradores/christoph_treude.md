@@ -5,14 +5,16 @@ description: "Christoph Treude is a Senior Lecturer in Software Engineering in t
 img: equipe/img/christoph_treude.jpg
 home_page: https://ctreude.ca
 lattes: 
-desde: 2010-07-14
-saiu: 
 github: 
 linkedin: 
 instagram: 
 twitter: 
+projetos:
+  - nome: tracy-td
+    ativo: true
+    desde: 2010-07-14
+    saiu: 
+    funcao: Pesquisador
 importance: 2
 category: Colaboradores externos #Professores, Colaboradores externos, Alunos, Ex-alunos
-funcao: Pesquisador #Coordenador, Bolsista Testador, Bolsista Dev, Technical Debt
-projeto: tracy-td
 ---

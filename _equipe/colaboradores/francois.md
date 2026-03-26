@@ -5,14 +5,36 @@ description: "Funcionário Técnico-Administrativo do CCAE/UFPB, tecnólogo em A
 img: equipe/img/francois.jpg
 home_page: 
 lattes: 
-desde: 2018-01-01
-saiu: 
 github: 
 linkedin: https://www.linkedin.com/in/francoisjr/
 instagram: 
 twitter: 
+projetos:
+  - nome: alepessoa
+    ativo: true
+    desde: 2018-01-01
+    saiu: 
+    funcao: Devops e infraestrutura
+  - nome: vivamoveis
+    ativo: true
+    desde: 2018-01-01
+    saiu: 
+    funcao: Devops e infraestrutura
+  - nome: cabemais
+    ativo: true
+    desde: 2018-01-01
+    saiu: 
+    funcao: Devops e infraestrutura
+  - nome: apps4society
+    ativo: true
+    desde: 2018-01-01
+    saiu: 
+    funcao: Devops e infraestrutura
+  - nome: apps4society_maker
+    ativo: true
+    desde: 2018-01-01
+    saiu: 
+    funcao: Devops e infraestrutura
 importance: 2
 category: Colaboradores externos #Professores, Colaboradores externos, Alunos, Ex-alunos
-funcao: Devops e infraestrutura #Coordenador, Bolsista Testador, Bolsista Dev, Technical Debt
-projeto: [alepessoa,vivamoveis, cabemais, apps4society, apps4society_maker]
 ---

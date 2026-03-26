@@ -5,15 +5,36 @@ img: equipe/img/marcuswac.jpg
 description: "Professor da  UFPB - Campus IV, em Rio Tinto-PB, onde atua nos cursos de Ciência da Computação e Sistemas de Informação. É bacharel (2008), mestre (2011) e doutor (2016) em Ciência da Computação pela UFCG, com doutorado sanduíche na George Mason University, EUA. Sua tese de doutorado abordou métodos de modelagem de desempenho e análise de dados para melhorar a gerência de recursos em nuvens computacionais. Tem atuado em projetos de pesquisa e desenvolvimento em parceria com empresas e instituições públicas nas áreas de Ciência de Dados, Business Intelligence e Sistemas Distribuídos."
 home_page: https://marcuswac.github.io
 lattes: http://lattes.cnpq.br/4764601053478564
-desde: 2022-05-12
-saiu: 
 github: https://github.com/marcuswac
 linkedin: https://www.linkedin.com/in/marcus-carvalho-0b55b312
 instagram: https://www.instagram.com/marcuswac
 twitter: https://twitter.com/marcuswac
+projetos:
+  - nome: ideal
+    ativo: true
+    desde: 2022-05-12
+    saiu: 
+    funcao: Pesquisador
+  - nome: cabemais
+    ativo: true
+    desde: 2022-05-12
+    saiu: 
+    funcao: Pesquisador
+  - nome: esig
+    ativo: false
+    desde: 2022-05-12
+    saiu: 
+    funcao: Pesquisador
+  - nome: codata
+    ativo: false
+    desde: 2022-05-12
+    saiu: 
+    funcao: Pesquisador
+  - nome: vivamoveis
+    ativo: false
+    desde: 2022-05-12
+    saiu: 
+    funcao: Pesquisador
 importance: 1
 category:  Professores
-funcao: Pesquisador 
-projeto: [ideal,cabemais]
-ex-projeto: [esig,codata,vivamoveis]
 ---

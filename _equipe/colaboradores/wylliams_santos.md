@@ -6,14 +6,16 @@ img: equipe/img/wylliams_santos.jpg
 home_page: http://reactlabs.poli.br/wbs/
 email: wbs.@upe.br
 lattes: http://lattes.cnpq.br/9286314412199926
-desde: 2010-07-14
-saiu: 
 github: 
 linkedin: https://www.linkedin.com/in/wylliams-santos-19173817/
 instagram: https://www.instagram.com/wylliamss/
 twitter: 
+projetos:
+  - nome: tracy-td
+    ativo: true
+    desde: 2010-07-14
+    saiu: 
+    funcao: Pesquisador
 importance: 2
 category: Colaboradores externos #Professores, Colaboradores externos, Alunos, Ex-alunos
-funcao: Pesquisador #Coordenador, Bolsista Testador, Bolsista Dev, Technical Debt
-projeto: tracy-td
 ---

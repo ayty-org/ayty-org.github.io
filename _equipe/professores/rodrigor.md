@@ -5,16 +5,82 @@ description: "Fundador e coordenador do laboratório AYTY, coordenador de vário
 img: equipe/img/rodrigor.jpg
 home_page: https://www.rodrigor.com
 lattes: http://lattes.cnpq.br/4221517374410995
-desde: 2010-07-14
-saiu: 
 github: https://github.com/rodrigor
 linkedin: https://www.linkedin.com/in/rodrigoreboucas/
 instagram: https://www.instagram.com/rodrigorcom/
+projetos:
+  - nome: alepessoa
+    ativo: true
+    desde: 2010-07-14
+    saiu: 
+    funcao: Coordenador
+  - nome: ideal
+    ativo: true
+    desde: 2010-07-14
+    saiu: 
+    funcao: Coordenador
+  - nome: cabemais
+    ativo: true
+    desde: 2010-07-14
+    saiu: 
+    funcao: Coordenador
+  - nome: phoebus
+    ativo: true
+    desde: 2010-07-14
+    saiu: 
+    funcao: Coordenador
+  - nome: portomar
+    ativo: true
+    desde: 2010-07-14
+    saiu: 
+    funcao: Coordenador
+  - nome: vivamoveis
+    ativo: true
+    desde: 2010-07-14
+    saiu: 
+    funcao: Coordenador
+  - nome: universi.me
+    ativo: true
+    desde: 2010-07-14
+    saiu: 
+    funcao: Coordenador
+  - nome: tracy-td
+    ativo: true
+    desde: 2010-07-14
+    saiu: 
+    funcao: Coordenador
+  - nome: decoup
+    ativo: true
+    desde: 2010-07-14
+    saiu: 
+    funcao: Coordenador
+  - nome: triade
+    ativo: true
+    desde: 2010-07-14
+    saiu: 
+    funcao: Coordenador
+  - nome: codata
+    ativo: false
+    desde: 2010-07-14
+    saiu: 
+    funcao: Coordenador
+  - nome: esig
+    ativo: false
+    desde: 2010-07-14
+    saiu: 
+    funcao: Coordenador
+  - nome: snet
+    ativo: false
+    desde: 2010-07-14
+    saiu: 
+    funcao: Coordenador
+  - nome: engenharia.software
+    ativo: false
+    desde: 2010-07-14
+    saiu: 
+    funcao: Coordenador
 importance: 0
 category: Professores #Professores, Colaboradores externos, Alunos, Ex-alunos
-funcao: Coordenador #Coordenador, Bolsista Testador, Bolsista Dev, Technical Debt
-projeto: [alepessoa,ideal,cabemais, phoebus, portomar,vivamoveis,universi.me,tracy-td,decoup, triade]
-ex-projeto: [codata,esig,snet,engenharia.software]
 ---
 
 

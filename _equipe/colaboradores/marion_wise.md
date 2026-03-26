@@ -12,14 +12,16 @@ for magazines."
 img: equipe/img/marion_wise.jpg
 home_page: 
 lattes: 
-desde: 2010-07-14
-saiu: 
 github: 
 linkedin: https://www.linkedin.com/in/mari-wie/
 instagram: 
 twitter: 
+projetos:
+  - nome: tracy-td
+    ativo: true
+    desde: 2010-07-14
+    saiu: 
+    funcao: Pesquisadora
 importance: 2
 category: Colaboradores externos #Professores, Colaboradores externos, Alunos, Ex-alunos
-funcao: Pesquisadora #Coordenador, Bolsista Testador, Bolsista Dev, Technical Debt
-projeto: tracy-td
 ---
