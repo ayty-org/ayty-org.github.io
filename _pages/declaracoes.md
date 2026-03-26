@@ -6,25 +6,38 @@ description: Declarações de participação dos alunos nos projetos do AYTY
 nav: false
 ---
 
-{% assign todos_alunos = site.equipe | where: "category", "Alunos" | sort: "name" %}
-{% assign todos_ex = site.equipe | where: "category", "Ex-alunos" | sort: "name" %}
+{% assign alunos_ativos = "" | split: "" %}
+{% assign ex_alunos = "" | split: "" %}
+{% assign todos_membros = site.equipe | sort: "name" %}
+{% for member in todos_membros %}
+  {%- assign cat = member.category | downcase | strip -%}
+  {%- if cat contains "aluno" -%}
+    {%- if cat contains "ex-aluno" -%}
+      {%- assign ex_alunos = ex_alunos | push: member -%}
+    {%- else -%}
+      {%- assign has_active = false -%}
+      {%- for p in member.projetos -%}
+        {%- unless p.saiu -%}{%- assign has_active = true -%}{%- endunless -%}
+      {%- endfor -%}
+      {%- if has_active -%}
+        {%- assign alunos_ativos = alunos_ativos | push: member -%}
+      {%- else -%}
+        {%- assign ex_alunos = ex_alunos | push: member -%}
+      {%- endif -%}
+    {%- endif -%}
+  {%- endif -%}
+{% endfor %}
 
 <h2>Alunos ativos</h2>
 <ul>
-{% for member in todos_alunos %}
-  {%- assign has_active = false -%}
-  {%- for p in member.projetos -%}
-    {%- unless p.saiu -%}{%- assign has_active = true -%}{%- endunless -%}
-  {%- endfor -%}
-  {%- if has_active -%}
-  <li><a href="{{ '/declaracao/' | relative_url }}?membro={{ member.slug }}">{{ member.name }}</a></li>
-  {%- endif -%}
+{% for member in alunos_ativos %}
+<li><a href="{{ '/declaracao/' | relative_url }}?membro={{ member.slug }}">{{ member.name }}</a></li>
 {% endfor %}
 </ul>
 
 <h2>Ex-alunos</h2>
 <ul>
-{% for member in todos_ex %}
+{% for member in ex_alunos %}
 <li><a href="{{ '/declaracao/' | relative_url }}?membro={{ member.slug }}">{{ member.name }}</a></li>
 {% endfor %}
 </ul>

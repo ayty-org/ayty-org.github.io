@@ -86,10 +86,10 @@ table.projetos-table th, table.projetos-table td {
 
 <script>
 const membros = [
-  {%- assign estudantes_a = site.equipe | where: "category", "Alunos" -%}
-  {%- assign estudantes_ex = site.equipe | where: "category", "Ex-alunos" -%}
-  {%- assign estudantes = estudantes_a | concat: estudantes_ex -%}
-  {%- for m in estudantes %}
+  {%- assign estudantes = site.equipe -%}
+  {%- for m in estudantes -%}
+  {%- assign _cat = m.category | downcase | strip -%}
+  {%- unless _cat contains "aluno" -%}{%- continue -%}{%- endunless -%}
   {
     slug: {{ m.slug | jsonify }},
     name: {{ m.name | jsonify }},
@@ -123,7 +123,7 @@ function formatDatePT(dateStr) {
   if (!dateStr) return 'atual';
   const parts = dateStr.toString().split('-');
   if (parts.length < 3) return dateStr;
-  return parseInt(parts[2]) + ' de ' + meses[parseInt(parts[1])-1] + ' de ' + parts[0];
+  return parts[2].padStart(2,'0') + '/' + parts[1].padStart(2,'0') + '/' + parts[0];
 }
 
 function nomeCurso(curso) {
