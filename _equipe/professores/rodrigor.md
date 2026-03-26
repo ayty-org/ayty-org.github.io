@@ -59,7 +59,7 @@ projetos:
     funcao: Coordenador
   - nome: snet
     desde: 2010-07-14
-    saiu: 
+    saiu: 2024-01-31
     funcao: Coordenador
   - nome: engenharia.software
     desde: 2010-07-14

@@ -11,7 +11,7 @@ twitter: #Twitter
 projetos:
   - nome: snet
     desde: 2022-04-21
-    saiu: 
+    saiu: 2024-01-31
     funcao: Bolsista Dev
     ch_semanal: 20
   - nome: universi.me
