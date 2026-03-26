@@ -11,7 +11,7 @@ twitter: #Twitter
 projetos:
   - nome: engenharia.software
     desde: 2023-02-07
-    saiu: 2025-07-31
+    saiu: 2023-09-17
     funcao: bolsista desenvolvedor
     ch_semanal: 20
   - nome: codata
