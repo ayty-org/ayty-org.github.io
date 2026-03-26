@@ -11,7 +11,7 @@ twitter: #Twitter
 projetos:
   - nome: phoebus
     desde: 2023-04-06
-    saiu: 
+    saiu: 2024-09-30
     funcao: Technical Debt
     ch_semanal: 20
   - nome: tracy-td
@@ -20,5 +20,5 @@ projetos:
     funcao: Technical Debt
     ch_semanal: 20
 importance: 4
-category: Alunos #Professores, Colaboradores externos, Alunos, Ex-alunos
+category: Ex-alunos #Professores, Colaboradores externos, Alunos, Ex-alunos
 ---
