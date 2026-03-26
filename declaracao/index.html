@@ -243,6 +243,7 @@ table.projetos-table th, table.projetos-table td {
 @media print {
   .no-print { display: none !important; }
   h1.post-title, .post-description, footer, .footer { display: none !important; }
+  #freshworks-container, #freshworks-frame-wrapper, .freshworks-launcher { display: none !important; }
   .print-header { display: block; width: 100%; margin-bottom: 2rem; }
   .print-header img { width: 100%; }
   .declaracao { font-size: 11pt; font-family: sans-serif; }
@@ -1478,6 +1479,13 @@ function renderDeclaracao(m) {
     + '</div>'
     + '<p class="nota-validade">Válido apenas se assinado digitalmente pelo professor.</p>';
 }
+
+// Oculta o widget Freshworks nesta página
+window.addEventListener('load', function() {
+  if (typeof FreshworksWidget !== 'undefined') {
+    FreshworksWidget('hide', 'launcher');
+  }
+});
 
 const params = new URLSearchParams(window.location.search);
 const slug = params.get('membro');
