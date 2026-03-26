@@ -10,9 +10,9 @@ instagram: https://www.instagram.com/nii_miyo/
 twitter: 
 projetos:
   - nome: universi.me
-    ativo: true
+    ativo: false
     desde: 2023-03-15
-    saiu: 
+    saiu: 2025-12-31
     funcao: bolsista dev
     ch_semanal: 20
   - nome: codata
