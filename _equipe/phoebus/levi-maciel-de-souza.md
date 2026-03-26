@@ -1,6 +1,10 @@
 ---
 layout: member
 name: Levi Maciel de Souza
+email: levi.maciel@dcx.ufpb.br
+data_nascimento: 2003-08-31
+matricula: 20210084763
+curso: SI
 img: equipe/img/levi-maciel-de-souza.jpg
 description: Analista de Testes
 home_page: # home page
