@@ -14,11 +14,7 @@ projetos:
     saiu: 2024-01-31
     funcao: Bolsista Dev
     ch_semanal: 20
-  - nome: universi.me
-    desde: 2023-01-01
-    saiu: 
-    funcao: Bolsista Dev
-    ch_semanal: 20
+
 importance: 4
 category: Ex-alunos #Professores, Colaboradores externos, Alunos, Ex-alunos
 ---
