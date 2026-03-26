@@ -28,8 +28,7 @@ horizontal: false
       {%- endif -%}
     {%- endfor %}
   </div>
-  {%- endif -%}
-  {% endfor %}
+  {%- endfor %}
 
 {%- else -%}
 <!-- Display members without categories (only members with at least one active project) -->
