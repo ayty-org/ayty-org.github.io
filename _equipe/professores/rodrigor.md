@@ -63,7 +63,7 @@ projetos:
     funcao: Coordenador
   - nome: engenharia.software
     desde: 2010-07-14
-    saiu: 
+    saiu: 2023-09-17
     funcao: Coordenador
 importance: 0
 category: Professores #Professores, Colaboradores externos, Alunos, Ex-alunos

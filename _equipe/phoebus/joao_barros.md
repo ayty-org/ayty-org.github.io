@@ -16,7 +16,7 @@ projetos:
     ch_semanal: 20
   - nome: engenharia.software
     desde: 2023-02-07
-    saiu: 
+    saiu: 2023-09-17
     funcao: bolsista Co-host
     ch_semanal: 20
 importance: 4
