@@ -10,14 +10,14 @@ instagram: https://www.instagram.com/vinicius.diasxx/
 twitter: #Twitter
 projetos:
   - nome: phoebus
-    desde: 2023-04-06
+    desde: 2024-04-01
     saiu: 2024-09-30
-    funcao: Technical Debt
+    funcao: bolsista dev fullstack
     ch_semanal: 20
   - nome: tracy-td
     desde: 2023-04-06
-    saiu: 
-    funcao: Technical Debt
+    saiu: 2024-03-31
+    funcao: bolsista dev fullstack
     ch_semanal: 20
 importance: 4
 category: Ex-alunos #Professores, Colaboradores externos, Alunos, Ex-alunos
