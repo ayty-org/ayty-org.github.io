@@ -1,4 +1,6 @@
 ---
+# Arquivo de exemplo/template - não publicar
+published: false
 layout: member
 name: Nome do aluno #Nome completo
 img: equipe/img/phoebus_bolsista.jpg
