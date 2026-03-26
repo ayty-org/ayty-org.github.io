@@ -11,7 +11,7 @@ twitter: #Twitter
 projetos:
   - nome: esig
     desde: 2021-01-01
-    saiu: 
+    saiu: 2024-07-31
     funcao: bolsista dev
     ch_semanal: 20
 importance: 4

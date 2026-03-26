@@ -20,7 +20,7 @@ projetos:
     funcao: Pesquisador
   - nome: esig
     desde: 2022-05-12
-    saiu: 
+    saiu: 2024-07-31
     funcao: Pesquisador
   - nome: codata
     desde: 2022-05-12

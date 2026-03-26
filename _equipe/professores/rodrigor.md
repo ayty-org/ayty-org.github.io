@@ -55,7 +55,7 @@ projetos:
     funcao: Coordenador
   - nome: esig
     desde: 2010-07-14
-    saiu: 
+    saiu: 2024-07-31
     funcao: Coordenador
   - nome: snet
     desde: 2010-07-14
