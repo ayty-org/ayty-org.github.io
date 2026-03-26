@@ -86,7 +86,9 @@ table.projetos-table th, table.projetos-table td {
 
 <script>
 const membros = [
-  {%- assign estudantes = site.equipe | where_exp: "m", "m.category contains 'Alunos'" -%}
+  {%- assign estudantes_a = site.equipe | where: "category", "Alunos" -%}
+  {%- assign estudantes_ex = site.equipe | where: "category", "Ex-alunos" -%}
+  {%- assign estudantes = estudantes_a | concat: estudantes_ex -%}
   {%- for m in estudantes %}
   {
     slug: {{ m.slug | jsonify }},
