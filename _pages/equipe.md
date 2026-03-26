@@ -65,9 +65,9 @@ horizontal: false
 <div class="grid">
   {%- assign equipe_sorted = site.equipe | sort: "name"  | sort: "importance" -%}
   {%- for member in equipe_sorted -%}
-    {%- if member.projeto.size == 0 -%}
+    {%- unless member.projeto.size > 0 -%}
       {% include equipe.html %}
-    {%- endif -%}
+    {%- endunless -%}
   {%- endfor %}
 </div>
 
