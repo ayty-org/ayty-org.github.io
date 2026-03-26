@@ -15,7 +15,7 @@
         {%- endif %}
         <div class="card-body">
           <h2 class="card-title">{{ member.name }}</h2>
-          <p class="funcao text-lowercase">({{ member.funcao }})</p>
+          <p class="funcao text-lowercase">({% if include.funcao_override %}{{ include.funcao_override }}{% else %}{{ member.funcao }}{% endif %})</p>
           <div class="row ml-1 mr-1 p-0 justify-content-center">
             {%- if member.home_page -%}
             <div class="home_page-icon">

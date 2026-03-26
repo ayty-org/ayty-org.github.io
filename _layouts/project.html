@@ -113,7 +113,7 @@ layout: default
                 {%- for member in all_equipe -%}
                   {%- for p in member.projetos -%}
                     {%- if p.nome == page.projeto and p.ativo -%}
-                      {% include equipe.html %}
+                      {% include equipe.html funcao_override=p.funcao %}
                     {%- endif -%}
                   {%- endfor -%}
                 {%- endfor -%}
@@ -141,7 +141,7 @@ layout: default
         {%- for p in member.projetos -%}
           {%- if p.nome == page.projeto -%}
             {%- unless p.ativo -%}
-              {% include equipe.html %}
+              {% include equipe.html funcao_override=p.funcao %}
             {%- endunless -%}
           {%- endif -%}
         {%- endfor -%}
