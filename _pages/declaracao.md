@@ -19,6 +19,7 @@ nav: false
   text-align: center;
   font-size: 2em;
   letter-spacing: 0.4em;
+  margin-top: 3rem;
   margin-bottom: 2.5rem;
   font-weight: bold;
 }
