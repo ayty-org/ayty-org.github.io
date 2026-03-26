@@ -10,12 +10,12 @@ instagram: #Instagram
 twitter: #Twitter
 projetos:
   - nome: alepessoa
-    desde: 2024-12-09
+    desde: 2025-11-01
     saiu: 
     funcao: Ger. Dev. (Ale Pessoa), Dev Fullstack (Cabe Mais)
     ch_semanal: 20
   - nome: cabemais
-    desde: 2024-12-09
+    desde: 2025-01-01
     saiu: 
     funcao: Ger. Dev. (Ale Pessoa), Dev Fullstack (Cabe Mais)
     ch_semanal: 20

@@ -10,7 +10,7 @@ instagram: https://www.instagram.com/anderson.soares.si.pb?igsh=eDh0Y2tzdGR5ZWVp
 twitter: #Twitter
 projetos:
   - nome: cabemais
-    desde: 2024-12-05
+    desde: 2025-01-01
     saiu: 
     funcao: bolsista dev
     ch_semanal: 20

@@ -15,7 +15,7 @@ projetos:
     funcao: bolsista analista de dados
     ch_semanal: 20
   - nome: cabemais
-    desde: 2023-08-01
+    desde: 2025-01-01
     saiu: 2026-01-31
     funcao: bolsista analista de dados
     ch_semanal: 20

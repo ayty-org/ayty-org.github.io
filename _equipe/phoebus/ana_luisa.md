@@ -21,7 +21,7 @@ projetos:
     ch_semanal: 20
   - nome: decoup
     desde: 2023-04-02
-    saiu: 
+    saiu: 2023-12-31
     funcao: bolsista dev
     ch_semanal: 20
 importance: 4

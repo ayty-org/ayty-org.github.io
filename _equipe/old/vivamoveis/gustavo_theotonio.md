@@ -15,7 +15,7 @@ projetos:
     funcao: bolsista dev
     ch_semanal: 20
   - nome: vivamoveis
-    desde: 2023-07-10
+    desde: 2024-03-01
     saiu: 2025-11-30
     funcao: bolsista dev
     ch_semanal: 20

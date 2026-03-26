@@ -10,7 +10,7 @@ linkedin: https://www.linkedin.com/in/rodrigoreboucas/
 instagram: https://www.instagram.com/rodrigorcom/
 projetos:
   - nome: alepessoa
-    desde: 2010-07-14
+    desde: 2025-11-01
     saiu: 
     funcao: Coordenador
   - nome: ideal
@@ -18,7 +18,7 @@ projetos:
     saiu: 
     funcao: Colaborador
   - nome: cabemais
-    desde: 2010-07-14
+    desde: 2025-01-01
     saiu: 
     funcao: Coordenador
   - nome: phoebus
@@ -26,15 +26,15 @@ projetos:
     saiu: 
     funcao: Coordenador e Pesquisador
   - nome: portomar
-    desde: 2010-07-14
+    desde: 2025-07-01
     saiu: 
     funcao: Coordenador e Pesquisador
   - nome: vivamoveis
-    desde: 2010-07-14
+    desde: 2024-03-01
     saiu: 
     funcao: Coordenador
   - nome: universi.me
-    desde: 2010-07-14
+    desde: 2023-01-01
     saiu: 
     funcao: Coordenador
   - nome: tracy-td
@@ -46,7 +46,7 @@ projetos:
     saiu: 
     funcao: Coordenador
   - nome: triade
-    desde: 2010-07-14
+    desde: 2025-08-01
     saiu: 
     funcao: Coordenador
   - nome: codata

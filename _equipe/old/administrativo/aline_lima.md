@@ -25,7 +25,7 @@ projetos:
     funcao: Suporte Administrativo
     ch_semanal: 20
   - nome: vivamoveis
-    desde: 2023-07-21
+    desde: 2024-03-01
     saiu: 2025-07-31
     funcao: Suporte Administrativo
     ch_semanal: 20

@@ -15,16 +15,16 @@ projetos:
     saiu: 
     funcao: pesquisador
   - nome: cabemais
-    desde: 2023-05-12
-    saiu: 
+    desde: 2026-04-01
+    saiu:
     funcao: pesquisador
   - nome: codata
     desde: 2023-05-12
     saiu: 2025-07-31
     funcao: pesquisador
   - nome: vivamoveis
-    desde: 2023-05-12
-    saiu: 
+    desde: 2024-03-01
+    saiu: 2025-04-30
     funcao: pesquisador
 importance: 1
 category: Professores

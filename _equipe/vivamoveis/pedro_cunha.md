@@ -15,7 +15,7 @@ projetos:
     funcao: desenvolvedor full stack
     ch_semanal: 20
   - nome: vivamoveis
-    desde: 2022-07-01
+    desde: 2024-03-01
     saiu: 2025-09-30
     funcao: UX/UI e testes
     ch_semanal: 20

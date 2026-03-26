@@ -10,7 +10,7 @@ instagram: #Instagram
 twitter: #Twitter
 projetos:
   - nome: alepessoa
-    desde: 2025-07-09
+    desde: 2025-11-01
     saiu: 
     funcao: bolsista dev
     ch_semanal: 20

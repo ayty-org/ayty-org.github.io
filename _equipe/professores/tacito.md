@@ -11,7 +11,7 @@ instagram: https://www.instagram.com/tacitoneves/
 twitter: https://twitter.com/tacitotiburtino
 projetos:
   - nome: cabemais
-    desde: 2023-11-01
+    desde: 2025-01-01
     saiu: 
     funcao: pesquisador
   - nome: ideal
@@ -23,7 +23,7 @@ projetos:
     saiu: 2025-07-31
     funcao: pesquisador
   - nome: vivamoveis
-    desde: 2023-11-01
+    desde: 2024-03-01
     saiu: 
     funcao: pesquisador
   - nome: universi.me
@@ -31,7 +31,7 @@ projetos:
     saiu: 
     funcao: pesquisador
   - nome: triade
-    desde: 2023-11-01
+    desde: 2025-08-01
     saiu: 2026-01-31
     funcao: pesquisador
 importance: 1

@@ -15,7 +15,7 @@ projetos:
     saiu: 
     funcao: Pesquisador
   - nome: cabemais
-    desde: 2022-05-12
+    desde: 2025-01-01
     saiu: 
     funcao: Pesquisador
   - nome: esig
@@ -27,7 +27,7 @@ projetos:
     saiu: 2025-07-31
     funcao: Pesquisador
   - nome: vivamoveis
-    desde: 2022-05-12
+    desde: 2024-03-01
     saiu: 
     funcao: Pesquisador
 importance: 1

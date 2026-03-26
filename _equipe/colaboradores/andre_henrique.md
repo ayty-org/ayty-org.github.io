@@ -11,7 +11,7 @@ twitter:
 projetos:
   - nome: vivamoveis
     desde: 2024-07-01
-    saiu: 
+    saiu: 2025-02-28
     funcao: Colaborador de empresa
 importance: 2
 category: Colaboradores externos 

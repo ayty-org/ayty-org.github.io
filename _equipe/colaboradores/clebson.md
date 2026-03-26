@@ -11,18 +11,18 @@ twitter: https://twitter.com/whoisclebs
 projetos:
   - nome: phoebus
     desde: 2021-01-01
-    saiu: 
+    saiu: 2023-12-31
     funcao: Colaborador em diversos projetos
   - nome: tracy-td
     desde: 2021-01-01
     saiu: 
     funcao: Colaborador em diversos projetos
   - nome: vivamoveis
-    desde: 2021-01-01
+    desde: 2024-03-01
     saiu: 
     funcao: Colaborador em diversos projetos
   - nome: universi.me
-    desde: 2021-01-01
+    desde: 2023-01-01
     saiu: 
     funcao: Colaborador em diversos projetos
 importance: 2

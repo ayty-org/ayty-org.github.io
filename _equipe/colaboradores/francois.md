@@ -11,15 +11,15 @@ instagram:
 twitter: 
 projetos:
   - nome: alepessoa
-    desde: 2018-01-01
+    desde: 2025-11-01
     saiu: 
     funcao: Devops e infraestrutura
   - nome: vivamoveis
-    desde: 2018-01-01
+    desde: 2024-03-01
     saiu: 
     funcao: Devops e infraestrutura
   - nome: cabemais
-    desde: 2018-01-01
+    desde: 2025-01-01
     saiu: 
     funcao: Devops e infraestrutura
   - nome: apps4society

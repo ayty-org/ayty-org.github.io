@@ -15,7 +15,7 @@ projetos:
     funcao: bolsista dev analista
     ch_semanal: 20
   - nome: universi.me
-    desde: 2021-05-29
+    desde: 2023-01-01
     saiu: 2023-06-30
     funcao: bolsista dev analista
     ch_semanal: 20

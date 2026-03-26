@@ -11,7 +11,7 @@ instagram:
 twitter: 
 projetos:
   - nome: vivamoveis
-    desde: 2023-05-12
+    desde: 2024-03-01
     saiu: 
     funcao: Pesquisador
   - nome: codata

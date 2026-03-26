@@ -15,7 +15,7 @@ projetos:
     funcao: Bolsista Dev
     ch_semanal: 20
   - nome: universi.me
-    desde: 2022-04-21
+    desde: 2023-01-01
     saiu: 
     funcao: Bolsista Dev
     ch_semanal: 20

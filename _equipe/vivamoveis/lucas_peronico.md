@@ -10,7 +10,7 @@ instagram: https://www.instagram.com/lucas_pbarbotin/
 twitter: 
 projetos:
   - nome: vivamoveis
-    desde: 2023-08-01
+    desde: 2024-03-01
     saiu: 
     funcao: bolsista dev
     ch_semanal: 20
