@@ -12,7 +12,7 @@ projetos:
   - nome: engenharia.software
     ativo: false
     desde: 2023-02-07
-    saiu: 
+    saiu: 2024-12-31
     funcao: bolsista Co-host
     ch_semanal: 20
 importance: 4
