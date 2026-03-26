@@ -147,29 +147,26 @@ function renderDeclaracao(m) {
   const dataHoje = 'Rio Tinto, ' + hoje.getDate() + ' de ' + meses[hoje.getMonth()] + ' de ' + hoje.getFullYear() + '.';
 
   const ativo = m.projetos.some(function(p){ return !p.saiu; });
-  const verboPrincipal = ativo ? 'é bolsista' : 'atuou como bolsista';
-  const verboAtividade = ativo ? 'atua' : 'atuou';
+  const totalProjetos = m.projetos.length;
 
-  const projReferencia = m.projetos.filter(function(p){ return !p.saiu; });
-  const projListar = projReferencia.length > 0 ? projReferencia : m.projetos;
+  const verboParticipa = ativo ? 'participa' : 'participou';
+  const refProjeto = totalProjetos === 1
+    ? 'do projeto listado abaixo'
+    : 'dos projetos listados abaixo';
 
-  const nomesProj = projListar.map(function(p){ return '"' + nomeProj(p.nome) + '"'; });
-  const funcoes = [];
-  projListar.forEach(function(p){ if (p.funcao && funcoes.indexOf(p.funcao) === -1) funcoes.push(p.funcao); });
-
-  const matriculaTexto = m.matricula ? ', com matrícula <strong>' + m.matricula + '</strong>,' : '';
-  const cursoTexto = m.curso ? ' do curso <strong>' + nomeCurso(m.curso) + '</strong>' : '';
+  const cursoTexto = m.curso ? ' no curso <strong>' + nomeCurso(m.curso) + '</strong>' : '';
+  const matriculaTexto = m.matricula ? ', matrícula <strong>' + m.matricula + '</strong>,' : ',';
 
   const linhasTabela = m.projetos.map(function(p){
-    return '<tr><td>' + nomeProj(p.nome) + '</td><td>' + (p.funcao || '–') + '</td><td>' + (p.ch_semanal || 20) + 'h/semana</td><td>' + formatDatePT(p.desde) + '</td><td>' + (p.saiu ? formatDatePT(p.saiu) : 'atual') + '</td></tr>';
+    const termino = p.saiu ? formatDatePT(p.saiu) : 'atua no projeto na presente data';
+    return '<tr><td>' + nomeProj(p.nome) + '</td><td>' + (p.funcao || '–') + '</td><td>' + (p.ch_semanal || 20) + 'h/semana</td><td>' + formatDatePT(p.desde) + '</td><td>' + termino + '</td></tr>';
   }).join('');
 
   return '<h1 class="titulo-decl">DECLARAÇÃO</h1>'
     + '<p class="data-local">' + dataHoje + '</p>'
-    + '<p class="paragrafo">Declaro para os devidos fins, que <strong>' + m.name + '</strong>, aluno(a)' + cursoTexto + matriculaTexto
-    + ' <strong>' + verboPrincipal + '</strong> do projeto de pesquisa e desenvolvimento '
-    + listaTexto(nomesProj) + ', sob minha orientação. O(A) aluno(a) ' + verboAtividade
-    + ' exercendo atividades de <strong>' + listaTexto(funcoes) + '</strong>.</p>'
+    + '<p class="paragrafo">Declaro para os devidos fins que <strong>' + m.name + '</strong>, aluno' + cursoTexto + matriculaTexto
+    + ' deste centro <strong>' + verboParticipa + '</strong> ' + refProjeto
+    + ', com a respectiva função, carga horária semanal e duração.</p>'
     + '<table class="projetos-table"><thead><tr><th>Projeto</th><th>Função</th><th>Carga Horária</th><th>Início</th><th>Término</th></tr></thead>'
     + '<tbody>' + linhasTabela + '</tbody></table>'
     + '<div class="assinatura">'
