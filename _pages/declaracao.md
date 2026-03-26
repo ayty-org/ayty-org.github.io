@@ -47,12 +47,7 @@ table.projetos-table th, table.projetos-table td {
 }
 .assinatura {
   margin-top: 5rem;
-}
-.assinatura-linha {
-  border-top: 1px solid #333;
-  display: inline-block;
-  min-width: 300px;
-  margin-bottom: 0.5rem;
+  text-align: center;
 }
 .print-header {
   display: none;
@@ -167,7 +162,6 @@ function renderDeclaracao(m) {
     + '<table class="projetos-table"><thead><tr><th>Projeto</th><th>Função</th><th>Carga Horária</th><th>Início</th><th>Término</th></tr></thead>'
     + '<tbody>' + linhasTabela + '</tbody></table>'
     + '<div class="assinatura">'
-    + '<div class="assinatura-linha"></div><br>'
     + 'Prof. Rodrigo Rebouças de Almeida<br>'
     + 'Coordenador e orientador<br>'
     + 'Professor do Departamento de Ciências Exatas<br>'
