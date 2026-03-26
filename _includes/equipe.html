@@ -15,7 +15,24 @@
         {%- endif %}
         <div class="card-body">
           <h2 class="card-title">{{ member.name }}</h2>
-          <p class="funcao text-lowercase">({% if include.funcao_override %}{{ include.funcao_override }}{% else %}{{ member.funcao }}{% endif %})</p>
+          {%- if include.funcao_override -%}
+            <p class="funcao text-lowercase">({{ include.funcao_override }})</p>
+          {%- elsif member.category contains "Alunos" -%}
+            {%- assign projetos_mostrar = "" | split: "" -%}
+            {%- for p in member.projetos -%}
+              {%- unless p.saiu -%}{%- assign projetos_mostrar = projetos_mostrar | push: p -%}{%- endunless -%}
+            {%- endfor -%}
+            {%- if projetos_mostrar.size == 0 -%}
+              {%- assign projetos_mostrar = member.projetos -%}
+            {%- endif -%}
+            <p class="funcao text-lowercase">(
+              {%- for p in projetos_mostrar -%}
+                {%- assign proj_page = site.projects | where: "projeto", p.nome | first -%}
+                {%- if proj_page -%}<a href="{{ proj_page.url | relative_url }}">{{ proj_page.title }}</a>{%- else -%}{{ p.nome }}{%- endif -%}
+                {%- unless forloop.last -%}, {% endunless -%}
+              {%- endfor -%}
+            )</p>
+          {%- endif -%}
           <div class="row ml-1 mr-1 p-0 justify-content-center">
             {%- if member.home_page -%}
             <div class="home_page-icon">
