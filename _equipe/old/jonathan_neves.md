@@ -16,12 +16,12 @@ projetos:
   - nome: engenharia.software
     desde: 2023-02-07
     saiu: 2023-09-17
-    funcao: bolsista desenvolvedor
+    funcao: Host do podcast
     ch_semanal: 20
   - nome: codata
     desde: 2024-01-01
     saiu: 2025-07-31
-    funcao: bolsista desenvolvedor
+    funcao: Bolsista fullstack
     ch_semanal: 20
 importance: 4
 category: Alunos #Professores, Colaboradores externos, Alunos, Ex-alunos
