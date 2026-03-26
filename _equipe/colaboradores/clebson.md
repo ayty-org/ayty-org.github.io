@@ -14,17 +14,17 @@ projetos:
     saiu: 2023-12-31
     funcao: Colaborador em diversos projetos
   - nome: tracy-td
-    desde: 2021-01-01
-    saiu: 
-    funcao: Colaborador em diversos projetos
+    desde: 2023-04-06
+    saiu: 2024-03-31
+    funcao: consultor
   - nome: vivamoveis
     desde: 2024-03-01
-    saiu: 
-    funcao: Colaborador em diversos projetos
+    saiu: 2025-12-31
+    funcao: consultor técnico
   - nome: universi.me
     desde: 2023-01-01
-    saiu: 
-    funcao: Colaborador em diversos projetos
+    saiu: 2025-12-31
+    funcao: consultor técnico
 importance: 2
 category: Colaboradores externos
 ---
