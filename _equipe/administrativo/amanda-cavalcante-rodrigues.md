@@ -35,5 +35,5 @@ projetos:
     saiu: 2026-02-28
     funcao: suporte administrativo
 importance: 3
-category: Colaboradores externos
+category: administrativo
 ---
