@@ -51,7 +51,7 @@ projetos:
     funcao: Coordenador
   - nome: codata
     desde: 2010-07-14
-    saiu: 
+    saiu: 2025-07-31
     funcao: Coordenador
   - nome: esig
     desde: 2010-07-14

@@ -16,7 +16,7 @@ projetos:
     ch_semanal: 20
   - nome: codata
     desde: 2023-08-01
-    saiu: 
+    saiu: 2025-07-31
     funcao: bolsista devops
     ch_semanal: 20
   - nome: phoebus

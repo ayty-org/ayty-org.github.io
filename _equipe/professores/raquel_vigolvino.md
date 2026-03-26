@@ -11,7 +11,7 @@ twitter: https://twitter.com/raquelvl
 projetos:
   - nome: codata
     desde: 2023-07-01
-    saiu: 
+    saiu: 2025-07-31
     funcao: Coordenadora/pesquisadora proj. CODATA
   - nome: universi.me
     desde: 2023-07-01

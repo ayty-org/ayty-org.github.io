@@ -20,7 +20,7 @@ projetos:
     funcao: pesquisador
   - nome: codata
     desde: 2023-11-01
-    saiu: 
+    saiu: 2025-07-31
     funcao: pesquisador
   - nome: vivamoveis
     desde: 2023-11-01

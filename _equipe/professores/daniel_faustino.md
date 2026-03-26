@@ -16,7 +16,7 @@ projetos:
     funcao: Pesquisador
   - nome: codata
     desde: 2023-05-12
-    saiu: 
+    saiu: 2025-07-31
     funcao: Pesquisador
 importance: 1
 category:  Professores
