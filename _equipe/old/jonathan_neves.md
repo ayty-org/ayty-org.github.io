@@ -1,6 +1,10 @@
 ---
 layout: member
 name: Jonathan Neves Ribeiro
+email: jonathan.neves@dcx.ufpb.br
+data_nascimento: 2003-12-07
+matricula: 20220117590
+curso: SI
 img: equipe/img/jonathan_neves.jpg
 description: Atua como bolsista na área de segurança. Atuou também como desenvolvedor full-stack no projeto CODATA.
 home_page: # home page
