@@ -14,6 +14,11 @@ projetos:
     saiu:
     funcao: bolsista devops
     ch_semanal: 20
+  - nome: cabemais
+    desde: 2026-03-01
+    saiu:
+    funcao: bolsista devops
+    ch_semanal: 20
   - nome: codata
     desde: 2023-08-01
     saiu: 2025-07-31
@@ -21,7 +26,7 @@ projetos:
     ch_semanal: 20
   - nome: phoebus
     desde: 2025-04-01
-    saiu: 2026-01-31
+    saiu: 2026-02-25
     funcao: bolsista devops
     ch_semanal: 20
 importance: 4
