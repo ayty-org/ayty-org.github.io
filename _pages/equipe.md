@@ -63,10 +63,6 @@ horizontal: false
 {%- endif -%}
 <h2 class="category">Antigos integrantes da equipe</h2>
 <div class="grid">
-  {%- assign ex_alunos = site.equipe_old | sort: "name"  | sort: "importance" -%}
-  {%- for member in ex_alunos -%}
-    {% include equipe.html %}
-  {%- endfor -%}
   {%- assign equipe_sorted = site.equipe | sort: "name"  | sort: "importance" -%}
   {%- for member in equipe_sorted -%}
     {%- if member.projeto.size == 0 -%}
