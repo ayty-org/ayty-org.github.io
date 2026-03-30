@@ -12,7 +12,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Projetos | AYTY</title>
     <meta name="author" content="AYTY  ">
-    <meta name="description" content="Projetos em colaboração com empresas, de pesquisa e extensão.">
+    <meta name="description" content="Atuamos em parceria com empresas, órgãos públicos e iniciativas de pesquisa e extensão. Conheça nossos projetos.">
     <meta name="keywords" content="ayty, engenharia_software">
 
 
@@ -31,7 +31,7 @@
     <!-- Code Syntax Highlighting -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/github.css" media="" id="highlight_theme_light">
 
-<!-- estilos para news e homepage -->
+<!-- estilos para news, homepage e projetos -->
 
 <style>
   /* --- News cards --- */
@@ -175,6 +175,93 @@
   .ayty-btn-cta:hover {
     opacity: 0.85;
   }
+
+  /* --- Projetos: cards --- */
+  .card-title {
+    text-transform: none !important;
+  }
+
+  .projeto-badge {
+    display: inline-block;
+    font-size: 0.7rem;
+    font-weight: 700;
+    padding: 0.2rem 0.6rem;
+    border-radius: 2rem;
+    white-space: nowrap;
+    flex-shrink: 0;
+    margin-left: 0.5rem;
+    margin-top: 0.15rem;
+  }
+
+  .projeto-badge--ativo {
+    background-color: #d4edda;
+    color: #155724;
+  }
+
+  html[data-theme='dark'] .projeto-badge--ativo {
+    background-color: #1a4a2e;
+    color: #75e096;
+  }
+
+  .projeto-badge--encerrado {
+    background-color: #e9ecef;
+    color: #6c757d;
+  }
+
+  html[data-theme='dark'] .projeto-badge--encerrado {
+    background-color: #3a3a3a;
+    color: #aaa;
+  }
+
+  .projeto-desde {
+    font-size: 0.78rem;
+    color: var(--global-text-color-light);
+    margin-top: 0.4rem;
+    display: flex;
+    align-items: center;
+    gap: 0.35rem;
+  }
+
+  /* --- Projetos: encerrados subdued --- */
+  .grid-encerrados .grid-item {
+    opacity: 0.6;
+    transition: opacity 0.2s;
+  }
+
+  .grid-encerrados .grid-item:hover {
+    opacity: 1;
+  }
+
+  /* --- Projetos: contador --- */
+  .projetos-contador {
+    font-size: 0.9rem;
+    color: var(--global-text-color-light);
+    margin-bottom: 1.5rem;
+    display: flex;
+    gap: 1.2rem;
+    flex-wrap: wrap;
+  }
+
+  .projetos-contador span {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+  }
+
+  .projetos-contador i {
+    font-size: 0.8rem;
+  }
+
+  /* --- Projetos: título de categoria --- */
+  h2.category {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--global-theme-color);
+    border-left: 4px solid var(--global-theme-color);
+    padding-left: 0.7rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
 </style>
 
     
@@ -285,23 +372,26 @@
 
           <header class="post-header">
             <h1 class="post-title">Projetos</h1>
-            <p class="post-description">Projetos em colaboração com empresas, de pesquisa e extensão.</p>
+            <p class="post-description">Atuamos em parceria com empresas, órgãos públicos e iniciativas de pesquisa e extensão. Conheça nossos projetos.</p>
           </header>
 
           <article>
           
 
             <!-- pages/projects.md -->
+<div class="projetos-contador">
+  <span><i class="fas fa-circle" style="color: #28a745;"></i> 15 projetos ativos</span>
+  <span><i class="fas fa-circle" style="color: #aaa;"></i> 3 encerrados</span>
+</div>
+
 <div class="projects">
-  <!-- Display categorized projects -->
   <h2 class="category">Empresas</h2>
-  <!-- Generate cards for each project -->
   <div class="grid">
 <!-- _includes/projects.html -->
 <div class="grid-sizer"></div>
 <div class="grid-item">
   <a href="/projects/alepessoa/">
-      <div class="card hoverable">
+    <div class="card hoverable">
 <figure>
 
   <!-- <picture> -->
@@ -316,20 +406,26 @@
 
 </figure>
 
-        <div class="card-body">
-          <h2 class="card-title text-lowercase">Alê Pessoa Confeitaria</h2>
-          <p class="card-text">Projeto de Pesquisa, Desenvolvimento e Inovação em parceria com a empresa Alê Pessoa</p>
-          <div class="row ml-1 mr-1 p-0">
-          </div>
+      <div class="card-body">
+        <div class="d-flex justify-content-between align-items-start">
+          <h2 class="card-title">Alê Pessoa Confeitaria</h2>
+          <span class="projeto-badge projeto-badge--ativo">Ativo</span>
+        </div>
+        <p class="card-text">Projeto de Pesquisa, Desenvolvimento e Inovação em parceria com a empresa Alê Pessoa</p>
+        <div class="projeto-desde">
+          <i class="fas fa-calendar-alt"></i> Desde 2025
+        </div>
+        <div class="row ml-1 mr-1 p-0">
         </div>
       </div>
-    </a>
+    </div>
+  </a>
 </div>
 <!-- _includes/projects.html -->
 <div class="grid-sizer"></div>
 <div class="grid-item">
   <a href="/projects/cabemais/">
-      <div class="card hoverable">
+    <div class="card hoverable">
 <figure>
 
   <!-- <picture> -->
@@ -344,20 +440,26 @@
 
 </figure>
 
-        <div class="card-body">
-          <h2 class="card-title text-lowercase">Cabe Mais</h2>
-          <p class="card-text">Projeto de colaboração com a empresa Cabe Mais</p>
-          <div class="row ml-1 mr-1 p-0">
-          </div>
+      <div class="card-body">
+        <div class="d-flex justify-content-between align-items-start">
+          <h2 class="card-title">Cabe Mais</h2>
+          <span class="projeto-badge projeto-badge--ativo">Ativo</span>
+        </div>
+        <p class="card-text">Projeto de colaboração com a empresa Cabe Mais</p>
+        <div class="projeto-desde">
+          <i class="fas fa-calendar-alt"></i> Desde 2025
+        </div>
+        <div class="row ml-1 mr-1 p-0">
         </div>
       </div>
-    </a>
+    </div>
+  </a>
 </div>
 <!-- _includes/projects.html -->
 <div class="grid-sizer"></div>
 <div class="grid-item">
   <a href="/projects/phoebus/">
-      <div class="card hoverable">
+    <div class="card hoverable">
 <figure>
 
   <!-- <picture> -->
@@ -372,20 +474,26 @@
 
 </figure>
 
-        <div class="card-body">
-          <h2 class="card-title text-lowercase">Phoebus Tecnologia</h2>
-          <p class="card-text">Projeto de colaboração com a empresa Phoebus Tecnologia</p>
-          <div class="row ml-1 mr-1 p-0">
-          </div>
+      <div class="card-body">
+        <div class="d-flex justify-content-between align-items-start">
+          <h2 class="card-title">Phoebus Tecnologia</h2>
+          <span class="projeto-badge projeto-badge--ativo">Ativo</span>
+        </div>
+        <p class="card-text">Projeto de colaboração com a empresa Phoebus Tecnologia</p>
+        <div class="projeto-desde">
+          <i class="fas fa-calendar-alt"></i> Desde 2017
+        </div>
+        <div class="row ml-1 mr-1 p-0">
         </div>
       </div>
-    </a>
+    </div>
+  </a>
 </div>
 <!-- _includes/projects.html -->
 <div class="grid-sizer"></div>
 <div class="grid-item">
   <a href="/projects/portomar/">
-      <div class="card hoverable">
+    <div class="card hoverable">
 <figure>
 
   <!-- <picture> -->
@@ -400,20 +508,26 @@
 
 </figure>
 
-        <div class="card-body">
-          <h2 class="card-title text-lowercase">Grupo Portomar</h2>
-          <p class="card-text">Projeto de colaboração com o Grupo Portomar</p>
-          <div class="row ml-1 mr-1 p-0">
-          </div>
+      <div class="card-body">
+        <div class="d-flex justify-content-between align-items-start">
+          <h2 class="card-title">Grupo Portomar</h2>
+          <span class="projeto-badge projeto-badge--ativo">Ativo</span>
+        </div>
+        <p class="card-text">Projeto de colaboração com o Grupo Portomar</p>
+        <div class="projeto-desde">
+          <i class="fas fa-calendar-alt"></i> Desde 2025
+        </div>
+        <div class="row ml-1 mr-1 p-0">
         </div>
       </div>
-    </a>
+    </div>
+  </a>
 </div>
 <!-- _includes/projects.html -->
 <div class="grid-sizer"></div>
 <div class="grid-item">
   <a href="/projects/secsaudemmg/">
-      <div class="card hoverable">
+    <div class="card hoverable">
 <figure>
 
   <!-- <picture> -->
@@ -428,20 +542,26 @@
 
 </figure>
 
-        <div class="card-body">
-          <h2 class="card-title text-lowercase">Secretaria de Saúde de Mamanguape</h2>
-          <p class="card-text">Projeto de colaboração com a Secretaria de Saúde da Prefeitura de Mamanguape</p>
-          <div class="row ml-1 mr-1 p-0">
-          </div>
+      <div class="card-body">
+        <div class="d-flex justify-content-between align-items-start">
+          <h2 class="card-title">Secretaria de Saúde de Mamanguape</h2>
+          <span class="projeto-badge projeto-badge--ativo">Ativo</span>
+        </div>
+        <p class="card-text">Projeto de colaboração com a Secretaria de Saúde da Prefeitura de Mamanguape</p>
+        <div class="projeto-desde">
+          <i class="fas fa-calendar-alt"></i> Desde 2026
+        </div>
+        <div class="row ml-1 mr-1 p-0">
         </div>
       </div>
-    </a>
+    </div>
+  </a>
 </div>
 <!-- _includes/projects.html -->
 <div class="grid-sizer"></div>
 <div class="grid-item">
   <a href="/projects/triade/">
-      <div class="card hoverable">
+    <div class="card hoverable">
 <figure>
 
   <!-- <picture> -->
@@ -456,20 +576,26 @@
 
 </figure>
 
-        <div class="card-body">
-          <h2 class="card-title text-lowercase">Tríade Soluções</h2>
-          <p class="card-text">Projeto em colaboração com a empresa Tríade Soluções Contábeis</p>
-          <div class="row ml-1 mr-1 p-0">
-          </div>
+      <div class="card-body">
+        <div class="d-flex justify-content-between align-items-start">
+          <h2 class="card-title">Tríade Soluções</h2>
+          <span class="projeto-badge projeto-badge--ativo">Ativo</span>
+        </div>
+        <p class="card-text">Projeto em colaboração com a empresa Tríade Soluções Contábeis</p>
+        <div class="projeto-desde">
+          <i class="fas fa-calendar-alt"></i> Desde 2025
+        </div>
+        <div class="row ml-1 mr-1 p-0">
         </div>
       </div>
-    </a>
+    </div>
+  </a>
 </div>
 <!-- _includes/projects.html -->
 <div class="grid-sizer"></div>
 <div class="grid-item">
   <a href="/projects/vivamoveis/">
-      <div class="card hoverable">
+    <div class="card hoverable">
 <figure>
 
   <!-- <picture> -->
@@ -484,24 +610,30 @@
 
 </figure>
 
-        <div class="card-body">
-          <h2 class="card-title text-lowercase">Viva Móveis</h2>
-          <p class="card-text">Projeto de colaboração com a empresa Viva Móveis.com</p>
-          <div class="row ml-1 mr-1 p-0">
-          </div>
+      <div class="card-body">
+        <div class="d-flex justify-content-between align-items-start">
+          <h2 class="card-title">Viva Móveis</h2>
+          <span class="projeto-badge projeto-badge--ativo">Ativo</span>
+        </div>
+        <p class="card-text">Projeto de colaboração com a empresa Viva Móveis.com</p>
+        <div class="projeto-desde">
+          <i class="fas fa-calendar-alt"></i> Desde 2024
+        </div>
+        <div class="row ml-1 mr-1 p-0">
         </div>
       </div>
-    </a>
+    </div>
+  </a>
 </div>
+
   </div>
   <h2 class="category">Pesquisa</h2>
-  <!-- Generate cards for each project -->
   <div class="grid">
 <!-- _includes/projects.html -->
 <div class="grid-sizer"></div>
 <div class="grid-item">
   <a href="/projects/ideal/">
-      <div class="card hoverable">
+    <div class="card hoverable">
 <figure>
 
   <!-- <picture> -->
@@ -516,20 +648,26 @@
 
 </figure>
 
-        <div class="card-body">
-          <h2 class="card-title text-lowercase">Boardgame / IDEAL</h2>
-          <p class="card-text"></p>
-          <div class="row ml-1 mr-1 p-0">
-          </div>
+      <div class="card-body">
+        <div class="d-flex justify-content-between align-items-start">
+          <h2 class="card-title">Boardgame / IDEAL</h2>
+          <span class="projeto-badge projeto-badge--ativo">Ativo</span>
+        </div>
+        <p class="card-text"></p>
+        <div class="projeto-desde">
+          <i class="fas fa-calendar-alt"></i> Desde 2024
+        </div>
+        <div class="row ml-1 mr-1 p-0">
         </div>
       </div>
-    </a>
+    </div>
+  </a>
 </div>
 <!-- _includes/projects.html -->
 <div class="grid-sizer"></div>
 <div class="grid-item">
   <a href="/projects/tracy-td/">
-      <div class="card hoverable">
+    <div class="card hoverable">
 <figure>
 
   <!-- <picture> -->
@@ -544,24 +682,30 @@
 
 </figure>
 
-        <div class="card-body">
-          <h2 class="card-title text-lowercase">Tracy-TD</h2>
-          <p class="card-text">Gerência de Dívidas Técnicas Orientada a Negócios</p>
-          <div class="row ml-1 mr-1 p-0">
-          </div>
+      <div class="card-body">
+        <div class="d-flex justify-content-between align-items-start">
+          <h2 class="card-title">Tracy-TD</h2>
+          <span class="projeto-badge projeto-badge--ativo">Ativo</span>
+        </div>
+        <p class="card-text">Gerência de Dívidas Técnicas Orientada a Negócios</p>
+        <div class="projeto-desde">
+          <i class="fas fa-calendar-alt"></i> Desde 2017
+        </div>
+        <div class="row ml-1 mr-1 p-0">
         </div>
       </div>
-    </a>
+    </div>
+  </a>
 </div>
+
   </div>
   <h2 class="category">Extensão</h2>
-  <!-- Generate cards for each project -->
   <div class="grid">
 <!-- _includes/projects.html -->
 <div class="grid-sizer"></div>
 <div class="grid-item">
   <a href="/projects/apps4society/">
-      <div class="card hoverable">
+    <div class="card hoverable">
 <figure>
 
   <!-- <picture> -->
@@ -576,20 +720,26 @@
 
 </figure>
 
-        <div class="card-body">
-          <h2 class="card-title text-lowercase">Apps4Society</h2>
-          <p class="card-text">Apps4Society</p>
-          <div class="row ml-1 mr-1 p-0">
-          </div>
+      <div class="card-body">
+        <div class="d-flex justify-content-between align-items-start">
+          <h2 class="card-title">Apps4Society</h2>
+          <span class="projeto-badge projeto-badge--ativo">Ativo</span>
+        </div>
+        <p class="card-text">Apps4Society</p>
+        <div class="projeto-desde">
+          <i class="fas fa-calendar-alt"></i> Desde 2022
+        </div>
+        <div class="row ml-1 mr-1 p-0">
         </div>
       </div>
-    </a>
+    </div>
+  </a>
 </div>
 <!-- _includes/projects.html -->
 <div class="grid-sizer"></div>
 <div class="grid-item">
   <a href="/projects/apps4societyMaker/">
-      <div class="card hoverable">
+    <div class="card hoverable">
 <figure>
 
   <!-- <picture> -->
@@ -604,20 +754,26 @@
 
 </figure>
 
-        <div class="card-body">
-          <h2 class="card-title text-lowercase">Apps4Society Maker</h2>
-          <p class="card-text">Apps4Society Maker</p>
-          <div class="row ml-1 mr-1 p-0">
-          </div>
+      <div class="card-body">
+        <div class="d-flex justify-content-between align-items-start">
+          <h2 class="card-title">Apps4Society Maker</h2>
+          <span class="projeto-badge projeto-badge--ativo">Ativo</span>
+        </div>
+        <p class="card-text">Apps4Society Maker</p>
+        <div class="projeto-desde">
+          <i class="fas fa-calendar-alt"></i> Desde 2022
+        </div>
+        <div class="row ml-1 mr-1 p-0">
         </div>
       </div>
-    </a>
+    </div>
+  </a>
 </div>
 <!-- _includes/projects.html -->
 <div class="grid-sizer"></div>
 <div class="grid-item">
   <a href="/projects/computacao_plugada/">
-      <div class="card hoverable">
+    <div class="card hoverable">
 <figure>
 
   <!-- <picture> -->
@@ -632,20 +788,26 @@
 
 </figure>
 
-        <div class="card-body">
-          <h2 class="card-title text-lowercase">Computação Plugada</h2>
-          <p class="card-text">Computação Plugada</p>
-          <div class="row ml-1 mr-1 p-0">
-          </div>
+      <div class="card-body">
+        <div class="d-flex justify-content-between align-items-start">
+          <h2 class="card-title">Computação Plugada</h2>
+          <span class="projeto-badge projeto-badge--ativo">Ativo</span>
+        </div>
+        <p class="card-text">Computação Plugada</p>
+        <div class="projeto-desde">
+          <i class="fas fa-calendar-alt"></i> Desde 2022
+        </div>
+        <div class="row ml-1 mr-1 p-0">
         </div>
       </div>
-    </a>
+    </div>
+  </a>
 </div>
 <!-- _includes/projects.html -->
 <div class="grid-sizer"></div>
 <div class="grid-item">
   <a href="/projects/decoup/">
-      <div class="card hoverable">
+    <div class="card hoverable">
 <figure>
 
   <!-- <picture> -->
@@ -660,20 +822,26 @@
 
 </figure>
 
-        <div class="card-body">
-          <h2 class="card-title text-lowercase">Decoup</h2>
-          <p class="card-text">The object-oriented boardgame</p>
-          <div class="row ml-1 mr-1 p-0">
-          </div>
+      <div class="card-body">
+        <div class="d-flex justify-content-between align-items-start">
+          <h2 class="card-title">Decoup</h2>
+          <span class="projeto-badge projeto-badge--ativo">Ativo</span>
+        </div>
+        <p class="card-text">The object-oriented boardgame</p>
+        <div class="projeto-desde">
+          <i class="fas fa-calendar-alt"></i> Desde 2022
+        </div>
+        <div class="row ml-1 mr-1 p-0">
         </div>
       </div>
-    </a>
+    </div>
+  </a>
 </div>
 <!-- _includes/projects.html -->
 <div class="grid-sizer"></div>
 <div class="grid-item">
   <a href="/projects/engenharia.software/">
-      <div class="card hoverable">
+    <div class="card hoverable">
 <figure>
 
   <!-- <picture> -->
@@ -688,20 +856,26 @@
 
 </figure>
 
-        <div class="card-body">
-          <h2 class="card-title text-lowercase">Engenharia.Software Podcast</h2>
-          <p class="card-text">O ponto de encontro do profissional de Tecnologia</p>
-          <div class="row ml-1 mr-1 p-0">
-          </div>
+      <div class="card-body">
+        <div class="d-flex justify-content-between align-items-start">
+          <h2 class="card-title">Engenharia.Software Podcast</h2>
+          <span class="projeto-badge projeto-badge--ativo">Ativo</span>
+        </div>
+        <p class="card-text">O ponto de encontro do profissional de Tecnologia</p>
+        <div class="projeto-desde">
+          <i class="fas fa-calendar-alt"></i> Desde 2022
+        </div>
+        <div class="row ml-1 mr-1 p-0">
         </div>
       </div>
-    </a>
+    </div>
+  </a>
 </div>
 <!-- _includes/projects.html -->
 <div class="grid-sizer"></div>
 <div class="grid-item">
   <a href="/projects/universi.me/">
-      <div class="card hoverable">
+    <div class="card hoverable">
 <figure>
 
   <!-- <picture> -->
@@ -716,24 +890,30 @@
 
 </figure>
 
-        <div class="card-body">
-          <h2 class="card-title text-lowercase">Universi.me</h2>
-          <p class="card-text">Rede social para desenvolvimento humano</p>
-          <div class="row ml-1 mr-1 p-0">
-          </div>
+      <div class="card-body">
+        <div class="d-flex justify-content-between align-items-start">
+          <h2 class="card-title">Universi.me</h2>
+          <span class="projeto-badge projeto-badge--ativo">Ativo</span>
+        </div>
+        <p class="card-text">Rede social para desenvolvimento humano</p>
+        <div class="projeto-desde">
+          <i class="fas fa-calendar-alt"></i> Desde 2023
+        </div>
+        <div class="row ml-1 mr-1 p-0">
         </div>
       </div>
-    </a>
+    </div>
+  </a>
 </div>
+
   </div>
   <h2 class="category">Encerrados</h2>
-  <!-- Generate cards for each project -->
-  <div class="grid">
+  <div class="grid grid-encerrados">
 <!-- _includes/projects.html -->
 <div class="grid-sizer"></div>
 <div class="grid-item">
   <a href="/projects/codata/">
-      <div class="card hoverable">
+    <div class="card hoverable">
 <figure>
 
   <!-- <picture> -->
@@ -748,20 +928,26 @@
 
 </figure>
 
-        <div class="card-body">
-          <h2 class="card-title text-lowercase">Codata</h2>
-          <p class="card-text">Projeto em colaboração com a empresa Codata</p>
-          <div class="row ml-1 mr-1 p-0">
-          </div>
+      <div class="card-body">
+        <div class="d-flex justify-content-between align-items-start">
+          <h2 class="card-title">Codata</h2>
+          <span class="projeto-badge projeto-badge--encerrado">Encerrado</span>
+        </div>
+        <p class="card-text">Projeto em colaboração com a empresa Codata</p>
+        <div class="projeto-desde">
+          <i class="fas fa-calendar-alt"></i> Desde 2023
+        </div>
+        <div class="row ml-1 mr-1 p-0">
         </div>
       </div>
-    </a>
+    </div>
+  </a>
 </div>
 <!-- _includes/projects.html -->
 <div class="grid-sizer"></div>
 <div class="grid-item">
   <a href="/projects/esig/">
-      <div class="card hoverable">
+    <div class="card hoverable">
 <figure>
 
   <!-- <picture> -->
@@ -776,20 +962,26 @@
 
 </figure>
 
-        <div class="card-body">
-          <h2 class="card-title text-lowercase">ESIG e Quark Tec</h2>
-          <p class="card-text">Projeto de colaboração com as empresas ESIG Software e Quark Tec</p>
-          <div class="row ml-1 mr-1 p-0">
-          </div>
+      <div class="card-body">
+        <div class="d-flex justify-content-between align-items-start">
+          <h2 class="card-title">ESIG e Quark Tec</h2>
+          <span class="projeto-badge projeto-badge--encerrado">Encerrado</span>
+        </div>
+        <p class="card-text">Projeto de colaboração com as empresas ESIG Software e Quark Tec</p>
+        <div class="projeto-desde">
+          <i class="fas fa-calendar-alt"></i> Desde 2022
+        </div>
+        <div class="row ml-1 mr-1 p-0">
         </div>
       </div>
-    </a>
+    </div>
+  </a>
 </div>
 <!-- _includes/projects.html -->
 <div class="grid-sizer"></div>
 <div class="grid-item">
   <a href="/projects/snet/">
-      <div class="card hoverable">
+    <div class="card hoverable">
 <figure>
 
   <!-- <picture> -->
@@ -804,15 +996,22 @@
 
 </figure>
 
-        <div class="card-body">
-          <h2 class="card-title text-lowercase">Service Net</h2>
-          <p class="card-text">Projeto de colaboração com a empresa Service Net</p>
-          <div class="row ml-1 mr-1 p-0">
-          </div>
+      <div class="card-body">
+        <div class="d-flex justify-content-between align-items-start">
+          <h2 class="card-title">Service Net</h2>
+          <span class="projeto-badge projeto-badge--encerrado">Encerrado</span>
+        </div>
+        <p class="card-text">Projeto de colaboração com a empresa Service Net</p>
+        <div class="projeto-desde">
+          <i class="fas fa-calendar-alt"></i> Desde 2022
+        </div>
+        <div class="row ml-1 mr-1 p-0">
         </div>
       </div>
-    </a>
+    </div>
+  </a>
 </div>
+
   </div>
 </div>
 

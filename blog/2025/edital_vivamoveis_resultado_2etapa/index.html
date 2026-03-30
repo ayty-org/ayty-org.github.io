@@ -32,7 +32,7 @@
     <!-- Code Syntax Highlighting -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/github.css" media="" id="highlight_theme_light">
 
-<!-- estilos para news e homepage -->
+<!-- estilos para news, homepage e projetos -->
 
 <style>
   /* --- News cards --- */
@@ -175,6 +175,93 @@
 
   .ayty-btn-cta:hover {
     opacity: 0.85;
+  }
+
+  /* --- Projetos: cards --- */
+  .card-title {
+    text-transform: none !important;
+  }
+
+  .projeto-badge {
+    display: inline-block;
+    font-size: 0.7rem;
+    font-weight: 700;
+    padding: 0.2rem 0.6rem;
+    border-radius: 2rem;
+    white-space: nowrap;
+    flex-shrink: 0;
+    margin-left: 0.5rem;
+    margin-top: 0.15rem;
+  }
+
+  .projeto-badge--ativo {
+    background-color: #d4edda;
+    color: #155724;
+  }
+
+  html[data-theme='dark'] .projeto-badge--ativo {
+    background-color: #1a4a2e;
+    color: #75e096;
+  }
+
+  .projeto-badge--encerrado {
+    background-color: #e9ecef;
+    color: #6c757d;
+  }
+
+  html[data-theme='dark'] .projeto-badge--encerrado {
+    background-color: #3a3a3a;
+    color: #aaa;
+  }
+
+  .projeto-desde {
+    font-size: 0.78rem;
+    color: var(--global-text-color-light);
+    margin-top: 0.4rem;
+    display: flex;
+    align-items: center;
+    gap: 0.35rem;
+  }
+
+  /* --- Projetos: encerrados subdued --- */
+  .grid-encerrados .grid-item {
+    opacity: 0.6;
+    transition: opacity 0.2s;
+  }
+
+  .grid-encerrados .grid-item:hover {
+    opacity: 1;
+  }
+
+  /* --- Projetos: contador --- */
+  .projetos-contador {
+    font-size: 0.9rem;
+    color: var(--global-text-color-light);
+    margin-bottom: 1.5rem;
+    display: flex;
+    gap: 1.2rem;
+    flex-wrap: wrap;
+  }
+
+  .projetos-contador span {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+  }
+
+  .projetos-contador i {
+    font-size: 0.8rem;
+  }
+
+  /* --- Projetos: título de categoria --- */
+  h2.category {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--global-theme-color);
+    border-left: 4px solid var(--global-theme-color);
+    padding-left: 0.7rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
   }
 </style>
 
