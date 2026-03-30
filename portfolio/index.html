@@ -175,127 +175,694 @@
     <!-- Content -->
     <div class="container mt-5">
       
-        <!-- page.html -->
-        <div class="post">
+        <style>
+  .portfolio-section-title {
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    color: var(--global-theme-color);
+    border-left: 4px solid var(--global-theme-color);
+    padding-left: 0.75rem;
+  }
 
-          <header class="post-header">
-            <h1 class="post-title">Portfolio</h1>
-            <p class="post-description">Como o AYTY pode ajudar sua empresa ou organização?</p>
-          </header>
+  .portfolio-service-card {
+    background: var(--global-card-bg-color);
+    border: 1px solid var(--global-divider-color);
+    border-radius: 0.75rem;
+    height: 100%;
+    transition: box-shadow 0.2s ease, transform 0.2s ease;
+  }
 
-          <article>
-          
+  .portfolio-service-card:hover {
+    box-shadow: 0 6px 20px rgba(0,0,0,0.12);
+    transform: translateY(-3px);
+  }
 
-            <h3 id="bpm-business-process-management">BPM (Business Process Management)</h3>
-<ul>
-  <li>Identificação, modelagem, análise e melhoria de processos de negócios</li>
-</ul>
+  .portfolio-card-header {
+    border-radius: 0.75rem 0.75rem 0 0 !important;
+    font-weight: 600;
+    font-size: 1rem;
+    padding: 0.85rem 1.2rem;
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    color: #fff;
+  }
 
-<h3 id="processos-de-desenvolvimento-de-software">Processos de desenvolvimento de software</h3>
-<ul>
-  <li>Análise do ambiente</li>
-  <li>Análise do processo de desenvolvimento existente</li>
-  <li>Proposta de pontos de melhoria</li>
-  <li>Implantação de processo</li>
-  <li>Documentação de Arquitetura (C4Model e outras notações)</li>
-</ul>
+  .portfolio-card-header i {
+    font-size: 1.1rem;
+  }
 
-<h3 id="ger-de-dívidas-técnicas">Ger. de Dívidas Técnicas</h3>
-<ul>
-  <li>Implantação de processo</li>
-  <li>Identificação</li>
-  <li>Monitoramento</li>
-  <li>Priorização</li>
-  <li>Acompanhamento e melhoria</li>
-</ul>
+  .portfolio-card-header.color-blue   { background-color: #00369f; }
+  .portfolio-card-header.color-green  { background-color: #00ab37; }
+  .portfolio-card-header.color-orange { background-color: #e07b00; }
+  .portfolio-card-header.color-purple { background-color: #7b2fbf; }
+  .portfolio-card-header.color-cyan   { background-color: #1a7fa3; }
 
-<h3 id="avaliação-e-feedback-rh">Avaliação e Feedback (RH)</h3>
-<ul>
-  <li>Definição de competências técnicas e comportamentais</li>
-  <li>Definição de processo</li>
-  <li>Implantação de processo</li>
-</ul>
+  html[data-theme='dark'] .portfolio-card-header.color-blue   { background-color: #2698BA; }
+  html[data-theme='dark'] .portfolio-card-header.color-green  { background-color: #11D68B; }
+  html[data-theme='dark'] .portfolio-card-header.color-orange { background-color: #F29105; }
+  html[data-theme='dark'] .portfolio-card-header.color-purple { background-color: #B509AC; }
+  html[data-theme='dark'] .portfolio-card-header.color-cyan   { background-color: #2698BA; }
 
-<h3 id="okrs-objetivos-e-resultados-chave">OKRs (Objetivos e Resultados Chave)</h3>
-<ul>
-  <li>Planejamento, implantação e criação de cultura</li>
-  <li>Suporte na definição dos principais objetivos e resultados chave para a organização</li>
-</ul>
+  .portfolio-service-card .card-body {
+    padding: 1.1rem 1.2rem;
+  }
 
-<h3 id="formação-de-estudantes">Formação de estudantes</h3>
-<ul>
-  <li>Definição de perfil e áreas de atuação</li>
-  <li>Seleção</li>
-  <li>Acompanhamento em onboarding</li>
-  <li>Processo de avaliação e feedback dos estudantes</li>
-</ul>
+  .portfolio-service-card ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
 
-<h3 id="processo-de-capacitação-interna-para-colaboradores">Processo de capacitação interna para colaboradores</h3>
-<ul>
-  <li>Criação de processo interno na organização para capacitação de colaboradores utilizando recursos existentes na Internet e em serviços como Udemy</li>
-</ul>
+  .portfolio-service-card ul li {
+    padding: 0.3rem 0;
+    font-size: 0.9rem;
+    color: var(--global-text-color);
+    display: flex;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
 
-<h3 id="inteligência-artificial">Inteligência Artificial</h3>
-<ul>
-  <li>OCR reconhecimento de texto</li>
-  <li>Tratamento de conteúdo linguísticos (compreensão de texto)</li>
-  <li>Otimização de uso de recursos e planejamento</li>
-  <li>Auxílio diagnóstico em diferentes tipos de dados (imagens, estruturados e não estruturados)</li>
-  <li>Detecção de Anomalias</li>
-  <li>Fiscalização e detecção por imagem</li>
-  <li>Classificação, regressão, clustering</li>
-</ul>
+  .portfolio-service-card ul li i {
+    margin-top: 0.2rem;
+    flex-shrink: 0;
+    color: var(--global-theme-color);
+  }
 
-<h3 id="análise-de-dados">Análise de dados</h3>
-<ul>
-  <li>Business Intelligence</li>
-  <li>Data Werehouse</li>
-</ul>
+  .portfolio-cta {
+    background: var(--global-card-bg-color);
+    border: 1px solid var(--global-divider-color);
+    border-radius: 1rem;
+    text-align: center;
+    padding: 3rem 2rem;
+  }
 
-<h3 id="banco-de-dados">Banco de Dados</h3>
-<ul>
-  <li>Modelagem de bases relacionais</li>
-  <li>Criação e gestão de bases relacionais</li>
-</ul>
+  .portfolio-cta h2 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--global-text-color);
+    margin-bottom: 0.75rem;
+  }
 
-<h3 id="gerência-de-recursos-em-nuvem">Gerência de recursos em nuvem</h3>
-<ul>
-  <li>Planejamento de capacidade</li>
-  <li>Análise de desempenho e escalabilidade</li>
-  <li>Planejamento de testes de performance e escala</li>
-</ul>
+  .portfolio-cta p {
+    color: var(--global-text-color-light);
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+  }
 
-<h3 id="segurança">Segurança</h3>
-<ul>
-  <li>Blockchain</li>
-  <li>Criptografia de dados</li>
-  <li>Definição de plano de segurança institucional</li>
-  <li>Preservação digital de documentos</li>
-  <li>Assinatura digital</li>
-  <li>Certificação digital</li>
-  <li>LGPD</li>
-</ul>
+  .portfolio-cta .btn-contact {
+    background-color: var(--global-theme-color);
+    color: #fff;
+    border: none;
+    padding: 0.75rem 2rem;
+    border-radius: 2rem;
+    font-size: 1rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: opacity 0.2s;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
 
-<h3 id="capacitações-diversas">Capacitações diversas</h3>
+  .portfolio-cta .btn-contact:hover {
+    opacity: 0.85;
+    color: #fff;
+    text-decoration: none;
+  }
+</style>
 
-<h3 id="pesquisa">Pesquisa</h3>
-<ul>
-  <li>Engenharia de Software</li>
-  <li>IA</li>
-  <li>Análise de Dados</li>
-  <li>Segurança</li>
-</ul>
+<div class="post">
+  <header class="post-header">
+    <h1 class="post-title">Portfolio</h1>
+    <p class="post-description">Como o AYTY pode ajudar sua empresa ou organização?</p>
+  </header>
 
-          </article>
+  <article>
+    <p class="mb-5" style="font-size: 1.05rem; color: var(--global-text-color-light);">O AYTY é um laboratório de engenharia de software aplicada da UFPB que atua em parceria com empresas, órgãos públicos e projetos de pesquisa. Nossos alunos trabalham em problemas reais, sob orientação de professores e profissionais experientes. Veja abaixo como podemos apoiar sua organização.
+</p>
 
+    <!-- Serviços -->
+    <section class="mb-5">
+      <h2 class="portfolio-section-title">O que fazemos</h2>
+      <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="col">
+          <div class="portfolio-service-card card">
+            <div class="portfolio-card-header color-blue">
+              <i class="fas fa-cogs"></i>
+              Engenharia de Software
+            </div>
+            <div class="card-body">
+              <ul>
+                <li>
+<i class="fas fa-check-circle"></i>BPM: identificação, modelagem, análise e melhoria de processos de negócios</li>
+                <li>
+<i class="fas fa-check-circle"></i>Análise e implantação de processos de desenvolvimento de software</li>
+                <li>
+<i class="fas fa-check-circle"></i>Gerência de Dívidas Técnicas: identificação, monitoramento, priorização e melhoria</li>
+                <li>
+<i class="fas fa-check-circle"></i>Documentação de arquitetura (C4Model e outras notações)</li>
+              </ul>
+            </div>
+          </div>
         </div>
+        <div class="col">
+          <div class="portfolio-service-card card">
+            <div class="portfolio-card-header color-green">
+              <i class="fas fa-brain"></i>
+              Inteligência Artificial &amp; Dados
+            </div>
+            <div class="card-body">
+              <ul>
+                <li>
+<i class="fas fa-check-circle"></i>OCR e reconhecimento de texto</li>
+                <li>
+<i class="fas fa-check-circle"></i>Tratamento de conteúdo linguístico (NLP)</li>
+                <li>
+<i class="fas fa-check-circle"></i>Business Intelligence e Data Warehouse</li>
+                <li>
+<i class="fas fa-check-circle"></i>Detecção de anomalias e fiscalização por imagem</li>
+                <li>
+<i class="fas fa-check-circle"></i>Classificação, regressão e clustering</li>
+                <li>
+<i class="fas fa-check-circle"></i>Otimização de recursos e planejamento</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="portfolio-service-card card">
+            <div class="portfolio-card-header color-orange">
+              <i class="fas fa-chart-line"></i>
+              Gestão Organizacional
+            </div>
+            <div class="card-body">
+              <ul>
+                <li>
+<i class="fas fa-check-circle"></i>OKRs: planejamento, implantação e criação de cultura</li>
+                <li>
+<i class="fas fa-check-circle"></i>Definição de competências e processos de avaliação e feedback (RH)</li>
+                <li>
+<i class="fas fa-check-circle"></i>Formação de estudantes: seleção, onboarding e acompanhamento</li>
+                <li>
+<i class="fas fa-check-circle"></i>Capacitação interna de colaboradores utilizando recursos online</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="portfolio-service-card card">
+            <div class="portfolio-card-header color-purple">
+              <i class="fas fa-shield-alt"></i>
+              Infraestrutura &amp; Segurança
+            </div>
+            <div class="card-body">
+              <ul>
+                <li>
+<i class="fas fa-check-circle"></i>Gerência de recursos em nuvem: capacidade, desempenho e escalabilidade</li>
+                <li>
+<i class="fas fa-check-circle"></i>Modelagem e gestão de bases de dados relacionais</li>
+                <li>
+<i class="fas fa-check-circle"></i>LGPD: adequação e conformidade</li>
+                <li>
+<i class="fas fa-check-circle"></i>Criptografia, assinatura e certificação digital</li>
+                <li>
+<i class="fas fa-check-circle"></i>Blockchain e preservação digital de documentos</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="portfolio-service-card card">
+            <div class="portfolio-card-header color-cyan">
+              <i class="fas fa-flask"></i>
+              Pesquisa Aplicada
+            </div>
+            <div class="card-body">
+              <ul>
+                <li>
+<i class="fas fa-check-circle"></i>Engenharia de Software</li>
+                <li>
+<i class="fas fa-check-circle"></i>Inteligência Artificial</li>
+                <li>
+<i class="fas fa-check-circle"></i>Análise de Dados</li>
+                <li>
+<i class="fas fa-check-circle"></i>Segurança da Informação</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projetos realizados -->
+    <section class="mb-5">
+      <h2 class="portfolio-section-title">Projetos realizados</h2>
+      <div class="projects">
+        <div class="grid">
+            <!-- _includes/projects.html -->
+<div class="grid-sizer"></div>
+<div class="grid-item">
+  <a href="/projects/alepessoa/">
+      <div class="card hoverable">
+<figure>
+
+  <!-- <picture> -->
+    
+
+    <!-- Fallback to the original file -->
+    
+    <img src="/assets/img/projetos/alepessoa.png" width="auto" height="auto" alt="project thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+    
+
+  <!-- </picture> -->
+
+</figure>
+
+        <div class="card-body">
+          <h2 class="card-title text-lowercase">Alê Pessoa Confeitaria</h2>
+          <p class="card-text">Projeto de Pesquisa, Desenvolvimento e Inovação em parceria com a empresa Alê Pessoa</p>
+          <div class="row ml-1 mr-1 p-0">
+          </div>
+        </div>
+      </div>
+    </a>
+</div>
+            <!-- _includes/projects.html -->
+<div class="grid-sizer"></div>
+<div class="grid-item">
+  <a href="/projects/apps4society/">
+      <div class="card hoverable">
+<figure>
+
+  <!-- <picture> -->
+    
+
+    <!-- Fallback to the original file -->
+    
+    <img src="/assets/img/projetos/apps4society.png" width="auto" height="auto" alt="project thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+    
+
+  <!-- </picture> -->
+
+</figure>
+
+        <div class="card-body">
+          <h2 class="card-title text-lowercase">Apps4Society</h2>
+          <p class="card-text">Apps4Society</p>
+          <div class="row ml-1 mr-1 p-0">
+          </div>
+        </div>
+      </div>
+    </a>
+</div>
+            <!-- _includes/projects.html -->
+<div class="grid-sizer"></div>
+<div class="grid-item">
+  <a href="/projects/apps4societyMaker/">
+      <div class="card hoverable">
+<figure>
+
+  <!-- <picture> -->
+    
+
+    <!-- Fallback to the original file -->
+    
+    <img src="/assets/img/projetos/apps4societymaker.png" width="auto" height="auto" alt="project thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+    
+
+  <!-- </picture> -->
+
+</figure>
+
+        <div class="card-body">
+          <h2 class="card-title text-lowercase">Apps4Society Maker</h2>
+          <p class="card-text">Apps4Society Maker</p>
+          <div class="row ml-1 mr-1 p-0">
+          </div>
+        </div>
+      </div>
+    </a>
+</div>
+            <!-- _includes/projects.html -->
+<div class="grid-sizer"></div>
+<div class="grid-item">
+  <a href="/projects/cabemais/">
+      <div class="card hoverable">
+<figure>
+
+  <!-- <picture> -->
+    
+
+    <!-- Fallback to the original file -->
+    
+    <img src="/assets/img/projetos/cabemais.png" width="auto" height="auto" alt="project thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+    
+
+  <!-- </picture> -->
+
+</figure>
+
+        <div class="card-body">
+          <h2 class="card-title text-lowercase">Cabe Mais</h2>
+          <p class="card-text">Projeto de colaboração com a empresa Cabe Mais</p>
+          <div class="row ml-1 mr-1 p-0">
+          </div>
+        </div>
+      </div>
+    </a>
+</div>
+            <!-- _includes/projects.html -->
+<div class="grid-sizer"></div>
+<div class="grid-item">
+  <a href="/projects/computacao_plugada/">
+      <div class="card hoverable">
+<figure>
+
+  <!-- <picture> -->
+    
+
+    <!-- Fallback to the original file -->
+    
+    <img src="/assets/img/projetos/computacaoPlugada.png" width="auto" height="auto" alt="project thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+    
+
+  <!-- </picture> -->
+
+</figure>
+
+        <div class="card-body">
+          <h2 class="card-title text-lowercase">Computação Plugada</h2>
+          <p class="card-text">Computação Plugada</p>
+          <div class="row ml-1 mr-1 p-0">
+          </div>
+        </div>
+      </div>
+    </a>
+</div>
+            <!-- _includes/projects.html -->
+<div class="grid-sizer"></div>
+<div class="grid-item">
+  <a href="/projects/decoup/">
+      <div class="card hoverable">
+<figure>
+
+  <!-- <picture> -->
+    
+
+    <!-- Fallback to the original file -->
+    
+    <img src="/assets/img/projetos/decoup.png" width="auto" height="auto" alt="project thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+    
+
+  <!-- </picture> -->
+
+</figure>
+
+        <div class="card-body">
+          <h2 class="card-title text-lowercase">Decoup</h2>
+          <p class="card-text">The object-oriented boardgame</p>
+          <div class="row ml-1 mr-1 p-0">
+          </div>
+        </div>
+      </div>
+    </a>
+</div>
+            <!-- _includes/projects.html -->
+<div class="grid-sizer"></div>
+<div class="grid-item">
+  <a href="/projects/engenharia.software/">
+      <div class="card hoverable">
+<figure>
+
+  <!-- <picture> -->
+    
+
+    <!-- Fallback to the original file -->
+    
+    <img src="/assets/img/projetos/engenharia.software.png" width="auto" height="auto" alt="project thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+    
+
+  <!-- </picture> -->
+
+</figure>
+
+        <div class="card-body">
+          <h2 class="card-title text-lowercase">Engenharia.Software Podcast</h2>
+          <p class="card-text">O ponto de encontro do profissional de Tecnologia</p>
+          <div class="row ml-1 mr-1 p-0">
+          </div>
+        </div>
+      </div>
+    </a>
+</div>
+            <!-- _includes/projects.html -->
+<div class="grid-sizer"></div>
+<div class="grid-item">
+  <a href="/projects/ideal/">
+      <div class="card hoverable">
+<figure>
+
+  <!-- <picture> -->
+    
+
+    <!-- Fallback to the original file -->
+    
+    <img src="/assets/img/projetos/ideal.png" width="auto" height="auto" alt="project thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+    
+
+  <!-- </picture> -->
+
+</figure>
+
+        <div class="card-body">
+          <h2 class="card-title text-lowercase">Boardgame / IDEAL</h2>
+          <p class="card-text"></p>
+          <div class="row ml-1 mr-1 p-0">
+          </div>
+        </div>
+      </div>
+    </a>
+</div>
+            <!-- _includes/projects.html -->
+<div class="grid-sizer"></div>
+<div class="grid-item">
+  <a href="/projects/phoebus/">
+      <div class="card hoverable">
+<figure>
+
+  <!-- <picture> -->
+    
+
+    <!-- Fallback to the original file -->
+    
+    <img src="/assets/img/projetos/phoebus.png" width="auto" height="auto" alt="project thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+    
+
+  <!-- </picture> -->
+
+</figure>
+
+        <div class="card-body">
+          <h2 class="card-title text-lowercase">Phoebus Tecnologia</h2>
+          <p class="card-text">Projeto de colaboração com a empresa Phoebus Tecnologia</p>
+          <div class="row ml-1 mr-1 p-0">
+          </div>
+        </div>
+      </div>
+    </a>
+</div>
+            <!-- _includes/projects.html -->
+<div class="grid-sizer"></div>
+<div class="grid-item">
+  <a href="/projects/portomar/">
+      <div class="card hoverable">
+<figure>
+
+  <!-- <picture> -->
+    
+
+    <!-- Fallback to the original file -->
+    
+    <img src="/assets/img/projetos/portomar.png" width="auto" height="auto" alt="project thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+    
+
+  <!-- </picture> -->
+
+</figure>
+
+        <div class="card-body">
+          <h2 class="card-title text-lowercase">Grupo Portomar</h2>
+          <p class="card-text">Projeto de colaboração com o Grupo Portomar</p>
+          <div class="row ml-1 mr-1 p-0">
+          </div>
+        </div>
+      </div>
+    </a>
+</div>
+            <!-- _includes/projects.html -->
+<div class="grid-sizer"></div>
+<div class="grid-item">
+  <a href="/projects/secsaudemmg/">
+      <div class="card hoverable">
+<figure>
+
+  <!-- <picture> -->
+    
+
+    <!-- Fallback to the original file -->
+    
+    <img src="/assets/img/projetos/secsaudemmg.png" width="auto" height="auto" alt="project thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+    
+
+  <!-- </picture> -->
+
+</figure>
+
+        <div class="card-body">
+          <h2 class="card-title text-lowercase">Secretaria de Saúde de Mamanguape</h2>
+          <p class="card-text">Projeto de colaboração com a Secretaria de Saúde da Prefeitura de Mamanguape</p>
+          <div class="row ml-1 mr-1 p-0">
+          </div>
+        </div>
+      </div>
+    </a>
+</div>
+            <!-- _includes/projects.html -->
+<div class="grid-sizer"></div>
+<div class="grid-item">
+  <a href="/projects/tracy-td/">
+      <div class="card hoverable">
+<figure>
+
+  <!-- <picture> -->
+    
+
+    <!-- Fallback to the original file -->
+    
+    <img src="/assets/img/projetos/tracy-td.png" width="auto" height="auto" alt="project thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+    
+
+  <!-- </picture> -->
+
+</figure>
+
+        <div class="card-body">
+          <h2 class="card-title text-lowercase">Tracy-TD</h2>
+          <p class="card-text">Gerência de Dívidas Técnicas Orientada a Negócios</p>
+          <div class="row ml-1 mr-1 p-0">
+          </div>
+        </div>
+      </div>
+    </a>
+</div>
+            <!-- _includes/projects.html -->
+<div class="grid-sizer"></div>
+<div class="grid-item">
+  <a href="/projects/triade/">
+      <div class="card hoverable">
+<figure>
+
+  <!-- <picture> -->
+    
+
+    <!-- Fallback to the original file -->
+    
+    <img src="/assets/img/projetos/triade.png" width="auto" height="auto" alt="project thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+    
+
+  <!-- </picture> -->
+
+</figure>
+
+        <div class="card-body">
+          <h2 class="card-title text-lowercase">Tríade Soluções</h2>
+          <p class="card-text">Projeto em colaboração com a empresa Tríade Soluções Contábeis</p>
+          <div class="row ml-1 mr-1 p-0">
+          </div>
+        </div>
+      </div>
+    </a>
+</div>
+            <!-- _includes/projects.html -->
+<div class="grid-sizer"></div>
+<div class="grid-item">
+  <a href="/projects/universi.me/">
+      <div class="card hoverable">
+<figure>
+
+  <!-- <picture> -->
+    
+
+    <!-- Fallback to the original file -->
+    
+    <img src="/assets/img/projetos/universi.me.png" width="auto" height="auto" alt="project thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+    
+
+  <!-- </picture> -->
+
+</figure>
+
+        <div class="card-body">
+          <h2 class="card-title text-lowercase">Universi.me</h2>
+          <p class="card-text">Rede social para desenvolvimento humano</p>
+          <div class="row ml-1 mr-1 p-0">
+          </div>
+        </div>
+      </div>
+    </a>
+</div>
+            <!-- _includes/projects.html -->
+<div class="grid-sizer"></div>
+<div class="grid-item">
+  <a href="/projects/vivamoveis/">
+      <div class="card hoverable">
+<figure>
+
+  <!-- <picture> -->
+    
+
+    <!-- Fallback to the original file -->
+    
+    <img src="/assets/img/projetos/vivamoveis.png" width="auto" height="auto" alt="project thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+    
+
+  <!-- </picture> -->
+
+</figure>
+
+        <div class="card-body">
+          <h2 class="card-title text-lowercase">Viva Móveis</h2>
+          <p class="card-text">Projeto de colaboração com a empresa Viva Móveis.com</p>
+          <div class="row ml-1 mr-1 p-0">
+          </div>
+        </div>
+      </div>
+    </a>
+</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="portfolio-cta mb-4">
+      <h2>Quer trabalhar conosco?</h2>
+      <p>Entre em contato e descubra como o AYTY pode apoiar sua empresa ou organização.</p>
+      <a href="mailto:rodrigor@dcx.ufpb.br" class="btn-contact">
+        <i class="fas fa-envelope"></i> Fale com a gente
+      </a>
+    </section>
+
+  </article>
+</div>
 
       
     </div>
 
     <!-- Footer -->    <footer class="sticky-bottom mt-5">
       <div class="container">
-        © Copyright 2026 AYTY  . Last updated: March 26, 2026.
+        © Copyright 2026 AYTY  . Last updated: March 30, 2026.
       </div>
     </footer>
 
