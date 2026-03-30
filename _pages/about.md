@@ -9,25 +9,54 @@ latest_posts: true  # includes a list of the newest posts
 social: true  # includes social icons at the bottom of the page
 ---
 
-O AYTY é um laboratório vinculado ao Departamento de Ciências Exatas do Campus IV da Universidade Federal da Paraíba (UFPB), situado em Rio Tinto-PB. Fundado em 2011, o AYTY tem como missão fortalecer a integração entre a universidade e o setor produtivo por meio de projetos de cooperação, pesquisa aplicada e atividades de extensão. O laboratório conta com a participação de professores pesquisadores da UFPB e de outras instituições, atuando de forma colaborativa em iniciativas que geram impacto acadêmico, tecnológico e social. [Conheça nossa equipe](/equipe) e os [projetos que desenvolvemos](/projetos/).
+O AYTY é um laboratório vinculado ao Departamento de Ciências Exatas do Campus IV da Universidade Federal da Paraíba (UFPB), situado em Rio Tinto-PB. Fundado em 2011, atuamos na integração entre universidade e setor produtivo por meio de projetos de cooperação, pesquisa aplicada e extensão. [Conheça nossa equipe](/equipe) e os [projetos que desenvolvemos](/projetos/).
+
+<!-- Métricas -->
+<div class="row ayty-stats">
+  <div class="col-6 col-md-3"><div class="ayty-stat-box">
+    <div class="ayty-stat-number">300+</div>
+    <div class="ayty-stat-label">alunos formados</div>
+  </div></div>
+  <div class="col-6 col-md-3"><div class="ayty-stat-box">
+    <div class="ayty-stat-number">20+</div>
+    <div class="ayty-stat-label">projetos executados</div>
+  </div></div>
+  <div class="col-6 col-md-3"><div class="ayty-stat-box">
+    <div class="ayty-stat-number">8</div>
+    <div class="ayty-stat-label">projetos em andamento</div>
+  </div></div>
+  <div class="col-6 col-md-3"><div class="ayty-stat-box">
+    <div class="ayty-stat-number">1</div>
+    <div class="ayty-stat-label">startup spinoff criada</div>
+  </div></div>
+</div>
 
 **Nossa missão** é desenvolver soluções por meio de pesquisa aplicada alinhada à realidade das empresas e capacitar pessoas a partir da vivência em projetos reais.
 
-**Nossos valores:** No AYTY, acreditamos que o crescimento profissional acontece em equipe, com respeito, humildade e colaboração. Valorizamos relações humanas saudáveis, comunicação clara e apoio mútuo, cultivando responsabilidade, comprometimento, pensamento de dono e atitude proativa. Com profissionalismo, resiliência e dedicação, formamos pessoas que se importam com seu próprio desenvolvimento e com o dos outros.
+**Nossos valores:**
+<div class="ayty-valores">
+  <span class="ayty-valor"><i class="fas fa-users"></i> Colaboração</span>
+  <span class="ayty-valor"><i class="fas fa-heart"></i> Humildade</span>
+  <span class="ayty-valor"><i class="fas fa-comments"></i> Comunicação clara</span>
+  <span class="ayty-valor"><i class="fas fa-bullseye"></i> Comprometimento</span>
+  <span class="ayty-valor"><i class="fas fa-lightbulb"></i> Proatividade</span>
+  <span class="ayty-valor"><i class="fas fa-shield-alt"></i> Responsabilidade</span>
+</div>
 
-[Sobre nossa caneca.](/caneca)
+<div class="ayty-filosofia">
+  Nosso interesse são projetos de longo prazo. Relacionamento de longo prazo só se constrói com confiança, diálogo e geração de valor mútuo — e interesse genuíno em fazer dar certo. Essa é a nossa filosofia.
+</div>
 
-
-<b>Acesse nosso [portfolio](/portfolio) para saber como nós podemos ajudar a sua empresa ou organização.</b>
-
+<div class="ayty-cta">
+  <a href="/portfolio" class="ayty-btn-cta">
+    <i class="fas fa-briefcase"></i> Veja nosso portfolio
+  </a>
+</div>
 
 <!-- Notícias -->
 
-
-
 <h3>Últimas notícias:</h3>
 <div class="noticias-grid" id="noticias-ghost"></div>
-
 
 <script>
   function formatarData(pubDate) {
@@ -37,13 +66,6 @@ O AYTY é um laboratório vinculado ao Departamento de Ciências Exatas do Campu
       month: '2-digit',
       year: 'numeric'
     });
-  }
-
-  function gerarResumo(htmlContent) {
-    const div = document.createElement("div");
-    div.innerHTML = htmlContent;
-    const texto = div.innerText.trim();
-    return texto.length > 140 ? texto.substring(0, 140).trim() + "…" : texto;
   }
 
   fetch("https://api.rss2json.com/v1/api.json?rss_url=https://news.ayty.org/rss/")
@@ -57,12 +79,13 @@ O AYTY é um laboratório vinculado ao Departamento de Ciências Exatas do Campu
         card.className = "noticia-card";
 
         const dataFormatada = formatarData(post.pubDate);
-        const resumo = gerarResumo(post.content);
+        const thumb = post.thumbnail || (post.enclosure && post.enclosure.link) || '';
 
-        card.innerHTML = `
-          <small>${dataFormatada}</small>
-          <a href="${post.link}" target="_blank" rel="noopener">${post.title}</a>
-        `;
+        card.innerHTML = (thumb ? `<img src="${thumb}" alt="" class="noticia-thumb">` : '')
+          + `<div class="noticia-card-body">
+               <small>${dataFormatada}</small>
+               <a href="${post.link}" target="_blank" rel="noopener">${post.title}</a>
+             </div>`;
 
         container.appendChild(card);
       });
@@ -71,5 +94,5 @@ O AYTY é um laboratório vinculado ao Departamento de Ciências Exatas do Campu
       console.error("Erro ao carregar o feed:", error);
     });
 </script>
-<i>(<a href="https://news.ayty.org" target="new">Leia mais em  https://news.ayty.org ...</a>)</i>
+<i>(<a href="https://news.ayty.org" target="new">Leia mais em https://news.ayty.org ...</a>)</i>
 <br/>
