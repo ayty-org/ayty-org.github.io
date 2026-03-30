@@ -32,44 +32,149 @@
     <!-- Code Syntax Highlighting -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/github.css" media="" id="highlight_theme_light">
 
-<!-- estilos para news -->
+<!-- estilos para news e homepage -->
 
 <style>
+  /* --- News cards --- */
   .noticias-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
     gap: 1rem;
     padding: 0;
     list-style: none;
   }
 
   .noticia-card {
-    border: 1px solid #ddd;
+    border: 1px solid var(--global-divider-color);
     border-radius: 8px;
-    padding: 1rem;
-    background-color: #fafafa;
+    overflow: hidden;
+    background-color: var(--global-card-bg-color);
     box-shadow: 0 2px 5px rgba(0,0,0,0.05);
-    transition: box-shadow 0.2s ease;
+    transition: box-shadow 0.2s ease, transform 0.2s ease;
+    display: flex;
+    flex-direction: column;
   }
 
   .noticia-card:hover {
-    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 14px rgba(0,0,0,0.12);
+    transform: translateY(-2px);
+  }
+
+  .noticia-thumb {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    display: block;
+  }
+
+  .noticia-card-body {
+    padding: 1rem;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
   }
 
   .noticia-card small {
-    color: #666;
+    color: var(--global-text-color-light);
     display: block;
-    margin-bottom: 0.5rem;
+    font-size: 0.78rem;
   }
 
   .noticia-card a {
-    font-weight: bold;
-    color: #0047ab;
+    font-weight: 600;
+    color: var(--global-theme-color);
     text-decoration: none;
+    font-size: 0.92rem;
+    line-height: 1.4;
   }
 
   .noticia-card a:hover {
     text-decoration: underline;
+  }
+
+  /* --- Métricas --- */
+  .ayty-stats {
+    margin: 2rem 0;
+  }
+
+  .ayty-stat-box {
+    padding: 1.2rem 0.5rem;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 0.75rem;
+    background: var(--global-card-bg-color);
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+  .ayty-stat-number {
+    font-size: 2rem;
+    font-weight: 800;
+    color: var(--global-theme-color);
+    line-height: 1;
+  }
+
+  .ayty-stat-label {
+    font-size: 0.8rem;
+    color: var(--global-text-color-light);
+    margin-top: 0.3rem;
+  }
+
+  /* --- Valores --- */
+  .ayty-valores {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin: 0.75rem 0 1.5rem;
+  }
+
+  .ayty-valor {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 0.35rem 0.85rem;
+    border-radius: 2rem;
+    font-size: 0.85rem;
+    font-weight: 500;
+    border: 1px solid var(--global-theme-color);
+    color: var(--global-theme-color);
+    background: transparent;
+  }
+
+  /* --- Filosofia --- */
+  .ayty-filosofia {
+    border-left: 4px solid var(--global-theme-color);
+    padding: 1rem 1.25rem;
+    background: var(--global-card-bg-color);
+    border-radius: 0 0.5rem 0.5rem 0;
+    margin: 1.5rem 0;
+    font-size: 0.97rem;
+    color: var(--global-text-color);
+    font-style: italic;
+    line-height: 1.7;
+  }
+
+  /* --- CTA --- */
+  .ayty-cta {
+    margin: 1.75rem 0;
+  }
+
+  .ayty-btn-cta {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: var(--global-theme-color);
+    color: #fff !important;
+    padding: 0.65rem 1.75rem;
+    border-radius: 2rem;
+    font-weight: 600;
+    font-size: 0.95rem;
+    text-decoration: none !important;
+    transition: opacity 0.2s;
+  }
+
+  .ayty-btn-cta:hover {
+    opacity: 0.85;
   }
 </style>
 

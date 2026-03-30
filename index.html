@@ -32,44 +32,149 @@
     <!-- Code Syntax Highlighting -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/github.css" media="" id="highlight_theme_light">
 
-<!-- estilos para news -->
+<!-- estilos para news e homepage -->
 
 <style>
+  /* --- News cards --- */
   .noticias-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
     gap: 1rem;
     padding: 0;
     list-style: none;
   }
 
   .noticia-card {
-    border: 1px solid #ddd;
+    border: 1px solid var(--global-divider-color);
     border-radius: 8px;
-    padding: 1rem;
-    background-color: #fafafa;
+    overflow: hidden;
+    background-color: var(--global-card-bg-color);
     box-shadow: 0 2px 5px rgba(0,0,0,0.05);
-    transition: box-shadow 0.2s ease;
+    transition: box-shadow 0.2s ease, transform 0.2s ease;
+    display: flex;
+    flex-direction: column;
   }
 
   .noticia-card:hover {
-    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 14px rgba(0,0,0,0.12);
+    transform: translateY(-2px);
+  }
+
+  .noticia-thumb {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    display: block;
+  }
+
+  .noticia-card-body {
+    padding: 1rem;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
   }
 
   .noticia-card small {
-    color: #666;
+    color: var(--global-text-color-light);
     display: block;
-    margin-bottom: 0.5rem;
+    font-size: 0.78rem;
   }
 
   .noticia-card a {
-    font-weight: bold;
-    color: #0047ab;
+    font-weight: 600;
+    color: var(--global-theme-color);
     text-decoration: none;
+    font-size: 0.92rem;
+    line-height: 1.4;
   }
 
   .noticia-card a:hover {
     text-decoration: underline;
+  }
+
+  /* --- Métricas --- */
+  .ayty-stats {
+    margin: 2rem 0;
+  }
+
+  .ayty-stat-box {
+    padding: 1.2rem 0.5rem;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 0.75rem;
+    background: var(--global-card-bg-color);
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+  .ayty-stat-number {
+    font-size: 2rem;
+    font-weight: 800;
+    color: var(--global-theme-color);
+    line-height: 1;
+  }
+
+  .ayty-stat-label {
+    font-size: 0.8rem;
+    color: var(--global-text-color-light);
+    margin-top: 0.3rem;
+  }
+
+  /* --- Valores --- */
+  .ayty-valores {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin: 0.75rem 0 1.5rem;
+  }
+
+  .ayty-valor {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 0.35rem 0.85rem;
+    border-radius: 2rem;
+    font-size: 0.85rem;
+    font-weight: 500;
+    border: 1px solid var(--global-theme-color);
+    color: var(--global-theme-color);
+    background: transparent;
+  }
+
+  /* --- Filosofia --- */
+  .ayty-filosofia {
+    border-left: 4px solid var(--global-theme-color);
+    padding: 1rem 1.25rem;
+    background: var(--global-card-bg-color);
+    border-radius: 0 0.5rem 0.5rem 0;
+    margin: 1.5rem 0;
+    font-size: 0.97rem;
+    color: var(--global-text-color);
+    font-style: italic;
+    line-height: 1.7;
+  }
+
+  /* --- CTA --- */
+  .ayty-cta {
+    margin: 1.75rem 0;
+  }
+
+  .ayty-btn-cta {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: var(--global-theme-color);
+    color: #fff !important;
+    padding: 0.65rem 1.75rem;
+    border-radius: 2rem;
+    font-weight: 600;
+    font-size: 0.95rem;
+    text-decoration: none !important;
+    transition: opacity 0.2s;
+  }
+
+  .ayty-btn-cta:hover {
+    opacity: 0.85;
   }
 </style>
 
@@ -193,15 +298,49 @@
           
 
           <div class="clearfix">
-            <p>O AYTY é um laboratório vinculado ao Departamento de Ciências Exatas do Campus IV da Universidade Federal da Paraíba (UFPB), situado em Rio Tinto-PB. Fundado em 2011, o AYTY tem como missão fortalecer a integração entre a universidade e o setor produtivo por meio de projetos de cooperação, pesquisa aplicada e atividades de extensão. O laboratório conta com a participação de professores pesquisadores da UFPB e de outras instituições, atuando de forma colaborativa em iniciativas que geram impacto acadêmico, tecnológico e social. <a href="/equipe">Conheça nossa equipe</a> e os <a href="/projetos/">projetos que desenvolvemos</a>.</p>
+            <p>O AYTY é um laboratório vinculado ao Departamento de Ciências Exatas do Campus IV da Universidade Federal da Paraíba (UFPB), situado em Rio Tinto-PB. Fundado em 2011, atuamos na integração entre universidade e setor produtivo por meio de projetos de cooperação, pesquisa aplicada e extensão. <a href="/equipe">Conheça nossa equipe</a> e os <a href="/projetos/">projetos que desenvolvemos</a>.</p>
+
+<!-- Métricas -->
+<div class="row ayty-stats">
+  <div class="col-6 col-md-3"><div class="ayty-stat-box">
+    <div class="ayty-stat-number">300+</div>
+    <div class="ayty-stat-label">alunos formados</div>
+  </div></div>
+  <div class="col-6 col-md-3"><div class="ayty-stat-box">
+    <div class="ayty-stat-number">20+</div>
+    <div class="ayty-stat-label">projetos executados</div>
+  </div></div>
+  <div class="col-6 col-md-3"><div class="ayty-stat-box">
+    <div class="ayty-stat-number">8</div>
+    <div class="ayty-stat-label">projetos em andamento</div>
+  </div></div>
+  <div class="col-6 col-md-3"><div class="ayty-stat-box">
+    <div class="ayty-stat-number">1</div>
+    <div class="ayty-stat-label">startup spinoff criada</div>
+  </div></div>
+</div>
 
 <p><strong>Nossa missão</strong> é desenvolver soluções por meio de pesquisa aplicada alinhada à realidade das empresas e capacitar pessoas a partir da vivência em projetos reais.</p>
 
-<p><strong>Nossos valores:</strong> No AYTY, acreditamos que o crescimento profissional acontece em equipe, com respeito, humildade e colaboração. Valorizamos relações humanas saudáveis, comunicação clara e apoio mútuo, cultivando responsabilidade, comprometimento, pensamento de dono e atitude proativa. Com profissionalismo, resiliência e dedicação, formamos pessoas que se importam com seu próprio desenvolvimento e com o dos outros.</p>
+<p><strong>Nossos valores:</strong></p>
+<div class="ayty-valores">
+  <span class="ayty-valor"><i class="fas fa-users"></i> Colaboração</span>
+  <span class="ayty-valor"><i class="fas fa-heart"></i> Humildade</span>
+  <span class="ayty-valor"><i class="fas fa-comments"></i> Comunicação clara</span>
+  <span class="ayty-valor"><i class="fas fa-bullseye"></i> Comprometimento</span>
+  <span class="ayty-valor"><i class="fas fa-lightbulb"></i> Proatividade</span>
+  <span class="ayty-valor"><i class="fas fa-shield-alt"></i> Responsabilidade</span>
+</div>
 
-<p><a href="/caneca">Sobre nossa caneca.</a></p>
+<div class="ayty-filosofia">
+  Nosso interesse são projetos de longo prazo. Relacionamento de longo prazo só se constrói com confiança, diálogo e geração de valor mútuo — e interesse genuíno em fazer dar certo. Essa é a nossa filosofia.
+</div>
 
-<p><b>Acesse nosso <a href="/portfolio">portfolio</a> para saber como nós podemos ajudar a sua empresa ou organização.</b></p>
+<div class="ayty-cta">
+  <a href="/portfolio" class="ayty-btn-cta">
+    <i class="fas fa-briefcase"></i> Veja nosso portfolio
+  </a>
+</div>
 
 <!-- Notícias -->
 
@@ -218,13 +357,6 @@
     });
   }
 
-  function gerarResumo(htmlContent) {
-    const div = document.createElement("div");
-    div.innerHTML = htmlContent;
-    const texto = div.innerText.trim();
-    return texto.length > 140 ? texto.substring(0, 140).trim() + "…" : texto;
-  }
-
   fetch("https://api.rss2json.com/v1/api.json?rss_url=https://news.ayty.org/rss/")
     .then(response => response.json())
     .then(data => {
@@ -236,12 +368,13 @@
         card.className = "noticia-card";
 
         const dataFormatada = formatarData(post.pubDate);
-        const resumo = gerarResumo(post.content);
+        const thumb = post.thumbnail || (post.enclosure && post.enclosure.link) || '';
 
-        card.innerHTML = `
-          <small>${dataFormatada}</small>
-          <a href="${post.link}" target="_blank" rel="noopener">${post.title}</a>
-        `;
+        card.innerHTML = (thumb ? `<img src="${thumb}" alt="" class="noticia-thumb">` : '')
+          + `<div class="noticia-card-body">
+               <small>${dataFormatada}</small>
+               <a href="${post.link}" target="_blank" rel="noopener">${post.title}</a>
+             </div>`;
 
         container.appendChild(card);
       });
@@ -251,7 +384,7 @@
     });
 </script>
 
-<p><i>(<a href="https://news.ayty.org" target="new" rel="external nofollow noopener">Leia mais em  https://news.ayty.org …</a>)</i>
+<p><i>(<a href="https://news.ayty.org" target="new" rel="external nofollow noopener">Leia mais em https://news.ayty.org …</a>)</i>
 <br></p>
 
           </div>
