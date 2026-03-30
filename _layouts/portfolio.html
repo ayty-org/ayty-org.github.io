@@ -1,0 +1,181 @@
+---
+layout: default
+---
+<style>
+  .portfolio-section-title {
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    color: var(--global-theme-color);
+    border-left: 4px solid var(--global-theme-color);
+    padding-left: 0.75rem;
+  }
+
+  .portfolio-service-card {
+    background: var(--global-card-bg-color);
+    border: 1px solid var(--global-divider-color);
+    border-radius: 0.75rem;
+    height: 100%;
+    transition: box-shadow 0.2s ease, transform 0.2s ease;
+  }
+
+  .portfolio-service-card:hover {
+    box-shadow: 0 6px 20px rgba(0,0,0,0.12);
+    transform: translateY(-3px);
+  }
+
+  .portfolio-card-header {
+    border-radius: 0.75rem 0.75rem 0 0 !important;
+    font-weight: 600;
+    font-size: 1rem;
+    padding: 0.85rem 1.2rem;
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    color: #fff;
+  }
+
+  .portfolio-card-header i {
+    font-size: 1.1rem;
+  }
+
+  .portfolio-card-header.color-blue   { background-color: #00369f; }
+  .portfolio-card-header.color-green  { background-color: #00ab37; }
+  .portfolio-card-header.color-orange { background-color: #e07b00; }
+  .portfolio-card-header.color-purple { background-color: #7b2fbf; }
+  .portfolio-card-header.color-cyan   { background-color: #1a7fa3; }
+
+  html[data-theme='dark'] .portfolio-card-header.color-blue   { background-color: #2698BA; }
+  html[data-theme='dark'] .portfolio-card-header.color-green  { background-color: #11D68B; }
+  html[data-theme='dark'] .portfolio-card-header.color-orange { background-color: #F29105; }
+  html[data-theme='dark'] .portfolio-card-header.color-purple { background-color: #B509AC; }
+  html[data-theme='dark'] .portfolio-card-header.color-cyan   { background-color: #2698BA; }
+
+  .portfolio-service-card .card-body {
+    padding: 1.1rem 1.2rem;
+  }
+
+  .portfolio-service-card ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .portfolio-service-card ul li {
+    padding: 0.3rem 0;
+    font-size: 0.9rem;
+    color: var(--global-text-color);
+    display: flex;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+
+  .portfolio-service-card ul li i {
+    margin-top: 0.2rem;
+    flex-shrink: 0;
+    color: var(--global-theme-color);
+  }
+
+  .portfolio-cta {
+    background: var(--global-card-bg-color);
+    border: 1px solid var(--global-divider-color);
+    border-radius: 1rem;
+    text-align: center;
+    padding: 3rem 2rem;
+  }
+
+  .portfolio-cta h2 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--global-text-color);
+    margin-bottom: 0.75rem;
+  }
+
+  .portfolio-cta p {
+    color: var(--global-text-color-light);
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .portfolio-cta .btn-contact {
+    background-color: var(--global-theme-color);
+    color: #fff;
+    border: none;
+    padding: 0.75rem 2rem;
+    border-radius: 2rem;
+    font-size: 1rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: opacity 0.2s;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .portfolio-cta .btn-contact:hover {
+    opacity: 0.85;
+    color: #fff;
+    text-decoration: none;
+  }
+</style>
+
+<div class="post">
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+    <p class="post-description">{{ page.description }}</p>
+  </header>
+
+  <article>
+
+    {%- if page.intro %}
+    <p class="mb-5" style="font-size: 1.05rem; color: var(--global-text-color-light);">{{ page.intro }}</p>
+    {%- endif %}
+
+    <!-- Serviços -->
+    <section class="mb-5">
+      <h2 class="portfolio-section-title">O que fazemos</h2>
+      <div class="row row-cols-1 row-cols-md-2 g-4">
+        {%- for servico in page.servicos %}
+        <div class="col">
+          <div class="portfolio-service-card card">
+            <div class="portfolio-card-header color-{{ servico.cor }}">
+              <i class="{{ servico.icone }}"></i>
+              {{ servico.titulo }}
+            </div>
+            <div class="card-body">
+              <ul>
+                {%- for item in servico.itens %}
+                <li><i class="fas fa-check-circle"></i>{{ item }}</li>
+                {%- endfor %}
+              </ul>
+            </div>
+          </div>
+        </div>
+        {%- endfor %}
+      </div>
+    </section>
+
+    <!-- Projetos realizados -->
+    <section class="mb-5">
+      <h2 class="portfolio-section-title">Projetos realizados</h2>
+      <div class="projects">
+        {%- assign projetos_portfolio = site.projects | where_exp: "p", "p.category != 'Encerrados'" | sort: "importance" %}
+        <div class="grid">
+          {%- for project in projetos_portfolio %}
+            {% include projects.html %}
+          {%- endfor %}
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="portfolio-cta mb-4">
+      <h2>Quer trabalhar conosco?</h2>
+      <p>Entre em contato e descubra como o AYTY pode apoiar sua empresa ou organização.</p>
+      <a href="mailto:{{ site.email }}" class="btn-contact">
+        <i class="fas fa-envelope"></i> Fale com a gente
+      </a>
+    </section>
+
+  </article>
+</div>

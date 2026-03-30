@@ -1,83 +1,62 @@
 ---
-layout: page
+layout: portfolio
 title: Portfolio
 permalink: /portfolio/
 description: Como o AYTY pode ajudar sua empresa ou organização?
 nav: true
 nav_order: 5
+intro: >
+  O AYTY é um laboratório de engenharia de software aplicada da UFPB que atua em parceria com
+  empresas, órgãos públicos e projetos de pesquisa. Nossos alunos trabalham em problemas reais,
+  sob orientação de professores e profissionais experientes. Veja abaixo como podemos apoiar
+  sua organização.
+
+servicos:
+  - titulo: Engenharia de Software
+    icone: fas fa-cogs
+    cor: blue
+    itens:
+      - "BPM: identificação, modelagem, análise e melhoria de processos de negócios"
+      - "Análise e implantação de processos de desenvolvimento de software"
+      - "Gerência de Dívidas Técnicas: identificação, monitoramento, priorização e melhoria"
+      - "Documentação de arquitetura (C4Model e outras notações)"
+
+  - titulo: Inteligência Artificial & Dados
+    icone: fas fa-brain
+    cor: green
+    itens:
+      - "OCR e reconhecimento de texto"
+      - "Tratamento de conteúdo linguístico (NLP)"
+      - "Business Intelligence e Data Warehouse"
+      - "Detecção de anomalias e fiscalização por imagem"
+      - "Classificação, regressão e clustering"
+      - "Otimização de recursos e planejamento"
+
+  - titulo: Gestão Organizacional
+    icone: fas fa-chart-line
+    cor: orange
+    itens:
+      - "OKRs: planejamento, implantação e criação de cultura"
+      - "Definição de competências e processos de avaliação e feedback (RH)"
+      - "Formação de estudantes: seleção, onboarding e acompanhamento"
+      - "Capacitação interna de colaboradores utilizando recursos online"
+
+  - titulo: Infraestrutura & Segurança
+    icone: fas fa-shield-alt
+    cor: purple
+    itens:
+      - "Gerência de recursos em nuvem: capacidade, desempenho e escalabilidade"
+      - "Modelagem e gestão de bases de dados relacionais"
+      - "LGPD: adequação e conformidade"
+      - "Criptografia, assinatura e certificação digital"
+      - "Blockchain e preservação digital de documentos"
+
+  - titulo: Pesquisa Aplicada
+    icone: fas fa-flask
+    cor: cyan
+    itens:
+      - "Engenharia de Software"
+      - "Inteligência Artificial"
+      - "Análise de Dados"
+      - "Segurança da Informação"
 ---
-
-### BPM (Business Process Management)
-* Identificação, modelagem, análise e melhoria de processos de negócios
-
-### Processos de desenvolvimento de software
-* Análise do ambiente
-* Análise do processo de desenvolvimento existente
-* Proposta de pontos de melhoria
-* Implantação de processo
-* Documentação de Arquitetura (C4Model e outras notações)
-
-### Ger. de Dívidas Técnicas
-* Implantação de processo
-* Identificação
-* Monitoramento
-* Priorização
-* Acompanhamento e melhoria
-
-### Avaliação e Feedback (RH)
-* Definição de competências técnicas e comportamentais
-* Definição de processo
-* Implantação de processo
-
-### OKRs (Objetivos e Resultados Chave)
-* Planejamento, implantação e criação de cultura
-* Suporte na definição dos principais objetivos e resultados chave para a organização
-
-### Formação de estudantes
-* Definição de perfil e áreas de atuação
-* Seleção
-* Acompanhamento em onboarding
-* Processo de avaliação e feedback dos estudantes
-
-
-### Processo de capacitação interna para colaboradores
-* Criação de processo interno na organização para capacitação de colaboradores utilizando recursos existentes na Internet e em serviços como Udemy
-
-### Inteligência Artificial
-* OCR reconhecimento de texto
-* Tratamento de conteúdo linguísticos (compreensão de texto)
-* Otimização de uso de recursos e planejamento
-* Auxílio diagnóstico em diferentes tipos de dados (imagens, estruturados e não estruturados)
-* Detecção de Anomalias
-* Fiscalização e detecção por imagem
-* Classificação, regressão, clustering
-
-### Análise de dados
-* Business Intelligence
-* Data Werehouse
-
-### Banco de Dados
-* Modelagem de bases relacionais
-* Criação e gestão de bases relacionais
-
-### Gerência de recursos em nuvem
-* Planejamento de capacidade
-* Análise de desempenho e escalabilidade
-* Planejamento de testes de performance e escala
-
-### Segurança
-* Blockchain
-* Criptografia de dados
-* Definição de plano de segurança institucional
-* Preservação digital de documentos
-* Assinatura digital
-* Certificação digital
-* LGPD
-
-### Capacitações diversas
-
-### Pesquisa
-* Engenharia de Software
-* IA
-* Análise de Dados
-* Segurança
