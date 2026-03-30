@@ -16,7 +16,7 @@
         <div class="card-body">
           <h2 class="card-title">{{ member.name }}</h2>
           {%- if include.funcao_override -%}
-            <p class="funcao text-lowercase">({{ include.funcao_override }})</p>
+            <p class="funcao">({{ include.funcao_override }})</p>
           {%- elsif member.category contains "Alunos" -%}
             {%- assign projetos_mostrar = "" | split: "" -%}
             {%- for p in member.projetos -%}
@@ -25,7 +25,7 @@
             {%- if projetos_mostrar.size == 0 -%}
               {%- assign projetos_mostrar = member.projetos -%}
             {%- endif -%}
-            <p class="funcao text-lowercase">(
+            <p class="funcao">(
               {%- for p in projetos_mostrar -%}
                 {%- assign proj_page = site.projects | where: "projeto", p.nome | first -%}
                 {%- if proj_page -%}<a href="{{ proj_page.url | relative_url }}">{{ proj_page.title }}</a>{%- else -%}{{ p.nome }}{%- endif -%}
